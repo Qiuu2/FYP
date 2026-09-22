@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Phase 2 采集进度</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+  :root{
+    --paper:#F4F6F4; --surface:#FFFFFF; --surface-2:#EAEEEC; --sunk:#E7EBE9;
+    --ink:#16202B; --ink-soft:#47575F; --ink-faint:#7A8A90;
+    --rule:#D3DAD7; --rule-soft:#E3E8E5;
+    --accent:#0F5C63; --accent-dim:#DCE9E8;
+    --ok:#2E6E4E; --ok-bg:#DEEBE2;
+    --warn:#8A5A12; --warn-bg:#F2E7D2;
+    --crit:#9B3327; --crit-bg:#F3DEDA;
+    --none:#B4BEBB; --none-bg:#EDF0EE;
+    --shadow:0 1px 2px rgba(22,32,43,.06),0 4px 14px rgba(22,32,43,.05);
+  }
+  @media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+    --paper:#0F1519; --surface:#161E23; --surface-2:#1D272C; --sunk:#121A1F;
+    --ink:#E3E9E7; --ink-soft:#A3B2B6; --ink-faint:#74868C;
+    --rule:#2A363C; --rule-soft:#212C31;
+    --accent:#64C4C4; --accent-dim:#17333A;
+    --ok:#79C79A; --ok-bg:#163024;
+    --warn:#DCAE5F; --warn-bg:#33270F;
+    --crit:#E08A7C; --crit-bg:#331C19;
+    --none:#4A5A60; --none-bg:#1A2429;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }}
+  :root[data-theme="dark"]{
+    --paper:#0F1519; --surface:#161E23; --surface-2:#1D272C; --sunk:#121A1F;
+    --ink:#E3E9E7; --ink-soft:#A3B2B6; --ink-faint:#74868C;
+    --rule:#2A363C; --rule-soft:#212C31;
+    --accent:#64C4C4; --accent-dim:#17333A;
+    --ok:#79C79A; --ok-bg:#163024;
+    --warn:#DCAE5F; --warn-bg:#33270F;
+    --crit:#E08A7C; --crit-bg:#331C19;
+    --none:#4A5A60; --none-bg:#1A2429;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);
+    font-family:"Source Sans 3",ui-sans-serif,system-ui,"PingFang SC","Microsoft YaHei",sans-serif;
+    font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1000px;margin:0 auto;padding:36px 22px 70px}
+  code{font-family:"JetBrains Mono",ui-monospace,Consolas,monospace;font-size:.85em;
+    background:var(--surface-2);padding:1px 5px;border-radius:3px}
+  .mono{font-family:"JetBrains Mono",ui-monospace,Consolas,monospace;font-variant-numeric:tabular-nums}
+
+  header{border-bottom:2px solid var(--ink);padding-bottom:16px;margin-bottom:22px}
+  .eyebrow{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);margin:0 0 9px}
+  h1{font-family:Newsreader,Georgia,"Songti SC",serif;font-size:clamp(27px,4.2vw,38px);
+    line-height:1.14;font-weight:600;margin:0 0 11px;text-wrap:balance;max-width:22ch}
+  .lead{color:var(--ink-soft);margin:0 0 9px;max-width:64ch;font-size:16px}
+  .stamp{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--ink-faint);margin:0}
+
+  h2{font-family:Newsreader,Georgia,"Songti SC",serif;font-size:21px;font-weight:600;
+    margin:38px 0 3px}
+  .h2sub{color:var(--ink-faint);font-size:13.5px;margin:0 0 15px;max-width:66ch}
+
+  /* 顶部计量 */
+  .gauges{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:1px;
+    background:var(--rule);border:1px solid var(--rule);border-radius:5px;overflow:hidden}
+  .g{background:var(--surface);padding:14px 16px}
+  .g .k{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.08em;
+    text-transform:uppercase;color:var(--ink-faint);display:block;margin-bottom:6px}
+  .g .v{font-family:Newsreader,Georgia,serif;font-size:29px;font-weight:600;line-height:1;
+    display:block;font-variant-numeric:tabular-nums}
+  .g .n{font-size:12.5px;color:var(--ink-faint);display:block;margin-top:6px;line-height:1.4}
+  .v-ok{color:var(--ok)} .v-warn{color:var(--warn)} .v-crit{color:var(--crit)}
+
+  /* 覆盖矩阵 */
+  .mx{border:1px solid var(--rule);border-radius:5px;overflow:hidden;box-shadow:var(--shadow);
+    background:var(--surface)}
+  .mxscroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  table.matrix{border-collapse:collapse;width:100%;min-width:660px;font-size:13px}
+  table.matrix th,table.matrix td{padding:0;text-align:center}
+  table.matrix thead th{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.05em;
+    color:var(--ink-faint);font-weight:500;padding:10px 4px 8px;border-bottom:1px solid var(--rule);
+    text-transform:uppercase}
+  table.matrix thead th.grp{border-left:1px solid var(--rule-soft)}
+  table.matrix th.row{text-align:left;padding:9px 13px;font-family:"Source Sans 3",sans-serif;
+    font-size:13.5px;font-weight:600;color:var(--ink);text-transform:none;letter-spacing:0;
+    white-space:nowrap;border-bottom:1px solid var(--rule-soft)}
+  table.matrix th.row span{display:block;font-family:"JetBrains Mono",monospace;font-size:10px;
+    color:var(--ink-faint);font-weight:400;margin-top:2px}
+  table.matrix tbody td{border-bottom:1px solid var(--rule-soft);padding:7px 4px}
+  table.matrix tbody td.grp{border-left:1px solid var(--rule-soft)}
+  table.matrix tbody tr:last-child td,table.matrix tbody tr:last-child th{border-bottom:none}
+  .cellv{display:inline-block;min-width:42px;padding:3px 7px;border-radius:3px;
+    font-family:"JetBrains Mono",monospace;font-size:11.5px;font-weight:700;
+    font-variant-numeric:tabular-nums}
+  .c-full{background:var(--ok-bg);color:var(--ok)}
+  .c-part{background:var(--warn-bg);color:var(--warn)}
+  .c-none{background:var(--none-bg);color:var(--none)}
+  .legend{display:flex;gap:16px;flex-wrap:wrap;padding:11px 14px;background:var(--surface-2);
+    border-top:1px solid var(--rule);font-size:12.5px;color:var(--ink-soft);align-items:center}
+  .legend b{font-family:"JetBrains Mono",monospace;font-size:11px;padding:2px 7px;border-radius:3px}
+
+  .call{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--crit);
+    border-radius:0 5px 5px 0;padding:15px 18px;margin:16px 0 0;box-shadow:var(--shadow)}
+  .call.warn{border-left-color:var(--warn)}
+  .call.ok{border-left-color:var(--ok)}
+  .call h3{font-family:Newsreader,Georgia,serif;font-size:17px;margin:0 0 6px;font-weight:600}
+  .call p{margin:0;color:var(--ink-soft);font-size:14px}
+  .call p+p{margin-top:7px}
+
+  /* 指标表 */
+  .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--rule);
+    border-radius:5px;box-shadow:var(--shadow);background:var(--surface)}
+  table.ind{width:100%;border-collapse:collapse;font-size:13.5px;min-width:680px}
+  table.ind th{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.06em;
+    text-transform:uppercase;color:var(--ink-faint);text-align:left;padding:10px 12px;
+    border-bottom:1px solid var(--rule);font-weight:500;white-space:nowrap}
+  table.ind td{padding:9px 12px;border-bottom:1px solid var(--rule-soft);vertical-align:top}
+  table.ind tbody tr:last-child td{border-bottom:none}
+  table.ind td.n{font-family:"JetBrains Mono",monospace;color:var(--ink-faint);text-align:right;width:1%}
+  table.ind td.d{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--ink-faint);white-space:nowrap}
+  table.ind tr.on td{background:var(--surface-2)}
+  .pill{font-family:"JetBrains Mono",monospace;font-size:10px;padding:2px 8px;border-radius:10px;
+    white-space:nowrap;font-weight:700}
+  .p-ok{background:var(--ok-bg);color:var(--ok)}
+  .p-warn{background:var(--warn-bg);color:var(--warn)}
+  .p-crit{background:var(--crit-bg);color:var(--crit)}
+  .p-run{background:var(--accent-dim);color:var(--accent)}
+
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .panel{background:var(--surface);border:1px solid var(--rule);border-radius:5px;
+    padding:16px 18px;box-shadow:var(--shadow)}
+  .panel h3{font-family:Newsreader,Georgia,serif;font-size:17px;margin:0 0 10px;font-weight:600}
+  ul.tight{margin:0;padding-left:17px}
+  ul.tight li{margin-bottom:7px;font-size:14px;color:var(--ink-soft)}
+  ul.tight li b{color:var(--ink);font-weight:600}
+  ul.tight li:last-child{margin-bottom:0}
+
+  footer{margin-top:40px;padding-top:15px;border-top:1px solid var(--rule);
+    font-size:12.5px;color:var(--ink-faint)}
+  @media (max-width:720px){ .two{grid-template-columns:1fr} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">GECC4130 FYP · Phase 2 · 采集进度</p>
+  <h1>数据在变多，但 RQ2 要的那种数据还是零</h1>
+  <p class="lead">17 份原始件入库、哈希全绿。可 RQ2 的先行检验要的是<strong>同一维度覆盖全部 6 个单元 × 40 期</strong>的季度序列——按这个标准，现在<strong>一条都没有</strong>。</p>
+  <p class="stamp">2026-09-02 · 仓库 <code>C:\FYP\data_repo\</code> · 数字直接由仓库文件复算</p>
+</header>
+
+<div class="gauges">
+  <div class="g"><span class="k">原始件入库</span><span class="v v-ok">17</span><span class="n">manifest verify 全绿</span></div>
+  <div class="g"><span class="k">季度序列</span><span class="v v-warn">5</span><span class="n">但没有一条覆盖全 6 单元</span></div>
+  <div class="g"><span class="k">指标齐备</span><span class="v v-crit">2 / 12</span><span class="n">附录 A 的 12 个指标</span></div>
+  <div class="g"><span class="k">TAI : IDI</span><span class="v">1 : 4</span><span class="n">季度序列条数，严重不对称</span></div>
+</div>
+
+<h2>六个分析单元的季度覆盖</h2>
+<p class="h2sub">RQ2 要对 6 个单元（3 产业 × 2 城市）做一致的先行检验。格子里是该序列在该单元的<strong>期数</strong>，满格是 40 期（2015Q1–2024Q4）。</p>
+
+<div class="mx">
+<div class="mxscroll">
+<table class="matrix">
+  <thead>
+    <tr>
+      <th class="row">季度序列</th>
+      <th class="grp">AI·港</th><th>AI·星</th>
+      <th class="grp">生医·港</th><th>生医·星</th>
+      <th class="grp">金融·港</th><th>金融·星</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th class="row">论文数<span>指标 7 分母</span></th>
+      <td class="grp"><i class="cellv c-full">40</i></td><td><i class="cellv c-full">40</i></td>
+      <td class="grp"><i class="cellv c-full">40</i></td><td><i class="cellv c-full">40</i></td>
+      <td class="grp"><i class="cellv c-full">40</i></td><td><i class="cellv c-full">40</i></td>
+    </tr>
+    <tr>
+      <th class="row">国际合著论文<span>指标 7 分子</span></th>
+      <td class="grp"><i class="cellv c-full">40</i></td><td><i class="cellv c-full">40</i></td>
+      <td class="grp"><i class="cellv c-full">40</i></td><td><i class="cellv c-full">40</i></td>
+      <td class="grp"><i class="cellv c-none">缺</i></td><td><i class="cellv c-none">缺</i></td>
+    </tr>
+    <tr>
+      <th class="row">专利族数<span>指标 8</span></th>
+      <td class="grp"><i class="cellv c-part">36</i></td><td><i class="cellv c-part">36</i></td>
+      <td class="grp"><i class="cellv c-part">36</i></td><td><i class="cellv c-part">36</i></td>
+      <td class="grp"><i class="cellv c-part">36</i></td><td><i class="cellv c-part">36</i></td>
+    </tr>
+    <tr>
+      <th class="row">临床试验<span>指标 9 · 生医半</span></th>
+      <td class="grp"><i class="cellv c-none">—</i></td><td><i class="cellv c-none">—</i></td>
+      <td class="grp"><i class="cellv c-full">40</i></td><td><i class="cellv c-full">40</i></td>
+      <td class="grp"><i class="cellv c-none">—</i></td><td><i class="cellv c-none">—</i></td>
+    </tr>
+    <tr>
+      <th class="row">牌照存量<span>指标 9 · 金融半</span></th>
+      <td class="grp"><i class="cellv c-none">—</i></td><td><i class="cellv c-none">—</i></td>
+      <td class="grp"><i class="cellv c-none">—</i></td><td><i class="cellv c-none">—</i></td>
+      <td class="grp"><i class="cellv c-full">40</i></td><td><i class="cellv c-none">—</i></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="legend">
+  <span><b class="c-full">40</b> 满 40 期</span>
+  <span><b class="c-part">36</b> 短于窗口</span>
+  <span><b class="c-none">缺</b> 该采而没采</span>
+  <span><b class="c-none">—</b> 按定义就不覆盖</span>
+</div>
+</div>
+
+<div class="call">
+  <h3>本页最重要的一格：指标 7 的分子少了金融科技</h3>
+  <p>分母 <code>openalex_papers_by_quarter.csv</code> 有 <strong>6 个单元 × 40 期 = 240 行</strong>，分子 <code>openalex_papers_intl_by_quarter.csv</code> 却只有 <strong>4 个单元 × 40 期 = 160 行</strong>——<code>fintech_kw</code> 那两个单元从来没采过分子。</p>
+  <p>后果：<strong>指标 7 目前只能算 AI 和生物医药，算不出金融科技。</strong>而指标 7 是 TAI 侧<em>唯一</em>的季度序列。这是今天复算时才发现的，此前四轮复核都没碰到——因为没人把分子分母的单元数摆在一起看过。</p>
+</div>
+
+<div class="call warn">
+  <h3>专利只有 36 期，这个不是缺陷</h3>
+  <p>附录 A 指标 8 定义里自己写了「<strong>截至 2023Q4</strong>」，因为专利有 18 个月公开滞后。但做先行检验时要记得：<strong>专利序列比其他序列短 4 期</strong>，滞后 4–12 季的交叉相关会因此损失自由度。</p>
+</div>
+
+<div class="call ok">
+  <h3>本轮新增：牌照从事件流转成了累计存量</h3>
+  <p>附录 A 要求「累计存量口径，防稀疏脉冲」。原来的 37 条事件里 2015/2017/2018/2021/2023 五年全空，做同比增长率会直接除零。转完是 40 期单调序列，期末存量 31 家（虚拟银行 8 ＋ 储值支付 16 ＋ 虚拟资产平台 7），已剔除 6 条越窗事件。</p>
+</div>
+
+<h2>附录 A 十二个指标</h2>
+<p class="h2sub">「齐」＝口径、频率、单元覆盖三项全对，可以直接进指数合成。</p>
+
+<div class="tw">
+<table class="ind">
+  <thead><tr><th>#</th><th>指标</th><th>维度</th><th>要求频率</th><th>状态</th><th>卡在哪</th></tr></thead>
+  <tbody>
+    <tr><td class="n">1</td><td>研究者存量</td><td class="d">TAI·规模</td><td class="d">季度</td><td><span class="pill p-crit">无数据</span></td><td>口径是「近三年署名发文的<b>唯一作者数</b>·滚动窗口」。手上的机构序列是<b>论文数</b>，替代不了</td></tr>
+    <tr><td class="n">2</td><td>活跃开发者数</td><td class="d">TAI·规模</td><td class="d">季度</td><td><span class="pill p-crit">无数据</span></td><td>现有 <code>github_new_users_by_year</code> 是年度注册数。缺 <code>cohort_logins</code> 名单——先要定义「驻港开发者」是谁</td></tr>
+    <tr><td class="n">3</td><td>研究者亚太份额</td><td class="d">TAI·规模</td><td class="d">年</td><td><span class="pill p-warn">口径待定</span></td><td>§3.2 说论文、附录 A 说研究者。<b>选论文＝零返工</b>（已采的就是），选研究者要重采</td></tr>
+    <tr><td class="n">4</td><td>前 10% 高引占比</td><td class="d">TAI·质量</td><td class="d">年</td><td><span class="pill p-crit">无数据</span></td><td>质量维主口径，尚未开工</td></tr>
+    <tr><td class="n">5</td><td>顶刊论文份额</td><td class="d">TAI·质量</td><td class="d">年</td><td><span class="pill p-crit">无数据</span></td><td>期刊 ID 已在规则文件确认（24 项），采集未开工</td></tr>
+    <tr><td class="n">6</td><td>人才净流入率</td><td class="d">TAI·流动</td><td class="d">年</td><td><span class="pill p-crit">无数据</span></td><td>三通道要先砍成一条；ORCID 只有 11 行快照计数，不是轨迹</td></tr>
+    <tr class="on"><td class="n">7</td><td>国际合著比例</td><td class="d">TAI·网络</td><td class="d">季度</td><td><span class="pill p-warn">缺 2 单元</span></td><td><b>今天发现</b>：分子只有 4/6 单元，金融科技从没采过</td></tr>
+    <tr class="on"><td class="n">8</td><td>企业专利族数</td><td class="d">IDI·创新</td><td class="d">季度</td><td><span class="pill p-run">本轮在跑</span></td><td>底稿 10 580 行已入库并通过 R4。等賈贇填完三分归类跑 <code>--sector company</code></td></tr>
+    <tr class="on"><td class="n">9</td><td>牌照 / 临床试验</td><td class="d">IDI·创新</td><td class="d">季度</td><td><span class="pill p-ok">齐</span></td><td>生医（临床试验 40 期）＋ 金融（牌照存量 40 期）都到位。AI 按定义不覆盖</td></tr>
+    <tr><td class="n">10</td><td>在港实质运营公司数</td><td class="d">IDI·商业</td><td class="d">年</td><td><span class="pill p-warn">不分产业</span></td><td>InvestHK 给的是总量，切不出三个产业</td></tr>
+    <tr><td class="n">11</td><td>18A / 18C 上市数</td><td class="d">IDI·商业</td><td class="d">季度</td><td><span class="pill p-warn">频率不符</span></td><td><code>listings_18a_by_year</code> 是年度，指标要季度。原始纪录有日期，可本地重切</td></tr>
+    <tr><td class="n">12</td><td>创投融资额</td><td class="d">IDI·资本</td><td class="d">年</td><td><span class="pill p-crit">无数据</span></td><td>需公开纪录＋可选商业库</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>现在谁在做什么</h2>
+<div class="two">
+  <div class="panel">
+    <h3>在跑</h3>
+    <ul class="tight">
+      <li><b>賈贇</b>：申请人三分归类（2 845 个，规则已自动填 91%，剩 67 行人工）→ 跑三个 <code>--sector</code> 出企业／大学／公营三条序列</li>
+      <li><b>陈于嘉</b>：R4 复核<b>已收工</b>。20/20 结构性核查通过；报警的 3 处 CPC 经诊断查询确认为 Google Patents 显示不全，数据无误</li>
+    </ul>
+  </div>
+  <div class="panel">
+    <h3>等组会拍板</h3>
+    <ul class="tight">
+      <li><b>阿里巴巴主导香港序列</b>：2019 年香港金融科技 390 件里 366 件是阿里一家。剔与不剔是两个完全不同的故事，而且直接决定<b>步骤①效度关过不过</b></li>
+      <li><b>指标 3 份额口径</b>：论文（零返工）还是研究者（重采一轮）</li>
+      <li><b>public_rd 第三类</b>：实测占 11.0%，规则写「&gt;10% 并入敏感性分析」——已过线，不是可选项</li>
+      <li><b>CPC 是否收紧为 inventive-only</b>：抽样 30 族中 1 族仅由附加分类支撑（−3.1%），样本太小无法定量</li>
+    </ul>
+  </div>
+</div>
+
+<div class="call">
+  <h3>下一轮的重点必须挪回 TAI</h3>
+  <p>指标 8 收口之后 IDI 有 3 条季度序列，TAI 仍然只有 1 条、而且缺 2 个单元。<strong>两个指数都还合成不出来，步骤①的效度关连跑都跑不了</strong>——提案写死了「指数不过效度关，后续分析不展开」。</p>
+  <p>能补的 TAI 季度序列只有两条：<strong>指标 1</strong>（唯一作者数·滚动窗口）和<strong>指标 2</strong>（GH Archive 活跃开发者）。其中指标 2 卡的是「驻港开发者怎么定义」这个口径活，不是采集活——<strong>这件事今天就能定，不用等任何数据</strong>。</p>
+</div>
+
+<footer>
+  GECC4130 Senior Seminar · 香港新兴产业人才基础画像：TAI/IDI 双指数诊断与新加坡对比（2015–2024）<br>
+  口径依据：FYP_Proposal_修订版v4.1 附录 A 指标表 · 附录 B v1.2 边界规则 · 4.5 步骤①效度关与步骤③频率纪律<br>
+  页面数字全部由 <code>C:\FYP\data_repo\</code> 内文件于 2026-09-02 复算，非引用先前结论
+</footer>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "file": "raw/patents_families_by_quarter_company_ali_grp.csv",
+  "sha256": "f4de08e1fabe96c8e08132e83f16672641bc338d0563a9745df3d16069cdaba4",
+  "source_url": "https://console.cloud.google.com/bigquery",
+  "query_or_method": "指标8·geo_rule 口径变体 ali_grp；由 scripts/patents_geo_variants.py 在 raw/patents_families_raw.csv（賈贇 BigQuery 底稿）+ config/patents_assignee_sector.csv + config/patents_assignee_geo_exclude.csv 上本地重算，非独立 API 采集",
+  "collected_utc": "2026-09-12T14:37:41+00:00",
+  "collected_by": "邱正陽",
+  "notes": "2026-09-12 方案③双版本：asis=附录口径，ali_grp=正文主口径，ali_ant_grp=敏感性口径（两城同剔）。asis 已校验与既有 patents_families_by_quarter_company.csv 字节一致",
+  "manifest_version": 1
+}

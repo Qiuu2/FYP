@@ -1,0 +1,38 @@
+date,entity,event_type,date_type,source_url
+2019-03-27,Livi VB Limited,virtual_bank,license_grant,https://www.info.gov.hk/gia/general/201903/27/P2019032700634.htm
+2019-03-27,SC Digital Solutions Limited,virtual_bank,license_grant,https://www.info.gov.hk/gia/general/201903/27/P2019032700634.htm
+2019-03-27,ZhongAn Virtual Finance Limited,virtual_bank,license_grant,https://www.info.gov.hk/gia/general/201903/27/P2019032700634.htm
+2019-04-10,Welab Digital Limited,virtual_bank,license_grant,https://www.info.gov.hk/gia/general/201904/10/P2019041000735.htm
+2019-05-09,Ant SME Services (Hong Kong) Limited,virtual_bank,license_grant,https://www.info.gov.hk/gia/general/201905/09/P2019050900649p.htm
+2019-05-09,Infinium Limited,virtual_bank,license_grant,https://www.info.gov.hk/gia/general/201905/09/P2019050900649p.htm
+2019-05-09,Insight Fintech HK Limited,virtual_bank,license_grant,https://www.info.gov.hk/gia/general/201905/09/P2019050900649p.htm
+2019-05-09,Ping An OneConnect Company Limited,virtual_bank,license_grant,https://www.info.gov.hk/gia/general/201905/09/P2019050900649p.htm
+2016-08-25,Alipay Financial Services (HK) Limited [SVF0004],svf,license_grant,https://www.info.gov.hk/gia/general/201608/25/P2016082500536.htm
+2016-08-25,HKT Payment Limited [SVF0002],svf,license_grant,https://www.info.gov.hk/gia/general/201608/25/P2016082500536.htm
+2016-08-25,Money Data Limited [SVF0005],svf,license_grant,https://www.info.gov.hk/gia/general/201608/25/P2016082500536.htm
+2016-08-25,TNG (Asia) Limited [SVF0003],svf,license_grant,https://www.info.gov.hk/gia/general/201608/25/P2016082500536.htm
+2016-11-13,Octopus Cards Limited [SVF0001],svf,license_grant,https://www.info.gov.hk/gia/general/201608/25/P2016082500536.htm
+2016-11-04,33 Financial Services Limited [SVF0010],svf,license_grant,https://www.info.gov.hk/gia/general/201611/04/P2016110400483.htm
+2016-11-04,Autotoll Limited [SVF0012],svf,license_grant,https://www.info.gov.hk/gia/general/201611/04/P2016110400483.htm
+2016-11-04,ePaylinks Technology Co. Limited [SVF0011],svf,license_grant,https://www.info.gov.hk/gia/general/201611/04/P2016110400483.htm
+2016-11-04,K & R International Limited [SVF0007],svf,license_grant,https://www.info.gov.hk/gia/general/201611/04/P2016110400483.htm
+2016-11-04,Optal Asia Limited [SVF0006],svf,license_grant,https://www.info.gov.hk/gia/general/201611/04/P2016110400483.htm
+2016-11-04,PayPal Hong Kong Limited [SVF0008],svf,license_grant,https://www.info.gov.hk/gia/general/201611/04/P2016110400483.htm
+2016-11-04,Transforex (Hong Kong) Investment Consulting Co. Limited [SVF0013],svf,license_grant,https://www.info.gov.hk/gia/general/201611/04/P2016110400483.htm
+2016-11-04,UniCard Solution Limited [SVF0009],svf,license_grant,https://www.info.gov.hk/gia/general/201611/04/P2016110400483.htm
+2019-05-10,Yintran Group Holdings Limited [SVF0014],svf,license_grant,https://www.info.gov.hk/gia/general/201905/10/P2019051000623.htm
+2019-05-10,Geoswift Cards Services Limited [SVF0015],svf,license_grant,https://www.info.gov.hk/gia/general/201905/10/P2019051000623.htm
+2022-12-19,RD Wallet Technologies Limited [SVF0016],svf,license_grant,https://www.info.gov.hk/gia/general/202212/19/P2022121900470p.htm
+2020-12-15,OSL Exchange (OSL Digital Securities Limited),vatp,license_grant,https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms
+2022-11-09,HashKey Exchange (Hash Blockchain Limited),vatp,license_grant,https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms
+2024-10-03,HKVAX (Hong Kong Virtual Asset Exchange Limited),vatp,license_grant,https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms
+2024-12-18,HKbitEX (Hong Kong Digital Asset EX Limited),vatp,license_grant,https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms
+2024-12-18,Accumulus (Accumulus GBA Technology (Hongkong) Co. Limited),vatp,license_grant,https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms
+2024-12-18,DFX Labs (DFX Labs Company Limited),vatp,license_grant,https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms
+2024-12-18,EX.IO (EXIO Limited),vatp,license_grant,https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms
+2025-01-27,PantherTrade (Panthertrade (Hong Kong) Limited),vatp,license_grant,https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms
+2025-01-27,YAX (YAX (Hong Kong) Limited),vatp,license_grant,https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms
+2025-02-18,Bullish (Bullish HK Markets Limited),vatp,license_grant,https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms
+2025-06-17,BGE (Hong Kong BGE Limited),vatp,license_grant,https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms
+2026-02-13,VDX (Victory Fintech Company Limited),vatp,license_grant,https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms
+2026-05-18,Bixin.com (NewBX Limited),vatp,license_grant,https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms

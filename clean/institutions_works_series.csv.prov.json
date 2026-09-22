@@ -1,0 +1,46 @@
+{
+ "manifests": [
+  "openalex_institutions_counts.csv.manifest.json"
+ ],
+ "script": "scripts/institutions_series_build.py",
+ "source": "raw/openalex_institutions_counts.csv + config/institutions.csv",
+ "snapshot_utc": "2026-08-26T08:17:15+00:00",
+ "method": "单一 raw 快照 → 按 config.group 切分 → 宽表 works_count",
+ "institutions": [
+  "南洋理工大学",
+  "岭南大学",
+  "新加坡国立大学",
+  "香港中文大学",
+  "香港城市大学",
+  "香港大学",
+  "香港应用科技研究院",
+  "香港教育大学",
+  "香港浸会大学",
+  "香港理工大学",
+  "香港科技大学"
+ ],
+ "years": [
+  "2015",
+  "2016",
+  "2017",
+  "2018",
+  "2019",
+  "2020",
+  "2021",
+  "2022",
+  "2023",
+  "2024",
+  "2025"
+ ],
+ "supersedes": [
+  "clean/universities_works_series.csv（仅5所香港高校）",
+  "clean/institutions_ext_works_series.csv（另4个机构，且为不同日期快照）"
+ ],
+ "drift_vs_superseded": {
+  "n_cells_differing": 103,
+  "median_pct": 0.235,
+  "diagnosis": "OpenAlex 索引回填：差异随年份递增，近年最大。旧文件为更早快照，非错误。"
+ },
+ "caveat": "本文件是【论文数】；附录A指标1要的是【唯一作者数·近三年滚动】，不能互相替代",
+ "created_utc": "2026-08-31T00:00:00+00:00"
+}

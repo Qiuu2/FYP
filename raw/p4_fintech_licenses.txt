@@ -1,0 +1,47 @@
+采集包裹 P4｜金融科技牌照事件（subagent a1b8a5b2304c7dbfc 经 WebFetch 转录，2026-08-18）R4 待复核。
+
+=== TABLE: fintech_license_events ===
+date,entity,event_type,date_type,source_url
+2019-03-27,Livi VB Limited,virtual_bank,license_grant,https://www.info.gov.hk/gia/general/201903/27/P2019032700634.htm
+2019-03-27,SC Digital Solutions Limited,virtual_bank,license_grant,https://www.info.gov.hk/gia/general/201903/27/P2019032700634.htm
+2019-03-27,ZhongAn Virtual Finance Limited,virtual_bank,license_grant,https://www.info.gov.hk/gia/general/201903/27/P2019032700634.htm
+2019-04-10,Welab Digital Limited,virtual_bank,license_grant,https://www.info.gov.hk/gia/general/201904/10/P2019041000735.htm
+2019-05-09,Ant SME Services (Hong Kong) Limited,virtual_bank,license_grant,https://www.info.gov.hk/gia/general/201905/09/P2019050900649p.htm
+2019-05-09,Infinium Limited,virtual_bank,license_grant,https://www.info.gov.hk/gia/general/201905/09/P2019050900649p.htm
+2019-05-09,Insight Fintech HK Limited,virtual_bank,license_grant,https://www.info.gov.hk/gia/general/201905/09/P2019050900649p.htm
+2019-05-09,Ping An OneConnect Company Limited,virtual_bank,license_grant,https://www.info.gov.hk/gia/general/201905/09/P2019050900649p.htm
+2016-08-25,Alipay Financial Services (HK) Limited [SVF0004],svf,license_grant,https://www.info.gov.hk/gia/general/201608/25/P2016082500536.htm
+2016-08-25,HKT Payment Limited [SVF0002],svf,license_grant,https://www.info.gov.hk/gia/general/201608/25/P2016082500536.htm
+2016-08-25,Money Data Limited [SVF0005],svf,license_grant,https://www.info.gov.hk/gia/general/201608/25/P2016082500536.htm
+2016-08-25,TNG (Asia) Limited [SVF0003],svf,license_grant,https://www.info.gov.hk/gia/general/201608/25/P2016082500536.htm
+2016-11-13,Octopus Cards Limited [SVF0001],svf,license_grant,https://www.info.gov.hk/gia/general/201608/25/P2016082500536.htm
+2016-11-04,33 Financial Services Limited [SVF0010],svf,license_grant,https://www.info.gov.hk/gia/general/201611/04/P2016110400483.htm
+2016-11-04,Autotoll Limited [SVF0012],svf,license_grant,https://www.info.gov.hk/gia/general/201611/04/P2016110400483.htm
+2016-11-04,ePaylinks Technology Co. Limited [SVF0011],svf,license_grant,https://www.info.gov.hk/gia/general/201611/04/P2016110400483.htm
+2016-11-04,K & R International Limited [SVF0007],svf,license_grant,https://www.info.gov.hk/gia/general/201611/04/P2016110400483.htm
+2016-11-04,Optal Asia Limited [SVF0006],svf,license_grant,https://www.info.gov.hk/gia/general/201611/04/P2016110400483.htm
+2016-11-04,PayPal Hong Kong Limited [SVF0008],svf,license_grant,https://www.info.gov.hk/gia/general/201611/04/P2016110400483.htm
+2016-11-04,Transforex (Hong Kong) Investment Consulting Co. Limited [SVF0013],svf,license_grant,https://www.info.gov.hk/gia/general/201611/04/P2016110400483.htm
+2016-11-04,UniCard Solution Limited [SVF0009],svf,license_grant,https://www.info.gov.hk/gia/general/201611/04/P2016110400483.htm
+2019-05-10,Yintran Group Holdings Limited [SVF0014],svf,license_grant,https://www.info.gov.hk/gia/general/201905/10/P2019051000623.htm
+2019-05-10,Geoswift Cards Services Limited [SVF0015],svf,license_grant,https://www.info.gov.hk/gia/general/201905/10/P2019051000623.htm
+2022-12-19,RD Wallet Technologies Limited [SVF0016],svf,license_grant,https://www.info.gov.hk/gia/general/202212/19/P2022121900470p.htm
+2020-12-15,OSL Exchange (OSL Digital Securities Limited),vatp,license_grant,https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms
+2022-11-09,HashKey Exchange (Hash Blockchain Limited),vatp,license_grant,https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms
+2024-10-03,HKVAX (Hong Kong Virtual Asset Exchange Limited),vatp,license_grant,https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms
+2024-12-18,HKbitEX (Hong Kong Digital Asset EX Limited),vatp,license_grant,https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms
+2024-12-18,Accumulus (Accumulus GBA Technology (Hongkong) Co. Limited),vatp,license_grant,https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms
+2024-12-18,DFX Labs (DFX Labs Company Limited),vatp,license_grant,https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms
+2024-12-18,EX.IO (EXIO Limited),vatp,license_grant,https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms
+2025-01-27,PantherTrade (Panthertrade (Hong Kong) Limited),vatp,license_grant,https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms
+2025-01-27,YAX (YAX (Hong Kong) Limited),vatp,license_grant,https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms
+2025-02-18,Bullish (Bullish HK Markets Limited),vatp,license_grant,https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms
+2025-06-17,BGE (Hong Kong BGE Limited),vatp,license_grant,https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms
+2026-02-13,VDX (Victory Fintech Company Limited),vatp,license_grant,https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms
+2026-05-18,Bixin.com (NewBX Limited),vatp,license_grant,https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms
+
+=== NOTES 摘要 ===
+- 8 家虚拟银行现名（HKMA 名册 2026-08-14）：ZA/Mox/livi/WeLab/Ant/Fusion/Ping An Digital Bank (Intl)/Ele Bank；发牌名→现名官方映射 NOT_FOUND（HKMA 站不可达），学生本地补。
+- SFC VATP 名册 "Last update: 29 May 2026"，共13家；日期栏="Date of licence"。
+- SVF：16 张牌照事件齐全；2022-12-19 稿载"13 non-bank SVF licensees"→已有3家退出，退出者与日期 NOT_FOUND；现行 SVF 名册页不可达（EXTRACT_LOCALLY: https://www.hkma.gov.hk/eng/regulatory-resources/registers/register-of-svf-licensees/）。
+- Octopus 特例：2016-08-25 公告、牌照生效 2016-11-13（按生效日记录）。

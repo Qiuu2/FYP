@@ -1,0 +1,13 @@
+# 按采集代码确定性重建；已省略 api_key（密钥不入库）与 mailto（不影响计数）。复核方法：点开 URL，核对返回的计数是否等于本表所列行的 count。
+row_key	request_url	covers_rows
+香港大学	https://pub.orcid.org/v3.0/search/?q=ror-org-id%3A%22https%3A%2F%2Fror.org%2F02zhqgq86%22&rows=0	1
+香港中文大学	https://pub.orcid.org/v3.0/search/?q=ror-org-id%3A%22https%3A%2F%2Fror.org%2F00t33hh48%22&rows=0	1
+香港科技大学	https://pub.orcid.org/v3.0/search/?q=ror-org-id%3A%22https%3A%2F%2Fror.org%2F00q4vv597%22&rows=0	1
+香港理工大学	https://pub.orcid.org/v3.0/search/?q=ror-org-id%3A%22https%3A%2F%2Fror.org%2F0030zas98%22&rows=0	1
+香港城市大学	https://pub.orcid.org/v3.0/search/?q=ror-org-id%3A%22https%3A%2F%2Fror.org%2F03q8dnn23%22&rows=0	1
+香港浸会大学	https://pub.orcid.org/v3.0/search/?q=ror-org-id%3A%22https%3A%2F%2Fror.org%2F0145fw131%22&rows=0	1
+香港教育大学	https://pub.orcid.org/v3.0/search/?q=ror-org-id%3A%22https%3A%2F%2Fror.org%2F000t0f062%22&rows=0	1
+岭南大学	https://pub.orcid.org/v3.0/search/?q=ror-org-id%3A%22https%3A%2F%2Fror.org%2F0563pg902%22&rows=0	1
+香港应用科技研究院	https://pub.orcid.org/v3.0/search/?q=ror-org-id%3A%22https%3A%2F%2Fror.org%2F03xmkea05%22&rows=0	1
+新加坡国立大学	https://pub.orcid.org/v3.0/search/?q=ror-org-id%3A%22https%3A%2F%2Fror.org%2F01tgyzw49%22&rows=0	1
+南洋理工大学	https://pub.orcid.org/v3.0/search/?q=ror-org-id%3A%22https%3A%2F%2Fror.org%2F02e7b5302%22&rows=0	1

@@ -1,0 +1,14 @@
+{
+  "file": "raw/orcid_affiliated_researchers.csv",
+  "sha256": "c916cfd22168a794a53a11edb9f11083a84ebd43886e9d2db4149f45aad896bb",
+  "source_url": "https://pub.orcid.org/v3.0/search/",
+  "query_or_method": "ror-org-id 关联档案计数（当前截面）",
+  "collected_utc": "2026-08-26T09:51:45+00:00",
+  "collected_by": "賈贇",
+  "notes": "流动维历史轨迹用公共数据文件路线（X02）；此为快照计数｜【事后更正 2026-08-26】原 collected_by 为占位符 'UNSET——请 export COLLECTOR_NAME'（运行时未设置 COLLECTOR_NAME），经确认实际执行人为賈贇，据实更正；file 字段的 Windows 反斜杠一并归一化为 '/'。数据文件本身未作任何改动，SHA256 与原记录一致。",
+  "manifest_version": 1,
+  "request_log": "orcid_affiliated_researchers.csv.requests.tsv",
+  "request_count": 11,
+  "example_request_url": "https://pub.orcid.org/v3.0/search/?q=ror-org-id%3A%22https%3A%2F%2Fror.org%2F02zhqgq86%22&rows=0",
+  "request_log_note": "按采集代码确定性重建；已省略 api_key（密钥不入库）与 mailto（不影响计数）。复核方法：点开 URL，核对返回的计数是否等于本表所列行的 count。"
+}

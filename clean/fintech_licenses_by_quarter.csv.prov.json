@@ -1,0 +1,43 @@
+{
+ "manifests": [
+  "p4_fintech_licenses.txt.manifest.json"
+ ],
+ "script": "scripts/licenses_build.py",
+ "source": "clean/fintech_license_events.csv",
+ "method": "事件流→累计存量季度序列（附录A指标9「累计存量口径，防稀疏脉冲」）",
+ "window": "2015Q1-2024Q4（40期）",
+ "excluded_out_of_window": [
+  {
+   "date": "2025-01-27",
+   "entity": "PantherTrade (Panthertrade (Hong Kong) Limited)",
+   "event_type": "vatp"
+  },
+  {
+   "date": "2025-01-27",
+   "entity": "YAX (YAX (Hong Kong) Limited)",
+   "event_type": "vatp"
+  },
+  {
+   "date": "2025-02-18",
+   "entity": "Bullish (Bullish HK Markets Limited)",
+   "event_type": "vatp"
+  },
+  {
+   "date": "2025-06-17",
+   "entity": "BGE (Hong Kong BGE Limited)",
+   "event_type": "vatp"
+  },
+  {
+   "date": "2026-02-13",
+   "entity": "VDX (Victory Fintech Company Limited)",
+   "event_type": "vatp"
+  },
+  {
+   "date": "2026-05-18",
+   "entity": "Bixin.com (NewBX Limited)",
+   "event_type": "vatp"
+  }
+ ],
+ "scope_notes": "city=hk 单边（4.5步骤②：新加坡侧仅用双城对称源）；industry=fintech（指标9的生物医药半边为临床试验）",
+ "created_utc": "2026-08-31T00:00:00+00:00"
+}

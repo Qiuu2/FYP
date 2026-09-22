@@ -1,0 +1,10 @@
+{
+  "file": "raw/patents_families_raw.csv",
+  "sha256": "0cabe150a5fa00610eed027aa6c6a275c841b119b189466fd24b84f1c24eb58c",
+  "source_url": "https://console.cloud.google.com/bigquery?p=patents-public-data&d=patents&t=publications",
+  "query_or_method": "patents-public-data.patents.publications；申请人国别HK/SG × CPC白名单(附录B v1.2) × 申请日2015-01-01..2023-12-31；每个产业×城市×family_id取窗口内最早申请日，输出到家族级并带申请人；SQL见sql/patents_bigquery.sql",
+  "collected_utc": "2026-08-27T07:43:11+00:00",
+  "collected_by": "賈贇",
+  "notes": "家族级原始件；季度序列由 scripts/patents_build.py 本地聚合产出。10580 行 = 单产业 9593 + 双产业 486×2 + 三产业 5×3；跨产业家族 491 个(4.9%)，按产业各计一次",
+  "manifest_version": 1
+}

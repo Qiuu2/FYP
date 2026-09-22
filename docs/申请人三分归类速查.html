@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>申请人三分归类</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+  :root{
+    --paper:#F4F6F4; --surface:#FFFFFF; --surface-2:#EAEEEC;
+    --ink:#16202B; --ink-soft:#47575F; --ink-faint:#7A8A90;
+    --rule:#D3DAD7; --rule-soft:#E3E8E5;
+    --accent:#0F5C63; --accent-dim:#DCE9E8;
+    --co:#47575F;   --co-bg:#E7EBE9;
+    --uni:#8A5A12;  --uni-bg:#F2E7D2;
+    --prd:#0F5C63;  --prd-bg:#DCE9E8;
+    --ind:#9B3327;  --ind-bg:#F3DEDA;
+    --shadow:0 1px 2px rgba(22,32,43,.06),0 4px 14px rgba(22,32,43,.05);
+  }
+  @media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+    --paper:#0F1519; --surface:#161E23; --surface-2:#1D272C;
+    --ink:#E3E9E7; --ink-soft:#A3B2B6; --ink-faint:#74868C;
+    --rule:#2A363C; --rule-soft:#212C31;
+    --accent:#64C4C4; --accent-dim:#17333A;
+    --co:#A3B2B6;  --co-bg:#232E34;
+    --uni:#DCAE5F; --uni-bg:#33270F;
+    --prd:#64C4C4; --prd-bg:#17333A;
+    --ind:#E08A7C; --ind-bg:#331C19;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }}
+  :root[data-theme="dark"]{
+    --paper:#0F1519; --surface:#161E23; --surface-2:#1D272C;
+    --ink:#E3E9E7; --ink-soft:#A3B2B6; --ink-faint:#74868C;
+    --rule:#2A363C; --rule-soft:#212C31;
+    --accent:#64C4C4; --accent-dim:#17333A;
+    --co:#A3B2B6;  --co-bg:#232E34;
+    --uni:#DCAE5F; --uni-bg:#33270F;
+    --prd:#64C4C4; --prd-bg:#17333A;
+    --ind:#E08A7C; --ind-bg:#331C19;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);
+    font-family:"Source Sans 3",ui-sans-serif,system-ui,"PingFang SC","Microsoft YaHei",sans-serif;
+    font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:900px;margin:0 auto;padding:38px 22px 70px}
+  code{font-family:"JetBrains Mono",ui-monospace,Consolas,monospace;font-size:.86em;
+    background:var(--surface-2);padding:1px 5px;border-radius:3px}
+  .nm{font-family:"JetBrains Mono",ui-monospace,Consolas,monospace;font-size:12.5px}
+
+  header{border-bottom:2px solid var(--ink);padding-bottom:16px;margin-bottom:22px}
+  .eyebrow{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);margin:0 0 9px}
+  h1{font-family:Newsreader,Georgia,"Songti SC",serif;font-size:clamp(26px,4vw,36px);
+    line-height:1.15;font-weight:600;margin:0 0 10px;text-wrap:balance}
+  .sub{color:var(--ink-soft);margin:0 0 8px;max-width:62ch}
+  .stamp{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--ink-faint);margin:0}
+
+  .rule-box{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--accent);
+    border-radius:0 5px 5px 0;padding:17px 20px;margin:0 0 30px;box-shadow:var(--shadow)}
+  .rule-box .q{font-family:Newsreader,Georgia,serif;font-size:19px;font-weight:600;margin:0 0 8px}
+  .rule-box p{margin:0;color:var(--ink-soft);font-size:14.5px}
+
+  h2{font-family:Newsreader,Georgia,"Songti SC",serif;font-size:21px;font-weight:600;margin:34px 0 5px}
+  .h2sub{color:var(--ink-faint);font-size:13px;margin:0 0 14px;max-width:64ch}
+
+  .cats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;
+    background:var(--rule);border:1px solid var(--rule);border-radius:5px;overflow:hidden;
+    box-shadow:var(--shadow);margin-bottom:8px}
+  .cat{background:var(--surface);padding:14px 16px}
+  .cat .k{font-family:"JetBrains Mono",monospace;font-size:12px;font-weight:700;
+    padding:2px 9px;border-radius:11px;display:inline-block;margin-bottom:8px}
+  .k-co{background:var(--co-bg);color:var(--co)}
+  .k-uni{background:var(--uni-bg);color:var(--uni)}
+  .k-prd{background:var(--prd-bg);color:var(--prd)}
+  .k-ind{background:var(--ind-bg);color:var(--ind)}
+  .cat .d{font-size:14px;color:var(--ink)}
+  .cat .e{font-size:12.5px;color:var(--ink-faint);display:block;margin-top:5px}
+
+  .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:6px 0}
+  table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:520px}
+  th,td{border-bottom:1px solid var(--rule-soft);padding:7px 10px;text-align:left;vertical-align:top}
+  th{font-family:"JetBrains Mono",monospace;font-size:10.5px;letter-spacing:.06em;
+    text-transform:uppercase;color:var(--ink-faint);border-bottom:1px solid var(--rule);white-space:nowrap}
+  td.a{font-family:"JetBrains Mono",monospace;font-size:12.5px}
+  td.s{white-space:nowrap;font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:700}
+  .s-co{color:var(--co)} .s-uni{color:var(--uni)} .s-prd{color:var(--prd)} .s-ind{color:var(--ind)}
+  tbody tr:hover td{background:var(--surface-2)}
+
+  .trap{background:var(--surface);border:1px solid var(--rule);border-radius:5px;
+    padding:16px 19px;margin:14px 0;box-shadow:var(--shadow)}
+  .trap h3{font-family:Newsreader,Georgia,serif;font-size:17px;margin:0 0 4px;font-weight:600}
+  .trap .why{color:var(--ink-faint);font-size:13px;margin:0 0 11px}
+
+  .note{background:var(--surface-2);border-left:3px solid var(--accent);
+    padding:13px 16px;border-radius:0 4px 4px 0;margin:22px 0;font-size:14px;color:var(--ink-soft)}
+  .note b,.note strong{color:var(--ink)}
+
+  footer{margin-top:38px;padding-top:15px;border-top:1px solid var(--rule);
+    font-size:12.5px;color:var(--ink-faint)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">GECC4130 FYP · 附录 B v1.2 · 申请人三分</p>
+  <h1>申请人三分归类</h1>
+  <p class="sub">填 <code>patents_assignee_sector_review.xlsx</code> 表②时对照这张表。一次归类<strong>同时喂 TAI 和 IDI 两个指数</strong>——大学归 TAI·质量、企业归 IDI·创新、公营研发单列第三类。</p>
+  <p class="stamp">依据 proposal §4.3 与 config/boundary_rules_v1.yaml v1.2 · 具名清单已逐条查证（来源见文末）</p>
+</header>
+
+<div class="rule-box">
+  <p class="q">判断标准是「谁出钱、为谁做研究」</p>
+  <p>不是「是不是在做研究」。华为的研究院全是科学家，仍然是 <code>company</code>；InnoHK 中心注册成有限公司，仍然是 <code>public_rd</code>。看的是<strong>资金来源与营利属性</strong>，不是名字里有没有「研究」两个字。</p>
+</div>
+
+<div class="cats">
+  <div class="cat"><span class="k k-prd">public_rd</span><span class="d">政府／公帑资助、不以营利为目的的研发载体<span class="e">提案原文：「InnoHK 实验室，以及应科院等『非大学非企业』载体」</span></span></div>
+  <div class="cat"><span class="k k-uni">university</span><span class="d">大学本体，以及<strong>大学的技转公司</strong><span class="e">Versitech（港大）、NTUitive（南洋理工）算这类。<strong>大学投资基金的持股对象不算</strong>——见下方陷阱四</span></span></div>
+  <div class="cat"><span class="k k-co">company</span><span class="d">企业——哪怕整个主体都在做研发<span class="e">私立医疗集团、企业研究院、创业公司都算</span></span></div>
+  <div class="cat"><span class="k k-ind">individual / exclude</span><span class="d">自然人自持 ／ 根本不是机构的脏数据<span class="e">人名填 individual；专利标题误入申请人字段填 exclude</span></span></div>
+</div>
+
+<h2>三个关键词会骗人的陷阱</h2>
+<p class="h2sub">这 67 行之所以要人看，几乎全部卡在这三类上。规则按关键词猜，猜错的都在这里。</p>
+
+<div class="trap">
+  <h3>陷阱一 · 名字里有公营词，实际是私企</h3>
+  <p class="why">「COUNCIL」「AGENCY」「CENTRE FOR」出现在<strong>品牌名</strong>里，不代表公营身份。</p>
+  <div class="tw"><table>
+    <thead><tr><th>申请人</th><th>实际是什么</th><th>填</th></tr></thead>
+    <tbody>
+      <tr><td class="a">EC COUNCIL INTERNATIONAL LTD</td><td>EC-Council，网络安全认证培训公司，PE 基金 EQT 的投资组合企业</td><td class="s s-co">company</td></tr>
+      <tr><td class="a">HENDERSON REAL ESTATE AGENCY LTD</td><td>恒基地产系的地产代理——「agency」是中介不是政府机构</td><td class="s s-co">company</td></tr>
+      <tr><td class="a">AON SINGAPORE CENTRE FOR INNOVATION STRATEGY AND MAN PTE LTD</td><td>Aon 是上市保险经纪集团，这是它的企业创新中心</td><td class="s s-co">company</td></tr>
+      <tr><td class="a">FULLERTON HEALTHCARE GROUP PTE LTD</td><td>私营医疗集团（区别于下面的公立医疗集群）</td><td class="s s-co">company</td></tr>
+    </tbody>
+  </table></div>
+</div>
+
+<div class="trap">
+  <h3>陷阱二 · 名字像公司，实际是公营</h3>
+  <p class="why">香港的政府研发载体<strong>全部注册成有限公司</strong>，名字带 LTD 是常态，不是判据。</p>
+  <div class="tw"><table>
+    <thead><tr><th>申请人</th><th>实际是什么</th><th>填</th></tr></thead>
+    <tbody>
+      <tr><td class="a">CENTRE FOR VIROLOGY VACCINOLOGY AND THERAPEUTICS LTD<br>CENTRE FOR INTELLIGENT MULTIDIMENSIONAL DATA ANALYSIS LTD<br>CENTRE FOR EYE AND VISION RES LIMITED<br>CENTRE FOR IMMUNOLOGY &amp; INFECTION LTD<br>CENTRE FOR TRANSLATIONAL STEM CELL BIOLOGY LTD<br>CENTRE FOR ONCOLOGY AND IMMUNOLOGY LTD<br>HONG KONG CENTRE FOR CEREBRO CARDIOVASCULAR HEALTH ENGINEERING<br>HONG KONG CENTER FOR NEURODEGENERATIVE DISEASES LTD<br>HONG KONG CENTRE FOR LOGISTICS ROBOTICS LTD<br>CENTER FOR NEUROMUSCULOSKELETAL RESTORATIVE MEDICINE LTD<br>CENTRE FOR NOVOSTICS（及 …LTD 变体）</td><td><strong>InnoHK 中心</strong>——政府资助、挂靠大学、不分红</td><td class="s s-prd">public_rd</td></tr>
+      <tr><td class="a">HONG KONG APPLIED SCIENCE &amp; TECH RESEARCH INST CO LTD<br>HONG KONG RES INST TEXTILES &amp; APPAREL LTD<br>LOGISTICS &amp; SUPPLY CHAIN MULTITECH R&amp;D CENTRE LTD<br>NANO &amp; ADVANCED MATERIALS INST LTD<br>AUTOMOTIVE PLATFORMS &amp; APPLICATION SYSTEMS R&amp;D CENTRE LTD</td><td><strong>香港五所法定研发中心</strong>（ASTRI／HKRITA／LSCM／NAMI／APAS）——创新科技署指定，创新及科技基金资助</td><td class="s s-prd">public_rd</td></tr>
+      <tr><td class="a">SINGAPORE MIT ALLIANCE FOR RESEARCH &amp; TECH CENTRE<br>CAMBRIDGE CENTRE FOR ADVANCED RES AND EDUCATION IN SINGAPORE<br>CNRS@CREATE</td><td>新加坡 <strong>CREATE</strong> 园区的海外大学研究中心（SMART／CARES／CNRS），国家研究基金会资助</td><td class="s s-prd">public_rd</td></tr>
+      <tr><td class="a">DSO NAT LAB<br>TEMASEK LIFE SCIENCES LABORATORY<br>HOUSING &amp; DEV BOARD<br>NAT HEALTHCARE GROUP<br>TAN TOCK SENG HOSPITAL PTE LTD (TTSH)<br>CHANGI GENERAL HOSPITAL PTE LTD<br>NAT UNIV HOSPITAL SINGAPORE PTE LTD<br>SINGAPORE HEALTH SERV PTE LTD</td><td>新加坡法定机构、公营实验室与公立医疗集群<span class="e">公立医院同样注册成 PTE LTD</span></td><td class="s s-prd">public_rd</td></tr>
+    </tbody>
+  </table></div>
+</div>
+
+<div class="trap">
+  <h3>陷阱三 · 音译与错字</h3>
+  <p class="why">同一个实体在数据库里有多种拼法，包括从西里尔字母转写回来的和纯粹的录入错字。表④「名称变体」记的就是这类。</p>
+  <div class="tw"><table>
+    <thead><tr><th>数据里长这样</th><th>其实是</th><th>填</th></tr></thead>
+    <tbody>
+      <tr><td class="a">EDZHENSI FO SAJENS TEKNOLODZHI END RESERCH</td><td>念出来 → <em>Agency for Science, Technology and Research</em> ＝ 新加坡 <strong>A*STAR</strong>。俄语申请时音译成西里尔字母，回流数据库时又转写回拉丁字母</td><td class="s s-prd">public_rd</td></tr>
+      <tr><td class="a">HONG KONG APPLIES SCIENCE…<br>HONG KONG APPLIED SCIENCE AND TECHNOLOY…<br>HK APPLIED SCIENCE &amp; TECH RES<br>（共 7 种拼法，含错字）</td><td>全部是 <strong>ASTRI</strong> 应科院</td><td class="s s-prd">public_rd</td></tr>
+      <tr><td class="a">City Iniversity of Hong Kong<br>NANYANG TECH UNVERSITY</td><td>University 的错字 → 城大、南洋理工</td><td class="s s-uni">university</td></tr>
+      <tr><td class="a">METHOD FOR DIAGNOSIS AND PROGNOSIS OF CHRONIC HEART FAILURE…</td><td>把<strong>专利标题</strong>写进了申请人字段——源数据脏，不是机构</td><td class="s s-ind">exclude</td></tr>
+      <tr><td class="a">TEOH TZE KEN JONATHAN JULIAN<br>WONG YEUNG WAI JUN SABRINA<br>LEUNG KI HIN CONSTANCE MISS<br>IP YING HOI ROBERT</td><td>自然人自持专利</td><td class="s s-ind">individual</td></tr>
+    </tbody>
+  </table></div>
+</div>
+
+<div class="note">
+  <b>A*STAR 那条别删。</b>它只有 1 个家族，删掉对数字几乎没影响——但它是「同一实体多种拼法」最好的证据，留着比删掉有用。真要排除的只有<strong>根本不是机构</strong>的那种（专利标题误入申请人字段）。
+</div>
+
+<div class="trap">
+  <h3>陷阱四 · 大学持股 ≠ 大学专利</h3>
+  <p class="why">判据是<strong>发明归属</strong>，不是股权。专利是大学实验室做出来的，还是公司自己做出来的。</p>
+  <div class="tw"><table>
+    <thead><tr><th>类型</th><th>专利是谁发明的</th><th>填</th></tr></thead>
+    <tbody>
+      <tr><td class="a">大学技转办公室<br><span class="e">VERSITECH LTD（港大）、NTUitive（南洋理工）</span></td><td>大学实验室做出来的，公司只负责持有与授权</td><td class="s s-uni">university</td></tr>
+      <tr><td class="a">大学投资基金的持股对象<br><span class="e">SGPTH Life Science AB —— 乌普萨拉大学投资载体 UU&nbsp;Invest 持股</span></td><td><strong>公司自己的发明</strong>，大学只是股东</td><td class="s s-co">company</td></tr>
+    </tbody>
+  </table></div>
+  <p class="why" style="margin:11px 0 0">如果「大学持股就算 university」，那所有拿过大学 VC 钱的创业公司都要算成大学专利——大学那侧会虚高，而且与企业侧重复计入，正好违反规则文件写的「防止同一信号重复计入」。<br>数据里名字含 INVEST／HOLDING／VENTURE／CAPITAL／ENTERPRISE 的申请人有 <strong>130 个、440 家族次</strong>，这条界线以后还会撞上。</p>
+</div>
+
+<h2>剩下的按常规判</h2>
+<p class="h2sub">上面三个陷阱之外的，基本一眼能定。</p>
+<div class="tw"><table>
+  <thead><tr><th>申请人</th><th>判断</th><th>填</th></tr></thead>
+  <tbody>
+    <tr><td class="a">Entropica Labs · GreenArc Capital · ACCRO BIOSCIENCE HK · KO SHWE VENTURES · VASCUROS MEDICAL · SGPTH Life Science AB · STR8BAT SPORTS TECH SOLUTIONS</td><td>创业公司／私营企业，只是名字没带法定后缀</td><td class="s s-co">company</td></tr>
+    <tr><td class="a">PROCTER &amp; GAMBLE · STANDARD CHARTERED BANK · ST MICROELECTRONICS ASIA · ST ELECTRONICS TRAINING &amp; SIMULATION SYSTEMS</td><td>知名跨国／上市企业</td><td class="s s-co">company</td></tr>
+    <tr><td class="a">INT BIOTECH INSTITUTE INC · NOBELBIOTIX RES INSTITUTE LIMITED · EPIONE RES AND DEVELOPMENT INSTITUTE LTD</td><td>名字带 Institute 但是私营实体——<strong>没有公帑资助证据就按企业算</strong>，并在备注写一句</td><td class="s s-co">company</td></tr>
+  </tbody>
+</table></div>
+
+<div class="note">
+  <b>已经过线了：</b>规则文件 <code>patent_assignee_split</code> 写「public_rd 第三类单列，<strong>占比 &gt;10% 时并入敏感性分析</strong>」。自动标注实测：按<b>产业×城市×家族记录</b>算 <strong>11.0%</strong>，按<b>申请人家族次</b>算 10.7%，按<b>去重家族</b>算 11.2%——<strong>三种口径都过线</strong>。（我先前写的 10.2% 是只算了高置信度那一档，漏掉了 med，已更正。）你填完真标签数字会变，但<strong>第三类必须进敏感性分析</strong>已经可以确定。
+</div>
+
+<footer>
+  依据：FYP_Proposal_修订版v4.1 §4.3 ·<code>config/boundary_rules_v1.yaml</code> v1.2<br>
+  香港五所研发中心名单引自创新科技署「创新及科技支援计划」申请指南（2025-09 版）· EC-Council 身份据 EQT 投资组合页 · 其余具名实体按公开注册与资助信息判定
+</footer>
+
+</div>
+</body>
+</html>

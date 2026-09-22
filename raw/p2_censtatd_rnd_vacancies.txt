@@ -1,0 +1,56 @@
+采集包裹 P2｜政府统计处序列（subagent a2ef1e1adce627511 经 WebFetch 转录，2026-08-18）
+铁律执行：每数字带URL；交叉核对见文末。R4 待复核。
+
+=== SERIES: rnd_personnel_business_by_year ===（商业界别 R&D 人员，FTE，表 710-86003 官方 JSON）
+year,value,unit,source_url
+2015,12217,FTE,https://www.censtatd.gov.hk/api/get.php?id=710-86003&lang=en&full_series=1
+2016,12318,FTE,https://www.censtatd.gov.hk/api/get.php?id=710-86003&lang=en&full_series=1
+2017,12792,FTE,https://www.censtatd.gov.hk/api/get.php?id=710-86003&lang=en&full_series=1
+2018,13156,FTE,https://www.censtatd.gov.hk/api/get.php?id=710-86003&lang=en&full_series=1
+2019,13748,FTE,https://www.censtatd.gov.hk/api/get.php?id=710-86003&lang=en&full_series=1
+2020,13335,FTE,https://www.censtatd.gov.hk/api/get.php?id=710-86003&lang=en&full_series=1
+2021,13002,FTE,https://www.censtatd.gov.hk/api/get.php?id=710-86003&lang=en&full_series=1
+2022,13537,FTE,https://www.censtatd.gov.hk/api/get.php?id=710-86003&lang=en&full_series=1
+2023,13722,FTE,https://www.censtatd.gov.hk/api/get.php?id=710-86003&lang=en&full_series=1
+2024,14625,FTE,https://www.censtatd.gov.hk/api/get.php?id=710-86003&lang=en&full_series=1
+
+按执行界别分解（同源）：
+2015 Total 30110 / HE 17191 / Govt 701
+2016 Total 31282 / HE 18134 / Govt 830
+2017 Total 32355 / HE 18655 / Govt 908
+2018 Total 33577 / HE 19482 / Govt 938
+2019 Total 35416 / HE 20643 / Govt 1025
+2020 Total 36106 / HE 21715 / Govt 1056
+2021 Total 37455 / HE 23423 / Govt 1030
+2022 Total 39710 / HE 25103 / Govt 1069
+2023 Total 43403 / HE 28400 / Govt 1280
+2024 Total 47210 / HE 31312 / Govt 1273
+族表 710-86110（2021–2024 职能分解）：https://www.censtatd.gov.hk/api/get.php?id=710-86110&lang=en&full_series=1 ——商业界别 FTE 与 86003 逐年相等（双表互证）。
+
+=== SERIES: rnd_expenditure_by_sector ===（HK$ million；⚠口径断点：2018 起计入 R&D 设施隐含使用成本，不追溯）
+新基准（API 710-86004）：
+2019 B 11616.5 / HE 13432.4 / G 1283.8 / T 26332.6
+2020 B 11043.9 / HE 14129.3 / G 1380.4 / T 26553.6
+2021 B 11699.3 / HE 14735.2 / G 1392.3 / T 27826.9
+2022 B 12370.7 / HE 16355.5 / G 1412.2 / T 30138.4
+2023 B 12975.7 / HE 18327.9 / G 1702.4 / T 33006.0
+2024 B 13906.1 / HE 20054.2 / G 1811.6 / T 35771.9
+URL: https://www.censtatd.gov.hk/api/get.php?id=710-86004&lang=en&full_series=1
+2018（修订值，年报PDF）：B 10992 / HE 12338 / G 1148 / T 24478 —— https://www.statistics.gov.hk/pub/B11100102019AN19B0100.pdf
+旧基准 2015–2017（年报PDF https://www.statistics.gov.hk/pub/B11100102017AN17B0100.pdf）：
+2015 B 7994 / HE 9551 / G 726 / T 18271
+2016 B 8528 / HE 10271 / G 914 / T 19713
+2017 B 9412 / HE 10837 / G 1031 / T 21280
+⚠两段不可直接拼接；2017 新基准仅总额 22213（https://www.info.gov.hk/gia/general/201912/23/P2019122300258.htm）。
+
+=== SERIES: job_vacancies_selected ===（B1050003 报告 PDF 表6.3；不含公务员职位）
+2024-12 I&C 2136；2025-03 2432；2025-06 2326；2025-09 2605；2025-12 2018；2026-03 2070
+2024-12 F&I 4920；2025-03 4657；2025-06 5184；2025-09 5859；2025-12 5711；2026-03 4900
+历史锚点（2022Q4 报告）：2021-12 I&C 2463 / F&I 6159；2022-09 3016/6584；2022-12 2827/6175
+URL: https://www.censtatd.gov.hk/wbr/B1050003/B10500032026QQ01/att/en/B10500032026QQ01.pdf ；https://www.censtatd.gov.hk/wbr/B1050003/B10500032025QQ04/att/en/B10500032025QQ04.pdf ；https://www.censtatd.gov.hk/en/data/stat_report/product/B1050003/att/B10500032022QQ04B0100.pdf
+全序列机读（EXTRACT_LOCALLY）：表 215-16001 JSON https://www.censtatd.gov.hk/api/get.php?id=215-16001&lang=en&full_series=1 （16,170条，2000-03起）
+
+=== CROSSCHECK 摘要 ===（全部一致）
+GERD 2021–2024 与新闻稿：P2023122100165 / P2024122300351 / P2025122300283；2019–2020：P2020122300233 / P2021122300621；人员 2019 与年报PDF一致。
+修订留痕：2018 GERD 首发 24497(HE 12357) → 修订 24478(HE 12338)；一次PDF解析曾得2018人员33576，API与2019年报均33577，采用33577。
+⚠RPg 口径：2018 起研究生涵盖范围扩大并追溯修订 2010–2017（API 全序列为修订后口径）。

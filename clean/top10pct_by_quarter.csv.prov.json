@@ -1,0 +1,18 @@
+{
+ "manifests": [
+  "openalex_works_master.csv.manifest.json"
+ ],
+ "script": "scripts/works_build.py",
+ "method": "指标4·TAI质量·季度：citation_normalized_percentile 的 is_in_top_10_percent 为真的论文 ÷ 有该字段的论文",
+ "r1_note": "分母只计有 citation_normalized_percentile 的论文；缺失既不计入分子也不计入分母，cnp_coverage 列如实汇报覆盖率",
+ "top1_note": "top1_share 为前 1% 高引占比——附录 A 未定义此指标，字段与前 10% 同在一个响应对象里、零额外调用，留作质量维稳健性口径。用不用由组会定；若用须在方法章声明为超出附录 A 的新增稳健性检验",
+ "frequency_note": "季度版是对单篇论文属性的原生季度聚合，不是年度值内插，不违反提案 §4.2；附录 A 原定频率为年，是否用季度版由组会定",
+ "units": [
+  "ai/hk",
+  "ai/sg",
+  "biomed/hk",
+  "biomed/sg",
+  "fintech_kw/hk",
+  "fintech_kw/sg"
+ ]
+}

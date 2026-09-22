@@ -1,0 +1,13 @@
+# 按采集代码确定性重建；已省略 api_key（密钥不入库）与 mailto（不影响计数）。复核方法：点开 URL，核对返回的计数是否等于本表所列行的 count。
+row_key	request_url	covers_rows
+香港大学	https://api.openalex.org/institutions/ror:02zhqgq86	11
+香港中文大学	https://api.openalex.org/institutions/ror:00t33hh48	11
+香港科技大学	https://api.openalex.org/institutions/ror:00q4vv597	11
+香港理工大学	https://api.openalex.org/institutions/ror:0030zas98	11
+香港城市大学	https://api.openalex.org/institutions/ror:03q8dnn23	11
+香港浸会大学	https://api.openalex.org/institutions/ror:0145fw131	11
+香港教育大学	https://api.openalex.org/institutions/ror:000t0f062	11
+岭南大学	https://api.openalex.org/institutions/ror:0563pg902	11
+香港应用科技研究院	https://api.openalex.org/institutions/ror:03xmkea05	11
+新加坡国立大学	https://api.openalex.org/institutions/ror:01tgyzw49	11
+南洋理工大学	https://api.openalex.org/institutions/ror:02e7b5302	11

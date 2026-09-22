@@ -1,0 +1,10 @@
+{
+  "file": "raw/patents_families_by_quarter_company.csv",
+  "sha256": "2c383ae63642d39da5a34962fecff6c02c0ae1b0e152ae550bc66269bff38b63",
+  "source_url": "https://console.cloud.google.com/bigquery",
+  "query_or_method": "指标8·按申请人三分的 company 序列；由 scripts/patents_build.py 在 raw/patents_families_raw.csv 与 config/patents_assignee_sector.csv 上本地重算，非独立 API 采集",
+  "collected_utc": "2026-09-11T15:36:55+00:00",
+  "collected_by": "賈贇",
+  "notes": "",
+  "manifest_version": 1
+}

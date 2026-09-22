@@ -1,0 +1,7 @@
+industry,city,company_families,top1_assignee,top1_families,top1_share,alibaba_grp_families,alibaba_grp_share,ant_grp_families,ant_grp_share,n_distinct_company_assignees
+ai,hk,844,ALIBABA GROUP SERVICES LTD,455,0.5391,469,0.5557,0,0.0000,201
+ai,sg,1969,LENOVO SINGAPORE PTE LTD,425,0.2158,25,0.0127,30,0.0152,445
+biomed,hk,1142,INSILICO MEDICINE IP LTD,40,0.0350,12,0.0105,0,0.0000,529
+biomed,sg,2309,SMITH & NEPHEW ASIA PACIFIC PTE LTD,310,0.1343,1,0.0004,0,0.0000,732
+fintech,hk,824,ALIBABA GROUP SERVICES LTD,708,0.8592,710,0.8617,0,0.0000,114
+fintech,sg,564,MASTERCARD ASIA PACIFIC PTE LTD,145,0.2571,0,0.0000,64,0.1135,235

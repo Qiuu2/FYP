@@ -1,0 +1,14 @@
+{
+  "file": "raw/openalex_share_denominators_by_year.csv",
+  "sha256": "83902f2c46f4a5237f7679a868e295587f6c98bd04a9a7b15635a8339b7a7cfe",
+  "source_url": "https://api.openalex.org/works",
+  "query_or_method": "group_by=publication_year（world 与 APAC 词表口径）",
+  "collected_utc": "2026-08-26T08:15:19+00:00",
+  "collected_by": "賈贇",
+  "notes": "★份额指标分母；APAC 词表见脚本头，冻结前须组会确认｜【事后更正 2026-08-26】原 collected_by 为占位符 'UNSET——请 export COLLECTOR_NAME'（运行时未设置 COLLECTOR_NAME），经确认实际执行人为賈贇，据实更正；file 字段的 Windows 反斜杠一并归一化为 '/'。数据文件本身未作任何改动，SHA256 与原记录一致。",
+  "manifest_version": 1,
+  "request_log": "openalex_share_denominators_by_year.csv.requests.tsv",
+  "request_count": 4,
+  "example_request_url": "https://api.openalex.org/works?filter=primary_topic.subfield.id%3A1702%2Cpublication_year%3A%3E2014%2Cpublication_year%3A%3C2026&group_by=publication_year&per_page=200",
+  "request_log_note": "按采集代码确定性重建；已省略 api_key（密钥不入库）与 mailto（不影响计数）。复核方法：点开 URL，核对返回的计数是否等于本表所列行的 count。"
+}

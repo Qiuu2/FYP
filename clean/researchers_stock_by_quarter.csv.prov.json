@@ -1,0 +1,20 @@
+{
+ "manifests": [
+  "openalex_author_quarters.csv.manifest.json"
+ ],
+ "script": "scripts/authors_build.py",
+ "source": "raw/openalex_author_quarters.csv",
+ "method": "三年滚动窗口（12 季度闭窗）内唯一作者数；new_authors 为该季度首次出现的作者数",
+ "author_scope": "主口径 unique_authors 只计【作者本人挂本地机构】的署名；unique_authors_allauthors 为该论文全部作者（含国际合著者）的旧口径，仅作稳健性对照",
+ "window_caveat": "前 11 期窗口不完整，window_full=False；先行检验只用 2017Q4 起 29 期",
+ "new_authors_caveat": "2015Q1 之前无历史，new_authors 存在左截断偏误；new_authors_usable=True（2018Q1 起）之后才可用",
+ "units": [
+  "ai/hk",
+  "ai/sg",
+  "biomed/hk",
+  "biomed/sg",
+  "fintech_kw/hk",
+  "fintech_kw/sg"
+ ],
+ "created_utc": "2026-09-07T00:00:00+00:00"
+}

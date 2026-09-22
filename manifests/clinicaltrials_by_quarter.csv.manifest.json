@@ -1,0 +1,14 @@
+{
+  "file": "raw/clinicaltrials_by_quarter.csv",
+  "sha256": "475457573a28886ca7b66423c97ca1c252d666e60d3959209ca89c3441eb698c",
+  "source_url": "https://clinicaltrials.gov/api/v2/studies",
+  "query_or_method": "query.locn×StudyFirstPostDate 逐季度 totalCount（区间与 Q_START/Q_END 对齐）",
+  "collected_utc": "2026-08-26T17:13:41+00:00",
+  "collected_by": "賈贇",
+  "notes": "附录A指标9·IDI创新·季度口径；年度那份 clinicaltrials_by_year.csv 保留供年度剖面｜交叉核对：18/20 个城市×年完全一致；漂移 2 格：hk/2024: 季度合计 434 vs 年度 433（+1），sg/2018: 季度合计 243 vs 年度 242（+1）。与 clinicaltrials_by_year.csv 的逐年比对。季度区间为年度的严格划分，残余差异来自两次采集时点之间 ClinicalTrials.gov 的库更新（地点字段可被申办方事后追加，历史年份计数会缓慢上涨），非采集错误。",
+  "manifest_version": 2,
+  "request_log": "clinicaltrials_by_quarter.csv.requests.tsv",
+  "request_count": 80,
+  "example_request_url": "https://clinicaltrials.gov/api/v2/studies?query.locn=Hong+Kong&countTotal=true&pageSize=1&filter.advanced=AREA%5BStudyFirstPostDate%5DRANGE%5B2015-01-01%2C2015-03-31%5D",
+  "request_log_note": "按采集代码确定性重建；已省略 api_key（密钥不入库）与 mailto（不影响计数）。复核方法：点开 URL，核对返回的计数是否等于本表所列行的 count。"
+}

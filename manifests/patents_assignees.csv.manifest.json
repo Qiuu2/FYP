@@ -1,0 +1,10 @@
+{
+  "file": "raw/patents_assignees.csv",
+  "sha256": "91bff4b42197027f1be1f43378c9d40841be67705ff31d557cb67fd2d33c2dfe",
+  "source_url": "https://console.cloud.google.com/bigquery?p=patents-public-data&d=patents&t=publications",
+  "query_or_method": "BigQuery 查询3 取申请人名单；families 列由 scripts/fix_assignees.py 从 raw/patents_families_raw.csv 按 city×family_id 去重后本地重算（查询3 原输出为「产业×城市×家族」行次，跨产业家族重复计）",
+  "collected_utc": "2026-08-27T07:54:55+00:00",
+  "collected_by": "賈贇",
+  "notes": "待人工加 sector 列后才能算指标8的企业口径；重算后家族次合计 hk=3763 sg=8007（原 3995/8340）；2845 行申请人名单未变",
+  "manifest_version": 1
+}

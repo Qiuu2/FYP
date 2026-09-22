@@ -1,0 +1,98 @@
+{
+  "file": "raw/p3_hkex_listings.txt",
+  "sha256": "ebd76276ef272b17902d26feb3595ce7d37640f109189cfc3e5648897bf4f130",
+  "source_url": "https://www.hkexgroup.com/Media-Centre/Insight/Insight/2026/HKEX-Insight/18C-Explained?sc_lang=en",
+  "query_or_method": "18C官方表+18A 84家名单(头豹PDF主源,Skadden/HKEX Newsletter勾稽)+逐年计数",
+  "collected_utc": "2026-08-18T09:14:15+00:00",
+  "collected_by": "subagent-a0ade6ed(WebFetch转录)",
+  "notes": "R4待复核；官方累计锚点84家@2026-01吻合",
+  "manifest_version": 2,
+  "sources": [
+    {
+      "url": "https://fangdalaw.com/content/print34_9379.html",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "TABLE: listings_18c"
+      ]
+    },
+    {
+      "url": "https://finance.eastmoney.com/a/202512253602248343.html",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "SERIES: listings_18a_by_year"
+      ]
+    },
+    {
+      "url": "https://finance.sina.com.cn/roll/2026-06-17/doc-inicthnt6028877.shtml",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "TABLE: listings_18c"
+      ]
+    },
+    {
+      "url": "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-07-01/doc-inifhvws0964591.shtml",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "TABLE: listings_18c"
+      ]
+    },
+    {
+      "url": "https://finance.sina.com.cn/stock/med/2025-06-25/doc-infchqmh8020507.shtml",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "TABLE: listings_18a"
+      ]
+    },
+    {
+      "url": "https://finance.sina.com.cn/wm/2026-05-12/doc-inhxsawc8167946.shtml",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "TABLE: listings_18c"
+      ]
+    },
+    {
+      "url": "https://finance.sina.com.cn/wm/2026-05-18/doc-inhyhuhn4028602.shtml",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "TABLE: listings_18c"
+      ]
+    },
+    {
+      "url": "https://pdf.dfcfw.com/pdf/H3_AP202410091640232744_1.pdf",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "（文件头）"
+      ]
+    },
+    {
+      "url": "https://phirda.com/artilce_31436.html",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "SERIES: listings_18a_by_year"
+      ]
+    },
+    {
+      "url": "https://phirda.com/artilce_38948.html",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "TABLE: listings_18a"
+      ]
+    },
+    {
+      "url": "https://www.hkex.com.hk/Join-Our-Market/Biotech?sc_lang=en",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "（文件头）"
+      ]
+    },
+    {
+      "url": "https://www.hkexgroup.com/Media-Centre/Insight/Insight/2026/HKEX-Insight/18C-Explained?sc_lang=en",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "（文件头）"
+      ],
+      "is_manifest_primary": true
+    }
+  ],
+  "sources_note": "本包裹为多源人工采集：raw 文件内每一行都带自己的 source_url 或 SRC 声明。manifest 的 source_url 只是主源，**复核请以下方 sources 数组与 raw 文件内的逐行 URL 为准**。"
+}

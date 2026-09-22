@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>效度关前的最短路径</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+  :root{
+    --paper:#F4F6F4; --surface:#FFFFFF; --surface-2:#EAEEEC;
+    --ink:#16202B; --ink-soft:#47575F; --ink-faint:#7A8A90;
+    --rule:#D3DAD7; --rule-soft:#E3E8E5;
+    --accent:#0F5C63; --accent-dim:#DCE9E8;
+    --ok:#2E6E4E; --ok-bg:#DEEBE2;
+    --warn:#8A5A12; --warn-bg:#F2E7D2;
+    --crit:#9B3327; --crit-bg:#F3DEDA;
+    --off:#B4BEBB; --off-bg:#EDF0EE;
+    --shadow:0 1px 2px rgba(22,32,43,.06),0 4px 14px rgba(22,32,43,.05);
+  }
+  @media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+    --paper:#0F1519; --surface:#161E23; --surface-2:#1D272C;
+    --ink:#E3E9E7; --ink-soft:#A3B2B6; --ink-faint:#74868C;
+    --rule:#2A363C; --rule-soft:#212C31;
+    --accent:#64C4C4; --accent-dim:#17333A;
+    --ok:#79C79A; --ok-bg:#163024;
+    --warn:#DCAE5F; --warn-bg:#33270F;
+    --crit:#E08A7C; --crit-bg:#331C19;
+    --off:#4A5A60; --off-bg:#1A2429;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }}
+  :root[data-theme="dark"]{
+    --paper:#0F1519; --surface:#161E23; --surface-2:#1D272C;
+    --ink:#E3E9E7; --ink-soft:#A3B2B6; --ink-faint:#74868C;
+    --rule:#2A363C; --rule-soft:#212C31;
+    --accent:#64C4C4; --accent-dim:#17333A;
+    --ok:#79C79A; --ok-bg:#163024;
+    --warn:#DCAE5F; --warn-bg:#33270F;
+    --crit:#E08A7C; --crit-bg:#331C19;
+    --off:#4A5A60; --off-bg:#1A2429;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);
+    font-family:"Source Sans 3",ui-sans-serif,system-ui,"PingFang SC","Microsoft YaHei",sans-serif;
+    font-size:15px;line-height:1.62;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:940px;margin:0 auto;padding:36px 22px 70px}
+  code{font-family:"JetBrains Mono",ui-monospace,Consolas,monospace;font-size:.85em;
+    background:var(--surface-2);padding:1px 5px;border-radius:3px}
+  pre{font-family:"JetBrains Mono",ui-monospace,Consolas,monospace;font-size:12px;
+    background:var(--surface-2);padding:12px 14px;border-radius:4px;overflow-x:auto;
+    margin:10px 0;line-height:1.55;color:var(--ink-soft)}
+  pre b{color:var(--ink)}
+
+  header{border-bottom:2px solid var(--ink);padding-bottom:16px;margin-bottom:26px}
+  .eyebrow{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);margin:0 0 9px}
+  h1{font-family:Newsreader,Georgia,"Songti SC",serif;font-size:clamp(27px,4.2vw,38px);
+    line-height:1.14;font-weight:600;margin:0 0 11px;text-wrap:balance;max-width:20ch}
+  .lead{color:var(--ink-soft);margin:0 0 9px;max-width:64ch;font-size:16px}
+  .stamp{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--ink-faint);margin:0}
+
+  h2{font-family:Newsreader,Georgia,"Songti SC",serif;font-size:22px;font-weight:600;margin:40px 0 4px}
+  .h2sub{color:var(--ink-faint);font-size:13.5px;margin:0 0 16px;max-width:68ch}
+
+  /* 频率拆解表 */
+  .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--rule);
+    border-radius:5px;box-shadow:var(--shadow);background:var(--surface)}
+  table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:600px}
+  th{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.06em;
+    text-transform:uppercase;color:var(--ink-faint);text-align:left;padding:10px 13px;
+    border-bottom:1px solid var(--rule);font-weight:500;white-space:nowrap}
+  td{padding:10px 13px;border-bottom:1px solid var(--rule-soft);vertical-align:top}
+  tbody tr:last-child td{border-bottom:none}
+  td.dim{font-family:Newsreader,Georgia,serif;font-size:16px;font-weight:600;white-space:nowrap}
+  tr.dead td{background:var(--off-bg)}
+  tr.dead td.dim{color:var(--off)}
+  tr.gap td.dim{color:var(--crit)}
+  .st{font-family:"JetBrains Mono",monospace;font-size:10px;padding:2px 8px;border-radius:10px;
+    white-space:nowrap;font-weight:700}
+  .s-ok{background:var(--ok-bg);color:var(--ok)}
+  .s-gap{background:var(--crit-bg);color:var(--crit)}
+  .s-part{background:var(--warn-bg);color:var(--warn)}
+  .s-off{background:var(--off-bg);color:var(--off)}
+
+  .call{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--crit);
+    border-radius:0 5px 5px 0;padding:16px 19px;margin:18px 0 0;box-shadow:var(--shadow)}
+  .call.warn{border-left-color:var(--warn)} .call.ok{border-left-color:var(--ok)}
+  .call.accent{border-left-color:var(--accent)}
+  .call h3{font-family:Newsreader,Georgia,serif;font-size:18px;margin:0 0 7px;font-weight:600}
+  .call p{margin:0;color:var(--ink-soft);font-size:14.5px}
+  .call p+p{margin-top:8px}
+
+  /* 三步 */
+  .steps{display:flex;flex-direction:column;gap:14px;margin-top:16px}
+  .step{background:var(--surface);border:1px solid var(--rule);border-radius:5px;
+    box-shadow:var(--shadow);overflow:hidden}
+  .step-top{display:flex;align-items:baseline;gap:12px;padding:15px 19px 0;flex-wrap:wrap}
+  .step-top .no{font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:700;
+    background:var(--accent-dim);color:var(--accent);padding:3px 9px;border-radius:11px}
+  .step-top h3{font-family:Newsreader,Georgia,serif;font-size:19px;margin:0;font-weight:600}
+  .step-top .cost{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--ink-faint);
+    margin-left:auto}
+  .step-body{padding:9px 19px 17px}
+  .step-body p{margin:0 0 9px;font-size:14.5px;color:var(--ink-soft)}
+  .step-body p:last-child{margin-bottom:0}
+  .step-body b{color:var(--ink)}
+  .why{border-left:2px solid var(--rule);padding-left:11px;font-size:13.5px;color:var(--ink-faint)}
+
+  .no-list{background:var(--surface);border:1px solid var(--rule);border-radius:5px;
+    padding:17px 20px;box-shadow:var(--shadow);margin-top:16px}
+  .no-list h3{font-family:Newsreader,Georgia,serif;font-size:18px;margin:0 0 10px;font-weight:600}
+  .no-list ul{margin:0;padding-left:18px}
+  .no-list li{margin-bottom:8px;font-size:14.5px;color:var(--ink-soft)}
+  .no-list li:last-child{margin-bottom:0}
+  .no-list li b{color:var(--ink)}
+
+  footer{margin-top:42px;padding-top:15px;border-top:1px solid var(--rule);
+    font-size:12.5px;color:var(--ink-faint)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">GECC4130 FYP · Phase 2 · 采集计划</p>
+  <h1>拦路虎只有一个：TAI 规模维是空的</h1>
+  <p class="lead">不是「12 个指标差 9 个」。按提案自己的频率规则拆开算，<strong>其中 6 个根本不阻塞输出</strong>。真正卡住效度关的只有一处，而它比我此前判断的<strong>便宜一个数量级</strong>。</p>
+  <p class="stamp">2026-09-02 · 依据 §4.2 指数合成 · §4.5 步骤①③ · 附录 A 频率列</p>
+</header>
+
+<h2>为什么大部分指标不阻塞</h2>
+<p class="h2sub">§4.2 写死了：<strong>「年度指标只进入年度剖面、绝不内插为季度」</strong>。所以季度指数只能由季度指标合成。把 12 个指标按频率拆进七个维度：</p>
+
+<div class="tw">
+<table>
+  <thead><tr><th>指数·维度</th><th>该维度的季度指标</th><th>现状</th><th>说明</th></tr></thead>
+  <tbody>
+    <tr class="gap">
+      <td class="dim">TAI 规模</td>
+      <td>指标 1 研究者存量<br>指标 2 活跃开发者</td>
+      <td><span class="st s-gap">两个都空</span></td>
+      <td><b>这就是拦路虎。</b>TAI 的定义是「从供给端测量人」，规模维＝有多少人</td>
+    </tr>
+    <tr>
+      <td class="dim">TAI 质量</td>
+      <td>大学专利<br><span style="color:var(--ink-faint)">（指标 4、5 是年度）</span></td>
+      <td><span class="st s-ok">6/6 单元</span></td>
+      <td>本轮刚出，36 期。此前一直被当成专利工作的副产品，没计入 TAI</td>
+    </tr>
+    <tr class="dead">
+      <td class="dim">TAI 流动</td>
+      <td>——</td>
+      <td><span class="st s-off">按定义无</span></td>
+      <td>指标 6 附录 A 里就是年度，三通道设计也是年度剖面</td>
+    </tr>
+    <tr>
+      <td class="dim">TAI 网络</td>
+      <td>指标 7 国际合著</td>
+      <td><span class="st s-part">4/6 单元</span></td>
+      <td>缺 fintech 两个单元 —— 根因已定位，见下</td>
+    </tr>
+    <tr>
+      <td class="dim">IDI 创新</td>
+      <td>指标 8 专利族<br>指标 9 牌照／临床试验</td>
+      <td><span class="st s-ok">齐</span></td>
+      <td>本轮收口。专利 36 期、牌照与试验 40 期</td>
+    </tr>
+    <tr>
+      <td class="dim">IDI 商业</td>
+      <td>指标 11 上市数</td>
+      <td><span class="st s-part">要本地切</span></td>
+      <td>原始件 <code>p3_hkex_listings.txt</code> 带日期（<code>13/6/2024</code>），不用重采</td>
+    </tr>
+    <tr class="dead">
+      <td class="dim">IDI 资本</td>
+      <td>——</td>
+      <td><span class="st s-off">按定义无</span></td>
+      <td>指标 12 附录 A 标注「年度（默认）」</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="call">
+  <h3>没有规模维，效度关跑不了</h3>
+  <p>步骤①效度关一要求重现「金融科技双高、生物医药高研究低商业、<strong>AI 人才陡升在前</strong>」。最后那句检验的正是<strong>规模维</strong>——没有它，这一关无从查起。</p>
+  <p>而提案写死了：<strong>「指数不过效度关，后续分析不展开」</strong>。所以规模维是整条链路的第一个死结，不是十二分之二。</p>
+</div>
+
+<h2>三件事，做完就能跑步骤①</h2>
+<p class="h2sub">按「不做就出不了东西」排序。三件加起来大约一天。</p>
+
+<div class="steps">
+
+<div class="step">
+  <div class="step-top"><span class="no">01</span><h3>指标 1 · 研究者存量</h3><span class="cost">≈ 930 次调用 · 半天</span></div>
+  <div class="step-body">
+    <p>口径（附录 A）：<b>近三年在港机构署名发文的唯一作者数，滚动窗口</b>；机构含八大＋公营研发，新加坡侧用 NUS＋NTU。</p>
+    <p><b>我此前说它「调用量大要先估排期」，是错的。</b>实际算过：要遍历的 works 就是已采 papers 分母的同一批，<b>184 635 篇</b>，每页 200 条 →约 <b>923 次调用</b>。OpenAlex 免费额度一天十万次，半天跑完。这个误判让最关键的一件事被推迟了好几轮。</p>
+    <p class="why"><b>做法必须是「一次拉全 + 本地滚动」，不能按窗口反复请求。</b><br>
+    按 40 期各自回溯三年去请求，等于把同一批 works 重复读约 12 倍，会变成几万次调用。正确做法是把 2015–2024 的 authorships 一次性拉下来，每篇只读一次，然后在本地按（单元, 季度）建作者集合，40 个滚动窗口全部用集合并集算出来，零额外调用。</p>
+<pre>filter = primary_topic…（沿用现有白名单）
+       + authorships.institutions.country_code:hk|sg
+       + from_publication_date / to_publication_date
+<b>select = id,publication_date,authorships.author.id,authorships.institutions</b>
+cursor = *          per_page = 200</pre>
+    <p class="why"><b>真正的风险不是调用次数，是响应体积</b>——生物医药的大型合作论文 authorships 可能有几百个作者。建议先只跑 <code>ai/hk</code> 一个单元试水，量到实际耗时再放全量。</p>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-top"><span class="no">02</span><h3>指标 7 · 补 fintech 分子</h3><span class="cost">80 次调用 · 十分钟</span></div>
+  <div class="step-body">
+    <p><b>根因找到了，不是漏跑，是代码分支里就没写。</b><code>collect_all.py</code> 的 <code>mod_papers()</code> 里：</p>
+<pre>if flt:        <b># AI / biomed 走这支（学科白名单）</b>
+    …算分母 n
+    …算分子 ni（+countries_distinct_count:&gt;1）
+    rows_n.append(…)
+    rows_i.append(…)   <b>← 分子只在这里 append</b>
+else:          <b># fintech 走这支（关键词口径）</b>
+    …算分母
+    rows_n.append([ind+"_kw", …])
+                       <b>← 没有 rows_i.append，分子整个缺失</b></pre>
+    <p>所以分母 240 行（6 单元）、分子 160 行（4 单元）。修法是在 <code>else</code> 分支里补一次带 <code>countries_distinct_count:&gt;1</code> 的调用，增量 <b>2 城市 × 40 季 = 80 次</b>。</p>
+    <p class="why"><b>为什么必须做：</b>效度关一要检验「金融科技双高」，需要 fintech 的 TAI。网络维是 TAI 目前仅有的成熟维度，缺这两个单元，fintech 那一格就查不了。</p>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-top"><span class="no">03</span><h3>指标 11 · 切成季度</h3><span class="cost">本地 · 半小时</span></div>
+  <div class="step-body">
+    <p><code>clean/listings_18a_by_year.csv</code> 是年度的，但原始件 <code>raw/p3_hkex_listings.txt</code> 里每条都带日期（<code>XtalPi Holdings,13/6/2024,…</code>）。<b>零采集成本，纯本地加工。</b></p>
+    <p class="why">口径提醒：18A 是生物科技、18C 是特专科技，都只有香港。步骤②已声明「上市公司口径因新加坡科技龙头多在美股上市而不对称，采用合并口径或降为定性参照」——所以这个指标本来就是单边的，不用为新加坡侧发愁。</p>
+  </div>
+</div>
+
+</div>
+
+<h2>明确不做的</h2>
+<p class="h2sub">这些该做，但排在效度关之后。现在做就是无用功——效度关不过，步骤②③根本不展开。</p>
+
+<div class="no-list">
+  <ul>
+    <li><b>指标 3、4、5、6、10、12</b> —— 六个全是年度指标，按 §4.2 只进年度剖面（步骤②），<b>不阻塞步骤①③</b>。这六个正好占了「差 9 个」里的三分之二。</li>
+    <li><b>指标 2 GitHub 活跃开发者</b> —— 我上一轮说它「性价比最高、今天就能定」，<b>收回</b>。它和指标 1 同属规模维，有一个维度就成立；而指标 1 的口径、白名单、数据源全部现成，指标 2 还要先解决怎么枚举驻港账户（Search API 有 1000 条上限、location 是自填自由文本，<code>HK</code>／<code>香港</code>／<code>Hong Kong SAR</code> 都要处理）。<b>留作规模维的第二个指标，不是现在。</b></li>
+    <li><b>继续精修专利</b> —— 指标 8 已收口，三条序列都在。CPC 是否收紧为 inventive-only 抽样证据不足，维持现状留痕即可。</li>
+  </ul>
+</div>
+
+<h2>一个必须先定的口径</h2>
+
+<div class="call accent">
+  <h3>季度指数由哪几个维度合成？</h3>
+  <p>上面那张表推出来的结论是：<b>TAI 季度 = 规模 ＋ 质量 ＋ 网络</b>（流动维排除）、<b>IDI 季度 = 创新 ＋ 商业</b>（资本维排除）。</p>
+  <p>这是从「年度指标只进入年度剖面」推导的，<b>但提案没有明写「维度可以因频率缺席」</b>。§4.2 只说「维度内等权、维度间等权」，没处理频率不齐的情况。</p>
+  <p><b>不确认这条，「还差多少数据」就没有答案</b>——因为「够」的标准没定义。组会五分钟能定，而它决定后面所有采集的取舍。</p>
+</div>
+
+<div class="call warn">
+  <h3>顺带：还有两个组会议题</h3>
+  <p><b>阿里巴巴口径</b>——2019 年香港金融科技 390 件里 366 件是阿里一家。剔与不剔直接决定效度关一的「金融科技双高」能不能重现。这个不定，效度关就算能跑也不知道该怎么判。</p>
+  <p><b>指标 3 份额口径</b>——§3.2 说论文、附录 A 说研究者。选论文＝零返工（已采的就是），选研究者要重采。<span style="color:var(--ink-faint)">（这条属年度指标，不阻塞步骤①，但顺手定了省事。）</span></p>
+</div>
+
+<footer>
+  GECC4130 Senior Seminar · 香港新兴产业人才基础画像：TAI/IDI 双指数诊断与新加坡对比（2015–2024）<br>
+  依据：FYP_Proposal_修订版v4.1 §4.2 指数合成 · §4.5 步骤①效度检验与步骤③频率纪律 · 附录 A 指标操作化定义表<br>
+  调用量估算由 <code>raw/openalex_papers_by_quarter.csv</code>（184 635 篇）复算；指标 7 根因定位自 <code>scripts/collect_all.py</code> <code>mod_papers()</code>
+</footer>
+
+</div>
+</body>
+</html>

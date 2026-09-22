@@ -1,0 +1,9 @@
+city,assignee,families_in_window,corporate_group,exclude_level,substantive_rd_verdict,reviewer,review_date,evidence_note
+hk,ALIBABA GROUP SERVICES LTD,1052,Alibaba Group,ali_grp,,,,待人工核：该主体在香港是否有独立研发编制
+hk,BANMA ZHIXING NETWORK HONGKONG CO LTD,8,Alibaba Group,ali_grp,,,,阿里与上汽合资 斑马智行 的香港注册主体；待人工核
+hk,CAINIAO SMART LOGISTICS NETWORK HONG KONG LTD,8,Alibaba Group,ali_grp,,,,阿里菜鸟的香港注册主体；待人工核
+sg,ALIBABA INNOVATION PRIVATE LTD,13,Alibaba Group,ali_grp,,,,两城同剔要求：与 hk 同集团同时剔除
+sg,ALIBABA SINGAPORE HOLDING PRIVATE LTD,13,Alibaba Group,ali_grp,,,,两城同剔要求：与 hk 同集团同时剔除
+sg,ALIPAY LABS SINGAPORE PTE LTD,71,Ant Group,ant_grp,,,,蚂蚁集团（与阿里为不同法人集团）；名称含 Labs 提示可能有实体研发，待人工核
+sg,ANTCHAIN TECH PTE LTD,12,Ant Group,ant_grp,,,,蚂蚁链新加坡主体；待人工核
+sg,ADVANCED NOVA TECH SINGAPORE HOLDING PTE LTD,9,Ant Group,ant_grp,,,,蚂蚁集团海外持股主体；待人工核

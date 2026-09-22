@@ -1,0 +1,14 @@
+{
+  "file": "raw/openalex_institutions_counts.csv",
+  "sha256": "c3bf9dd710c3e1562c1ad76ec95ceb523cc790472ebea168a81f40d4175e70d3",
+  "source_url": "https://api.openalex.org/institutions/ror:<各机构ROR，逐条见 request_log>",
+  "query_or_method": "实体端点 counts_by_year（免key不限量）",
+  "collected_utc": "2026-08-26T08:17:15+00:00",
+  "collected_by": "賈贇",
+  "notes": "｜【事后更正 2026-08-26】原 collected_by 为占位符 'UNSET——请 export COLLECTOR_NAME'（运行时未设置 COLLECTOR_NAME），经确认实际执行人为賈贇，据实更正；file 字段的 Windows 反斜杠一并归一化为 '/'。数据文件本身未作任何改动，SHA256 与原记录一致。",
+  "manifest_version": 1,
+  "request_log": "openalex_institutions_counts.csv.requests.tsv",
+  "request_count": 11,
+  "example_request_url": "https://api.openalex.org/institutions/ror:02zhqgq86",
+  "request_log_note": "按采集代码确定性重建；已省略 api_key（密钥不入库）与 mailto（不影响计数）。复核方法：点开 URL，核对返回的计数是否等于本表所列行的 count。"
+}

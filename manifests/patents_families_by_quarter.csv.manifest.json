@@ -1,0 +1,10 @@
+{
+  "file": "raw/patents_families_by_quarter.csv",
+  "sha256": "0b3cb4bd6a727b5875bee6f6d606b73a0a18fc7ba634e71ed7eacdde710530ca",
+  "source_url": "https://console.cloud.google.com/bigquery?p=patents-public-data&d=patents&t=publications",
+  "query_or_method": "patents-public-data.patents.publications；申请人国别HK/SG × CPC白名单(附录B v1.2) ×  申请日2015-01-01..2023-12-31；按family_id去重、按申请日季度分组；SQL见sql/patents_bigquery.sql查询1",
+  "collected_utc": "2026-08-27T07:52:12+00:00",
+  "collected_by": "賈贇",
+  "notes": "附录A指标8·IDI创新·季度；216 行 = 3产业×2城市×36季度（补零 2 格）；截至2023Q4(18个月公开滞后)。⚠️ 香港序列 2015-2019 有大比例来自 ALIBABA GROUP SERVICES LTD 单一申请人，2019→2020 断点系企业申请主体重组，非产业变化，口径待组会拍板",
+  "manifest_version": 1
+}

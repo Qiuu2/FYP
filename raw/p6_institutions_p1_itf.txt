@@ -1,0 +1,28 @@
+采集包裹 P6｜机构补全＋P1｜ITF（subagent a2b1142762e7fb615 / ab473a42b262bf38b 转录，2026-08-18）R4 待复核。
+
+=== P6 TABLE: ror_resolution ===（affiliation 匹配模式，全部 chosen=true, score=1.0）
+Lingnan University → ror 0563pg902（OpenAlex I165488957, HK）https://api.ror.org/organizations?affiliation=Lingnan%20University%20(Hong%20Kong)
+ASTRI → ror 03xmkea05（OpenAlex I146617529；⚠OpenAlex country_code=CN 但 geo=Shatin/Hong Kong，建议按 ROR 的 HK 口径＋注记）https://api.ror.org/organizations?affiliation=Hong%20Kong%20Applied%20Science%20and%20Technology%20Research%20Institute
+HKBU 复核一致 0145fw131｜EdUHK 复核一致 000t0f062
+误配防护验证：Lingnan 查询第2名即港大(chosen=false, 0.89)——chosen 机制有效。
+
+=== P6 SERIES: institution_counts ===（OpenAlex counts_by_year works_count，两次独立请求一致；URL 形如 https://api.openalex.org/institutions/ror:<id>?mailto=taricqiu@gmail.com）
+Lingnan(0563pg902): 2015 195,2016 171,2017 151,2018 174,2019 213,2020 218,2021 225,2022 204,2023 393,2024 558,2025 869
+ASTRI(03xmkea05): 2015 34,2016 41,2017 35,2018 46,2019 48,2020 33,2021 31,2022 33,2023 33,2024 46,2025 98
+HKBU(0145fw131): 2015 1258,2016 1416,2017 1385,2018 1474,2019 1599,2020 1992,2021 2486,2022 2928,2023 2704,2024 2954,2025 3625
+EdUHK(000t0f062): 2015 639,2016 826,2017 834,2018 838,2019 967,2020 1059,2021 1259,2022 1425,2023 1582,2024 1762,2025 2301
+
+=== P6 LIST: innohk_labs ===（官方 ITC PDF：https://www.itc.gov.hk/en/doc/Research_Laboratories_Admitted_to_InnoHK_Research_Clusters(Eng).pdf）
+Health@InnoHK 14个：Hong Kong Center for Neurodegenerative Diseases；Laboratory for Synthetic Chemistry and Chemical Biology；Centre for Novostics；Microbiota I-Center；Advanced Biomedical Instrumentation Centre；Centre for Immunology & Infection；Centre for Virology, Vaccinology and Therapeutics；Centre for Eye and Vision Research；HK Centre for CerebroCardiovascular Health Engineering；Centre for Chinese Herbal Medicine Drug Development；Centre for Regenerative Medicine and Health (CAS HKISI)；Centre for Oncology and Immunology；Centre for Translational Stem Cell Biology；Center for Neuromusculoskeletal Restorative Medicine
+AIR@InnoHK 11个：HK Centre for Logistics Robotics；Multi-Scale Medical Robotics Center；Centre for Perceptual and Interactive Intelligence；Laboratory for Artificial Intelligence in Design；HK Center for Construction Robotics；Laboratory for AI-Powered Financial Technologies；HK Quantum AI Lab；AI Chip Center for Emerging Smart Systems；Centre for AI and Robotics (CAS HKISI)；HK Generative AI Research and Development Center；HK Space Robotics and Energy Centre
+⚠ITC 文字称累计30个（另 SEAM@InnoHK 已批8项），现行PDF列25个，差额疑为已结束实验室，待逐一佐证。
+=== P6 TAXONOMY ===：subfields/1702 三次尝试均429（含sleep 60s），未取得——保持 pending，学生带key首跑确认。
+
+=== P1 SERIES: itf_approved_by_year ===
+2025：核准项目 5 281 项、资助 $5,176.3M —— 三页一致：https://www.itf.gov.hk/en/itf-statistics/index-4.html ；/tc/同页；/en/itf-statistics/index.html
+累计（as at 30/4/2026）：83 291 项、$58,305.9M —— https://www.itf.gov.hk/en/itf-statistics/index-1.html
+2018–2024：CSV 在服务器（HTTP 200）但本沙箱不可解码 → EXTRACT_LOCALLY：
+https://www.itf.gov.hk/datagovhk/annualstat_2018a_e.csv （2019a…2024a 同路径；annuallist_2019…2025_e.csv 同理）
+2015–2017：官方在线渠道 404/未见 → 向 ITF 秘书处 enquiry@itf.gov.hk 索取或查 LegCo 文件（FCR(2019-20)40 等，见对话记录）。
+清单字段结构（官方数据字典 http://www.itf.gov.hk/datagovhk/metadata/annual_list_dataspec_en.pdf）：No/Programme/Reference No./Project Title/Lead Applicant/Funds Approved($M)/Revised Funds Approved($M)/Remarks
+⚠转录质检：2025 分计划行金额求和与合计不吻合（疑WebFetch转录漏行）→分计划行未报告，仅采合计行（已三页互证）。

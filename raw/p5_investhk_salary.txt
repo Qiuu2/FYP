@@ -1,0 +1,28 @@
+采集包裹 P5｜InvestHK 初创调查＋薪酬指南定位（subagent a034abbaae4e42f6d 转录，2026-08-18）R4 待复核。
+
+=== SERIES: investhk_startups_by_year ===
+year,total_startups,total_staff,fintech_n,bio_n,health_n,ai_n,source_url
+2014,1065,2381,,,,,https://www.legco.gov.hk/yr18-19/english/panels/ci/papers/ci20190521cb1-1046-5-e.pdf
+2015,1558,3721,86,,,,https://www.info.gov.hk/gia/general/201611/01/P2016110100429.htm
+2016,1926,5229,138,,,,https://www.info.gov.hk/gia/general/201611/01/P2016110100429.htm
+2017,2229,6320,,,,,https://www.info.gov.hk/gia/general/201812/12/P2018121200876.htm
+2018,2625,9548,,,,,https://www.info.gov.hk/gia/general/201812/12/P2018121200876.htm
+2019,3184,12478,,,,,https://www.info.gov.hk/gia/general/201910/16/P2019101600308.htm
+2020,3360,10688,,,,,https://www1.investhk.gov.hk/page/datagovhk/startupsurvey.csv
+2021,3755,13804,472*,,,,https://www.info.gov.hk/gia/general/202111/01/P2021102700695.htm （*fintech数出自 fintechnews.hk/17256/，二手转引官方调查）
+2022,3985,14932,,,,,https://www.investhk.gov.hk/media/4fao1a04/2023-startup-survey.pdf
+2023,4257,16453,601,189,178,,https://www.investhk.gov.hk/media/e0whajcs/2023-startup-survey.pdf
+2024,4694,17651,619,235,275,,https://www.investhk.gov.hk/media/q0llbojy/2024-startup-survey_en.pdf
+2025,5221,19753,591,326,313,186,https://www.investhk.gov.hk/media/twyf0d3r/2025_startup_survey.pdf ；https://www.info.gov.hk/gia/general/202601/26/P2026012600135.htm
+
+⚠口径警示（逐字）：2025 调查新增 "Core/Application AI" 类并致业者重新归类，"direct comparison of the sector distribution in 2025 vis-a-vis previous survey rounds is not recommended."（2025_startup_survey.pdf）
+⚠覆盖口径：调查仅覆盖主要共享空间/孵化器/加速器内的初创（LegCo ci20190521cb1-1046-5-e.pdf 逐字），运营者数逐年变化（2016:38→2023:65→2024:56→2025:55）。
+⚠2018/2019 仅公布行业占比（fintech 16%/14.3%），按铁律未换算家数。
+机读源：https://data.gov.hk/en-data/dataset/hk-investhk-opendata-investhk-statistics-startup-survey （CSV 含2020-2024）
+EXTRACT_LOCALLY：LegCo ISSH07/2025 全系列图 https://app7.legco.gov.hk/rpdb/en/uploads/2025/ISSH/ISSH07_2025_20250403_en.pdf
+
+=== TABLE: salary_guide_inventory ===（已核验 official 的年份）
+Hays: 2020 hays.com.hk/press-release/content/hong-kong-reports-highest-salary-satisfaction-in-asia-for-third-ye-1；2021 …/asia-salary-guide；2022 …/nearly-half-of-employers-in-hong-kong-sar-plan-to-hire-more-in-2022；2023 …/hays-asia-salary-guide-2023-hong-kong-companies-on-the-hunt-for-esg-and-digital-talents-amid-talent-war；2024 hays-china.cn/en/press-release/content/2024-hasg-pr-1（全册PDF EXTRACT_LOCALLY: image.email.hays.com/lib/fe4315707564057c751c71/m/1/5dd3e86f-30a4-41e1-a69e-09493664e109.pdf）；2025 hays.com.hk/press-release/content/hays-reveals-the-top-ten-in-demand-jobs-for-hong-kong（2016–2019 官方渠道 NOT_FOUND）
+Robert Walters: 2017 robertwalters.us/content/dam/robert-walters/global/files/salary-survey/salary-survey-2017.pdf；2018 robertwalters.com/…/salary-survey-2018-southeast-asia-greater-china.pdf；2019 …/salary-survey-2019-greater-china-south-east-asia.pdf（HK章节自p.64）；2020 robertwalters.co.th/insights/news/blog/salary-survey-2020-media-coverage.html；2021 …/salary-survey-2021.html（起改纯数字版）；2023 robertwalters.com.hk/insights/hiring-advice/blog/top-five-hiring-trends-hk-2023.html；2024 …/e-guide/hong-kong-hedge-fund-salary-survey-2024.html；2025 robertwalters.com.hk/our-services/salary-survey.html（滚动页）（2016/2022 NOT_FOUND）
+Morgan McKinley: 2019 morganmckinley.com/hk/article/2019-risk-salary-guide-hongkong；2023 prnewswire.co.uk/news-releases/…-301747400.html；2024 prnewswire.com/apac/news-releases/…-301972786.html（其余年份 NOT_FOUND——未达5年合格线，如实报告）
+Wayback 通道在本沙箱被拦截，未核验存档链接。

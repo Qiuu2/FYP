@@ -1,0 +1,37 @@
+# ── 密钥：绝对不能进库 ──────────────────────────
+.keys.env
+.keys.env.local
+*.env
+!.keys.env.example
+*.pem
+*.key
+
+# ── 大文件 / 个人层面底稿 ────────────────────────
+# 研究者个人层面数据，与提案 §7「不以可识别个人的形式发布」的承诺冲突，
+# 且体积过大（77MB / 42MB）。复现方法见 docs/入库流程.md。
+raw/openalex_author_inst_years.csv
+raw/openalex_author_quarters.csv
+raw/openalex_works_master.csv
+raw/_ckpt_authors/
+raw/_ckpt_master/
+raw/_archive/
+
+# ── 临时与缓存 ──────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
+_to_delete/
+logs/*.log
+.ipynb_checkpoints/
+
+# ── 本地环境 ────────────────────────────────────
+.venv/
+venv/
+.vscode/
+.idea/
+
+# ── Excel 临时锁文件 ────────────────────────────
+~$*.xlsx
+~$*.docx

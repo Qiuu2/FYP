@@ -1,0 +1,13 @@
+name_zh,name_en,ror,group,verify_status,notes
+香港大学,University of Hong Kong,02zhqgq86,hk8,confirmed_2026-08-14,OpenAlex实体端点实测(2024=18370/2025=19850)
+香港中文大学,Chinese University of Hong Kong,00t33hh48,hk8,confirmed_2026-08-14,实测(12192/16158)
+香港科技大学,Hong Kong University of Science and Technology,00q4vv597,hk8,confirmed_2026-08-14,实测(7365/8127)
+香港理工大学,Hong Kong Polytechnic University,0030zas98,hk8,confirmed_2026-08-14,实测
+香港城市大学,City University of Hong Kong,03q8dnn23,hk8,confirmed_2026-08-14,实测(9159/10477)
+香港浸会大学,Hong Kong Baptist University,0145fw131,hk8,confirmed_2026-08-18,affiliation复核chosen=true+OpenAlex实测序列
+香港教育大学,Education University of Hong Kong,000t0f062,hk8,confirmed_2026-08-18,同上
+岭南大学,Lingnan University,0563pg902,hk8,confirmed_2026-08-18,ROR affiliation模式chosen=true score=1.0；OpenAlex I165488957实测counts_by_year(两次请求一致)
+香港应用科技研究院,Hong Kong Applied Science and Technology Research Institute (ASTRI),03xmkea05,public_rd,confirmed_2026-08-18,"同左；OpenAlex I146617529——⚠OpenAlex标country_code=CN但geo=沙田香港,按ROR的HK口径并注记"
+InnoHK各实验室,InnoHK research laboratories,,public_rd,list_obtained_2026-08-18,"官方ITC PDF名录已取得25个(Health 14+AIR 11,见raw/p6)；ITC文字称累计30个,差额待佐证;逐一ROR解析待学生key"
+新加坡国立大学,National University of Singapore,01tgyzw49,sg,confirmed_2026-08-14,实测(17798/19130)
+南洋理工大学,Nanyang Technological University,02e7b5302,sg,confirmed_2026-08-14,实测

@@ -1,0 +1,145 @@
+# =====================================================================
+# 产业边界判定规则 v1.2（可执行版）—— 对应 proposal 附录 B
+# 铁律：status 不是 confirmed 的任何 ID 不得用于正式采集
+# =====================================================================
+meta:
+  version: v1.2
+  date: 2026-08-19
+  note: 本文件随代码库版本化发布；每次修改须在 git commit message 说明理由
+
+changelog:
+  - version: v1.2 (evidence补充 2026-08-20)
+    date: 2026-08-20
+    by: 组长质询「NeurIPS 真的只有 4129 条吗」→ Claude 二次复核
+    changes:
+      - NeurIPS 主记录数字实测不变（4129）；新增外部基准写入 evidence——该会 2015–2024 实际录用 18,253 篇，主记录覆盖不足两成且 2022 年起≈0
+      - 明确弃用逻辑表述：4129 不是会议规模，是数据库索引缺口的测量值；规则不变，仅证据增强
+  - version: v1.2
+    date: 2026-08-19
+    by: 组员ID确认表(_candidates_openalex.csv 2026-08-19) + Claude 审计
+    changes:
+      - 期刊侧 24 项（核心18＋敏感性5＋综合复用1）与分类学 3 项的 OpenAlex ID 经人工确认落位（确认表留档 config/）
+      - 顶会路线整体弃用：实测 OpenAlex 会议索引碎片化（NeurIPS 主记录仅 4,129 条、IJCAI 主记录 0 条、ECCV 31 条、多数会议仅有逐年卷），无法支撑 2015–2024 连续序列；16 个会议全部移入 venues_excluded 留档
+      - AI 学术质量维改为：前10%高引占比（主）＋期刊侧份额（TPAMI/JMLR，已确认ID）
+      - BMJ 存同名双记录，选 works_count 主记录（S4393911389），标注待 ISSN 复核（0959-8138/1756-1833）
+  - version: v1.1
+    date: 2026-08-19
+    by: 组员期刊增补 + Claude 审计重构
+    changes: [质量维主口径切换为前10%高引, 期刊按创刊年分层, AI补机器人/语音/期刊, CPC三产业增补, 金融科技关键词扩表]
+
+quality_dimension_policy:
+  primary: 领域-年份归一化的前10%高引论文占比（OpenAlex citation_normalized_percentile，清单无关）
+  auxiliary: 顶刊份额（期刊索引可靠；清单见下）；AI 期刊侧＝TPAMI/JMLR
+  conferences: 弃用（v1.2 实测证据见 changelog 与 venues_excluded）——论文 4.6 与附录 B 引用此决定
+  time_window_rule: 时序指标只收 2015-01-01 前已创刊的来源；窗口内创刊者仅进敏感性附表
+
+industries:
+  ai:
+    openalex:
+      subfields:
+        - {id: subfields/1702, name_expected: Artificial Intelligence, status: confirmed_2026-08-19, evidence: match=TRUE works=9248301 确认表留档}
+      extra_topic_keywords: [machine learning, deep learning, computer vision, natural language processing, reinforcement learning, large language model]
+      journals:   # AI 学术质量维的期刊侧（会议弃用后的替代）
+        - {name: TPAMI, id: "https://openalex.org/S199944782", founding_year_expected: 1979, status: confirmed_2026-08-19, evidence: works=12430}
+        - {name: JMLR,  id: "https://openalex.org/S118988714", founding_year_expected: 2000, status: confirmed_2026-08-19, evidence: works=1413 覆盖偏低注明}
+      venues_excluded_v1_2:   # 顶会路线弃用——统一理由＋逐项实测证据（2026-08-19 确认表；2026-08-20 组长质询后二次复核）
+        reason: >-
+          OpenAlex 会议索引碎片化：主记录缺失或严重不全，论文散落逐年卷（S4363xxx 类）与 arXiv；
+          无法支撑 2015–2024 连续时序。外部基准复核（2026-08-20）：NeurIPS 实际录用 2015–2024 合计 18,253 篇
+          （openaccept.org 汇总的官方数据），OpenAlex 主记录同期覆盖不足两成、逐年覆盖率漂移（2015 约 37%、2020 约 39%）
+          且 2022 年起≈0——若采用将把索引断崖伪造成产出崩塌。弃用依据是数据库索引缺口，不是会议本身不重要。
+        items:
+          - {name: NeurIPS, evidence: "主记录 S4306420609 仅 4129 条；实况该会 2015–2024 录用 18,253 篇（2015:403→2024:4043），主记录 2015:150/2020:732/2021:653、2022 后≈0（entity 端点二次实测 2026-08-20）"}
+          - {name: ICML, evidence: 主记录仅 1865 条}
+          - {name: ICLR, evidence: 检索无主记录（仅撞名法学期刊）}
+          - {name: CVPR, evidence: 仅逐年卷（如 2022 卷 2082 条）}
+          - {name: ICCV, evidence: 仅逐年卷}
+          - {name: ECCV, evidence: 主记录仅 31 条（论文集并入 LNCS）}
+          - {name: ACL, evidence: 仅 Findings 单年卷等碎片}
+          - {name: EMNLP, evidence: 仅逐年卷}
+          - {name: AAAI, evidence: 主记录 25107 条相对完整，但单一会议保留破坏口径一致性，随整体弃用}
+          - {name: IJCAI, evidence: 主记录 works=0}
+          - {name: ICRA, evidence: 仅逐年卷}
+          - {name: IROS, evidence: 仅逐年卷}
+          - {name: ICASSP, evidence: 系列记录 3951 条（该会年发约2千篇，严重不全）}
+          - {name: INTERSPEECH, evidence: 仅逐年卷}
+          - {name: CoRL, evidence: 2017年创刊，违反 time_window_rule}
+          - {name: ECCV-LNCS路线, evidence: 需卷号白名单，工程成本高且脆弱，一并弃用}
+    cpc:
+      include:
+        - {code: G06N, desc: 基于特定计算模型的计算装置, status: confirmed_definition}
+        - {code: G06V, desc: 图像或视频识别理解, status: confirmed_definition}
+        - {code: G10L, desc: 语音分析合成识别, status: confirmed_definition}
+        - {code: G06F40, desc: 自然语言数据处理, status: confirmed_definition, added: v1.1}
+        - {code: B25J, desc: 机械手/机器人, status: confirmed_definition, added: v1.1}
+      excluded_v1:
+        - {code: G06T, reason: 图形处理与AI边界模糊，v1从窄}
+        - {code: G06F16, reason: 信息检索属边界情形，v1从窄}
+
+  biomed:
+    openalex:
+      fields:
+        - {id: fields/27, name_expected: Medicine, status: confirmed_2026-08-19, evidence: match=TRUE works=53615815}
+        - {id: fields/13, name_expected: "Biochemistry, Genetics and Molecular Biology", status: confirmed_2026-08-19, evidence: match=TRUE works=21029341}
+      # 入选规则：四大医学综合刊 + CNS + Nature/Cell Press 旗舰研究子刊，创刊须早于 2015-01-01
+      journals:
+        - {name: Nature, id: "https://openalex.org/S137773608", founding_year_expected: 1869, status: confirmed_2026-08-19, evidence: works=448283}
+        - {name: Science, id: "https://openalex.org/S3880285", founding_year_expected: 1880, status: confirmed_2026-08-19, evidence: works=394047}
+        - {name: Cell, id: "https://openalex.org/S110447773", founding_year_expected: 1974, status: confirmed_2026-08-19, evidence: works=26884}
+        - {name: New England Journal of Medicine, id: "https://openalex.org/S62468778", founding_year_expected: 1812, status: confirmed_2026-08-19, evidence: works=191268}
+        - {name: The Lancet, id: "https://openalex.org/S49861241", founding_year_expected: 1823, status: confirmed_2026-08-19, evidence: works=475831}
+        - {name: JAMA, id: "https://openalex.org/S172573765", founding_year_expected: 1883, status: confirmed_2026-08-19, evidence: works=354071}
+        - {name: BMJ, id: "https://openalex.org/S4393911389", founding_year_expected: 1840, status: confirmed_2026-08-19_待ISSN复核, evidence: "works=389469；同名副记录S4393917726(64029)已拒；复核ISSN 0959-8138/1756-1833"}
+        - {name: Nature Medicine, id: "https://openalex.org/S203256638", founding_year_expected: 1995, status: confirmed_2026-08-19, evidence: works=16683}
+        - {name: Nature Biotechnology, id: "https://openalex.org/S106963461", founding_year_expected: 1996, status: confirmed_2026-08-19, evidence: works=20198}
+        - {name: Nature Methods, id: "https://openalex.org/S127827428", founding_year_expected: 2004, status: confirmed_2026-08-19, evidence: works=8407}
+        - {name: Nature Genetics, id: "https://openalex.org/S137905309", founding_year_expected: 1992, status: confirmed_2026-08-19, evidence: works=11817}
+        - {name: Nature Immunology, id: "https://openalex.org/S41063453", founding_year_expected: 2000, status: confirmed_2026-08-19, evidence: works=7220}
+        - {name: Cell Stem Cell, id: "https://openalex.org/S128124174", founding_year_expected: 2007, status: confirmed_2026-08-19, evidence: works=3838}
+        - {name: Cancer Cell, id: "https://openalex.org/S25671836", founding_year_expected: 2002, status: confirmed_2026-08-19, evidence: "works=4243；Cancer Cell International 已拒"}
+        - {name: Cell Metabolism, id: "https://openalex.org/S177533077", founding_year_expected: 2005, status: confirmed_2026-08-19, evidence: works=4287}
+        - {name: "Cell Host & Microbe", id: "https://openalex.org/S207313999", founding_year_expected: 2007, status: confirmed_2026-08-19, evidence: works=3629}
+        - {name: Immunity, id: "https://openalex.org/S199671312", founding_year_expected: 1994, status: confirmed_2026-08-19, evidence: "works=6785；Infection and Immunity(34105)按名称精确性正确拒绝"}
+        - {name: Science Translational Medicine, id: "https://openalex.org/S24207032", founding_year_expected: 2009, status: confirmed_2026-08-19, evidence: works=7304}
+      journals_sensitivity:
+        - {name: Science Immunology, id: "https://openalex.org/S2764653179", founding_year_expected: 2016, status: confirmed_2026-08-19, reason: 窗口内创刊}
+        - {name: Nature Biomedical Engineering, id: "https://openalex.org/S2764624792", founding_year_expected: 2017, status: confirmed_2026-08-19, reason: 窗口内创刊}
+        - {name: Nature Metabolism, id: "https://openalex.org/S4210232714", founding_year_expected: 2019, status: confirmed_2026-08-19, reason: 窗口内创刊}
+        - {name: Nature Cancer, id: "https://openalex.org/S4210236562", founding_year_expected: 2020, status: confirmed_2026-08-19, reason: "窗口内创刊；Nature Reviews Cancer 已正确拒绝"}
+        - {name: Nature Aging, id: "https://openalex.org/S4210214063", founding_year_expected: 2021, status: confirmed_2026-08-19, reason: 窗口内创刊}
+      note: Nature/Science 为综合刊——仅当论文 primary_topic 属生医 fields 时计入生医顶刊份额
+      institution_note: 生医论文常以医院署名——country_code:hk 主查询天然覆盖；机构层画像限于清单机构，写入 4.6
+    cpc:
+      include:
+        - {code: A61, desc: 医学或兽医学卫生学, status: confirmed_definition}
+        - {code: C12, desc: 生物化学/微生物学/遗传工程, status: confirmed_definition}
+        - {code: C07K, desc: 肽类, status: confirmed_definition}
+        - {code: C07D, desc: 杂环化合物（药物化学）, status: confirmed_definition, added: v1.1}
+        - {code: G16H, desc: 医疗保健信息学, status: confirmed_definition, added: v1.1}
+
+  fintech:
+    openalex:
+      topic_keywords: [fintech, financial technology, payment system, blockchain finance, digital banking, cryptocurrency, insurtech, regtech,
+                       mobile payment, central bank digital currency, CBDC, open banking, robo-advisor, peer-to-peer lending]
+      venues: []
+    cpc:
+      include:
+        - {code: G06Q20, desc: 支付架构方案协议, status: confirmed_definition}
+        - {code: G06Q40, desc: 金融保险税务, status: confirmed_definition}
+        - {code: H04L9, desc: 密码学协议（区块链）, status: confirmed_definition, added: v1.1, note: 须与G06Q或金融关键词联用}
+
+company_mapping:
+  precedence: [官方名录行业标签, 监管牌照（持金融牌照→fintech）, 主营产品描述关键词]
+  unique_assignment: true
+  double_count_sensitivity: true
+  pending_case_log: config/company_pending_cases.csv
+
+patent_assignee_split:
+  university: TAI-质量
+  company: IDI-创新
+  public_rd: 第三类单列（InnoHK/应科院等；占比>10% 时并入敏感性分析）
+
+geo_rule: 仅计在香港有实质运营或研发的实体；「上市地功能」单列为稳健性口径
+truncation:
+  patents: 2023Q4
+  annual_indicators: 只进年度剖面，不内插为季度

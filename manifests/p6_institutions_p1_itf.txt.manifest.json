@@ -1,0 +1,56 @@
+{
+  "file": "raw/p6_institutions_p1_itf.txt",
+  "sha256": "93760535b7d478d4d5c70b1ddf758a198aac0613f1e8f9362f29cf62c4af9ff9",
+  "source_url": "https://api.ror.org/organizations?affiliation=Lingnan%20University%20(Hong%20Kong)",
+  "query_or_method": "ROR affiliation解析(岭南/ASTRI/浸会/教大)+OpenAlex counts_by_year双请求复核+InnoHK名录PDF+ITF统计页",
+  "collected_utc": "2026-08-18T09:14:16+00:00",
+  "collected_by": "subagent-a2b11427+ab473a42(WebFetch转录)",
+  "notes": "R4待复核",
+  "manifest_version": 2,
+  "sources": [
+    {
+      "url": "http://www.itf.gov.hk/datagovhk/metadata/annual_list_dataspec_en.pdf",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "P1 SERIES: itf_approved_by_year"
+      ]
+    },
+    {
+      "url": "https://api.ror.org/organizations?affiliation=Hong%20Kong%20Applied%20Science%20and%20Technology%20Research%20Institute",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "P6 TABLE: ror_resolution"
+      ]
+    },
+    {
+      "url": "https://api.ror.org/organizations?affiliation=Lingnan%20University%20(Hong%20Kong)",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "P6 TABLE: ror_resolution"
+      ],
+      "is_manifest_primary": true
+    },
+    {
+      "url": "https://www.itf.gov.hk/datagovhk/annualstat_2018a_e.csv",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "P1 SERIES: itf_approved_by_year"
+      ]
+    },
+    {
+      "url": "https://www.itf.gov.hk/en/itf-statistics/index-1.html",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "P1 SERIES: itf_approved_by_year"
+      ]
+    },
+    {
+      "url": "https://www.itf.gov.hk/en/itf-statistics/index-4.html",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "P1 SERIES: itf_approved_by_year"
+      ]
+    }
+  ],
+  "sources_note": "本包裹为多源人工采集：raw 文件内每一行都带自己的 source_url 或 SRC 声明。manifest 的 source_url 只是主源，**复核请以下方 sources 数组与 raw 文件内的逐行 URL 为准**。"
+}

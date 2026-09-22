@@ -1,0 +1,6 @@
+# 按采集代码确定性重建；已省略 api_key（密钥不入库）与 mailto（不影响计数）。复核方法：点开 URL，核对返回的计数是否等于本表所列行的 count。
+row_key	request_url	covers_rows
+ai/world	https://api.openalex.org/works?filter=primary_topic.subfield.id%3A1702%2Cpublication_year%3A%3E2014%2Cpublication_year%3A%3C2026&group_by=publication_year&per_page=200	11
+ai/apac	https://api.openalex.org/works?filter=primary_topic.subfield.id%3A1702%2Cpublication_year%3A%3E2014%2Cpublication_year%3A%3C2026%2Cauthorships.countries%3Acn%7Cjp%7Ckr%7Csg%7Ctw%7Cin%7Cau%7Cnz%7Cmy%7Cth%7Cid%7Cvn%7Cph%7Chk%7Cmo&group_by=publication_year&per_page=200	11
+biomed/world	https://api.openalex.org/works?filter=primary_topic.field.id%3A27%7C13%2Cpublication_year%3A%3E2014%2Cpublication_year%3A%3C2026&group_by=publication_year&per_page=200	11
+biomed/apac	https://api.openalex.org/works?filter=primary_topic.field.id%3A27%7C13%2Cpublication_year%3A%3E2014%2Cpublication_year%3A%3C2026%2Cauthorships.countries%3Acn%7Cjp%7Ckr%7Csg%7Ctw%7Cin%7Cau%7Cnz%7Cmy%7Cth%7Cid%7Cvn%7Cph%7Chk%7Cmo&group_by=publication_year&per_page=200	11

@@ -1,0 +1,24 @@
+# 按采集代码确定性重建；已省略 api_key（密钥不入库）与 mailto（不影响计数）。复核方法：点开 URL，核对返回的计数是否等于本表所列行的 count。
+row_key	request_url	covers_rows
+hk/2015	https://clinicaltrials.gov/api/v2/studies?query.locn=Hong+Kong&countTotal=true&pageSize=1&filter.advanced=AREA%5BStudyFirstPostDate%5DRANGE%5B2015-01-01%2C2015-12-31%5D	1
+hk/2016	https://clinicaltrials.gov/api/v2/studies?query.locn=Hong+Kong&countTotal=true&pageSize=1&filter.advanced=AREA%5BStudyFirstPostDate%5DRANGE%5B2016-01-01%2C2016-12-31%5D	1
+hk/2017	https://clinicaltrials.gov/api/v2/studies?query.locn=Hong+Kong&countTotal=true&pageSize=1&filter.advanced=AREA%5BStudyFirstPostDate%5DRANGE%5B2017-01-01%2C2017-12-31%5D	1
+hk/2018	https://clinicaltrials.gov/api/v2/studies?query.locn=Hong+Kong&countTotal=true&pageSize=1&filter.advanced=AREA%5BStudyFirstPostDate%5DRANGE%5B2018-01-01%2C2018-12-31%5D	1
+hk/2019	https://clinicaltrials.gov/api/v2/studies?query.locn=Hong+Kong&countTotal=true&pageSize=1&filter.advanced=AREA%5BStudyFirstPostDate%5DRANGE%5B2019-01-01%2C2019-12-31%5D	1
+hk/2020	https://clinicaltrials.gov/api/v2/studies?query.locn=Hong+Kong&countTotal=true&pageSize=1&filter.advanced=AREA%5BStudyFirstPostDate%5DRANGE%5B2020-01-01%2C2020-12-31%5D	1
+hk/2021	https://clinicaltrials.gov/api/v2/studies?query.locn=Hong+Kong&countTotal=true&pageSize=1&filter.advanced=AREA%5BStudyFirstPostDate%5DRANGE%5B2021-01-01%2C2021-12-31%5D	1
+hk/2022	https://clinicaltrials.gov/api/v2/studies?query.locn=Hong+Kong&countTotal=true&pageSize=1&filter.advanced=AREA%5BStudyFirstPostDate%5DRANGE%5B2022-01-01%2C2022-12-31%5D	1
+hk/2023	https://clinicaltrials.gov/api/v2/studies?query.locn=Hong+Kong&countTotal=true&pageSize=1&filter.advanced=AREA%5BStudyFirstPostDate%5DRANGE%5B2023-01-01%2C2023-12-31%5D	1
+hk/2024	https://clinicaltrials.gov/api/v2/studies?query.locn=Hong+Kong&countTotal=true&pageSize=1&filter.advanced=AREA%5BStudyFirstPostDate%5DRANGE%5B2024-01-01%2C2024-12-31%5D	1
+hk/2025	https://clinicaltrials.gov/api/v2/studies?query.locn=Hong+Kong&countTotal=true&pageSize=1&filter.advanced=AREA%5BStudyFirstPostDate%5DRANGE%5B2025-01-01%2C2025-12-31%5D	1
+sg/2015	https://clinicaltrials.gov/api/v2/studies?query.locn=Singapore&countTotal=true&pageSize=1&filter.advanced=AREA%5BStudyFirstPostDate%5DRANGE%5B2015-01-01%2C2015-12-31%5D	1
+sg/2016	https://clinicaltrials.gov/api/v2/studies?query.locn=Singapore&countTotal=true&pageSize=1&filter.advanced=AREA%5BStudyFirstPostDate%5DRANGE%5B2016-01-01%2C2016-12-31%5D	1
+sg/2017	https://clinicaltrials.gov/api/v2/studies?query.locn=Singapore&countTotal=true&pageSize=1&filter.advanced=AREA%5BStudyFirstPostDate%5DRANGE%5B2017-01-01%2C2017-12-31%5D	1
+sg/2018	https://clinicaltrials.gov/api/v2/studies?query.locn=Singapore&countTotal=true&pageSize=1&filter.advanced=AREA%5BStudyFirstPostDate%5DRANGE%5B2018-01-01%2C2018-12-31%5D	1
+sg/2019	https://clinicaltrials.gov/api/v2/studies?query.locn=Singapore&countTotal=true&pageSize=1&filter.advanced=AREA%5BStudyFirstPostDate%5DRANGE%5B2019-01-01%2C2019-12-31%5D	1
+sg/2020	https://clinicaltrials.gov/api/v2/studies?query.locn=Singapore&countTotal=true&pageSize=1&filter.advanced=AREA%5BStudyFirstPostDate%5DRANGE%5B2020-01-01%2C2020-12-31%5D	1
+sg/2021	https://clinicaltrials.gov/api/v2/studies?query.locn=Singapore&countTotal=true&pageSize=1&filter.advanced=AREA%5BStudyFirstPostDate%5DRANGE%5B2021-01-01%2C2021-12-31%5D	1
+sg/2022	https://clinicaltrials.gov/api/v2/studies?query.locn=Singapore&countTotal=true&pageSize=1&filter.advanced=AREA%5BStudyFirstPostDate%5DRANGE%5B2022-01-01%2C2022-12-31%5D	1
+sg/2023	https://clinicaltrials.gov/api/v2/studies?query.locn=Singapore&countTotal=true&pageSize=1&filter.advanced=AREA%5BStudyFirstPostDate%5DRANGE%5B2023-01-01%2C2023-12-31%5D	1
+sg/2024	https://clinicaltrials.gov/api/v2/studies?query.locn=Singapore&countTotal=true&pageSize=1&filter.advanced=AREA%5BStudyFirstPostDate%5DRANGE%5B2024-01-01%2C2024-12-31%5D	1
+sg/2025	https://clinicaltrials.gov/api/v2/studies?query.locn=Singapore&countTotal=true&pageSize=1&filter.advanced=AREA%5BStudyFirstPostDate%5DRANGE%5B2025-01-01%2C2025-12-31%5D	1

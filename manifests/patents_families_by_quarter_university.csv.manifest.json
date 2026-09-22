@@ -1,0 +1,10 @@
+{
+  "file": "raw/patents_families_by_quarter_university.csv",
+  "sha256": "c91882f4b2971e10167acf51deba96782982a13a0d08b9c4553f5d5d83552a86",
+  "source_url": "https://console.cloud.google.com/bigquery",
+  "query_or_method": "指标8·按申请人三分的 university 序列；由 scripts/patents_build.py 在 raw/patents_families_raw.csv 与 config/patents_assignee_sector.csv 上本地重算，非独立 API 采集",
+  "collected_utc": "2026-09-11T15:36:56+00:00",
+  "collected_by": "賈贇",
+  "notes": "",
+  "manifest_version": 1
+}

@@ -1,0 +1,9 @@
+spec_id,region,targeting_facet,skills_suggested,frozen_status,notes
+LI-HK-ALL,Hong Kong SAR,无（仅地区）,,pending_first_run_freeze,全体会员基准（三产业规格的共同分母参照）
+LI-HK-AI,Hong Kong SAR,技能（任一命中）,Machine Learning;Deep Learning;Computer Vision;Natural Language Processing,pending_first_run_freeze,首次执行以界面实际可选项为准；实选项截图存 evidence 后此行即冻结
+LI-HK-BIO,Hong Kong SAR,技能（任一命中）,Biotechnology;Clinical Research;Drug Discovery;Genomics,pending_first_run_freeze,同上
+LI-HK-FIN,Hong Kong SAR,技能（任一命中）,Financial Technology;Blockchain;Payments;Digital Banking,pending_first_run_freeze,同上
+LI-SG-ALL,Singapore,无（仅地区）,,pending_first_run_freeze,新加坡对称基准
+LI-SG-AI,Singapore,技能（任一命中）,Machine Learning;Deep Learning;Computer Vision;Natural Language Processing,pending_first_run_freeze,与 LI-HK-AI 用完全相同的技能选择（对称口径）
+LI-SG-BIO,Singapore,技能（任一命中）,Biotechnology;Clinical Research;Drug Discovery;Genomics,pending_first_run_freeze,同上
+LI-SG-FIN,Singapore,技能（任一命中）,Financial Technology;Blockchain;Payments;Digital Banking,pending_first_run_freeze,同上

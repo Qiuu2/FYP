@@ -1,0 +1,14 @@
+{
+  "file": "raw/openalex_author_inst_years.csv",
+  "sha256": "222a87c35cb9b7f330bdcafb98aaf0be787151edf0a1a3bbdd55ecf5fa7d25e4",
+  "source_url": "https://api.openalex.org/works",
+  "query_or_method": "OpenAlex统一底稿v2·作者机构年层；(作者,年,机构)；指标6学术通道原料",
+  "collected_utc": "2026-09-11T05:27:54+00:00",
+  "collected_by": "賈贇",
+  "notes": "",
+  "manifest_version": 1,
+  "request_log": "openalex_author_inst_years.csv.requests.tsv",
+  "request_count": 6,
+  "example_request_url": "https://api.openalex.org/works?filter=primary_topic.subfield.id%3A1702%2Cauthorships.institutions.country_code%3Ahk%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2024-12-31&select=id%2Cpublication_date%2Cauthorships%2Ccitation_normalized_percentile%2Cprimary_location&per_page=200&cursor=%2A",
+  "request_log_note": "按采集代码确定性重建；已省略 api_key（密钥不入库）与 mailto（不影响计数）。复核方法：点开 URL，核对返回的计数是否等于本表所列行的 count。"
+}

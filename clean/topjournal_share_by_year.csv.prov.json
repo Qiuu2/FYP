@@ -1,0 +1,18 @@
+{
+ "manifests": [
+  "openalex_works_master.csv.manifest.json",
+  "openalex_topjournal_denominators.csv.manifest.json"
+ ],
+ "script": "scripts/works_build.py",
+ "method": "指标5·TAI质量：本地该产业顶刊论文 ÷ 全球该产业顶刊论文（按年）；综合刊（Nature/Science）分子分母都加了同一产业学科过滤",
+ "coverage_note": "fintech 的 boundary_rules 里期刊清单为空——指标 5 只能做 ai 与 biomed，六个单元里只有四个有值",
+ "tier_note": "core=2015 前创刊；sensitivity=窗口内创刊，按 time_window_rule 只进敏感性附表",
+ "units": [
+  "ai/hk",
+  "ai/sg",
+  "biomed/hk",
+  "biomed/sg",
+  "fintech_kw/hk",
+  "fintech_kw/sg"
+ ]
+}

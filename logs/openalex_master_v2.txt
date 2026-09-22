@@ -1,0 +1,118 @@
+C:\Users\albus\AppData\Local\Python\bin\python.exe "C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP_OpenAlex统一采集包_给賈贇_2026-09-11\scripts\collect_openalex_master.py" --all 
+[11:33:08] 口径：INSTITUTION_SCOPE=country　单元数 6
+[11:33:11]   [探针] ai/hk 首页 200 篇：署名位次 1287，带机构 1228 (95%)；有 cnp 200/200；有 source 141/200
+[11:33:11]   [探针] citation_normalized_percentile 实际结构：{"value": 0.99995799, "is_in_top_1_percent": true, "is_in_top_10_percent": true}
+[11:34:39]   ai/hk  第 25 页  works 5,000  (作者,季) 22,735  (作者,年,机构) 25,398
+[11:36:05]   ai/hk  第 50 页  works 10,000  (作者,季) 40,414  (作者,年,机构) 43,768
+[11:36:41]   字段缺失率 ai/hk：citation_normalized_percentile 12.3%，primary_location.source 30.3%
+[11:36:41] ✅ ai/hk  works 11,982  (作者,季) 46,173  其中本地署名 17,938 (38.8%)  (作者,年,机构) 50,002  耗时 3.6 分
+[11:36:44]   [探针] ai/sg 首页 200 篇：署名位次 1303，带机构 1264 (97%)；有 cnp 200/200；有 source 148/200
+[11:36:44]   [探针] citation_normalized_percentile 实际结构：{"value": 0.99994749, "is_in_top_1_percent": true, "is_in_top_10_percent": true}
+[11:38:15]   ai/sg  第 25 页  works 5,000  (作者,季) 21,688  (作者,年,机构) 24,767
+[11:39:37]   ai/sg  第 50 页  works 10,000  (作者,季) 38,261  (作者,年,机构) 42,480
+[11:40:36]   字段缺失率 ai/sg：citation_normalized_percentile 12.7%，primary_location.source 31.0%
+[11:40:36] ✅ ai/sg  works 13,621  (作者,季) 48,718  其中本地署名 21,202 (43.5%)  (作者,年,机构) 52,711  耗时 3.9 分
+[11:40:41]   [探针] biomed/hk 首页 200 篇：署名位次 6326，带机构 5817 (92%)；有 cnp 200/200；有 source 200/200
+[11:40:41]   [探针] citation_normalized_percentile 实际结构：{"value": 1.0, "is_in_top_1_percent": true, "is_in_top_10_percent": true}
+[11:42:38]   biomed/hk  第 25 页  works 5,000  (作者,季) 76,318  (作者,年,机构) 124,428
+[11:44:17]   biomed/hk  第 50 页  works 10,000  (作者,季) 129,399  (作者,年,机构) 207,591
+[11:46:09]   biomed/hk  第 75 页  works 15,000  (作者,季) 177,980  (作者,年,机构) 281,796
+[11:47:47]   biomed/hk  第 100 页  works 20,000  (作者,季) 217,476  (作者,年,机构) 340,975
+[11:49:26]   biomed/hk  第 125 页  works 25,000  (作者,季) 254,965  (作者,年,机构) 396,214
+[11:51:03]   biomed/hk  第 150 页  works 30,000  (作者,季) 294,333  (作者,年,机构) 453,304
+[11:52:35]   biomed/hk  第 175 页  works 35,000  (作者,季) 330,576  (作者,年,机构) 506,081
+[11:54:24]   biomed/hk  第 200 页  works 40,000  (作者,季) 361,978  (作者,年,机构) 550,035
+[11:56:00]   biomed/hk  第 225 页  works 45,000  (作者,季) 395,925  (作者,年,机构) 598,174
+[11:57:41]   biomed/hk  第 250 页  works 50,000  (作者,季) 424,341  (作者,年,机构) 637,362
+[11:59:11]   biomed/hk  第 275 页  works 55,000  (作者,季) 451,756  (作者,年,机构) 675,480
+[12:00:42]   biomed/hk  第 300 页  works 60,000  (作者,季) 477,701  (作者,年,机构) 710,647
+[12:02:11]   biomed/hk  第 325 页  works 65,000  (作者,季) 499,637  (作者,年,机构) 739,677
+[12:03:46]   biomed/hk  第 350 页  works 70,000  (作者,季) 536,756  (作者,年,机构) 783,374
+[12:05:08]   biomed/hk  第 375 页  works 75,000  (作者,季) 557,526  (作者,年,机构) 807,835
+[12:06:38]   biomed/hk  第 400 页  works 80,000  (作者,季) 577,695  (作者,年,机构) 832,952
+[12:08:12]   biomed/hk  第 425 页  works 85,000  (作者,季) 600,535  (作者,年,机构) 893,254
+[12:08:26]   字段缺失率 biomed/hk：citation_normalized_percentile 13.5%，primary_location.source 3.9%
+[12:08:32] ✅ biomed/hk  works 85,760  (作者,季) 604,070  其中本地署名 202,193 (33.5%)  (作者,年,机构) 897,262  耗时 27.9 分
+[12:08:38]   [探针] biomed/sg 首页 200 篇：署名位次 7841，带机构 7275 (93%)；有 cnp 200/200；有 source 200/200
+[12:08:38]   [探针] citation_normalized_percentile 实际结构：{"value": 0.99996034, "is_in_top_1_percent": true, "is_in_top_10_percent": true}
+[12:10:34]   biomed/sg  第 25 页  works 5,000  (作者,季) 89,315  (作者,年,机构) 141,144
+[12:12:23]   biomed/sg  第 50 页  works 10,000  (作者,季) 152,466  (作者,年,机构) 231,940
+[12:14:06]   biomed/sg  第 75 页  works 15,000  (作者,季) 201,578  (作者,年,机构) 300,760
+[12:15:45]   biomed/sg  第 100 页  works 20,000  (作者,季) 241,902  (作者,年,机构) 355,959
+[12:17:24]   biomed/sg  第 125 页  works 25,000  (作者,季) 283,529  (作者,年,机构) 411,055
+[12:19:03]   biomed/sg  第 150 页  works 30,000  (作者,季) 324,136  (作者,年,机构) 463,997
+[12:20:37]   biomed/sg  第 175 页  works 35,000  (作者,季) 355,579  (作者,年,机构) 504,278
+[12:22:20]   biomed/sg  第 200 页  works 40,000  (作者,季) 389,204  (作者,年,机构) 547,023
+[12:23:49]   biomed/sg  第 225 页  works 45,000  (作者,季) 416,384  (作者,年,机构) 581,408
+[12:25:16]   biomed/sg  第 250 页  works 50,000  (作者,季) 441,945  (作者,年,机构) 611,649
+[12:26:44]   biomed/sg  第 275 页  works 55,000  (作者,季) 467,240  (作者,年,机构) 642,113
+[12:28:12]   biomed/sg  第 300 页  works 60,000  (作者,季) 487,574  (作者,年,机构) 665,434
+[12:29:44]   biomed/sg  第 325 页  works 65,000  (作者,季) 522,364  (作者,年,机构) 704,248
+[12:31:18]   biomed/sg  第 350 页  works 70,000  (作者,季) 554,268  (作者,年,机构) 740,345
+[12:32:45]   biomed/sg  第 375 页  works 75,000  (作者,季) 572,596  (作者,年,机构) 758,876
+[12:34:10]   biomed/sg  第 400 页  works 80,000  (作者,季) 590,742  (作者,年,机构) 779,323
+[12:35:45]   biomed/sg  第 425 页  works 85,000  (作者,季) 613,017  (作者,年,机构) 816,415
+[12:36:12]   字段缺失率 biomed/sg：citation_normalized_percentile 14.8%，primary_location.source 4.9%
+[12:36:19] ✅ biomed/sg  works 86,570  (作者,季) 619,846  其中本地署名 212,443 (34.3%)  (作者,年,机构) 823,842  耗时 27.8 分
+[12:36:23]   [探针] fintech_kw/hk 首页 200 篇：署名位次 877，带机构 834 (95%)；有 cnp 151/200；有 source 176/200
+[12:36:23]   [探针] citation_normalized_percentile 实际结构：{"value": 0.99962437, "is_in_top_1_percent": true, "is_in_top_10_percent": true}
+[12:36:45]   字段缺失率 fintech_kw/hk：citation_normalized_percentile 20.5%，primary_location.source 16.9%
+[12:36:46] ✅ fintech_kw/hk  works 1,434  (作者,季) 5,429  其中本地署名 2,335 (43.0%)  (作者,年,机构) 7,103  耗时 0.4 分
+[12:36:49]   [探针] fintech_kw/sg 首页 200 篇：署名位次 792，带机构 753 (95%)；有 cnp 154/200；有 source 170/200
+[12:36:49]   [探针] citation_normalized_percentile 实际结构：{"value": 0.99987002, "is_in_top_1_percent": true, "is_in_top_10_percent": true}
+[12:37:09]   字段缺失率 fintech_kw/sg：citation_normalized_percentile 23.4%，primary_location.source 14.6%
+[12:37:09] ✅ fintech_kw/sg  works 1,195  (作者,季) 4,816  其中本地署名 2,055 (42.7%)  (作者,年,机构) 6,390  耗时 0.4 分
+[12:37:10] ✅ raw/openalex_works_master.csv  200,562 行  13.6 MB
+[12:37:17] ✅ raw/openalex_author_quarters.csv  1,329,052 行  42.2 MB
+[12:37:23] ✅ raw/openalex_author_inst_years.csv  1,837,310 行  77.3 MB
+[12:37:23] 
+总耗时 64.3 分钟
+[12:37:23] 
+下一步：
+[12:37:23]    python scripts/collect_openalex_master.py --journals   # 顶刊分母，约 24 次调用
+[12:37:23]    python scripts/authors_build.py                        # 指标 1
+[12:37:23]    python scripts/works_build.py                          # 指标 4、5、7
+
+进程已结束，退出代码为 0
+
+C:\Users\albus\AppData\Local\Python\bin\python.exe "C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP_OpenAlex统一采集包_给賈贇_2026-09-11\scripts\authors_build.py" 
+读入 1,329,052 行；本地署名 458,166 / 全部 1,329,052
+单元 6 个：[('ai', 'hk'), ('ai', 'sg'), ('biomed', 'hk'), ('biomed', 'sg'), ('fintech_kw', 'hk'), ('fintech_kw', 'sg')]
+
+✅ clean/researchers_stock_by_quarter.csv  240 行 = 6 单元 × 40 期
+   window_full=True 的期数：29（2017Q4 起），先行检验只能用这一段
+
+各单元 window_full 段的存量区间：
+   ai          hk    1,383 –  5,633   末期  5,633   ｜全作者口径末期  17,456（膨胀 3.1×）
+   ai          sg    2,031 –  5,382   末期  5,382   ｜全作者口径末期  15,358（膨胀 2.9×）
+   biomed      hk   21,683 – 39,612   末期 39,612   ｜全作者口径末期 156,702（膨胀 4.0×）
+   biomed      sg   25,599 – 34,972   末期 34,972   ｜全作者口径末期 145,234（膨胀 4.2×）
+   fintech_kw  hk       98 –  1,158   末期  1,158   ｜全作者口径末期   2,775（膨胀 2.4×）
+   fintech_kw  sg      127 –    789   末期    789   ｜全作者口径末期   2,116（膨胀 2.7×）
+
+prov → researchers_stock_by_quarter.csv.prov.json
+
+进程已结束，退出代码为 0
+
+C:\Users\albus\AppData\Local\Python\bin\python.exe "C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP_OpenAlex统一采集包_给賈贇_2026-09-11\scripts\works_build.py" 
+读入 200,562 篇 works
+单元 6 个：[('ai', 'hk'), ('ai', 'sg'), ('biomed', 'hk'), ('biomed', 'sg'), ('fintech_kw', 'hk'), ('fintech_kw', 'sg')]
+✅ clean/intl_collab_by_quarter.csv  240 行
+✅ clean/top10pct_by_quarter.csv  240 行
+   ↳ 季度 cnp 覆盖率：最低 42.9%　中位 86.5%　最高 100.0%
+✅ clean/top10pct_by_year.csv  60 行
+   ↳ 年度 cnp 覆盖率：最低 64.7%　中位 83.7%　最高 94.1%
+✅ clean/topjournal_share_by_year.csv  80 行
+   ↳ ⚠️ 无期刊清单、指标 5 做不了的单元：['fintech_kw/hk', 'fintech_kw/sg']
+
+primary_location.source 覆盖率（缺失多为 preprint/repository，顶刊论文必带 source，故不影响指标 5 的分子）：
+   ai          hk     8,346 /  11,982  (69.7%)
+   ai          sg     9,400 /  13,621  (69.0%)
+   biomed      hk    82,380 /  85,760  (96.1%)
+   biomed      sg    82,307 /  86,570  (95.1%)
+   fintech_kw  hk     1,191 /   1,434  (83.1%)
+   fintech_kw  sg     1,021 /   1,195  (85.4%)
+
+完成。
+
+进程已结束，退出代码为 0

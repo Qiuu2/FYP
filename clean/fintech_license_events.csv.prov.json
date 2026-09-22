@@ -1,0 +1,7 @@
+{
+ "manifests": [
+  "p4_fintech_licenses.txt.manifest.json"
+ ],
+ "script": "解析自raw/p4结构块",
+ "created_utc": "2026-08-18T09:00:00+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "file": "raw/openalex_topjournal_denominators.csv",
+  "sha256": "331c5e8a169dd572ce65a4e0381ceb2ecf48f1ec113f39ed3d484a6bc83ef0c1",
+  "source_url": "https://api.openalex.org/works",
+  "query_or_method": "指标5顶刊分母；按 primary_location.source.id 逐刊 group_by=publication_year；综合刊加同产业学科过滤；fintech 无期刊清单故缺",
+  "collected_utc": "2026-09-11T05:28:35+00:00",
+  "collected_by": "賈贇",
+  "notes": "",
+  "manifest_version": 1,
+  "request_log": "openalex_topjournal_denominators.csv.requests.tsv",
+  "request_count": 25,
+  "example_request_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS118988714%2Cprimary_topic.subfield.id%3A1702%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2024-12-31&group_by=publication_year&per_page=200",
+  "request_log_note": "按采集代码确定性重建；已省略 api_key（密钥不入库）与 mailto（不影响计数）。复核方法：点开 URL，核对返回的计数是否等于本表所列行的 count。"
+}

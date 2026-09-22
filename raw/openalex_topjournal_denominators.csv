@@ -1,0 +1,251 @@
+industry,journal,source_id,year,global_works,tier
+ai,TPAMI,S199944782,2015,29,core
+ai,TPAMI,S199944782,2016,22,core
+ai,TPAMI,S199944782,2017,29,core
+ai,TPAMI,S199944782,2018,41,core
+ai,TPAMI,S199944782,2019,40,core
+ai,TPAMI,S199944782,2020,81,core
+ai,TPAMI,S199944782,2021,131,core
+ai,TPAMI,S199944782,2022,177,core
+ai,TPAMI,S199944782,2023,194,core
+ai,TPAMI,S199944782,2024,176,core
+ai,JMLR,S118988714,2015,36,core
+ai,JMLR,S118988714,2016,74,core
+ai,JMLR,S118988714,2017,47,core
+ai,JMLR,S118988714,2018,37,core
+ai,JMLR,S118988714,2019,23,core
+ai,JMLR,S118988714,2020,30,core
+ai,JMLR,S118988714,2021,28,core
+ai,JMLR,S118988714,2022,0,core
+ai,JMLR,S118988714,2023,0,core
+ai,JMLR,S118988714,2024,0,core
+biomed,Nature,S137773608,2015,1567,core
+biomed,Nature,S137773608,2016,1512,core
+biomed,Nature,S137773608,2017,1375,core
+biomed,Nature,S137773608,2018,1406,core
+biomed,Nature,S137773608,2019,1354,core
+biomed,Nature,S137773608,2020,1378,core
+biomed,Nature,S137773608,2021,1411,core
+biomed,Nature,S137773608,2022,1401,core
+biomed,Nature,S137773608,2023,1483,core
+biomed,Nature,S137773608,2024,1522,core
+biomed,Science,S3880285,2015,1867,core
+biomed,Science,S3880285,2016,1758,core
+biomed,Science,S3880285,2017,1740,core
+biomed,Science,S3880285,2018,1673,core
+biomed,Science,S3880285,2019,1609,core
+biomed,Science,S3880285,2020,1643,core
+biomed,Science,S3880285,2021,1232,core
+biomed,Science,S3880285,2022,667,core
+biomed,Science,S3880285,2023,578,core
+biomed,Science,S3880285,2024,646,core
+biomed,Cell,S110447773,2015,483,core
+biomed,Cell,S110447773,2016,531,core
+biomed,Cell,S110447773,2017,408,core
+biomed,Cell,S110447773,2018,483,core
+biomed,Cell,S110447773,2019,417,core
+biomed,Cell,S110447773,2020,431,core
+biomed,Cell,S110447773,2021,349,core
+biomed,Cell,S110447773,2022,299,core
+biomed,Cell,S110447773,2023,317,core
+biomed,Cell,S110447773,2024,399,core
+biomed,New England Journal of Medicine,S62468778,2015,904,core
+biomed,New England Journal of Medicine,S62468778,2016,938,core
+biomed,New England Journal of Medicine,S62468778,2017,837,core
+biomed,New England Journal of Medicine,S62468778,2018,870,core
+biomed,New England Journal of Medicine,S62468778,2019,848,core
+biomed,New England Journal of Medicine,S62468778,2020,946,core
+biomed,New England Journal of Medicine,S62468778,2021,851,core
+biomed,New England Journal of Medicine,S62468778,2022,862,core
+biomed,New England Journal of Medicine,S62468778,2023,813,core
+biomed,New England Journal of Medicine,S62468778,2024,814,core
+biomed,The Lancet,S49861241,2015,1363,core
+biomed,The Lancet,S49861241,2016,1267,core
+biomed,The Lancet,S49861241,2017,1121,core
+biomed,The Lancet,S49861241,2018,1015,core
+biomed,The Lancet,S49861241,2019,1128,core
+biomed,The Lancet,S49861241,2020,990,core
+biomed,The Lancet,S49861241,2021,881,core
+biomed,The Lancet,S49861241,2022,788,core
+biomed,The Lancet,S49861241,2023,850,core
+biomed,The Lancet,S49861241,2024,897,core
+biomed,JAMA,S172573765,2015,1083,core
+biomed,JAMA,S172573765,2016,1143,core
+biomed,JAMA,S172573765,2017,1082,core
+biomed,JAMA,S172573765,2018,1112,core
+biomed,JAMA,S172573765,2019,1123,core
+biomed,JAMA,S172573765,2020,1072,core
+biomed,JAMA,S172573765,2021,1037,core
+biomed,JAMA,S172573765,2022,1100,core
+biomed,JAMA,S172573765,2023,1081,core
+biomed,JAMA,S172573765,2024,1137,core
+biomed,BMJ,S4393911389,2015,0,core
+biomed,BMJ,S4393911389,2016,0,core
+biomed,BMJ,S4393911389,2017,0,core
+biomed,BMJ,S4393911389,2018,0,core
+biomed,BMJ,S4393911389,2019,0,core
+biomed,BMJ,S4393911389,2020,0,core
+biomed,BMJ,S4393911389,2021,0,core
+biomed,BMJ,S4393911389,2022,0,core
+biomed,BMJ,S4393911389,2023,0,core
+biomed,BMJ,S4393911389,2024,0,core
+biomed,Nature Medicine,S203256638,2015,230,core
+biomed,Nature Medicine,S203256638,2016,235,core
+biomed,Nature Medicine,S203256638,2017,204,core
+biomed,Nature Medicine,S203256638,2018,309,core
+biomed,Nature Medicine,S203256638,2019,293,core
+biomed,Nature Medicine,S203256638,2020,347,core
+biomed,Nature Medicine,S203256638,2021,361,core
+biomed,Nature Medicine,S203256638,2022,425,core
+biomed,Nature Medicine,S203256638,2023,478,core
+biomed,Nature Medicine,S203256638,2024,536,core
+biomed,Nature Biotechnology,S106963461,2015,324,core
+biomed,Nature Biotechnology,S106963461,2016,314,core
+biomed,Nature Biotechnology,S106963461,2017,276,core
+biomed,Nature Biotechnology,S106963461,2018,288,core
+biomed,Nature Biotechnology,S106963461,2019,296,core
+biomed,Nature Biotechnology,S106963461,2020,317,core
+biomed,Nature Biotechnology,S106963461,2021,304,core
+biomed,Nature Biotechnology,S106963461,2022,341,core
+biomed,Nature Biotechnology,S106963461,2023,358,core
+biomed,Nature Biotechnology,S106963461,2024,357,core
+biomed,Nature Methods,S127827428,2015,315,core
+biomed,Nature Methods,S127827428,2016,282,core
+biomed,Nature Methods,S127827428,2017,282,core
+biomed,Nature Methods,S127827428,2018,321,core
+biomed,Nature Methods,S127827428,2019,281,core
+biomed,Nature Methods,S127827428,2020,217,core
+biomed,Nature Methods,S127827428,2021,268,core
+biomed,Nature Methods,S127827428,2022,286,core
+biomed,Nature Methods,S127827428,2023,298,core
+biomed,Nature Methods,S127827428,2024,315,core
+biomed,Nature Genetics,S137905309,2015,260,core
+biomed,Nature Genetics,S137905309,2016,240,core
+biomed,Nature Genetics,S137905309,2017,234,core
+biomed,Nature Genetics,S137905309,2018,251,core
+biomed,Nature Genetics,S137905309,2019,194,core
+biomed,Nature Genetics,S137905309,2020,164,core
+biomed,Nature Genetics,S137905309,2021,203,core
+biomed,Nature Genetics,S137905309,2022,226,core
+biomed,Nature Genetics,S137905309,2023,318,core
+biomed,Nature Genetics,S137905309,2024,318,core
+biomed,Nature Immunology,S41063453,2015,120,core
+biomed,Nature Immunology,S41063453,2016,122,core
+biomed,Nature Immunology,S41063453,2017,122,core
+biomed,Nature Immunology,S41063453,2018,106,core
+biomed,Nature Immunology,S41063453,2019,120,core
+biomed,Nature Immunology,S41063453,2020,126,core
+biomed,Nature Immunology,S41063453,2021,114,core
+biomed,Nature Immunology,S41063453,2022,129,core
+biomed,Nature Immunology,S41063453,2023,140,core
+biomed,Nature Immunology,S41063453,2024,159,core
+biomed,Cell Stem Cell,S128124174,2015,177,core
+biomed,Cell Stem Cell,S128124174,2016,196,core
+biomed,Cell Stem Cell,S128124174,2017,163,core
+biomed,Cell Stem Cell,S128124174,2018,202,core
+biomed,Cell Stem Cell,S128124174,2019,159,core
+biomed,Cell Stem Cell,S128124174,2020,186,core
+biomed,Cell Stem Cell,S128124174,2021,166,core
+biomed,Cell Stem Cell,S128124174,2022,130,core
+biomed,Cell Stem Cell,S128124174,2023,128,core
+biomed,Cell Stem Cell,S128124174,2024,142,core
+biomed,Cancer Cell,S25671836,2015,167,core
+biomed,Cancer Cell,S25671836,2016,204,core
+biomed,Cancer Cell,S25671836,2017,153,core
+biomed,Cancer Cell,S25671836,2018,174,core
+biomed,Cancer Cell,S25671836,2019,146,core
+biomed,Cancer Cell,S25671836,2020,198,core
+biomed,Cancer Cell,S25671836,2021,179,core
+biomed,Cancer Cell,S25671836,2022,168,core
+biomed,Cancer Cell,S25671836,2023,142,core
+biomed,Cancer Cell,S25671836,2024,158,core
+biomed,Cell Metabolism,S177533077,2015,221,core
+biomed,Cell Metabolism,S177533077,2016,209,core
+biomed,Cell Metabolism,S177533077,2017,207,core
+biomed,Cell Metabolism,S177533077,2018,212,core
+biomed,Cell Metabolism,S177533077,2019,170,core
+biomed,Cell Metabolism,S177533077,2020,191,core
+biomed,Cell Metabolism,S177533077,2021,158,core
+biomed,Cell Metabolism,S177533077,2022,148,core
+biomed,Cell Metabolism,S177533077,2023,149,core
+biomed,Cell Metabolism,S177533077,2024,189,core
+biomed,Cell Host & Microbe,S207313999,2015,133,core
+biomed,Cell Host & Microbe,S207313999,2016,134,core
+biomed,Cell Host & Microbe,S207313999,2017,148,core
+biomed,Cell Host & Microbe,S207313999,2018,135,core
+biomed,Cell Host & Microbe,S207313999,2019,113,core
+biomed,Cell Host & Microbe,S207313999,2020,162,core
+biomed,Cell Host & Microbe,S207313999,2021,135,core
+biomed,Cell Host & Microbe,S207313999,2022,136,core
+biomed,Cell Host & Microbe,S207313999,2023,141,core
+biomed,Cell Host & Microbe,S207313999,2024,149,core
+biomed,Immunity,S199671312,2015,105,core
+biomed,Immunity,S199671312,2016,107,core
+biomed,Immunity,S199671312,2017,84,core
+biomed,Immunity,S199671312,2018,99,core
+biomed,Immunity,S199671312,2019,118,core
+biomed,Immunity,S199671312,2020,112,core
+biomed,Immunity,S199671312,2021,122,core
+biomed,Immunity,S199671312,2022,103,core
+biomed,Immunity,S199671312,2023,119,core
+biomed,Immunity,S199671312,2024,106,core
+biomed,Science Translational Medicine,S24207032,2015,414,core
+biomed,Science Translational Medicine,S24207032,2016,335,core
+biomed,Science Translational Medicine,S24207032,2017,336,core
+biomed,Science Translational Medicine,S24207032,2018,308,core
+biomed,Science Translational Medicine,S24207032,2019,330,core
+biomed,Science Translational Medicine,S24207032,2020,370,core
+biomed,Science Translational Medicine,S24207032,2021,299,core
+biomed,Science Translational Medicine,S24207032,2022,269,core
+biomed,Science Translational Medicine,S24207032,2023,219,core
+biomed,Science Translational Medicine,S24207032,2024,230,core
+biomed,Science Immunology,S2764653179,2015,0,sensitivity
+biomed,Science Immunology,S2764653179,2016,16,sensitivity
+biomed,Science Immunology,S2764653179,2017,45,sensitivity
+biomed,Science Immunology,S2764653179,2018,46,sensitivity
+biomed,Science Immunology,S2764653179,2019,46,sensitivity
+biomed,Science Immunology,S2764653179,2020,63,sensitivity
+biomed,Science Immunology,S2764653179,2021,92,sensitivity
+biomed,Science Immunology,S2764653179,2022,91,sensitivity
+biomed,Science Immunology,S2764653179,2023,69,sensitivity
+biomed,Science Immunology,S2764653179,2024,66,sensitivity
+biomed,Nature Biomedical Engineering,S2764624792,2015,0,sensitivity
+biomed,Nature Biomedical Engineering,S2764624792,2016,4,sensitivity
+biomed,Nature Biomedical Engineering,S2764624792,2017,92,sensitivity
+biomed,Nature Biomedical Engineering,S2764624792,2018,105,sensitivity
+biomed,Nature Biomedical Engineering,S2764624792,2019,99,sensitivity
+biomed,Nature Biomedical Engineering,S2764624792,2020,95,sensitivity
+biomed,Nature Biomedical Engineering,S2764624792,2021,89,sensitivity
+biomed,Nature Biomedical Engineering,S2764624792,2022,101,sensitivity
+biomed,Nature Biomedical Engineering,S2764624792,2023,113,sensitivity
+biomed,Nature Biomedical Engineering,S2764624792,2024,95,sensitivity
+biomed,Nature Metabolism,S4210232714,2015,0,sensitivity
+biomed,Nature Metabolism,S4210232714,2016,0,sensitivity
+biomed,Nature Metabolism,S4210232714,2017,0,sensitivity
+biomed,Nature Metabolism,S4210232714,2018,19,sensitivity
+biomed,Nature Metabolism,S4210232714,2019,117,sensitivity
+biomed,Nature Metabolism,S4210232714,2020,151,sensitivity
+biomed,Nature Metabolism,S4210232714,2021,155,sensitivity
+biomed,Nature Metabolism,S4210232714,2022,157,sensitivity
+biomed,Nature Metabolism,S4210232714,2023,173,sensitivity
+biomed,Nature Metabolism,S4210232714,2024,200,sensitivity
+biomed,Nature Cancer,S4210236562,2015,0,sensitivity
+biomed,Nature Cancer,S4210236562,2016,0,sensitivity
+biomed,Nature Cancer,S4210236562,2017,0,sensitivity
+biomed,Nature Cancer,S4210236562,2018,0,sensitivity
+biomed,Nature Cancer,S4210236562,2019,3,sensitivity
+biomed,Nature Cancer,S4210236562,2020,124,sensitivity
+biomed,Nature Cancer,S4210236562,2021,131,sensitivity
+biomed,Nature Cancer,S4210236562,2022,158,sensitivity
+biomed,Nature Cancer,S4210236562,2023,136,sensitivity
+biomed,Nature Cancer,S4210236562,2024,157,sensitivity
+biomed,Nature Aging,S4210214063,2015,0,sensitivity
+biomed,Nature Aging,S4210214063,2016,0,sensitivity
+biomed,Nature Aging,S4210214063,2017,0,sensitivity
+biomed,Nature Aging,S4210214063,2018,0,sensitivity
+biomed,Nature Aging,S4210214063,2019,0,sensitivity
+biomed,Nature Aging,S4210214063,2020,2,sensitivity
+biomed,Nature Aging,S4210214063,2021,90,sensitivity
+biomed,Nature Aging,S4210214063,2022,132,sensitivity
+biomed,Nature Aging,S4210214063,2023,142,sensitivity
+biomed,Nature Aging,S4210214063,2024,181,sensitivity

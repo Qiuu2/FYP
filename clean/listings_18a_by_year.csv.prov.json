@@ -1,0 +1,7 @@
+{
+ "manifests": [
+  "p3_hkex_listings.txt.manifest.json"
+ ],
+ "script": "透传自raw/p3(多源勾稽,官方累计锚点84@2026-01)",
+ "created_utc": "2026-08-18T09:00:00+00:00"
+}

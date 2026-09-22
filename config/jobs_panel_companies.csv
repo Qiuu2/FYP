@@ -1,0 +1,13 @@
+company,industry,ats,board_token,api_url,status,evidence,notes
+Animoca Brands,fintech,lever,animocabrands,https://api.lever.co/v0/postings/animocabrands?mode=json,confirmed_2026-08-20,实测返回 8 个在招岗位（含香港岗）,web3/区块链，归 fintech 口径；panel v1 首个已验证成员
+SenseTime 商汤,ai,unknown,,,pending_confirm,,候选：查其招聘页源码找 greenhouse/lever 链接；若自建系统则弃用（只收 ATS 公开 JSON）
+Fano Labs,ai,unknown,,,pending_confirm,,候选：港产 NLP 公司
+Hanson Robotics,ai,unknown,,,pending_confirm,,候选：机器人
+Insilico Medicine 英矽智能,biomed,unknown,,,pending_confirm,,候选：AI 制药，实测 lever token insilicomedicine 已 404，需另查
+Prenetics,biomed,unknown,,,pending_confirm,,候选：基因检测
+HashKey Group,fintech,unknown,,,pending_confirm,,候选：虚拟资产
+WeLab,fintech,unknown,,,pending_confirm,,候选：虚拟银行
+Bowtie 保泰,fintech,unknown,,,pending_confirm,,候选：保险科技
+ZA Bank 众安银行,fintech,unknown,,,pending_confirm,,候选：虚拟银行
+Klook,fintech,unknown,,,pending_confirm,,候选（旅游科技，边界情形——确认前先在组会定归属）；实测 greenhouse token klook 已 404
+Mox Bank,fintech,unknown,,,pending_confirm,,候选：虚拟银行

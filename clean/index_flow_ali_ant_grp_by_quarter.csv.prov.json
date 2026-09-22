@@ -1,0 +1,44 @@
+{
+ "manifests": [
+  "openalex_author_quarters.csv.manifest.json",
+  "openalex_works_master.csv.manifest.json",
+  "patents_families_by_quarter_company_ali_ant_grp.csv.manifest.json"
+ ],
+ "script": "scripts/index_build.py",
+ "method": "冻结参照集 z-score（全部单元×全部可用季度）；维度内等权、维度间等权",
+ "dims": {
+  "TAI_规模": [
+   "m1_stock"
+  ],
+  "TAI_质量": [
+   "m4"
+  ],
+  "TAI_网络": [
+   "m7"
+  ],
+  "IDI_创新": [
+   "m8",
+   "m9_trials",
+   "m9_lic"
+  ],
+  "IDI_商业": [
+   "m11"
+  ]
+ },
+ "versions": {
+  "stock": "规模维用三年滚动存量（主口径，进指数）",
+  "flow": "规模维用 new_authors 流量（仅用于先行检验与低通对照）"
+ },
+ "patent_variants": {
+  "asis": "原样（附录口径）",
+  "ali_grp": "剔除阿里集团主体·两城同剔（正文主口径）",
+  "ali_ant_grp": "再加剔蚂蚁集团主体（敏感性口径）"
+ },
+ "unsuffixed_files_mean": "index_{ver}_by_quarter.csv == 主口径 ali_grp（2026-09-12 起）",
+ "missing_rule": "结构性无源的指标不计入该单元的维度均值，绝不记 0；n_indicators 列如实汇报每格用到几个指标",
+ "known_defect": "critic 2026-09-12：『维度内取可得均值』在数学上等于把缺失指标插补成该单元自身其它指标的均值，不是中性的；跨单元比较应只在共同指标集上做或报插补敏感区间。本脚本尚未修正此项。",
+ "created_utc": "2026-09-12T00:00:00+00:00",
+ "file": "clean/index_flow_ali_ant_grp_by_quarter.csv",
+ "patent_variant_of_this_file": "ali_ant_grp",
+ "scale_version_of_this_file": "规模维用 new_authors 流量（仅用于先行检验与低通对照）"
+}

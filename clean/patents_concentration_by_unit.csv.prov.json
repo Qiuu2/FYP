@@ -1,0 +1,28 @@
+{
+ "inputs": [
+  "raw/patents_families_raw.csv",
+  "config/patents_assignee_sector.csv",
+  "config/patents_assignee_geo_exclude.csv"
+ ],
+ "manifests": [
+  "patents_families_raw.csv.manifest.json"
+ ],
+ "script": "scripts/patents_geo_variants.py",
+ "method": "在家族级底稿上按申请人集合过滤并计数；不产生任何数据值（R1）",
+ "variants": {
+  "asis": [
+   "无剔除"
+  ],
+  "ali_grp": [
+   "ali_grp"
+  ],
+  "ali_ant_grp": [
+   "ali_grp",
+   "ant_grp"
+  ]
+ },
+ "decision": "2026-09-12 邱正陽拍板方案③：正文主口径 ali_grp，附录 asis，敏感性 ali_ant_grp",
+ "counter_argument": "阿里的专利是真实发生在香港的申请；剔除等于采取『产业基础』而非『产业产出』视角，须在方法章写明",
+ "pending_human_review": "config/patents_assignee_geo_exclude.csv 的 substantive_rd_verdict 列仍为空——『该主体在本地是否有实质研发』是事实判定，AI 不臆断（R1）",
+ "created_utc": "2026-09-12T14:37:25+00:00"
+}

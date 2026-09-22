@@ -1,0 +1,16 @@
+{
+ "manifests": [
+  "openalex_works_master.csv.manifest.json"
+ ],
+ "script": "scripts/works_build.py",
+ "method": "指标7·TAI网络：涉及两个及以上国家/地区机构的论文占比；国家数由 authorships[].institutions[].country_code 去重得到",
+ "note": "分母与 raw/openalex_papers_by_quarter.csv 同源同 filter，可交叉验证；本口径一并解决了 v1 只有 4/6 单元有分子的问题",
+ "units": [
+  "ai/hk",
+  "ai/sg",
+  "biomed/hk",
+  "biomed/sg",
+  "fintech_kw/hk",
+  "fintech_kw/sg"
+ ]
+}

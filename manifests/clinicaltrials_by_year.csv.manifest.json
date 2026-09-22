@@ -1,0 +1,14 @@
+{
+  "file": "raw/clinicaltrials_by_year.csv",
+  "sha256": "fee287da0ee68242dd829f08e44899d2a0ed25b97eff69af4072c917964fd322",
+  "source_url": "https://clinicaltrials.gov/api/v2/studies",
+  "query_or_method": "query.locn×StudyFirstPostDate 逐年 totalCount",
+  "collected_utc": "2026-08-26T09:51:04+00:00",
+  "collected_by": "賈贇",
+  "notes": "生医创新维；建议再以 WHO ICTRP/ChiCTR 交叉（人工小样本）｜【事后更正 2026-08-26】原 collected_by 为占位符 'UNSET——请 export COLLECTOR_NAME'（运行时未设置 COLLECTOR_NAME），经确认实际执行人为賈贇，据实更正；file 字段的 Windows 反斜杠一并归一化为 '/'。数据文件本身未作任何改动，SHA256 与原记录一致。",
+  "manifest_version": 1,
+  "request_log": "clinicaltrials_by_year.csv.requests.tsv",
+  "request_count": 22,
+  "example_request_url": "https://clinicaltrials.gov/api/v2/studies?query.locn=Hong+Kong&countTotal=true&pageSize=1&filter.advanced=AREA%5BStudyFirstPostDate%5DRANGE%5B2015-01-01%2C2015-12-31%5D",
+  "request_log_note": "按采集代码确定性重建；已省略 api_key（密钥不入库）与 mailto（不影响计数）。复核方法：点开 URL，核对返回的计数是否等于本表所列行的 count。"
+}

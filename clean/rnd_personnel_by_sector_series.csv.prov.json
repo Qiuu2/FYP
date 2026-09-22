@@ -1,0 +1,11 @@
+{
+ "manifests": [
+  "p2_censtatd_rnd_vacancies.txt.manifest.json"
+ ],
+ "script": "scripts/rnd_personnel_sectors_build.py",
+ "method": "从 P2 包裹的『按执行界别分解（同源）』段与商业界别 SERIES 段逐行抄写；零 API 调用；逐年校验 Total = Business + HE + Govt（容差 ±2 四舍五入）",
+ "source_table": "政府统计处表 710-86003（族表 710-86110 与之逐年相等，双表互证）",
+ "why": "关二此前用商业界别做分母，而指标1的分子主要来自大学与大学医院；生物医药比值 270% 即分母错配的证据",
+ "pending": "关二采用哪个界别作分母，须按指标1分子的机构构成决定并在方法章声明",
+ "created_utc": "2026-09-14T08:55:10+00:00"
+}

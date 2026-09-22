@@ -1,0 +1,10 @@
+{
+  "file": "raw/forward_panel/jobs_snapshot_2026-09-15.csv",
+  "sha256": "bd4da69828cdca9eca0721320f48beee4c68c801c494b7b301ee7350c5344e70",
+  "source_url": "https://api.lever.co/v0/postings/animocabrands?mode=json",
+  "query_or_method": "ATS 公开职位板 JSON 全量快照（Greenhouse boards API / Lever postings API）",
+  "collected_utc": "2026-09-15T16:16:39+00:00",
+  "collected_by": "賈贇",
+  "notes": "每周快照；失败公司如实留档：无",
+  "manifest_version": 1
+}

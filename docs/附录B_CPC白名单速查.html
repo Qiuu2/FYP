@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CPC 白名单速查</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+  :root{
+    --paper:#F4F6F4; --surface:#FFFFFF; --surface-2:#EAEEEC;
+    --ink:#16202B; --ink-soft:#47575F; --ink-faint:#7A8A90;
+    --rule:#D3DAD7; --rule-soft:#E3E8E5;
+    --accent:#0F5C63; --accent-dim:#DCE9E8;
+    --in:#2E6E4E;   --in-bg:#DEEBE2;
+    --cond:#8A5A12; --cond-bg:#F2E7D2;
+    --out:#9B3327;  --out-bg:#F3DEDA;
+    --shadow:0 1px 2px rgba(22,32,43,.06),0 4px 14px rgba(22,32,43,.05);
+  }
+  @media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+    --paper:#0F1519; --surface:#161E23; --surface-2:#1D272C;
+    --ink:#E3E9E7; --ink-soft:#A3B2B6; --ink-faint:#74868C;
+    --rule:#2A363C; --rule-soft:#212C31;
+    --accent:#64C4C4; --accent-dim:#17333A;
+    --in:#79C79A;  --in-bg:#163024;
+    --cond:#DCAE5F; --cond-bg:#33270F;
+    --out:#E08A7C; --out-bg:#331C19;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }}
+  :root[data-theme="dark"]{
+    --paper:#0F1519; --surface:#161E23; --surface-2:#1D272C;
+    --ink:#E3E9E7; --ink-soft:#A3B2B6; --ink-faint:#74868C;
+    --rule:#2A363C; --rule-soft:#212C31;
+    --accent:#64C4C4; --accent-dim:#17333A;
+    --in:#79C79A;  --in-bg:#163024;
+    --cond:#DCAE5F; --cond-bg:#33270F;
+    --out:#E08A7C; --out-bg:#331C19;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 14px rgba(0,0,0,.25);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);
+    font-family:"Source Sans 3",ui-sans-serif,system-ui,"PingFang SC","Microsoft YaHei",sans-serif;
+    font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:880px;margin:0 auto;padding:38px 22px 70px}
+  code{font-family:"JetBrains Mono",ui-monospace,Consolas,monospace;font-size:.87em;
+    background:var(--surface-2);padding:1px 5px;border-radius:3px}
+
+  header{border-bottom:2px solid var(--ink);padding-bottom:16px;margin-bottom:12px}
+  .eyebrow{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--accent);margin:0 0 9px}
+  h1{font-family:Newsreader,Georgia,"Songti SC",serif;font-size:clamp(26px,4vw,36px);
+    line-height:1.15;font-weight:600;margin:0 0 10px;text-wrap:balance}
+  .sub{color:var(--ink-soft);margin:0 0 8px;max-width:60ch}
+  .stamp{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--ink-faint);margin:0}
+
+  .legend{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0 30px}
+  .lg{display:flex;align-items:center;gap:7px;font-size:12.5px;color:var(--ink-soft);
+    background:var(--surface);border:1px solid var(--rule);border-radius:4px;padding:6px 11px}
+  .dot{width:9px;height:9px;border-radius:2px;flex:none}
+  .d-in{background:var(--in)} .d-cond{background:var(--cond)} .d-out{background:var(--out)}
+
+  h2{font-family:Newsreader,Georgia,"Songti SC",serif;font-size:21px;font-weight:600;
+    margin:34px 0 4px;display:flex;align-items:baseline;gap:11px}
+  h2 .tag{font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:500;
+    letter-spacing:.05em;padding:2px 9px;border-radius:11px;
+    background:var(--accent-dim);color:var(--accent)}
+  .h2sub{color:var(--ink-faint);font-size:13px;margin:0 0 14px}
+
+  .codes{display:flex;flex-direction:column;gap:1px;background:var(--rule);
+    border:1px solid var(--rule);border-radius:5px;overflow:hidden;box-shadow:var(--shadow)}
+  .row{background:var(--surface);display:grid;grid-template-columns:118px 1fr auto;
+    gap:6px 16px;padding:11px 15px;align-items:baseline}
+  .row .c{font-family:"JetBrains Mono",monospace;font-size:18px;font-weight:700;
+    letter-spacing:-.01em;font-variant-numeric:tabular-nums}
+  .row.in .c{color:var(--in)} .row.cond .c{color:var(--cond)} .row.out .c{color:var(--out);text-decoration:line-through}
+  .row .d{font-size:14.5px}
+  .row .plain{color:var(--ink-faint);font-size:13px;display:block;margin-top:1px}
+  .row .st{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.05em;
+    padding:2px 8px;border-radius:10px;white-space:nowrap;align-self:center}
+  .row.in .st{background:var(--in-bg);color:var(--in)}
+  .row.cond .st{background:var(--cond-bg);color:var(--cond)}
+  .row.out .st{background:var(--out-bg);color:var(--out)}
+  .row .why{grid-column:2/-1;font-size:13px;color:var(--ink-soft);
+    border-left:2px solid var(--rule);padding-left:10px;margin-top:5px}
+
+  .note{background:var(--surface-2);border-left:3px solid var(--accent);
+    padding:13px 16px;border-radius:0 4px 4px 0;margin:20px 0;font-size:14px;color:var(--ink-soft)}
+  .note b{color:var(--ink)}
+  .note.warn{border-left-color:var(--cond)}
+  .note strong{color:var(--ink)}
+
+  .howto{background:var(--surface);border:1px solid var(--rule);border-radius:5px;
+    padding:20px 22px;margin-top:34px;box-shadow:var(--shadow)}
+  .howto h3{font-family:Newsreader,Georgia,serif;font-size:18px;margin:0 0 12px;font-weight:600}
+  ol{margin:0;padding-left:20px}
+  ol li{margin-bottom:8px;font-size:14.5px}
+  ol li::marker{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--accent)}
+
+  footer{margin-top:38px;padding-top:15px;border-top:1px solid var(--rule);
+    font-size:12.5px;color:var(--ink-faint)}
+  @media (max-width:600px){
+    .row{grid-template-columns:1fr auto}
+    .row .c{font-size:17px}
+    .row .why{grid-column:1/-1}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">GECC4130 FYP · 附录 B v1.2 · 专利层</p>
+  <h1>CPC 白名单速查</h1>
+  <p class="sub">对照这张表判断一件专利属不属于我们的三个产业。<strong>码是前缀匹配</strong>——看到 <code>A61K31/00</code> 就算 <code>A61</code>。</p>
+  <p class="stamp">来源 config/boundary_rules_v1.yaml v1.2（2026-08-19）· 已与 sql/patents_bigquery.sql 实跑口径逐条核对一致</p>
+</header>
+
+<div class="legend">
+  <span class="lg"><span class="dot d-in"></span>已计入——数据里有</span>
+  <span class="lg"><span class="dot d-cond"></span>规则允许但本次未采</span>
+  <span class="lg"><span class="dot d-out"></span>明示排除——数据里没有</span>
+</div>
+
+<h2>AI<span class="tag">5 个码</span></h2>
+<p class="h2sub">机器学习 · 视觉 · 语音 · 自然语言 · 机器人</p>
+<div class="codes">
+  <div class="row in"><span class="c">G06N</span><span class="d">基于特定计算模型的计算装置<span class="plain">神经网络、机器学习、知识推理——AI 的核心码</span></span><span class="st">已计入</span></div>
+  <div class="row in"><span class="c">G06V</span><span class="d">图像或视频的识别与理解<span class="plain">人脸识别、目标检测、场景理解</span></span><span class="st">已计入</span></div>
+  <div class="row in"><span class="c">G10L</span><span class="d">语音分析、合成与识别<span class="plain">语音转文字、TTS、声纹</span></span><span class="st">已计入</span></div>
+  <div class="row in"><span class="c">G06F40</span><span class="d">自然语言数据处理<span class="plain">分词、翻译、文本理解　<em>v1.1 增补</em></span></span><span class="st">已计入</span></div>
+  <div class="row in"><span class="c">B25J</span><span class="d">机械手 / 机器人<span class="plain">机械臂、服务机器人　<em>v1.1 增补</em></span></span><span class="st">已计入</span></div>
+</div>
+
+<h2>生物医药<span class="tag">5 个码</span></h2>
+<p class="h2sub">医药医械 · 生物技术 · 多肽 · 药物化学 · 医疗信息</p>
+<div class="codes">
+  <div class="row in"><span class="c">A61</span><span class="d">医学、兽医学、卫生学<span class="plain">最宽的一个：A61B 诊断手术、A61K 药物制剂、A61P 治疗活性、A61M 器械……全都算</span></span><span class="st">已计入</span></div>
+  <div class="row in"><span class="c">C12</span><span class="d">生物化学 / 微生物学 / 遗传工程<span class="plain">C12N 基因工程、C12Q 检测方法、C12P 发酵制备</span></span><span class="st">已计入</span></div>
+  <div class="row in"><span class="c">C07K</span><span class="d">肽类<span class="plain">蛋白质、抗体、多肽药物</span></span><span class="st">已计入</span></div>
+  <div class="row in"><span class="c">C07D</span><span class="d">杂环化合物<span class="plain">小分子药物化学的主战场　<em>v1.1 增补</em></span></span><span class="st">已计入</span></div>
+  <div class="row in"><span class="c">G16H</span><span class="d">医疗保健信息学<span class="plain">电子病历、医疗大数据、远程诊疗　<em>v1.1 增补</em></span></span><span class="st">已计入</span></div>
+</div>
+
+<div class="note warn">
+  <b>C12 有个已知的宽口径问题，复核时留意。</b><code>C12</code> 是前缀匹配，除了基因工程（C12N）和检测（C12Q），还会连带扫进酿造类子类——USPTO 官方定义里 <code>C12C</code> 是「啤酒及其发酵制备」、<code>C12H</code> 是「酒精饮料的巴氏杀菌、灭菌、澄清与陈化」。也就是说<strong>一件啤酒工艺专利在我们数据里会被标成 biomed</strong>。附录 B 写的是「v1 从窄」，但 <code>A61</code>／<code>C12</code> 这两个两位码其实相当宽。这是规则本身的取舍，不是采集错误——如果抽样里真碰上了，照实记下来，别改数据。
+</div>
+
+<h2>金融科技<span class="tag">2 个码 ＋ 1 个条件码</span></h2>
+<p class="h2sub">支付 · 金融数据处理</p>
+<div class="codes">
+  <div class="row in"><span class="c">G06Q20</span><span class="d">支付架构、方案与协议<span class="plain">移动支付、电子钱包、清算</span></span><span class="st">已计入</span></div>
+  <div class="row in"><span class="c">G06Q40</span><span class="d">金融、保险、税务<span class="plain">交易系统、风控、保险科技</span></span><span class="st">已计入</span></div>
+  <div class="row cond"><span class="c">H04L9</span><span class="d">密码学协议（区块链）<span class="plain">v1.1 增补，但附带条件</span></span><span class="st">未采</span>
+    <span class="why">附录 B 要求「<strong>须与 G06Q 或金融关键词联用</strong>方计入」——这属于人工判断，SQL 没法自动做，所以本次查询<strong>整个跳过了 H04L9</strong>。后果：<strong>只有 H04L9 而没有 G06Q 的纯区块链专利，不在我们的 fintech 数据里。</strong>这是有据可查的取舍（SQL 注释里写明了），不是漏采。</span>
+  </div>
+</div>
+
+<h2>明示排除<span class="tag">v1 从窄</span></h2>
+<p class="h2sub">这两个码看着像 AI，但规则文件明确把它们挡在外面</p>
+<div class="codes">
+  <div class="row out"><span class="c">G06T</span><span class="d">图像数据处理 / 图形生成<span class="plain">和 AI 的边界模糊——图形渲染不等于机器视觉</span></span><span class="st">排除</span></div>
+  <div class="row out"><span class="c">G06F16</span><span class="d">信息检索 / 数据库结构<span class="plain">检索算不算 AI 属边界情形</span></span><span class="st">排除</span></div>
+</div>
+
+<div class="note">
+  <b>看到 G06T 或 G06F16 不要当成漏采。</b>规则文件 v1.2 的原话是「边界模糊的 G06T、G06F16 明示排除并记录理由，v1 从窄」——宁可少算也不把不确定的算进来。一件专利如果<em>同时</em>有 G06T 和 G06N，它照样会因为 G06N 被计入 AI。
+</div>
+
+<div class="howto">
+  <h3>R4 复核时怎么用这张表</h3>
+  <ol>
+    <li>在 Google Patents 打开某个申请人的结果，找 <strong>Classifications</strong> 栏。</li>
+    <li>拿到的码是完整形式（比如 <code>G06N3/08</code>、<code>A61K31/519</code>），<strong>只看开头几位</strong>能不能对上上面的码。</li>
+    <li>只要找得到<strong>一个</strong>白名单内的码，这一条就算「技术领域对得上」。同一家公司有大量白名单外的专利是完全正常的——我们本来就只筛这几个领域。</li>
+    <li>如果一家公司<strong>一个白名单码都找不到</strong>，那才需要标出来。</li>
+  </ol>
+</div>
+
+<footer>
+  规则来源：<code>config/boundary_rules_v1.yaml</code>（v1.2，2026-08-19）· 实跑口径：<code>sql/patents_bigquery.sql</code> v4<br>
+  C12C／C12H 的范围引自 USPTO CPC 官方定义页 · 本卡片只覆盖<strong>专利层</strong>；论文层（OpenAlex 学科白名单）与公司层（行业标签映射）见规则文件
+</footer>
+
+</div>
+</body>
+</html>

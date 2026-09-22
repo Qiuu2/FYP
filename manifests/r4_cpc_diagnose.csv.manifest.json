@@ -1,0 +1,10 @@
+{
+  "file": "raw/r4_cpc_diagnose.csv",
+  "sha256": "96091e2aa3c88c20530e1ab208b9901dbfeefa356f005290f3beec54a14278ba",
+  "source_url": "https://console.cloud.google.com/bigquery?p=patents-public-data&d=patents&t=publications",
+  "query_or_method": "sql/r4_cpc_diagnose.sql；取R4抽样30个family_id的全部专利×全部CPC码，带inventive/first标志与白名单命中判定",
+  "collected_utc": "2026-09-02T10:34:20+00:00",
+  "collected_by": "賈贇",
+  "notes": "CPC标签诊断（R4复核触发）；30族×215件专利×4339个CPC码。结论见 docs/CPC标签口径说明.md：3族疑似不符系Google Patents的Classifications栏显示不全，数据无误；假设「触发码在同族另一件专利上」实测0族成立；1族(78745733)产业标签仅由非发明性CPC(C12Q1/686, inventive=false)支撑，加inventive过滤则本抽样32→31条记录(-3.1%)，口径待组会",
+  "manifest_version": 1
+}

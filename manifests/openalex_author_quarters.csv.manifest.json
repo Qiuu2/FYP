@@ -1,0 +1,14 @@
+{
+  "file": "raw/openalex_author_quarters.csv",
+  "sha256": "bbf0e6e30253acd368d1535108b37ff6efde2d5a697ec1eb78d16808d838b334",
+  "source_url": "https://api.openalex.org/works",
+  "query_or_method": "OpenAlex统一底稿v2·作者层；(作者,季度,是否本地署名)；作者级归属判定 institutions[].country_code；INSTITUTION_SCOPE=country",
+  "collected_utc": "2026-09-11T05:27:25+00:00",
+  "collected_by": "賈贇",
+  "notes": "",
+  "manifest_version": 1,
+  "request_log": "openalex_author_quarters.csv.requests.tsv",
+  "request_count": 6,
+  "example_request_url": "https://api.openalex.org/works?filter=primary_topic.subfield.id%3A1702%2Cauthorships.institutions.country_code%3Ahk%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2024-12-31&select=id%2Cpublication_date%2Cauthorships%2Ccitation_normalized_percentile%2Cprimary_location&per_page=200&cursor=%2A",
+  "request_log_note": "按采集代码确定性重建；已省略 api_key（密钥不入库）与 mailto（不影响计数）。复核方法：点开 URL，核对返回的计数是否等于本表所列行的 count。"
+}

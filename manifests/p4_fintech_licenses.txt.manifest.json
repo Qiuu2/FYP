@@ -1,0 +1,77 @@
+{
+  "file": "raw/p4_fintech_licenses.txt",
+  "sha256": "0c823dc05f005464fd5847c0f020dab2a3bf7d854699883016516ad47aa4859a",
+  "source_url": "https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms",
+  "query_or_method": "虚拟银行8+SVF16(info.gov.hk官方新闻稿)+VATP13(SFC名册2026-05-29)",
+  "collected_utc": "2026-08-18T09:14:15+00:00",
+  "collected_by": "subagent-a1b8a5b2(WebFetch转录)",
+  "notes": "R4待复核",
+  "manifest_version": 2,
+  "sources_note": "本包裹为多源人工采集：raw 文件内每一行都带自己的 source_url 或 SRC 声明。manifest 的 source_url 只是主源，**复核请以下方 sources 数组与 raw 文件内的逐行 URL 为准**。",
+  "sources": [
+    {
+      "url": "https://www.sfc.hk/en/Welcome-to-the-Fintech-Contact-Point/Virtual-assets/Virtual-asset-trading-platforms-operators/Lists-of-virtual-asset-trading-platforms",
+      "referenced_by_lines": 13,
+      "appears_in_sections": [
+        "TABLE: fintech_license_events"
+      ],
+      "is_manifest_primary": true
+    },
+    {
+      "url": "https://www.info.gov.hk/gia/general/201611/04/P2016110400483.htm",
+      "referenced_by_lines": 8,
+      "appears_in_sections": [
+        "TABLE: fintech_license_events"
+      ]
+    },
+    {
+      "url": "https://www.info.gov.hk/gia/general/201608/25/P2016082500536.htm",
+      "referenced_by_lines": 5,
+      "appears_in_sections": [
+        "TABLE: fintech_license_events"
+      ]
+    },
+    {
+      "url": "https://www.info.gov.hk/gia/general/201905/09/P2019050900649p.htm",
+      "referenced_by_lines": 4,
+      "appears_in_sections": [
+        "TABLE: fintech_license_events"
+      ]
+    },
+    {
+      "url": "https://www.info.gov.hk/gia/general/201903/27/P2019032700634.htm",
+      "referenced_by_lines": 3,
+      "appears_in_sections": [
+        "TABLE: fintech_license_events"
+      ]
+    },
+    {
+      "url": "https://www.info.gov.hk/gia/general/201905/10/P2019051000623.htm",
+      "referenced_by_lines": 2,
+      "appears_in_sections": [
+        "TABLE: fintech_license_events"
+      ]
+    },
+    {
+      "url": "https://www.hkma.gov.hk/eng/regulatory-resources/registers/register-of-svf-licensees/",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "NOTES 摘要"
+      ]
+    },
+    {
+      "url": "https://www.info.gov.hk/gia/general/201904/10/P2019041000735.htm",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "TABLE: fintech_license_events"
+      ]
+    },
+    {
+      "url": "https://www.info.gov.hk/gia/general/202212/19/P2022121900470p.htm",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "TABLE: fintech_license_events"
+      ]
+    }
+  ]
+}

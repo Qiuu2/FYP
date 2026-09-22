@@ -1,0 +1,84 @@
+{
+  "file": "raw/p2_censtatd_rnd_vacancies.txt",
+  "sha256": "c6997d2d274ae5b20c91f1aaf5f791f417c5d69488a0382f8ebe740fbbf6f756",
+  "source_url": "https://www.censtatd.gov.hk/api/get.php?id=710-86003&lang=en&full_series=1",
+  "query_or_method": "统计处710-86003/86004/86110 JSON+年报PDF+B1050003表6.3，多源交叉核对",
+  "collected_utc": "2026-08-18T09:14:15+00:00",
+  "collected_by": "subagent-a2ef1e1a(WebFetch转录)",
+  "notes": "R4待复核；内含全部逐项URL",
+  "manifest_version": 2,
+  "sources": [
+    {
+      "url": "https://www.censtatd.gov.hk/api/get.php?id=710-86003&lang=en&full_series=1",
+      "referenced_by_lines": 10,
+      "appears_in_sections": [
+        "SERIES: rnd_personnel_business_by_year"
+      ],
+      "is_manifest_primary": true
+    },
+    {
+      "url": "https://www.censtatd.gov.hk/api/get.php?id=215-16001&lang=en&full_series=1",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "SERIES: job_vacancies_selected"
+      ]
+    },
+    {
+      "url": "https://www.censtatd.gov.hk/api/get.php?id=710-86004&lang=en&full_series=1",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "SERIES: rnd_expenditure_by_sector"
+      ]
+    },
+    {
+      "url": "https://www.censtatd.gov.hk/api/get.php?id=710-86110&lang=en&full_series=1",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "SERIES: rnd_personnel_business_by_year"
+      ]
+    },
+    {
+      "url": "https://www.censtatd.gov.hk/en/data/stat_report/product/B1050003/att/B10500032022QQ04B0100.pdf",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "SERIES: job_vacancies_selected"
+      ]
+    },
+    {
+      "url": "https://www.censtatd.gov.hk/wbr/B1050003/B10500032025QQ04/att/en/B10500032025QQ04.pdf",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "SERIES: job_vacancies_selected"
+      ]
+    },
+    {
+      "url": "https://www.censtatd.gov.hk/wbr/B1050003/B10500032026QQ01/att/en/B10500032026QQ01.pdf",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "SERIES: job_vacancies_selected"
+      ]
+    },
+    {
+      "url": "https://www.info.gov.hk/gia/general/201912/23/P2019122300258.htm",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "SERIES: rnd_expenditure_by_sector"
+      ]
+    },
+    {
+      "url": "https://www.statistics.gov.hk/pub/B11100102017AN17B0100.pdf",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "SERIES: rnd_expenditure_by_sector"
+      ]
+    },
+    {
+      "url": "https://www.statistics.gov.hk/pub/B11100102019AN19B0100.pdf",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "SERIES: rnd_expenditure_by_sector"
+      ]
+    }
+  ],
+  "sources_note": "本包裹为多源人工采集：raw 文件内每一行都带自己的 source_url 或 SRC 声明。manifest 的 source_url 只是主源，**复核请以下方 sources 数组与 raw 文件内的逐行 URL 为准**。"
+}

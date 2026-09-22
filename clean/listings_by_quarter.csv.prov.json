@@ -1,0 +1,10 @@
+{
+ "manifests": [
+  "p3_hkex_listings.txt.manifest.json"
+ ],
+ "script": "scripts/listings_build.py",
+ "method": "指标11·IDI商业：18A→biomed、18C→ai，按上市日期切季度；同出当期新增与累计",
+ "geo_rule_note": "本文件为【上市地功能口径】。提案附录 B 要求另出【实质运营口径】，需逐家判定总部与研发地，属人工核查，未由脚本臆断",
+ "coverage_note": "金融科技无对应上市章节；新加坡侧无对称源（提案 §4.5 已声明上市口径不对称）",
+ "created_utc": "2026-09-12T00:00:00+00:00"
+}

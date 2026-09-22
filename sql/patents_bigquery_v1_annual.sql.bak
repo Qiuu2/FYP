@@ -1,0 +1,33 @@
+-- FYP Pilot（Gate 1）｜专利源：BigQuery patents-public-data
+-- 运行：免费 GCP 账户 → BigQuery 控制台粘贴运行（选列查询，扫描量远低于每月 1TiB 免费额度）
+-- 口径：香港申请人（assignee_harmonized.country_code='HK'）× AI 相关 CPC（G06N 及扩展）× 按申请年
+-- 截断规则：申请日截至 2023-12-31（18 个月公开滞后，见骨架 4.2/4.6）
+
+-- 查询 1：香港 AI 专利族按申请年（IDI 创新维 · 企业/大学分流前的总量）
+SELECT
+  CAST(FLOOR(filing_date / 10000) AS INT64) AS filing_year,
+  COUNT(DISTINCT family_id) AS patent_families
+FROM `patents-public-data.patents.publications` p,
+  UNNEST(p.assignee_harmonized) a,
+  UNNEST(p.cpc) c
+WHERE a.country_code = 'HK'
+  AND p.filing_date BETWEEN 20150101 AND 20231231
+  AND (c.code LIKE 'G06N%'      -- 机器学习/神经网络等 AI 核心
+       OR c.code LIKE 'G06V%'   -- 计算机视觉
+       OR c.code LIKE 'G10L%')  -- 语音处理（按附录 B 白名单增删）
+GROUP BY filing_year
+ORDER BY filing_year;
+
+-- 查询 2：申请人清单（供「大学→TAI／企业→IDI／公营研发机构→第三类」人工归类，见骨架 4.3）
+SELECT a.name AS assignee, COUNT(DISTINCT family_id) AS families
+FROM `patents-public-data.patents.publications` p,
+  UNNEST(p.assignee_harmonized) a,
+  UNNEST(p.cpc) c
+WHERE a.country_code = 'HK'
+  AND p.filing_date BETWEEN 20150101 AND 20231231
+  AND c.code LIKE 'G06N%'
+GROUP BY assignee
+ORDER BY families DESC
+LIMIT 100;
+
+-- 新加坡对标：把 'HK' 换成 'SG' 再跑一遍（对称口径）。

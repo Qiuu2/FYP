@@ -1,0 +1,175 @@
+{
+  "file": "raw/p5_investhk_salary.txt",
+  "sha256": "148ec1b876916cd31c141c9ee114b918cae0e90a9751cc811a4b411f3b61881c",
+  "source_url": "https://www.investhk.gov.hk/media/twyf0d3r/2025_startup_survey.pdf",
+  "query_or_method": "InvestHK初创调查2014-2025逐年+薪酬指南历年版本URL清单",
+  "collected_utc": "2026-08-18T09:14:16+00:00",
+  "collected_by": "subagent-a034abba(WebFetch转录)",
+  "notes": "R4待复核；含2025年AI分类不可比警示",
+  "manifest_version": 2,
+  "sources": [
+    {
+      "url": "https://www.info.gov.hk/gia/general/201611/01/P2016110100429.htm",
+      "referenced_by_lines": 2,
+      "appears_in_sections": [
+        "SERIES: investhk_startups_by_year"
+      ]
+    },
+    {
+      "url": "https://www.info.gov.hk/gia/general/201812/12/P2018121200876.htm",
+      "referenced_by_lines": 2,
+      "appears_in_sections": [
+        "SERIES: investhk_startups_by_year"
+      ]
+    },
+    {
+      "url": "https://app7.legco.gov.hk/rpdb/en/uploads/2025/ISSH/ISSH07_2025_20250403_en.pdf",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "SERIES: investhk_startups_by_year"
+      ]
+    },
+    {
+      "url": "https://data.gov.hk/en-data/dataset/hk-investhk-opendata-investhk-statistics-startup-survey",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "SERIES: investhk_startups_by_year"
+      ]
+    },
+    {
+      "url": "https://fintechnews.hk/17256/",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "SERIES: investhk_startups_by_year"
+      ]
+    },
+    {
+      "url": "https://hays-china.cn/en/press-release/content/2024-hasg-pr-1",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "TABLE: salary_guide_inventory"
+      ]
+    },
+    {
+      "url": "https://hays.com.hk/press-release/content/hays-reveals-the-top-ten-in-demand-jobs-for-hong-kong",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "TABLE: salary_guide_inventory"
+      ]
+    },
+    {
+      "url": "https://hays.com.hk/press-release/content/hong-kong-reports-highest-salary-satisfaction-in-asia-for-third-ye-1",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "TABLE: salary_guide_inventory"
+      ]
+    },
+    {
+      "url": "https://image.email.hays.com/lib/fe4315707564057c751c71/m/1/5dd3e86f-30a4-41e1-a69e-09493664e109.pdf",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "TABLE: salary_guide_inventory"
+      ]
+    },
+    {
+      "url": "https://morganmckinley.com/hk/article/2019-risk-salary-guide-hongkong",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "TABLE: salary_guide_inventory"
+      ]
+    },
+    {
+      "url": "https://prnewswire.com/apac/news-releases/…-301972786.html",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "TABLE: salary_guide_inventory"
+      ]
+    },
+    {
+      "url": "https://robertwalters.com.hk/insights/hiring-advice/blog/top-five-hiring-trends-hk-2023.html",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "TABLE: salary_guide_inventory"
+      ]
+    },
+    {
+      "url": "https://robertwalters.com.hk/our-services/salary-survey.html",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "TABLE: salary_guide_inventory"
+      ]
+    },
+    {
+      "url": "https://robertwalters.com/…/salary-survey-2018-southeast-asia-greater-china.pdf",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "TABLE: salary_guide_inventory"
+      ]
+    },
+    {
+      "url": "https://www.info.gov.hk/gia/general/201910/16/P2019101600308.htm",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "SERIES: investhk_startups_by_year"
+      ]
+    },
+    {
+      "url": "https://www.info.gov.hk/gia/general/202111/01/P2021102700695.htm",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "SERIES: investhk_startups_by_year"
+      ]
+    },
+    {
+      "url": "https://www.info.gov.hk/gia/general/202601/26/P2026012600135.htm",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "SERIES: investhk_startups_by_year"
+      ]
+    },
+    {
+      "url": "https://www.investhk.gov.hk/media/4fao1a04/2023-startup-survey.pdf",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "SERIES: investhk_startups_by_year"
+      ]
+    },
+    {
+      "url": "https://www.investhk.gov.hk/media/e0whajcs/2023-startup-survey.pdf",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "SERIES: investhk_startups_by_year"
+      ]
+    },
+    {
+      "url": "https://www.investhk.gov.hk/media/q0llbojy/2024-startup-survey_en.pdf",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "SERIES: investhk_startups_by_year"
+      ]
+    },
+    {
+      "url": "https://www.investhk.gov.hk/media/twyf0d3r/2025_startup_survey.pdf",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "SERIES: investhk_startups_by_year"
+      ],
+      "is_manifest_primary": true
+    },
+    {
+      "url": "https://www.legco.gov.hk/yr18-19/english/panels/ci/papers/ci20190521cb1-1046-5-e.pdf",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "SERIES: investhk_startups_by_year"
+      ]
+    },
+    {
+      "url": "https://www1.investhk.gov.hk/page/datagovhk/startupsurvey.csv",
+      "referenced_by_lines": 1,
+      "appears_in_sections": [
+        "SERIES: investhk_startups_by_year"
+      ]
+    }
+  ],
+  "sources_note": "本包裹为多源人工采集：raw 文件内每一行都带自己的 source_url 或 SRC 声明。manifest 的 source_url 只是主源，**复核请以下方 sources 数组与 raw 文件内的逐行 URL 为准**。"
+}

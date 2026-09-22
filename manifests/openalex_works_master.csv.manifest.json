@@ -1,0 +1,14 @@
+{
+  "file": "raw/openalex_works_master.csv",
+  "sha256": "3b9377b9d3147c39de6f869b52f0552cb5b331d590cdcf064df6783060527029",
+  "source_url": "https://api.openalex.org/works",
+  "query_or_method": "OpenAlex统一底稿v2·works层；6单元x2015-2024全部works；每篇记国家数/国际合著标志/前10%高引标志/期刊source_id；cursor分页per_page=200；INSTITUTION_SCOPE=country",
+  "collected_utc": "2026-09-11T05:26:43+00:00",
+  "collected_by": "賈贇",
+  "notes": "",
+  "manifest_version": 1,
+  "request_log": "openalex_works_master.csv.requests.tsv",
+  "request_count": 6,
+  "example_request_url": "https://api.openalex.org/works?filter=primary_topic.subfield.id%3A1702%2Cauthorships.institutions.country_code%3Ahk%2Cfrom_publication_date%3A2015-01-01%2Cto_publication_date%3A2024-12-31&select=id%2Cpublication_date%2Cauthorships%2Ccitation_normalized_percentile%2Cprimary_location&per_page=200&cursor=%2A",
+  "request_log_note": "按采集代码确定性重建；已省略 api_key（密钥不入库）与 mailto（不影响计数）。复核方法：点开 URL，核对返回的计数是否等于本表所列行的 count。"
+}

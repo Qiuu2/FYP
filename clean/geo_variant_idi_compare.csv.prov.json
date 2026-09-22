@@ -1,0 +1,19 @@
+{
+ "inputs": [
+  "clean/index_stock_asis_by_quarter.csv",
+  "clean/index_stock_ali_grp_by_quarter.csv",
+  "clean/index_stock_ali_ant_grp_by_quarter.csv"
+ ],
+ "manifests": [
+  "patents_families_by_quarter_company_asis.csv.manifest.json",
+  "patents_families_by_quarter_company_ali_grp.csv.manifest.json",
+  "patents_families_by_quarter_company_ali_ant_grp.csv.manifest.json",
+  "openalex_author_quarters.csv.manifest.json",
+  "openalex_works_master.csv.manifest.json"
+ ],
+ "script": "scripts/geo_variant_compare.py",
+ "method": "对每个口径×字段×产业，取港星在【共同可得季度交集】上的均值作差；同时报各自窗口版以显示窗口错配的影响",
+ "decision": "2026-09-12 邱正陽拍板方案③：正文主口径 ali_grp，附录 asis，敏感性 ali_ant_grp",
+ "interpretation_limit": "ΔIDI 是跨维度构成相减（六单元 IDI 不由同一组指标构成），只可用于量化口径选择的影响幅度，不可解释为『谁强谁弱』（critic 2026-09-12）",
+ "created_utc": "2026-09-12T14:46:34+00:00"
+}
