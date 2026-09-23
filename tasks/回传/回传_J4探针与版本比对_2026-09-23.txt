@@ -1,0 +1,31 @@
+C:\Users\albus\AppData\Local\Python\bin\python.exe "C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP_数据仓库\data_repo\scripts\diff_safe.py" collect_all.py collect_all0.py 
+A（你本地）: collect_all.py   633 行 32908 字节
+B（仓库版）: collect_all0.py   633 行 32908 字节
+========================================================================
+✅ 两份文件内容完全相同
+
+进程已结束，退出代码为 0
+
+C:\Users\albus\AppData\Local\Python\bin\python.exe "C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP_数据仓库\data_repo\scripts\ct_phase_probe.py" 
+hk/2024Q1　filter = AREA[StudyFirstPostDate]RANGE[2024-01-01,2024-03-31]
+
+totalCount = 109
+实际取回 109 条（1 页）
+
+=== phases 字段的真实取值组合 ===
+    73  NA
+    14  <没有 phases 字段>
+    12  PHASE3
+     7  PHASE2
+     1  EARLY_PHASE1
+     1  PHASE1
+     1  PHASE4
+
+单值 95 · 多值组合 0 · 无字段 14 · 合计 109
+
+=== 判读 ===
+→ 有 14 条**根本没有 phases 字段**（不是 NA）。这些用任何 AREA[Phase]xxx 都筛不到。
+
+把以上整段输出原样粘回给组长。
+
+进程已结束，退出代码为 0
