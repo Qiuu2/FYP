@@ -1,0 +1,43 @@
+Mode: journals; years: all; Python: 3.14.7
+Resolving journal: TPAMI
+Resolving journal: JMLR
+Resolving journal: Nature Machine Intelligence
+Resolving journal: Science Robotics
+Resolving journal: Nature Computational Science
+Resolving journal: Nature Methods
+Resolving journal: Nature
+Resolving journal: Science
+Fetching journals 2015 (network requests may take up to 60s each)
+  page 1: 85 / 85 records (cached for resume)
+journals 2015 85
+Fetching journals 2016 (network requests may take up to 60s each)
+  page 1: 93 / 93 records (cached for resume)
+journals 2016 93
+Fetching journals 2017 (network requests may take up to 60s each)
+  page 1: 99 / 99 records (cached for resume)
+journals 2017 99
+Fetching journals 2018 (network requests may take up to 60s each)
+  page 1: 100 / 105 records (cached for resume)
+journals 2018 105
+Fetching journals 2019 (network requests may take up to 60s each)
+  page 1: 100 / 132 records (cached for resume)
+journals 2019 132
+Fetching journals 2020 (network requests may take up to 60s each)
+  page 1: 100 / 172 records (cached for resume)
+journals 2020 172
+Fetching journals 2021 (network requests may take up to 60s each)
+  page 1: 100 / 184 records (cached for resume)
+journals 2021 184
+Fetching journals 2022 (network requests may take up to 60s each)
+  page 1: 100 / 234 records (cached for resume)
+journals 2022 234
+Fetching journals 2023 (network requests may take up to 60s each)
+  page 1: 100 / 258 records (cached for resume)
+journals 2023 258
+Fetching journals 2024 (network requests may take up to 60s each)
+  page 1: 100 / 314 records (cached for resume)
+journals 2024 314
+Fetching journals 2025 (network requests may take up to 60s each)
+  page 1: 100 / 437 records (cached for resume)
+journals 2025 437
+Built results: C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP\scripts\ai_research_collector\results

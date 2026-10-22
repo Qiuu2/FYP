@@ -1,0 +1,111 @@
+﻿venue,year,status,catalog_rows,main_rows,error
+AAAI,2015,needs_retry_or_import,0,0,HTTP 503 at https://ojs.aaai.org/index.php/AAAI/issue/archive
+AAAI,2016,needs_retry_or_import,0,0,HTTP 503 at https://ojs.aaai.org/index.php/AAAI/issue/archive
+AAAI,2017,needs_retry_or_import,0,0,HTTP 503 at https://ojs.aaai.org/index.php/AAAI/issue/archive
+AAAI,2018,needs_retry_or_import,0,0,HTTP 503 at https://ojs.aaai.org/index.php/AAAI/issue/archive
+AAAI,2019,needs_retry_or_import,0,0,HTTP 503 at https://ojs.aaai.org/index.php/AAAI/issue/archive
+AAAI,2020,needs_retry_or_import,0,0,HTTP 503 at https://ojs.aaai.org/index.php/AAAI/issue/archive
+AAAI,2021,needs_retry_or_import,0,0,HTTP 503 at https://ojs.aaai.org/index.php/AAAI/issue/archive
+AAAI,2022,needs_retry_or_import,0,0,HTTP 503 at https://ojs.aaai.org/index.php/AAAI/issue/archive
+AAAI,2023,needs_retry_or_import,0,0,HTTP 503 at https://ojs.aaai.org/index.php/AAAI/issue/archive
+AAAI,2024,needs_retry_or_import,0,0,HTTP 503 at https://ojs.aaai.org/index.php/AAAI/issue/archive
+AAAI,2025,needs_retry_or_import,0,0,HTTP 503 at https://ojs.aaai.org/index.php/AAAI/issue/archive
+ACL,2015,parsed_unverified,318,318,
+ACL,2016,parsed_unverified,328,328,
+ACL,2017,parsed_unverified,302,302,
+ACL,2018,parsed_unverified,381,381,
+ACL,2019,parsed_unverified,660,660,
+ACL,2020,parsed_unverified,778,778,
+ACL,2021,parsed_unverified,710,710,
+ACL,2022,parsed_unverified,700,700,
+ACL,2023,parsed_unverified,1075,1075,
+ACL,2024,parsed_unverified,940,940,
+ACL,2025,parsed_unverified,1699,1699,
+CVPR,2015,parsed_unverified,602,602,
+CVPR,2016,parsed_unverified,643,643,
+CVPR,2017,parsed_unverified,783,783,
+CVPR,2018,needs_retry_or_import,0,0,No entries parsed; requires manual directory/import (not zero papers)
+CVPR,2019,needs_retry_or_import,0,0,No entries parsed; requires manual directory/import (not zero papers)
+CVPR,2020,needs_retry_or_import,0,0,No entries parsed; requires manual directory/import (not zero papers)
+CVPR,2021,parsed_unverified,1660,1660,
+CVPR,2022,parsed_unverified,2074,2074,
+CVPR,2023,parsed_unverified,2353,2353,
+CVPR,2024,parsed_unverified,2716,2716,
+CVPR,2025,parsed_unverified,2871,2871,
+ECCV,2015,not_held,0,0,
+ECCV,2016,needs_retry_or_import,0,0,No entries parsed; requires manual directory/import (not zero papers)
+ECCV,2017,not_held,0,0,
+ECCV,2018,parsed_unverified,776,776,
+ECCV,2019,not_held,0,0,
+ECCV,2020,parsed_unverified,1358,1358,
+ECCV,2021,not_held,0,0,
+ECCV,2022,parsed_unverified,1645,1645,
+ECCV,2023,not_held,0,0,
+ECCV,2024,parsed_unverified,2387,2387,
+ECCV,2025,not_held,0,0,
+EMNLP,2015,parsed_unverified,312,312,
+EMNLP,2016,parsed_unverified,264,264,
+EMNLP,2017,parsed_unverified,323,323,
+EMNLP,2018,parsed_unverified,549,549,
+EMNLP,2019,parsed_unverified,681,681,
+EMNLP,2020,parsed_unverified,751,751,
+EMNLP,2021,parsed_unverified,847,847,
+EMNLP,2022,parsed_unverified,828,828,
+EMNLP,2023,parsed_unverified,1047,1047,
+EMNLP,2024,parsed_unverified,1268,1268,
+EMNLP,2025,parsed_unverified,1809,1809,
+ICCV,2015,parsed_unverified,526,526,
+ICCV,2016,not_held,0,0,
+ICCV,2017,parsed_unverified,621,621,
+ICCV,2018,not_held,0,0,
+ICCV,2019,needs_retry_or_import,0,0,No entries parsed; requires manual directory/import (not zero papers)
+ICCV,2020,not_held,0,0,
+ICCV,2021,parsed_unverified,1612,1612,
+ICCV,2022,not_held,0,0,
+ICCV,2023,parsed_unverified,2156,2156,
+ICCV,2024,not_held,0,0,
+ICCV,2025,parsed_unverified,2701,2701,
+ICLR,2015,needs_retry_or_import,0,0,HTTP 403 at https://api.openreview.net/notes
+ICLR,2016,needs_retry_or_import,0,0,HTTP 403 at https://api.openreview.net/notes
+ICLR,2017,needs_retry_or_import,0,0,HTTP 403 at https://api.openreview.net/notes
+ICLR,2018,needs_retry_or_import,0,0,HTTP 403 at https://api.openreview.net/notes
+ICLR,2019,needs_retry_or_import,0,0,HTTP 403 at https://api.openreview.net/notes
+ICLR,2020,needs_retry_or_import,0,0,HTTP 403 at https://api.openreview.net/notes
+ICLR,2021,needs_retry_or_import,0,0,HTTP 403 at https://api.openreview.net/notes
+ICLR,2022,needs_retry_or_import,0,0,HTTP 403 at https://api.openreview.net/notes
+ICLR,2023,needs_retry_or_import,0,0,HTTP 403 at https://api.openreview.net/notes
+ICLR,2024,parsed_unverified,2260,2260,
+ICLR,2025,parsed_unverified,3703,3703,
+ICML,2015,parsed_unverified,270,270,
+ICML,2016,parsed_unverified,322,322,
+ICML,2017,parsed_unverified,434,434,
+ICML,2018,parsed_unverified,621,621,
+ICML,2019,parsed_unverified,773,773,
+ICML,2020,parsed_unverified,1084,1084,
+ICML,2021,parsed_unverified,1183,1183,
+ICML,2022,parsed_unverified,1247,1247,
+ICML,2023,parsed_unverified,1828,1828,
+ICML,2024,parsed_unverified,2640,2640,
+ICML,2025,parsed_unverified,3341,3341,
+IJCAI,2015,parsed_unverified,656,335,
+IJCAI,2016,parsed_unverified,658,0,
+IJCAI,2017,parsed_unverified,781,648,
+IJCAI,2018,parsed_unverified,870,709,
+IJCAI,2019,parsed_unverified,964,799,
+IJCAI,2020,parsed_unverified,779,592,
+IJCAI,2021,parsed_unverified,722,586,
+IJCAI,2022,parsed_unverified,862,678,
+IJCAI,2023,parsed_unverified,851,639,
+IJCAI,2024,parsed_unverified,1048,790,
+IJCAI,2025,parsed_unverified,1280,1014,
+NeurIPS,2015,parsed_unverified,403,403,
+NeurIPS,2016,parsed_unverified,569,569,
+NeurIPS,2017,parsed_unverified,679,679,
+NeurIPS,2018,parsed_unverified,1009,1009,
+NeurIPS,2019,parsed_unverified,1428,1428,
+NeurIPS,2020,parsed_unverified,1898,1898,
+NeurIPS,2021,parsed_unverified,2334,2334,
+NeurIPS,2022,parsed_unverified,2834,2671,
+NeurIPS,2023,parsed_unverified,3540,3218,
+NeurIPS,2024,parsed_unverified,4493,4034,
+NeurIPS,2025,parsed_unverified,64,64,

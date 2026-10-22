@@ -1,0 +1,64 @@
+Mode: all-ai; years: all; Python: 3.14.7
+Fetching all_ai 2015 (network requests may take up to 60s each)
+  page 1: 100 / 1315 records (cached for resume)
+  page 10: 1000 / 1315 records (cached for resume)
+all_ai 2015 1315
+Fetching all_ai 2016 (network requests may take up to 60s each)
+  page 1: 100 / 1386 records (cached for resume)
+  page 10: 1000 / 1386 records (cached for resume)
+all_ai 2016 1386
+Fetching all_ai 2017 (network requests may take up to 60s each)
+  page 1: 100 / 1507 records (cached for resume)
+  page 10: 1000 / 1507 records (cached for resume)
+all_ai 2017 1507
+Fetching all_ai 2018 (network requests may take up to 60s each)
+  page 1: 100 / 1675 records (cached for resume)
+  page 10: 1000 / 1675 records (cached for resume)
+all_ai 2018 1675
+Fetching all_ai 2019 (network requests may take up to 60s each)
+  page 1: 100 / 2050 records (cached for resume)
+  page 10: 1000 / 2050 records (cached for resume)
+  page 20: 2000 / 2050 records (cached for resume)
+all_ai 2019 2050
+Fetching all_ai 2020 (network requests may take up to 60s each)
+  page 1: 100 / 2457 records (cached for resume)
+  page 10: 1000 / 2457 records (cached for resume)
+  page 20: 2000 / 2457 records (cached for resume)
+all_ai 2020 2457
+Fetching all_ai 2021 (network requests may take up to 60s each)
+  page 1: 100 / 3094 records (cached for resume)
+  page 10: 1000 / 3094 records (cached for resume)
+  page 20: 2000 / 3094 records (cached for resume)
+  page 30: 3000 / 3094 records (cached for resume)
+all_ai 2021 3094
+Fetching all_ai 2022 (network requests may take up to 60s each)
+  page 1: 100 / 3399 records (cached for resume)
+  page 10: 1000 / 3399 records (cached for resume)
+  page 20: 2000 / 3399 records (cached for resume)
+  page 30: 3000 / 3399 records (cached for resume)
+all_ai 2022 3399
+Fetching all_ai 2023 (network requests may take up to 60s each)
+  page 1: 100 / 4328 records (cached for resume)
+  page 10: 1000 / 4328 records (cached for resume)
+  page 20: 2000 / 4328 records (cached for resume)
+  page 30: 3000 / 4328 records (cached for resume)
+  page 40: 4000 / 4328 records (cached for resume)
+all_ai 2023 4328
+Fetching all_ai 2024 (network requests may take up to 60s each)
+  page 1: 100 / 5597 records (cached for resume)
+  page 10: 1000 / 5597 records (cached for resume)
+  page 20: 2000 / 5597 records (cached for resume)
+  page 30: 3000 / 5597 records (cached for resume)
+  page 40: 4000 / 5597 records (cached for resume)
+  page 50: 5000 / 5597 records (cached for resume)
+all_ai 2024 5597
+Fetching all_ai 2025 (network requests may take up to 60s each)
+  page 1: 100 / 6798 records (cached for resume)
+  page 10: 1000 / 6798 records (cached for resume)
+  page 20: 2000 / 6798 records (cached for resume)
+  page 30: 3000 / 6798 records (cached for resume)
+  page 40: 4000 / 6798 records (cached for resume)
+  page 50: 5000 / 6798 records (cached for resume)
+  page 60: 6000 / 6798 records (cached for resume)
+all_ai 2025 6798
+Built results: C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP\scripts\ai_research_collector\results
