@@ -1,0 +1,22 @@
+{
+  "collected_utc": "2026-11-02T02:02:54.309316+00:00",
+  "rows": 11289,
+  "export_verified": true,
+  "sql_sha256": "a62ce7abae218698713d8a14d75cb195ba991b0809ae40d48b2bc6d8067d5ba5",
+  "raw_sha256": "577dbddd32a5bdf3fe29ac55d2a6a52e7d951d16f987aefc5cd27a3f2e93db59",
+  "classification_pending": 192,
+  "invalid_rows": 0,
+  "max_publication_date": "20260917",
+  "filing_window": "2015-2025",
+  "geography": "harmonized assignee country HK/SG",
+  "family_complete": false,
+  "config_sha256": {
+    "assignee_sectors.csv": "17de8c667e3281ac12b1f7bf7736836b1e646de6fd0aff547d03f38beceaa31d",
+    "exclusions.csv": "17f427ba2ef7241a480b3305a1de21253e9fbc03b811e5dadb3fc621e6e34dfc",
+    "new_assignees.csv": "489560c3598b4cc377f8d21656ed4866b80e7b43ac832c6809a4f46a171eab7f",
+    "new_assignees_template.csv": "489560c3598b4cc377f8d21656ed4866b80e7b43ac832c6809a4f46a171eab7f",
+    "paper_track_overrides.csv": "afd0eb9287bb2143006978320a4069c9284753700865a308cdcf7992f3b465f3",
+    "paper_track_overrides_template.csv": "afd0eb9287bb2143006978320a4069c9284753700865a308cdcf7992f3b465f3"
+  },
+  "note": "Published observations only. No unpublished-patent extrapolation; 2024/2025 remain provisional."
+}

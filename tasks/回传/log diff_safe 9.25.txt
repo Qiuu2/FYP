@@ -1,0 +1,32 @@
+C:\Users\albus\AppData\Local\Python\bin\python.exe "C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP_数据仓库\data_repo\scripts\diff_safe.py" collect_all.py collect_all0.py 
+A（你本地）: collect_all.py   633 行 33037 字节
+B（仓库版）: collect_all0.py   633 行 32908 字节
+========================================================================
+差异：新增 7 行 / 删除 7 行（已遮蔽疑似密钥）
+
+--- 仓库版
++++ 你本地
+@@ -45,11 +45,11 @@
+ RAW, MAN, CLEAN, CFG = ROOT / "raw", ROOT / "manifests", ROOT / "clean", ROOT / "config"
+ 
+-KEY = os.environ.get("<已遮蔽:12字符>", "<已遮蔽:0字符>")
+-MAILTO = os.environ.get("<已遮蔽:15字符>", "<已遮蔽:16字符>")
+-GH_TOKEN = os.environ.get("<已遮蔽:12字符>", "<已遮蔽:0字符>")
+-PV_KEY = os.environ.get("<已遮蔽:15字符>", "<已遮蔽:0字符>")
+-ORCID_ID = os.environ.get("ORCID_CLIENT_ID", "")
+-ORCID_SECRET = os.environ.get("<已遮蔽:19字符>", "<已遮蔽:0字符>")
+-BY = os.environ.get("COLLECTOR_NAME", "UNSET——请 export COLLECTOR_NAME")
++KEY = os.environ.get("<已遮蔽:12字符>", "<已遮蔽:22字符>")
++MAILTO = os.environ.get("<已遮蔽:15字符>", "<已遮蔽:27字符>")
++GH_TOKEN = os.environ.get("<已遮蔽:12字符>", "<已遮蔽:40字符>")
++PV_KEY = os.environ.get("<已遮蔽:15字符>", "<已遮蔽:30字符>")
++ORCID_ID = os.environ.get("ORCID_CLIENT_ID", "<已遮蔽:20字符>")
++ORCID_SECRET = os.environ.get("<已遮蔽:19字符>", "<已遮蔽:36字符>")
++BY = os.environ.get("COLLECTOR_NAME", "賈贇")
+ 
+ YEARS = list(range(2015, 2026))          # 年度：2015–2025
+
+========================================================================
+这份输出可以直接发给组长。发之前请自己再扫一眼，确认没有漏网的敏感内容。
+
+进程已结束，退出代码为 0

@@ -1,0 +1,11 @@
+PS C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP_数据仓库\data_repo\scripts> py oa_count_probe.py
+探针：biomed/hk/2015Q1
+filter = primary_topic.field.id:27|13,authorships.institutions.country_code:hk,from_publication_date:2015-01-01,to_publication_date:2015-03-31
+
+A · meta.count            = 1,726
+B · cursor 枚举实际条数   = 1,726   （9 页，32 秒）
+
+差值 B − A = +0（+0.00%）
+→ 两者一致。meta.count 可信，+22.4% 的差异**另有原因**，悬案继续查。
+
+把以上整段输出粘回给组长即可。

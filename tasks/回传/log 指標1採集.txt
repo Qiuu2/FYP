@@ -1,0 +1,15 @@
+读入 1,327,298 行
+单元 6 个：[('ai', 'hk'), ('ai', 'sg'), ('biomed', 'hk'), ('biomed', 'sg'), ('fintech_kw', 'hk'), ('fintech_kw', 'sg')]
+
+✅ clean/researchers_stock_by_quarter.csv  240 行 = 6 单元 × 40 期
+   window_full=True 的期数：29（2017Q4 起），先行检验只能用这一段
+
+各单元 window_full 段的存量区间：
+   ai          hk    3,595 – 17,439   末期 17,439
+   ai          sg    4,639 – 15,303   末期 15,303
+   biomed      hk   67,097 – 156,510   末期 156,510
+   biomed      sg   78,755 – 145,003   末期 145,003
+   fintech_kw  hk      196 –  2,746   末期  2,746
+   fintech_kw  sg      256 –  2,101   末期  2,101
+
+prov → researchers_stock_by_quarter.csv.prov.json

@@ -1,0 +1,192 @@
+[18:38:34] → GET https://api.uspto.gov/api/v1/datasets/products/PVANNUAL
+   status=200
+
+  产品 PVANNUAL —— PatentsView Annualized Patent Data
+    更新频率=YEARLY  覆盖 1976-01-01 … 2025-12-31  格式=CSV
+    共 52 个文件，合计 641.6 MiB
+    文件名                                                           大小  覆盖区间
+    data_dictionary_PVANNUAL.xlsx                           34.1 KiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/data_dictionary_PVANNUAL.xlsx
+    year_missing.zip                                        26.4 KiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/year_missing.zip
+    2025.zip                                                27.5 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/2025.zip
+    2024.zip                                                27.5 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/2024.zip
+    2023.zip                                                26.2 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/2023.zip
+    2022.zip                                                26.7 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/2022.zip
+    2021.zip                                                26.9 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/2021.zip
+    2020.zip                                                28.7 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/2020.zip
+    2019.zip                                                28.5 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/2019.zip
+    2018.zip                                                24.6 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/2018.zip
+    2017.zip                                                25.2 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/2017.zip
+    2016.zip                                                23.7 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/2016.zip
+    2015.zip                                                23.2 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/2015.zip
+    2014.zip                                                23.4 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/2014.zip
+    2013.zip                                                21.4 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/2013.zip
+    2012.zip                                                19.3 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/2012.zip
+    2011.zip                                                17.0 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/2011.zip
+    2009.zip                                                12.5 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/2009.zip
+    2010.zip                                                16.5 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/2010.zip
+    2008.zip                                                11.7 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/2008.zip
+    2007.zip                                                11.6 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/2007.zip
+    2005.zip                                                10.5 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/2005.zip
+    2006.zip                                                12.7 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/2006.zip
+    2004.zip                                                11.9 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/2004.zip
+    2003.zip                                                12.3 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/2003.zip
+    2002.zip                                                12.1 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/2002.zip
+    2001.zip                                                12.0 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/2001.zip
+    2000.zip                                                11.3 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/2000.zip
+    1999.zip                                                10.9 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/1999.zip
+    1998.zip                                                10.4 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/1998.zip
+    1997.zip                                                 7.9 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/1997.zip
+    1996.zip                                                 7.7 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/1996.zip
+    1995.zip                                                 7.0 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/1995.zip
+    1994.zip                                                 7.0 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/1994.zip
+    1992.zip                                                 6.6 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/1992.zip
+    1993.zip                                                 6.7 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/1993.zip
+    1990.zip                                                 6.0 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/1990.zip
+    1991.zip                                                 6.4 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/1991.zip
+    1988.zip                                                 5.1 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/1988.zip
+    1989.zip                                                 6.3 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/1989.zip
+    1986.zip                                                 4.5 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/1986.zip
+    1987.zip                                                 5.3 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/1987.zip
+    1984.zip                                                 4.2 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/1984.zip
+    1985.zip                                                 4.5 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/1985.zip
+    1983.zip                                                 3.6 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/1983.zip
+    1982.zip                                                 3.6 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/1982.zip
+    1980.zip                                                 3.8 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/1980.zip
+    1981.zip                                                 4.1 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/1981.zip
+    1979.zip                                                 3.0 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/1979.zip
+    1978.zip                                                 4.0 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/1978.zip
+    1977.zip                                                 3.9 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/1977.zip
+    1976.zip                                                 4.3 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVANNUAL/1976.zip
+[18:38:39] → GET https://api.uspto.gov/api/v1/datasets/products/pvgpatdis
+   status=200
+
+  产品 PVGPATDIS —— PatentsView Granted Patent Disambiguated Data
+    更新频率=QUARTERLY  覆盖 1976-01-01 … 2025-12-31  格式=TSV
+    共 37 个文件，合计 30.1 GiB
+    文件名                                                           大小  覆盖区间
+    clustering_resources.zip                                 8.2 GiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/clustering_resources.zip
+    g_uspc_at_issue.tsv.zip                                585.2 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_uspc_at_issue.tsv.zip
+    g_us_term_of_grant.tsv.zip                              34.4 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_us_term_of_grant.tsv.zip
+    g_us_rel_doc.tsv.zip                                   263.9 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_us_rel_doc.tsv.zip
+    g_us_patent_citation.tsv.zip                             2.1 GiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_us_patent_citation.tsv.zip
+    g_us_application_citation.tsv.zip                        1.5 GiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_us_application_citation.tsv.zip
+    g_rel_app_text.tsv.zip                                 231.0 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_rel_app_text.tsv.zip
+    g_persistent_inventor.tsv.zip                          939.7 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_persistent_inventor.tsv.zip
+    g_persistent_assignee.tsv.zip                            4.0 GiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_persistent_assignee.tsv.zip
+    g_pct_data.tsv.zip                                      37.7 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_pct_data.tsv.zip
+    g_patent_abstract.tsv.zip                                1.6 GiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_patent_abstract.tsv.zip
+    g_patent.tsv.zip                                       221.3 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_patent.tsv.zip
+    g_other_reference.tsv.zip                                4.1 GiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_other_reference.tsv.zip
+    g_location_not_disambiguated.tsv.zip                     1.0 GiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_location_not_disambiguated.tsv.zip
+    g_location_disambiguated.tsv.zip                         2.6 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_location_disambiguated.tsv.zip
+    g_ipc_at_issue.tsv.zip                                 377.6 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_ipc_at_issue.tsv.zip
+    g_inventor_not_disambiguated.tsv.zip                   987.5 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_inventor_not_disambiguated.tsv.zip
+    g_inventor_disambiguated.tsv.zip                       674.7 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_inventor_disambiguated.tsv.zip
+    g_gov_interest_org.tsv.zip                               1.3 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_gov_interest_org.tsv.zip
+    g_gov_interest_contracts.tsv.zip                         1.8 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_gov_interest_contracts.tsv.zip
+    g_gov_interest.tsv.zip                                   5.9 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_gov_interest.tsv.zip
+    g_foreign_priority.tsv.zip                              67.9 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_foreign_priority.tsv.zip
+    g_foreign_citation.tsv.zip                             706.6 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_foreign_citation.tsv.zip
+    g_figures.tsv.zip                                       51.4 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_figures.tsv.zip
+    g_examiner_not_disambiguated.tsv.zip                   189.7 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_examiner_not_disambiguated.tsv.zip
+    g_cpc_title.tsv.zip                                      6.2 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_cpc_title.tsv.zip
+    g_cpc_current.tsv.zip                                  479.8 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_cpc_current.tsv.zip
+    g_cpc_at_issue.tsv.zip                                 323.3 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_cpc_at_issue.tsv.zip
+    g_botanic.tsv.zip                                      337.6 KiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_botanic.tsv.zip
+    g_attorney_not_disambiguated.tsv.zip                   341.1 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_attorney_not_disambiguated.tsv.zip
+    g_wipo_technology.tsv.zip                               45.4 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_wipo_technology.tsv.zip
+    g_attorney_disambiguated.tsv.zip                        62.8 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_attorney_disambiguated.tsv.zip
+    g_assignee_not_disambiguated.tsv.zip                   475.4 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_assignee_not_disambiguated.tsv.zip
+    g_assignee_disambiguated.tsv.zip                       345.9 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_assignee_disambiguated.tsv.zip
+    g_application.tsv.zip                                   68.3 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_application.tsv.zip
+    g_applicant_not_disambiguated.tsv.zip                  232.2 MiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/g_applicant_not_disambiguated.tsv.zip
+    PV_grant_data_dictionary.pdf                           134.7 KiB  1976-01-01…2025-12-31
+      https://api.uspto.gov/api/v1/datasets/products/files/PVGPATDIS/PV_grant_data_dictionary.pdf

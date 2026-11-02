@@ -1,0 +1,42 @@
+C:\Users\albus\AppData\Local\Python\bin\python.exe "C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP_数据仓库\data_repo\scripts\jobs_panel_fetch.py" 
+[R6] 跳过未确认公司 11 家：SenseTime 商汤, Fano Labs, Hanson Robotics, Insilico Medicine 英矽智能, Prenetics, HashKey Group, WeLab, Bowtie 保泰, ZA Bank 众安银行, Klook, Mox Bank
+[OK] Animoca Brands：11 个在招岗位
+Traceback (most recent call last):
+  File "C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP_数据仓库\data_repo\scripts\jobs_panel_fetch.py", line 122, in <module>
+    write_manifest(out, " ; ".join(urls),
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+                   "ATS 公开职位板 JSON 全量快照（Greenhouse boards API / Lever postings API）",
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                   f"每周快照；失败公司如实留档：{'; '.join(failed) if failed else '无'}")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP_数据仓库\data_repo\scripts\jobs_panel_fetch.py", line 47, in write_manifest
+    out.write_text(json.dumps({
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+        "file": str(data_file.relative_to(ROOT.resolve())), "sha256": sha256(data_file),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        "collected_by": BY, "notes": note, "manifest_version": 1,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\albus\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 809, in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\albus\AppData\Local\Python\pythoncore-3.14-64\Lib\pathlib\__init__.py", line 771, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\albus\\OneDrive - The Chinese University of Hong Kong\\學業\\Year3 Term2\\GECC4130\\FYP_数据仓库\\data_repo\\manifests\\forward_panel\\jobs_snapshot_2026-09-15.csv.manifest.json'
+
+进程已结束，退出代码为 1
+
+PS C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP_数据仓库> python data_repo\scripts\oa_count_probe.py
+探针：biomed/hk/2015Q1
+filter = primary_topic.field.id:27|13,authorships.institutions.country_code:hk,from_publication_date:2015-01-01,to_publication_date:2015-03-31
+
+A · meta.count            = 1,680
+B · cursor 枚举实际条数   = 1,680   （9 页，38 秒）
+
+差值 B − A = +0（+0.00%）
+→ 两者一致。meta.count 可信，+22.4% 的差异**另有原因**，悬案继续查。
+
+把以上整段输出粘回给组长即可。

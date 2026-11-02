@@ -1,0 +1,2456 @@
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+    <style>html { scroll-padding-top: 70px; /* height of sticky header plus extra */ }</style>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/static/virtual/js/virtual.js"></script>
+    <meta name="google-site-verification" content="0jwPnVXIAk4FvFdT37dwMmd-kjHF86e5DKwvqlStUW0">
+
+
+    
+    <link rel="stylesheet" href="/static/core/css/core.css" type="text/css">
+    <link rel="stylesheet" href="/static/virtual/css/virtual.css" type="text/css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/static/core/css/custom.css" type="text/css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/css/bootstrap-select.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <script nonce="6czFTkBZkhE/tuvBfc0sDQ==">
+        window.MathJax = {
+          tex: {
+            // Workshop/competition imports store inline formulas with doubled dollars.
+            inlineMath: [['$$', '$$'], ['$', '$'], ['\\(', '\\)']],
+            displayMath: [['\\[', '\\]']],
+            processEscapes: true,
+          },
+          options: {
+            ignoreHtmlClass: 'no-mathjax',
+          }
+        };
+    </script>
+
+    <script id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+            nonce="6czFTkBZkhE/tuvBfc0sDQ==" >
+    </script>
+
+    <!--This script keeps local links inside the web app rather than opening them
+in Safari, and has nothing to do with editing or Aloha.-->
+
+<script nonce="6czFTkBZkhE/tuvBfc0sDQ==">
+    (function (document, navigator, standalone) {
+
+        if ((standalone in navigator) && navigator[standalone]) {
+            var curnode, location = document.location, stop = /^(a|html)$/i;
+            document.addEventListener('click', function (e) {
+                curnode = e.target;
+                while (!(stop).test(curnode.nodeName)) {
+                    curnode = curnode.parentNode;
+                }
+
+                if (
+                    'href' in curnode && // is a link
+                    (chref = curnode.href).replace(location.href, '').indexOf('#') && // is not an anchor
+                    (!(/^[a-z\+\.\-]+:/i).test(chref) ||                       // either does not have a proper scheme (relative links)
+                        chref.indexOf(location.protocol + '//' + location.host) === 0) // or is in the same protocol and domain
+                ) {
+                    e.preventDefault();
+                    location.href = curnode.href;
+                }
+            }, false);
+        }
+    })(document, window.navigator, 'standalone');
+</script>
+
+
+<style>
+
+    @media screen and (min-width: 767px) {
+        .blurb {
+            min-height: 260px;
+        }
+    }
+</style>
+    
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous">
+</script>
+
+<script nonce="6czFTkBZkhE/tuvBfc0sDQ==">
+    if (typeof jQuery === 'undefined') {
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = "/static/core/js/jquery-3.6.1.min.js";
+        document.head.appendChild(script);
+    }
+</script>
+
+    
+    <script nonce="6czFTkBZkhE/tuvBfc0sDQ==">
+        var $ = jQuery;
+    </script>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <script src="/static/core/js/ajax-csrf-snippet.js"></script>
+    
+    <link rel="stylesheet" href="/static/fontawesomefree/css/all.min.css">
+    <script src="/static/fontawesomefree/js/all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/js/bootstrap-select.min.js"></script>
+
+
+    <style nonce="6czFTkBZkhE/tuvBfc0sDQ==">
+        body {
+            font-family: Exo;}
+    </style>
+
+
+
+
+
+
+
+
+        
+
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/virtual/css/virtual.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/corejs-typeahead/1.3.1/typeahead.bundle.min.js" integrity="sha512-lEb9Vp/rkl9g2E/LdHIMFTqz21+LA79f84gqP75fbimHqVTu6483JG1AwJlWLLQ8ezTehty78fObKupq3HSHPQ==" crossorigin="anonymous"></script>
+    <script src="/static/core/js/moment/min/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="/static/core/js/ajax-csrf-snippet.js" ></script>
+    <script src="/static/virtual/js/virtual.js"></script>
+    
+
+    
+
+    
+    <title>ICLR 2021 Papers</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tippy.js@6/dist/tippy-bundle.umd.min.js"></script>
+
+    <script src="/static/virtual/js/icons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js"
+            integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww="
+            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="/static/virtual/css/typeahead.css">
+    <link rel="stylesheet" href="/static/virtual/css/lazy_load.css">
+
+    <!-- Library libs_ext -->
+    <script src="/static/virtual/libs_ext/typeahead.bundle.js"></script>
+
+    <!--    Internal Libs -->
+    <script src="/static/virtual/js/data/persistor.js"></script>
+    <script src="/static/virtual/js/data/api.js"></script>
+    <script src="/static/virtual/js/modules/timeZoneFormat.js"></script>
+
+    <style>
+        .tt-hint {
+            opacity: 0 !important;
+        }
+    </style>
+
+
+    <title>ICLR 2021</title>
+</head>
+
+<body>
+<!-- <h1><a href="#" onclick="alert('CSP Test');">CSP Test</a></h1> -->
+
+
+
+
+<div class="noprint">
+    
+        
+            <!--Navbar start-->
+<header>
+    <a href="#child-menu" class="off-screen">Skip to yearly menu bar</a>
+    <a href="#main" class="off-screen">Skip to main content</a>
+    <div id="id_navbar" class="navbar navbar-expand-sm navbar-dark" aria-label="Main Navigation"
+         style="background-color:#212529">
+        <h2 class="off-screen">Main Navigation</h2>
+        <div class="container-fluid">
+            <div><a class="navbar-brand" href="/" aria-label="Home">
+
+                <img src="/static/core/img/iclr-navbar-logo.svg" alt="conference_logo" height="40"></a></div>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarToggler1"
+                    aria-expanded="false" aria-label="Toggle main navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarToggler1">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+    <li class="dropdown-item dropdown pe-3">
+        <a class="nav-link dropdown-toggle  p-1" 
+           href="#"
+           role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            ICLR
+        </a>
+        <ul class="dropdown-menu dropdown-menu-dark">
+            
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/FAQ">
+                    <span >
+                        Help/FAQ
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/Help/Contact">
+                    <span >
+                        Contact ICLR
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/Profile/create">
+                    <span >
+                        Create Profile
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/public/CodeOfConduct">
+                    <span >
+                        Code of Conduct
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/public/JournalToConference">
+                    <span >
+                        Journal To Conference Track
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/public/DiversityInclusion">
+                    <span >
+                        Diversity &amp; Inclusion
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="https://openreview.net/group?id=ICLR.cc">
+                    <span >
+                        Proceedings at OpenReview
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/Conferences/FutureMeetings">
+                    <span >
+                        Future Meetings
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/Conferences/2025/Press">
+                    <span >
+                        Press
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/Sponsors/sponsorinfo">
+                    <span >
+                        Exhibitor Information
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="https://blog.iclr.cc/">
+                    <span >
+                        ICLR Blog
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="https://twitter.com/iclr_conf?ref_src=twsrc%5Etfw">
+                    <span >
+                        ICLR Twitter
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/About">
+                    <span >
+                        About ICLR
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/Downloads">
+                    <span >
+                        Downloads
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/public/PrivacyPolicy">
+                    <span >
+                        Privacy Policy
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/resetpassword">
+                    <span >
+                        Reset Password
+                    </span>
+                </a>
+                
+            </li>
+
+        
+
+    
+
+
+
+        </ul>
+    </li>
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/MyStuff">
+                    <span >
+                        My Stuff
+                    </span>
+                </a>
+                
+            </li>
+
+        
+
+    
+
+
+
+                    
+                </ul>
+
+                
+                <form class="d-flex mx-2" aria-label="Search" role="search" action="/search">
+                    <div class="input-group" role="search" style="outline-color:green;">
+                        <input type="text" class="form-control" placeholder="Search" name="q"
+                               value=""
+                               aria-label="Search" aria-describedby="btnGroupAddon"
+                                id="navbar-search">
+                        <div class="input-group-text btn-primary" id="btnGroupAddon">
+                            <button style="border: none; background-color: transparent; padding: 0;" type="submit" aria-label="execute search">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                
+
+                
+                    <a href="/accounts/login?nextp=/virtual/2021/session/4383 " class="navbar-brand"><span
+                            class="fa-solid fa-right-to-bracket"></span> Login</a>
+                
+
+            </div>
+        </div>
+    </div>
+</header>
+<!--Navbar end-->
+        
+    
+</div><!--noprint div-->
+
+<!--This holds the whole page including the navbar-->
+<main id="main">
+    
+        
+            <div class="container-fluid">
+                
+<!--Navbar start-->
+
+
+
+
+<div class="container-fluid">
+
+    <div class="dropdown" id="child-menu">
+        <nav class="align-middle navbar navbar-expand-lg  rounded-bottom"
+             style="min-height: 57px; background-image: url(/static/virtual/img/navbackground.png); background-repeat: repeat-x;">
+            <div class="container-fluid">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarToggler1009"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarToggler1009">
+                    <ul class="navbar-nav me-auto mb-lg-0">
+                        
+
+
+    <li class="dropdown-item dropdown pe-3">
+        <a class="nav-link dropdown-toggle border-3  btn btn-primary text-white p-1" style= "background-color: #070bff; font-size: 1.2 em;"
+           href="#"
+           role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Select Year: (2021)
+        </a>
+        <ul class="dropdown-menu">
+            
+    
+        
+            <li class="dropdown-item " >
+                <a class="dropdown-item p-1"
+                   href="/Conferences/2027/index.html">2027
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item " >
+                <a class="dropdown-item p-1"
+                   href="/Conferences/2026">2026
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item " >
+                <a class="dropdown-item p-1"
+                   href="/Conferences/2025">2025
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item " >
+                <a class="dropdown-item p-1"
+                   href="/Conferences/2024">2024
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item " >
+                <a class="dropdown-item p-1"
+                   href="/Conferences/2023">2023
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item " >
+                <a class="dropdown-item p-1"
+                   href="/Conferences/2022">2022
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item " >
+                <a class="dropdown-item p-1"
+                   href="/Conferences/2021">2021
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item " >
+                <a class="dropdown-item p-1"
+                   href="/Conferences/2020">2020
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item " >
+                <a class="dropdown-item p-1"
+                   href="/Conferences/2019">2019
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item " >
+                <a class="dropdown-item p-1"
+                   href="/Conferences/2018">2018
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item " >
+                <a class="dropdown-item p-1"
+                   href="/archive/www/2017.html">2017
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item " >
+                <a class="dropdown-item p-1"
+                   href="/archive/www/2016.html">2016
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item " >
+                <a class="dropdown-item p-1"
+                   href="/archive/www/2015.html">2015
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item " >
+                <a class="dropdown-item p-1"
+                   href="/archive/2014/">2014
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item " >
+                <a class="dropdown-item p-1"
+                   href="/archive/2013/">2013
+                </a>
+                
+            </li>
+        
+
+    
+
+
+
+        </ul>
+    </li>
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/virtual/2021/index.html">
+                    <span >
+                        Getting Started
+                    </span>
+                </a>
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/virtual/2021/calendar">
+                    <span >
+                        Schedule
+                    </span>
+                </a>
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/virtual/2021/papers.html">
+                    <span >
+                        Papers
+                    </span>
+                </a>
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/virtual/2021/events/workshop">
+                    <span >
+                        Workshops
+                    </span>
+                </a>
+                
+            </li>
+
+        
+
+    
+
+
+
+    <li class="dropdown-item dropdown pe-3">
+        <a class="nav-link dropdown-toggle  p-1" 
+           href="#"
+           role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Community
+        </a>
+        <ul class="dropdown-menu">
+            
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/virtual/2021/community?show=socials">
+                    <span >
+                        Socials
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/virtual/2021/town-hall/8364">
+                    <span >
+                        Town Hall
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/virtual/2021/community?show=mentorship">
+                    <span >
+                        Mentorship
+                    </span>
+                </a>
+                
+            </li>
+
+        
+
+    
+
+
+
+        </ul>
+    </li>
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/Expo/Conferences/2021/SponsorHall">
+                    <span >
+                        Sponsor Hall
+                    </span>
+                </a>
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/virtual/2021/organizers">
+                    <span >
+                        Organizers
+                    </span>
+                </a>
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/virtual/2021/search">
+                    <span >
+                        <i class="fas fa-search"></i>
+                    </span>
+                </a>
+                
+            </li>
+
+        
+
+    
+
+
+
+    <li class="dropdown-item dropdown pe-3">
+        <a class="nav-link dropdown-toggle  p-1" 
+           href="#"
+           role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Featured
+        </a>
+        <ul class="dropdown-menu">
+            
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/virtual/2021/events/invited%20talk">
+                    <span >
+                        Invited Talks
+                    </span>
+                </a>
+                
+                    <hr class="dropdown-divider" aria-hidden="true">
+                
+            </li>
+
+        
+
+    
+
+
+
+    
+        
+            <li class="dropdown-item  pe-2" >
+                <a class="nav-link p-1"  href="/virtual/2021/events/oral">
+                    <span >
+                        Orals
+                    </span>
+                </a>
+                
+            </li>
+
+        
+
+    
+
+
+
+        </ul>
+    </li>
+    
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--Navbar end-->
+
+
+            </div>
+            <br><br>
+        
+    
+    
+        
+        <div class="container">
+    
+    
+    
+
+    
+    <script nonce="6czFTkBZkhE/tuvBfc0sDQ==">
+      if (!!moment.tz.zone('')) {
+        window.localStorage.setItem('tz', '')
+      } else {
+        console.log('Unable to set timezone for ')
+      }
+    </script>
+
+    
+        <div class="row">
+            
+                <div class="d-flex justify-content-between">
+                    <!--  -->
+
+                    <ul class="nav nav-pills">
+                        
+                            <li class="nav-item active">
+                                <a class="nav-link text-muted active" data-toggle="tab" href="#tab-browse" role="tab"
+                                   aria-controls="nav-home" aria-selected="true">Browse </a>
+                            </li>
+                            
+                            
+                                <li class="nav-item">
+                                    <a class="nav-link text-muted" href="paper_vis.html" disabled="true">Visualization</a>
+                                </li>
+                            
+                        
+                    </ul>
+                    
+
+                    <!--  -->
+                    <div class="nav ms-auto">
+                        <div class="d-inline align-content-center"> Layout:&nbsp;</div>
+                        <div class="btn-group btn-group-toggle render_option" data-toggle="buttons">
+                            <input type="radio" class="btn-check" name="render_option" id="option1"
+                                   value="mini" autocomplete="off"/>
+                            <label class="btn btn-outline-secondary" for="option1">mini</label>
+                            <input type="radio" class="btn-check" name="render_option" id="option2"
+                                   value="compact" autocomplete="off" checked/>
+                            <label class="btn btn-outline-secondary" for="option2">compact</label>
+                            <input type="radio" class="btn-check" name="render_option" id="option3"
+                                   value="topic" autocomplete="off"/>
+                            <label class="btn btn-outline-secondary topic-format" for="option3">topic</label>
+                            <input type="radio" class="btn-check" name="render_option" id="option4"
+                                   value="detail" autocomplete="off"/>
+                            <label class="btn btn-outline-secondary" for="option4">detail</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row"></div>
+
+                <!-- Buttons -->
+                <div class="row mt-3 mb-0">
+                    <div class="col-lg-7">
+                        <div class="input-group mb-1">
+                            <input type="text" class="form-control typeahead_all text-filter"
+                                   id="search_text_input_id"
+                                   placeholder="Find"/>
+                            <div class="d-none d-md-inline">
+                                <button type="button"
+                                        class="btn btn-outline-secondary typeahead_all_clear text-filter">
+                                    &times;
+                                </button>
+                            </div>
+                            <select class="d-none col-3" id="topic-filter">
+                                <option value="none">No topics available</option>
+                            </select>
+                            <select class="d-none col-3" id="session-filter">
+                                <option value="none">No sessions available</option>
+                            </select>
+                            <select class="form-select-sm ms-1 filter-option" id="filter_option_id"
+                                    aria-label="Select Search Kind">
+                                <option value="title" selected>title</option>
+                                <option value="author">author</option>
+                                <option value="topic">topic</option>
+                                <option value="session">session</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-1"><!--Leave a one column gap--> </div>
+                    <div class="col-auto d-none d-lg-inline">
+                        <div class="row">
+                            <button class="col-sm-auto btn btn-outline-secondary reshuffle">
+                                shuffle
+                            </button>
+                            <div class="my-2 ml-2 col-sm-auto">by</div>
+                            <div class="form-group col-sm">
+                                <select class="form-control" id="sortBy">
+                                    <option value="random">serendipity</option>
+                                    <option value="bookmarked">bookmarked first</option>
+                                    <option value="visited">visited first</option>
+                                    <option value="visited_not">not visited first</option>
+                                    <option value="todo">bookmarked but not visited</option>
+                                </select>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-1 mb-2" style="font-size: small;" id="show_panel"></div>
+                </div>
+
+                <!-- Spinner -->
+                <div id="loading-container" class="d-flex justify-content-center align-items-center m-5">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+                <!-- Cards -->
+                <div class="cards row"></div>
+                <script src="/static/virtual/js/modules/urlParams.js"></script>
+                <script src="/static/virtual/js/modules/typeaheadSetup.js"></script>
+                <script src="/static/virtual/js/modules/lazyLoad.js"></script>
+                <script src="/static/virtual/js/data/wrangle.js"></script>
+                <script src="/static/virtual/js/papers.js"></script>
+                <noscript class="noscript">Enable Javascript in your browser to see the papers
+                    page. <ul>
+<li><a href="/virtual/2021/poster/2976">UMEC: Unified model and embedding compression for efficient recommendation systems</a></li>
+<li><a href="/virtual/2021/poster/2975">Adversarially-Trained Deep Nets Transfer Better: Illustration on Image Classification</a></li>
+<li><a href="/virtual/2021/poster/2936">ResNet After All: Neural ODEs and Their Numerical Solution</a></li>
+<li><a href="/virtual/2021/poster/2867">Deep Partition Aggregation: Provable Defenses against General Poisoning Attacks</a></li>
+<li><a href="/virtual/2021/poster/3313">MetaNorm: Learning to Normalize Few-Shot Batches Across Domains</a></li>
+<li><a href="/virtual/2021/poster/3327">Fidelity-based Deep Adiabatic Scheduling</a></li>
+<li><a href="/virtual/2021/poster/2561">Witches' Brew: Industrial Scale Data Poisoning via Gradient Matching</a></li>
+<li><a href="/virtual/2021/poster/2552">CPT: Efficient Deep Neural Network Training via Cyclic Precision</a></li>
+<li><a href="/virtual/2021/poster/2679">Tilted Empirical Risk Minimization</a></li>
+<li><a href="/virtual/2021/poster/2690">Improved Estimation of Concentration Under $\ell_p$-Norm Distance Metrics Using Half Spaces</a></li>
+<li><a href="/virtual/2021/poster/2973">ALFWorld: Aligning Text and Embodied Environments for Interactive Learning</a></li>
+<li><a href="/virtual/2021/poster/2972">SEDONA: Search for Decoupled Neural Networks toward Greedy Block-wise Learning</a></li>
+<li><a href="/virtual/2021/poster/2914">Learning to Generate 3D Shapes with Generative Cellular Automata</a></li>
+<li><a href="/virtual/2021/poster/2803">Sliced Kernelized Stein Discrepancy</a></li>
+<li><a href="/virtual/2021/poster/2769">Learning to Deceive Knowledge Graph Augmented Models via Targeted Perturbation</a></li>
+<li><a href="/virtual/2021/poster/2971">VA-RED$^2$: Video Adaptive Redundancy Reduction</a></li>
+<li><a href="/virtual/2021/poster/2969">On InstaHide, Phase Retrieval, and Sparse Matrix Factorization</a></li>
+<li><a href="/virtual/2021/poster/2968">Greedy-GQ with Variance Reduction: Finite-time Analysis and Improved Complexity</a></li>
+<li><a href="/virtual/2021/poster/2966">Statistical inference for individual fairness</a></li>
+<li><a href="/virtual/2021/poster/2965">Emergent Symbols through Binding in External Memory</a></li>
+<li><a href="/virtual/2021/poster/2647">Early Stopping in Deep Networks: Double Descent and How to Eliminate it</a></li>
+<li><a href="/virtual/2021/poster/2611">On the Universality of the Double Descent Peak in Ridgeless Regression</a></li>
+<li><a href="/virtual/2021/poster/3379">Evaluation of Neural Architectures Trained With Square Loss vs Cross-Entropy in Classification Tasks</a></li>
+<li><a href="/virtual/2021/poster/3378">Explainable Subgraph Reasoning for Forecasting on Temporal Knowledge Graphs</a></li>
+<li><a href="/virtual/2021/poster/3377">Simple Spectral Graph Convolution</a></li>
+<li><a href="/virtual/2021/poster/3376">PolarNet: Learning to Optimize Polar Keypoints for Keypoint Based Object Detection</a></li>
+<li><a href="/virtual/2021/poster/3375">Deconstructing the Regularization of BatchNorm</a></li>
+<li><a href="/virtual/2021/poster/3374">RMSprop converges with proper hyper-parameter</a></li>
+<li><a href="/virtual/2021/poster/3373">Generative Scene Graph Networks</a></li>
+<li><a href="/virtual/2021/poster/3372">Learnable Embedding sizes for Recommender Systems</a></li>
+<li><a href="/virtual/2021/poster/3371">Overfitting for Fun and Profit: Instance-Adaptive Data Compression</a></li>
+<li><a href="/virtual/2021/poster/3370">Acting in Delayed Environments with Non-Stationary Markov Policies</a></li>
+<li><a href="/virtual/2021/poster/3369">ARMOURED: Adversarially Robust MOdels using Unlabeled data by REgularizing Diversity</a></li>
+<li><a href="/virtual/2021/poster/3368">Solving Compositional Reinforcement Learning Problems via Task Reduction</a></li>
+<li><a href="/virtual/2021/poster/3366">A Geometric Analysis of Deep Generative Image Models and Its Applications</a></li>
+<li><a href="/virtual/2021/poster/3362">A Discriminative Gaussian Mixture Model with Sparsity</a></li>
+<li><a href="/virtual/2021/poster/3361">Interpretable Neural Architecture Search via Bayesian Optimisation with Weisfeiler-Lehman Kernels</a></li>
+<li><a href="/virtual/2021/poster/3359">Certify or Predict: Boosting Certified Robustness with Compositional Architectures</a></li>
+<li><a href="/virtual/2021/poster/3358">Taming GANs with Lookahead-Minmax</a></li>
+<li><a href="/virtual/2021/poster/3357">Bowtie Networks: Generative Modeling for Joint Few-Shot Recognition and Novel-View Synthesis</a></li>
+<li><a href="/virtual/2021/poster/3356">Learning Subgoal Representations with Slow Dynamics</a></li>
+<li><a href="/virtual/2021/poster/3355">GAN2GAN: Generative Noise Learning for Blind Denoising with Single Noisy Images</a></li>
+<li><a href="/virtual/2021/poster/3354">CO2: Consistent Contrast for Unsupervised Visual Representation Learning</a></li>
+<li><a href="/virtual/2021/poster/3353">CPR: Classifier-Projection Regularization for Continual Learning</a></li>
+<li><a href="/virtual/2021/poster/3352">MARS: Markov Molecular Sampling for Multi-objective Drug Discovery</a></li>
+<li><a href="/virtual/2021/poster/3351">Fooling a Complete Neural Network Verifier</a></li>
+<li><a href="/virtual/2021/poster/3350">Representation Learning via Invariant Causal Mechanisms</a></li>
+<li><a href="/virtual/2021/poster/3349">Interpreting and Boosting Dropout from a Game-Theoretic View</a></li>
+<li><a href="/virtual/2021/poster/3348">Quantifying Differences in Reward Functions</a></li>
+<li><a href="/virtual/2021/poster/3347">BOIL: Towards Representation Change for Few-shot Learning</a></li>
+<li><a href="/virtual/2021/poster/3346">Generating Adversarial Computer Programs using Optimized Obfuscations</a></li>
+<li><a href="/virtual/2021/poster/3345">On the Curse of Memory in Recurrent Neural Networks: Approximation and Optimization Analysis</a></li>
+<li><a href="/virtual/2021/poster/3344">Stabilized Medical Image Attacks</a></li>
+<li><a href="/virtual/2021/poster/3343">FOCAL: Efficient Fully-Offline Meta-Reinforcement Learning via Distance Metric Learning and Behavior Regularization</a></li>
+<li><a href="/virtual/2021/poster/3342">Seq2Tens: An Efficient Representation of Sequences by Low-Rank Tensor Projections</a></li>
+<li><a href="/virtual/2021/poster/3341">Memory Optimization for Deep Networks</a></li>
+<li><a href="/virtual/2021/poster/3339">Neural Jump Ordinary Differential Equations: Consistent Continuous-Time Prediction and Filtering</a></li>
+<li><a href="/virtual/2021/poster/3338">Identifying nonlinear dynamical systems with multiple time scales and long-range dependencies</a></li>
+<li><a href="/virtual/2021/poster/3337">Hyperbolic Neural Networks++</a></li>
+<li><a href="/virtual/2021/poster/3335">Coupled Oscillatory Recurrent Neural Network (coRNN): An accurate and (gradient) stable architecture for learning long time dependencies</a></li>
+<li><a href="/virtual/2021/poster/3333">Spatially Structured Recurrent Modules</a></li>
+<li><a href="/virtual/2021/poster/3332">Teaching Temporal Logics to Neural Networks</a></li>
+<li><a href="/virtual/2021/poster/3331">Self-supervised Visual Reinforcement Learning with Object-centric Representations</a></li>
+<li><a href="/virtual/2021/poster/3329">On Self-Supervised Image Representations for GAN Evaluation</a></li>
+<li><a href="/virtual/2021/poster/3328">Robust Learning of Fixed-Structure Bayesian Networks in Nearly-Linear Time</a></li>
+<li><a href="/virtual/2021/poster/3326">Reset-Free Lifelong Learning with Skill-Space Planning</a></li>
+<li><a href="/virtual/2021/poster/3325">Fast Geometric Projections for Local Robustness Certification</a></li>
+<li><a href="/virtual/2021/poster/3324">TropEx: An Algorithm for Extracting Linear Terms in Deep Neural Networks</a></li>
+<li><a href="/virtual/2021/poster/3323">Adapting to Reward Progressivity via Spectral Reinforcement Learning</a></li>
+<li><a href="/virtual/2021/poster/3321"> Decentralized Attribution of Generative Models</a></li>
+<li><a href="/virtual/2021/poster/3316">Combining Physics and Machine Learning for Network Flow Estimation</a></li>
+<li><a href="/virtual/2021/poster/3314">Large Batch Simulation for Deep Reinforcement Learning</a></li>
+<li><a href="/virtual/2021/poster/3312">Byzantine-Resilient Non-Convex Stochastic Gradient Descent</a></li>
+<li><a href="/virtual/2021/poster/3311">Accurate Learning of Graph Representations with Graph Multiset Pooling</a></li>
+<li><a href="/virtual/2021/poster/3307">GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing</a></li>
+<li><a href="/virtual/2021/poster/3306">Improving Zero-Shot Voice Style Transfer via Disentangled Representation Learning</a></li>
+<li><a href="/virtual/2021/poster/3305">HyperDynamics: Meta-Learning Object and Agent Dynamics with Hypernetworks</a></li>
+<li><a href="/virtual/2021/poster/3304">Anytime Sampling for Autoregressive Models via Ordered Autoencoding</a></li>
+<li><a href="/virtual/2021/poster/3303">Disentangling 3D Prototypical Networks for Few-Shot Concept Learning</a></li>
+<li><a href="/virtual/2021/poster/3302">Iterated learning for emergent systematicity in VQA</a></li>
+<li><a href="/virtual/2021/poster/3301">Implicit Under-Parameterization Inhibits Data-Efficient Deep Reinforcement Learning</a></li>
+<li><a href="/virtual/2021/poster/3300">Generating Furry Cars: Disentangling Object Shape and Appearance across Multiple Domains</a></li>
+<li><a href="/virtual/2021/poster/3299">Why Are Convolutional Nets More Sample-Efficient than Fully-Connected Nets?</a></li>
+<li><a href="/virtual/2021/poster/3298">Learning to Make Decisions via Submodular Regularization</a></li>
+<li><a href="/virtual/2021/poster/3297">Adaptive and Generative Zero-Shot Learning</a></li>
+<li><a href="/virtual/2021/poster/3296">CompOFA – Compound Once-For-All Networks for Faster Multi-Platform Deployment</a></li>
+<li><a href="/virtual/2021/poster/3294">LambdaNetworks: Modeling long-range Interactions without Attention</a></li>
+<li><a href="/virtual/2021/poster/3293">Orthogonalizing Convolutional Layers with the Cayley Transform</a></li>
+<li><a href="/virtual/2021/poster/3292">Training BatchNorm and Only BatchNorm: On the Expressive Power of Random Features in CNNs</a></li>
+<li><a href="/virtual/2021/poster/3289">Gradient Projection Memory for Continual Learning</a></li>
+<li><a href="/virtual/2021/poster/3286">More or Less: When and How to Build Convolutional Neural Network Ensembles</a></li>
+<li><a href="/virtual/2021/poster/3285">Efficient Empowerment Estimation for Unsupervised Stabilization</a></li>
+<li><a href="/virtual/2021/poster/3283">A Panda? No, It's a Sloth: Slowdown Attacks on Adaptive Multi-Exit Neural Network Inference</a></li>
+<li><a href="/virtual/2021/poster/3282">Combining Ensembles and Data Augmentation Can Harm Your Calibration</a></li>
+<li><a href="/virtual/2021/poster/3281">Fourier Neural Operator for Parametric Partial Differential Equations</a></li>
+<li><a href="/virtual/2021/poster/3280">Saliency is a Possible Red Herring When Diagnosing Poor Generalization</a></li>
+<li><a href="/virtual/2021/poster/3279">Provably robust classification of adversarial examples with detection</a></li>
+<li><a href="/virtual/2021/poster/3278">SAFENet: A Secure, Accurate and Fast Neural Network Inference</a></li>
+<li><a href="/virtual/2021/poster/3277">MONGOOSE: A Learnable LSH Framework for Efficient Neural Network Training</a></li>
+<li><a href="/virtual/2021/poster/3276">Improved Autoregressive Modeling with Distribution Smoothing</a></li>
+<li><a href="/virtual/2021/poster/3275">Supervised Contrastive Learning for Pre-trained Language Model Fine-tuning</a></li>
+<li><a href="/virtual/2021/poster/3274">Combining Label Propagation and Simple Models out-performs Graph Neural Networks</a></li>
+<li><a href="/virtual/2021/poster/3273">Local Search Algorithms for Rank-Constrained Convex Optimization</a></li>
+<li><a href="/virtual/2021/poster/3272">Pre-training Text-to-Text Transformers for Concept-centric Common Sense</a></li>
+<li><a href="/virtual/2021/poster/3271">Decoupling Global and Local Representations via Invertible Generative Flows</a></li>
+<li><a href="/virtual/2021/poster/3270">SCoRe: Pre-Training for Context Representation in Conversational Semantic Parsing</a></li>
+<li><a href="/virtual/2021/poster/3269">Evaluating the Disentanglement of Deep Generative Models through Manifold Topology</a></li>
+<li><a href="/virtual/2021/poster/3268">End-to-End Egospheric Spatial Memory</a></li>
+<li><a href="/virtual/2021/poster/3267">Neural Approximate Sufficient Statistics for Implicit Models</a></li>
+<li><a href="/virtual/2021/poster/3266">Bypassing the Ambient Dimension: Private SGD with Gradient Subspace Identification</a></li>
+<li><a href="/virtual/2021/poster/3265">BREEDS: Benchmarks for Subpopulation Shift</a></li>
+<li><a href="/virtual/2021/poster/3264">PAC Confidence Predictions for Deep Neural Network Classifiers</a></li>
+<li><a href="/virtual/2021/poster/3263"> Dance Revolution: Long-Term Dance Generation with Music via Curriculum Learning</a></li>
+<li><a href="/virtual/2021/poster/3260">Hopper: Multi-hop Transformer for Spatiotemporal Reasoning</a></li>
+<li><a href="/virtual/2021/poster/3258">Why resampling outperforms reweighting for correcting sampling bias with stochastic gradients</a></li>
+<li><a href="/virtual/2021/poster/3255">In Defense of Pseudo-Labeling: An Uncertainty-Aware Pseudo-label Selection Framework for Semi-Supervised Learning</a></li>
+<li><a href="/virtual/2021/poster/3254">Vector-output ReLU Neural Network Problems are Copositive Programs: Convex Analysis of Two Layer Networks and Polynomial-time Algorithms</a></li>
+<li><a href="/virtual/2021/poster/3252">AdaFuse: Adaptive Temporal Fusion Network for Efficient Action Recognition</a></li>
+<li><a href="/virtual/2021/poster/3251">Dataset Meta-Learning from Kernel Ridge-Regression</a></li>
+<li><a href="/virtual/2021/poster/3250">Repurposing Pretrained Models for Robust Out-of-domain Few-Shot Learning</a></li>
+<li><a href="/virtual/2021/poster/3249">On Position Embeddings in BERT</a></li>
+<li><a href="/virtual/2021/poster/3248">Contrastive Explanations for Reinforcement Learning via Embedded Self Predictions</a></li>
+<li><a href="/virtual/2021/poster/3247">Sequential Density Ratio Estimation for Simultaneous Optimization of Speed and Accuracy</a></li>
+<li><a href="/virtual/2021/poster/3246">Uncertainty Sets for Image Classifiers using Conformal Prediction</a></li>
+<li><a href="/virtual/2021/poster/3245">Conditional Negative Sampling for Contrastive Learning of Visual Representations</a></li>
+<li><a href="/virtual/2021/poster/3243">Faster Binary Embeddings for Preserving Euclidean Distances</a></li>
+<li><a href="/virtual/2021/poster/3240">Model-Based Offline Planning</a></li>
+<li><a href="/virtual/2021/poster/3239">Neural Networks for Learning Counterfactual G-Invariances from Single Environments</a></li>
+<li><a href="/virtual/2021/poster/3238">Learning Energy-Based Models by Diffusion Recovery Likelihood</a></li>
+<li><a href="/virtual/2021/poster/3237">QPLEX: Duplex Dueling Multi-Agent Q-Learning</a></li>
+<li><a href="/virtual/2021/poster/3235">Does enhanced shape bias improve neural network robustness to common corruptions?</a></li>
+<li><a href="/virtual/2021/poster/3234">OPAL: Offline Primitive Discovery for Accelerating Offline Reinforcement Learning</a></li>
+<li><a href="/virtual/2021/poster/3233">PDE-Driven Spatiotemporal Disentanglement</a></li>
+<li><a href="/virtual/2021/poster/3232">Mapping the Timescale Organization of Neural Language Models</a></li>
+<li><a href="/virtual/2021/poster/3230">The Intrinsic Dimension of Images and Its Impact on Learning</a></li>
+<li><a href="/virtual/2021/poster/3228">Stochastic Security: Adversarial Defense Using Long-Run Dynamics of Energy-Based Models</a></li>
+<li><a href="/virtual/2021/poster/3227">CoCo: Controllable Counterfactuals for Evaluating Dialogue State Trackers</a></li>
+<li><a href="/virtual/2021/poster/3225">Long Range Arena : A Benchmark for Efficient Transformers </a></li>
+<li><a href="/virtual/2021/poster/3224">Recurrent Independent Mechanisms</a></li>
+<li><a href="/virtual/2021/poster/3222">Image GANs meet Differentiable Rendering for Inverse Graphics and Interpretable 3D Neural Rendering</a></li>
+<li><a href="/virtual/2021/poster/3221">SALD: Sign Agnostic Learning with Derivatives</a></li>
+<li><a href="/virtual/2021/poster/3220">WaveGrad: Estimating Gradients for Waveform Generation</a></li>
+<li><a href="/virtual/2021/poster/3218">Linear Last-iterate Convergence in Constrained Saddle-point Optimization</a></li>
+<li><a href="/virtual/2021/poster/3217">Go with the flow: Adaptive control for Neural ODEs</a></li>
+<li><a href="/virtual/2021/poster/3216">Understanding Over-parameterization in Generative Adversarial Networks</a></li>
+<li><a href="/virtual/2021/poster/3214">Multiscale Score Matching for Out-of-Distribution Detection</a></li>
+<li><a href="/virtual/2021/poster/3213">Random Feature Attention</a></li>
+<li><a href="/virtual/2021/poster/3212">Tradeoffs in Data Augmentation: An Empirical Study</a></li>
+<li><a href="/virtual/2021/poster/3211">Rapid Task-Solving in Novel Environments</a></li>
+<li><a href="/virtual/2021/poster/3209">Extracting Strong Policies for Robotics Tasks from Zero-Order Trajectory Optimizers</a></li>
+<li><a href="/virtual/2021/poster/3207">Unsupervised Discovery of 3D Physical Objects</a></li>
+<li><a href="/virtual/2021/poster/3206">Sample-Efficient Automated Deep Reinforcement Learning</a></li>
+<li><a href="/virtual/2021/poster/3205">Learning Structural Edits via Incremental Tree Transformations</a></li>
+<li><a href="/virtual/2021/poster/3204">Flowtron: an Autoregressive Flow-based Generative Network for Text-to-Speech Synthesis</a></li>
+<li><a href="/virtual/2021/poster/3203">Practical Real Time Recurrent Learning with a Sparse Approximation</a></li>
+<li><a href="/virtual/2021/poster/3202">Private Post-GAN Boosting</a></li>
+<li><a href="/virtual/2021/poster/3201">Modeling the Second Player in Distributionally Robust Optimization</a></li>
+<li><a href="/virtual/2021/poster/3199">HW-NAS-Bench: Hardware-Aware Neural Architecture Search Benchmark</a></li>
+<li><a href="/virtual/2021/poster/3197">Representation learning for improved interpretability and classification accuracy of clinical factors from EEG</a></li>
+<li><a href="/virtual/2021/poster/3196">GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding</a></li>
+<li><a href="/virtual/2021/poster/3195">Multi-Level Local SGD: Distributed SGD for Heterogeneous Hierarchical Networks</a></li>
+<li><a href="/virtual/2021/poster/3194">R-GAP: Recursive Gradient Attack on Privacy</a></li>
+<li><a href="/virtual/2021/poster/3193">Share or Not? Learning to Schedule Language-Specific Capacity for Multilingual Translation</a></li>
+<li><a href="/virtual/2021/poster/3192">Isometric Transformation Invariant and Equivariant Graph Convolutional Networks</a></li>
+<li><a href="/virtual/2021/poster/3191">Chaos of Learning Beyond Zero-sum and Coordination via Game Decompositions</a></li>
+<li><a href="/virtual/2021/poster/3190">Grounding Language to Autonomously-Acquired Skills via Goal Generation</a></li>
+<li><a href="/virtual/2021/poster/3189">Trajectory Prediction using Equivariant Continuous Convolution</a></li>
+<li><a href="/virtual/2021/poster/3188">Image Augmentation Is All You Need: Regularizing Deep Reinforcement Learning from Pixels</a></li>
+<li><a href="/virtual/2021/poster/3187">On the role of planning in model-based deep reinforcement learning</a></li>
+<li><a href="/virtual/2021/poster/3186">A Hypergradient Approach to Robust Regression without Correspondence</a></li>
+<li><a href="/virtual/2021/poster/3185">Fast convergence of stochastic subgradient method under interpolation</a></li>
+<li><a href="/virtual/2021/poster/3182">Wasserstein Embedding for Graph Learning</a></li>
+<li><a href="/virtual/2021/poster/3181">Convex Potential Flows: Universal Probability Distributions with Optimal Transport and Convex Optimization</a></li>
+<li><a href="/virtual/2021/poster/3180">Shape or Texture: Understanding Discriminative Features in CNNs</a></li>
+<li><a href="/virtual/2021/poster/3179">Neurally Augmented ALISTA</a></li>
+<li><a href="/virtual/2021/poster/3178">Learning from Demonstration with Weakly Supervised Disentanglement</a></li>
+<li><a href="/virtual/2021/poster/3177">Score-Based Generative Modeling through Stochastic Differential Equations</a></li>
+<li><a href="/virtual/2021/poster/3176">On Data-Augmentation and Consistency-Based Semi-Supervised Learning</a></li>
+<li><a href="/virtual/2021/poster/3174">Learning N:M  Fine-grained Structured Sparse Neural Networks From Scratch</a></li>
+<li><a href="/virtual/2021/poster/3173">The role of Disentanglement in Generalisation</a></li>
+<li><a href="/virtual/2021/poster/3172">Shapley Explanation Networks</a></li>
+<li><a href="/virtual/2021/poster/3171">C-Learning: Horizon-Aware Cumulative Accessibility Estimation</a></li>
+<li><a href="/virtual/2021/poster/3170">Multi-resolution modeling of a discrete stochastic process identifies causes of cancer</a></li>
+<li><a href="/virtual/2021/poster/3169">PC2WF: 3D Wireframe Reconstruction from Raw Point Clouds</a></li>
+<li><a href="/virtual/2021/poster/3167">Universal Weakly Supervised Segmentation by Pixel-to-Segment Contrastive Learning</a></li>
+<li><a href="/virtual/2021/poster/3166">DINO: A Conditional Energy-Based GAN for Domain Translation</a></li>
+<li><a href="/virtual/2021/poster/3165">HeteroFL: Computation and Communication Efficient Federated Learning for Heterogeneous Clients</a></li>
+<li><a href="/virtual/2021/poster/3164">AdaSpeech: Adaptive Text to Speech for Custom Voice</a></li>
+<li><a href="/virtual/2021/poster/3162">Simple Augmentation Goes a Long Way: ADRL for DNN Quantization</a></li>
+<li><a href="/virtual/2021/poster/3161">Into the Wild with AudioScope: Unsupervised Audio-Visual Separation of On-Screen Sounds</a></li>
+<li><a href="/virtual/2021/poster/3160">SkipW: Resource Adaptable RNN with Strict Upper Computational Limit</a></li>
+<li><a href="/virtual/2021/poster/3159">Pruning Neural Networks at Initialization: Why Are We Missing the Mark?</a></li>
+<li><a href="/virtual/2021/poster/3157">On the Origin of Implicit Regularization in Stochastic Gradient Descent</a></li>
+<li><a href="/virtual/2021/poster/3156">Transient Non-stationarity and Generalisation in Deep Reinforcement Learning</a></li>
+<li><a href="/virtual/2021/poster/3155">Adversarial score matching and improved sampling for image generation</a></li>
+<li><a href="/virtual/2021/poster/3154">LiftPool: Bidirectional ConvNet Pooling</a></li>
+<li><a href="/virtual/2021/poster/3152">Scalable Bayesian Inverse Reinforcement Learning</a></li>
+<li><a href="/virtual/2021/poster/3151">Return-Based Contrastive Representation Learning for Reinforcement  Learning</a></li>
+<li><a href="/virtual/2021/poster/3150">Implicit Gradient Regularization</a></li>
+<li><a href="/virtual/2021/poster/3149">Variational Intrinsic Control Revisited</a></li>
+<li><a href="/virtual/2021/poster/3147">Understanding and Improving Lexical Choice in Non-Autoregressive Translation</a></li>
+<li><a href="/virtual/2021/poster/3143">Relating by Contrasting: A Data-efficient Framework for Multimodal Generative Models</a></li>
+<li><a href="/virtual/2021/poster/3142">Rapid Neural Architecture Search by Learning to Generate Graphs from Datasets</a></li>
+<li><a href="/virtual/2021/poster/3140">Complex Query Answering with Neural Link Predictors</a></li>
+<li><a href="/virtual/2021/poster/3138">Learning to Sample with Local and Global Contexts  in Experience Replay Buffer</a></li>
+<li><a href="/virtual/2021/poster/3137">Gradient Origin Networks</a></li>
+<li><a href="/virtual/2021/poster/3136">Nonseparable Symplectic Neural Networks</a></li>
+<li><a href="/virtual/2021/poster/3135">Revisiting Locally Supervised Learning: an Alternative to End-to-end Training</a></li>
+<li><a href="/virtual/2021/poster/3134">Deep Repulsive Clustering of Ordered Data Based on Order-Identity Decomposition</a></li>
+<li><a href="/virtual/2021/poster/3133">Spatial Dependency Networks: Neural Layers for Improved Generative Image Modeling</a></li>
+<li><a href="/virtual/2021/poster/3132">Understanding and Improving Encoder Layer Fusion in Sequence-to-Sequence Learning</a></li>
+<li><a href="/virtual/2021/poster/3131">Reweighting Augmented Samples by Minimizing the Maximal Expected Loss</a></li>
+<li><a href="/virtual/2021/poster/3129">Robust early-learning: Hindering the memorization of noisy labels</a></li>
+<li><a href="/virtual/2021/poster/3128">Monte-Carlo Planning and Learning with Language Action Value Estimates</a></li>
+<li><a href="/virtual/2021/poster/3127">Drop-Bottleneck: Learning Discrete Compressed Representation for Noise-Robust Exploration</a></li>
+<li><a href="/virtual/2021/poster/3126">Augmenting Physical Models with Deep Networks for Complex Dynamics Forecasting</a></li>
+<li><a href="/virtual/2021/poster/3125">EigenGame: PCA as a Nash Equilibrium</a></li>
+<li><a href="/virtual/2021/poster/3124">DrNAS: Dirichlet Neural Architecture Search</a></li>
+<li><a href="/virtual/2021/poster/3122">Graph Edit Networks</a></li>
+<li><a href="/virtual/2021/poster/3121">Capturing Label Characteristics in VAEs</a></li>
+<li><a href="/virtual/2021/poster/3120">Neural Delay Differential Equations</a></li>
+<li><a href="/virtual/2021/poster/3119">A Better Alternative to Error Feedback for Communication-Efficient Distributed Learning</a></li>
+<li><a href="/virtual/2021/poster/3118">Group Equivariant Stand-Alone Self-Attention For Vision</a></li>
+<li><a href="/virtual/2021/poster/3117">Multivariate Probabilistic Time Series Forecasting via Conditioned Normalizing Flows</a></li>
+<li><a href="/virtual/2021/poster/3114">Undistillable: Making A Nasty Teacher That CANNOT teach students</a></li>
+<li><a href="/virtual/2021/poster/3113">Learning Hyperbolic Representations of Topological Features</a></li>
+<li><a href="/virtual/2021/poster/3112">Lipschitz Recurrent Neural Networks</a></li>
+<li><a href="/virtual/2021/poster/3111">Explaining the Efficacy of Counterfactually Augmented Data</a></li>
+<li><a href="/virtual/2021/poster/3110">Behavioral Cloning from Noisy Demonstrations</a></li>
+<li><a href="/virtual/2021/poster/3108">Layer-adaptive Sparsity for the Magnitude-based Pruning</a></li>
+<li><a href="/virtual/2021/poster/3107">Prototypical Representation Learning for Relation Extraction</a></li>
+<li><a href="/virtual/2021/poster/3106">Learning Reasoning Paths over Semantic Graphs for Video-grounded Dialogues</a></li>
+<li><a href="/virtual/2021/poster/3105">Deformable DETR: Deformable Transformers for End-to-End Object Detection</a></li>
+<li><a href="/virtual/2021/poster/3104">When does preconditioning help or hurt generalization?</a></li>
+<li><a href="/virtual/2021/poster/3103">Group Equivariant Conditional Neural Processes</a></li>
+<li><a href="/virtual/2021/poster/3102">Learning from Protein Structure with Geometric Vector Perceptrons</a></li>
+<li><a href="/virtual/2021/poster/3101">PSTNet: Point Spatio-Temporal Convolution on Point Cloud Sequences</a></li>
+<li><a href="/virtual/2021/poster/3100">Anchor & Transform: Learning Sparse Embeddings for Large Vocabularies</a></li>
+<li><a href="/virtual/2021/poster/3099">Molecule Optimization by Explainable Evolution</a></li>
+<li><a href="/virtual/2021/poster/3098">Predicting Inductive Biases of Pre-Trained Models</a></li>
+<li><a href="/virtual/2021/poster/3097">Learning Better Structured Representations Using Low-rank Adaptive Label Smoothing</a></li>
+<li><a href="/virtual/2021/poster/3096">Deep Encoder, Shallow Decoder: Reevaluating Non-autoregressive Machine Translation</a></li>
+<li><a href="/virtual/2021/poster/3095">Multi-timescale Representation Learning in LSTM Language Models</a></li>
+<li><a href="/virtual/2021/poster/3094">Adaptive Procedural Task Generation for Hard-Exploration Problems</a></li>
+<li><a href="/virtual/2021/poster/3092">DeepAveragers: Offline Reinforcement Learning By Solving Derived Non-Parametric MDPs</a></li>
+<li><a href="/virtual/2021/poster/3091">Extreme Memorization via Scale of Initialization</a></li>
+<li><a href="/virtual/2021/poster/3090">Prototypical Contrastive Learning of Unsupervised Representations</a></li>
+<li><a href="/virtual/2021/poster/3089">Learning from others' mistakes: Avoiding dataset biases without modeling them</a></li>
+<li><a href="/virtual/2021/poster/3088">LowKey: Leveraging Adversarial Attacks to Protect Social Media Users from Facial Recognition</a></li>
+<li><a href="/virtual/2021/poster/3087">WaNet - Imperceptible Warping-based Backdoor Attack</a></li>
+<li><a href="/virtual/2021/poster/3086">Neural representation and generation for RNA secondary structures</a></li>
+<li><a href="/virtual/2021/poster/3085">Can a Fruit Fly Learn Word Embeddings?</a></li>
+<li><a href="/virtual/2021/poster/3084">RNNLogic: Learning Logic Rules for Reasoning on Knowledge Graphs</a></li>
+<li><a href="/virtual/2021/poster/3083">Evaluations and Methods for Explanation through Robustness Analysis</a></li>
+<li><a href="/virtual/2021/poster/3082">gradSim: Differentiable simulation for system identification and visuomotor control</a></li>
+<li><a href="/virtual/2021/poster/3081">Deployment-Efficient Reinforcement Learning via Model-Based Offline Optimization</a></li>
+<li><a href="/virtual/2021/poster/3079">Isotropy in the Contextual Embedding Space: Clusters and Manifolds</a></li>
+<li><a href="/virtual/2021/poster/3078">Reinforcement Learning with Random Delays</a></li>
+<li><a href="/virtual/2021/poster/3076">Deep Learning meets Projective Clustering</a></li>
+<li><a href="/virtual/2021/poster/3075">Dual-mode ASR: Unify and Improve Streaming ASR with Full-context Modeling</a></li>
+<li><a href="/virtual/2021/poster/3074">On Graph Neural Networks versus Graph-Augmented MLPs</a></li>
+<li><a href="/virtual/2021/poster/3073">NeMo: Neural Mesh Models of Contrastive Features for Robust 3D Pose Estimation</a></li>
+<li><a href="/virtual/2021/poster/3072">Distributional Sliced-Wasserstein and Applications to Generative Modeling</a></li>
+<li><a href="/virtual/2021/poster/3071">MoVie: Revisiting Modulated Convolutions for Visual Counting and Beyond</a></li>
+<li><a href="/virtual/2021/poster/3070">NOVAS: Non-convex Optimization via Adaptive Stochastic Search for End-to-end Learning and Control</a></li>
+<li><a href="/virtual/2021/poster/3069">Understanding the effects of data parallelism and sparsity on neural network training</a></li>
+<li><a href="/virtual/2021/poster/3067">Planning from Pixels using Inverse Dynamics Models</a></li>
+<li><a href="/virtual/2021/poster/3066">Benchmarks for Deep Off-Policy Evaluation</a></li>
+<li><a href="/virtual/2021/poster/3064">Meta-Learning of Structured Task Distributions in Humans and Machines</a></li>
+<li><a href="/virtual/2021/poster/3063">Growing Efficient Deep Networks by Structured Continuous Sparsification</a></li>
+<li><a href="/virtual/2021/poster/3062">Training independent subnetworks for robust prediction</a></li>
+<li><a href="/virtual/2021/poster/3061">Better Fine-Tuning by Reducing Representational Collapse</a></li>
+<li><a href="/virtual/2021/poster/3060">Selective Classification Can Magnify Disparities Across Groups</a></li>
+<li><a href="/virtual/2021/poster/3059">Zero-shot Synthesis with Group-Supervised Learning</a></li>
+<li><a href="/virtual/2021/poster/3058">Learning Task-General Representations with Generative Neuro-Symbolic Modeling</a></li>
+<li><a href="/virtual/2021/poster/3057">BERTology Meets Biology: Interpreting Attention in Protein Language Models</a></li>
+<li><a href="/virtual/2021/poster/3055">Mathematical Reasoning via Self-supervised Skip-tree Training</a></li>
+<li><a href="/virtual/2021/poster/3054">AutoLRS: Automatic Learning-Rate Schedule by Bayesian Optimization on the Fly</a></li>
+<li><a href="/virtual/2021/poster/3053">BSQ: Exploring Bit-Level Sparsity for Mixed-Precision Neural Network Quantization</a></li>
+<li><a href="/virtual/2021/poster/3052">Economic Hyperparameter Optimization With Blended Search Strategy</a></li>
+<li><a href="/virtual/2021/poster/3051">Average-case Acceleration for Bilinear Games and Normal Matrices</a></li>
+<li><a href="/virtual/2021/poster/3050">Multi-Prize Lottery Ticket Hypothesis: Finding Accurate Binary Neural Networks by Pruning A Randomly Weighted Network</a></li>
+<li><a href="/virtual/2021/poster/3049">IsarStep: a Benchmark for High-level Mathematical Reasoning</a></li>
+<li><a href="/virtual/2021/poster/3048">Towards Faster and Stabilized GAN Training for High-fidelity Few-shot Image Synthesis</a></li>
+<li><a href="/virtual/2021/poster/3047">SMiRL: Surprise Minimizing Reinforcement Learning in Unstable Environments</a></li>
+<li><a href="/virtual/2021/poster/3046">Genetic Soft Updates for Policy Evolution in Deep Reinforcement Learning</a></li>
+<li><a href="/virtual/2021/poster/3045">On the mapping between Hopfield networks and Restricted Boltzmann Machines</a></li>
+<li><a href="/virtual/2021/poster/3044">Distance-Based Regularisation of Deep Networks for Fine-Tuning</a></li>
+<li><a href="/virtual/2021/poster/3043">Ringing ReLUs: Harmonic Distortion Analysis of Nonlinear Feedforward Networks</a></li>
+<li><a href="/virtual/2021/poster/3042">Generalization in data-driven models of primary visual cortex</a></li>
+<li><a href="/virtual/2021/poster/3040">Efficient Continual Learning with Modular Networks and Task-Driven Priors</a></li>
+<li><a href="/virtual/2021/poster/3039">Implicit Convex Regularizers of CNN Architectures: Convex Optimization of Two- and Three-Layer Networks in Polynomial Time</a></li>
+<li><a href="/virtual/2021/poster/3038">Activation-level uncertainty in deep neural networks</a></li>
+<li><a href="/virtual/2021/poster/3037">On Statistical Bias In Active Learning: How and When to Fix It</a></li>
+<li><a href="/virtual/2021/poster/3036">Local Convergence Analysis of Gradient Descent Ascent with Finite Timescale Separation</a></li>
+<li><a href="/virtual/2021/poster/3035">Scaling the Convex Barrier with Active Sets</a></li>
+<li><a href="/virtual/2021/poster/3034">NAS-Bench-ASR: Reproducible Neural Architecture Search for Speech Recognition</a></li>
+<li><a href="/virtual/2021/poster/3033">PseudoSeg: Designing Pseudo Labels for Semantic Segmentation</a></li>
+<li><a href="/virtual/2021/poster/3032">Symmetry-Aware Actor-Critic for 3D Molecular Design</a></li>
+<li><a href="/virtual/2021/poster/3031">Long Live the Lottery: The Existence of Winning Tickets in Lifelong Learning</a></li>
+<li><a href="/virtual/2021/poster/3030">Robust Overfitting may be mitigated by properly learned smoothening</a></li>
+<li><a href="/virtual/2021/poster/3029">Characterizing signal propagation to close the performance gap in unnormalized ResNets</a></li>
+<li><a href="/virtual/2021/poster/3028">Learning continuous-time PDEs from sparse data with graph neural networks</a></li>
+<li><a href="/virtual/2021/poster/3027">Latent Skill Planning for Exploration and Transfer</a></li>
+<li><a href="/virtual/2021/poster/3026">Uncertainty-aware Active Learning for Optimal Bayesian Classifier</a></li>
+<li><a href="/virtual/2021/poster/3025">Self-supervised Adversarial Robustness for the Low-label, High-data Regime</a></li>
+<li><a href="/virtual/2021/poster/3024">Single-Photon Image Classification</a></li>
+<li><a href="/virtual/2021/poster/3023">Unsupervised Object Keypoint Learning using Local Spatial Predictability</a></li>
+<li><a href="/virtual/2021/poster/3022">CcGAN: Continuous Conditional Generative Adversarial Networks for Image Generation</a></li>
+<li><a href="/virtual/2021/poster/3021">Differentially Private Learning Needs Better Features (or Much More Data)</a></li>
+<li><a href="/virtual/2021/poster/3020">Plan-Based Relaxed Reward Shaping for Goal-Directed Tasks</a></li>
+<li><a href="/virtual/2021/poster/3019">ANOCE: Analysis of Causal Effects with Multiple Mediators via Constrained Structural Learning</a></li>
+<li><a href="/virtual/2021/poster/3018">Long-tailed Recognition by Routing Diverse Distribution-Aware Experts</a></li>
+<li><a href="/virtual/2021/poster/3017">Grounded Language Learning Fast and Slow</a></li>
+<li><a href="/virtual/2021/poster/3016">Transformer protein language models are unsupervised structure learners</a></li>
+<li><a href="/virtual/2021/poster/3015">Uncertainty Estimation in Autoregressive Structured Prediction</a></li>
+<li><a href="/virtual/2021/poster/3014">Learning to live with Dale's principle: ANNs with separate excitatory and inhibitory units</a></li>
+<li><a href="/virtual/2021/poster/3013">An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale</a></li>
+<li><a href="/virtual/2021/poster/3012">CT-Net: Channel Tensorization Network for Video Classification</a></li>
+<li><a href="/virtual/2021/poster/3011">On the Universality of Rotation Equivariant Point Cloud Networks</a></li>
+<li><a href="/virtual/2021/poster/3010">Universal approximation power of deep residual neural networks via nonlinear control theory</a></li>
+<li><a href="/virtual/2021/poster/3009">Learning a Latent Search Space for Routing Problems using Variational Autoencoders</a></li>
+<li><a href="/virtual/2021/poster/3008">A teacher-student framework to distill future trajectories</a></li>
+<li><a href="/virtual/2021/poster/3007">The Traveling Observer Model: Multi-task Learning Through Spatial Variable Embeddings</a></li>
+<li><a href="/virtual/2021/poster/3006">What they do when in doubt: a study of inductive biases in seq2seq learners</a></li>
+<li><a href="/virtual/2021/poster/3005">Group Equivariant Generative Adversarial Networks</a></li>
+<li><a href="/virtual/2021/poster/3000">Robust Curriculum Learning: from clean label detection to noisy label self-correction</a></li>
+<li><a href="/virtual/2021/poster/2999">Support-set bottlenecks for video-text representation learning</a></li>
+<li><a href="/virtual/2021/poster/2997">Graph Information Bottleneck for Subgraph Recognition</a></li>
+<li><a href="/virtual/2021/poster/2995">Learning Deep Features in Instrumental Variable Regression</a></li>
+<li><a href="/virtual/2021/poster/2964">Neural Synthesis of Binaural Speech From Mono Audio</a></li>
+<li><a href="/virtual/2021/poster/2994">Grounding Physical Concepts of Objects and Events Through Dynamic Visual Reasoning</a></li>
+<li><a href="/virtual/2021/poster/2993">Differentiable Segmentation of Sequences</a></li>
+<li><a href="/virtual/2021/poster/2992">Auto Seg-Loss: Searching Metric Surrogates for Semantic Segmentation</a></li>
+<li><a href="/virtual/2021/poster/2991">Network Pruning That Matters:  A Case Study on Retraining Variants</a></li>
+<li><a href="/virtual/2021/poster/2990">Degree-Quant: Quantization-Aware Training for Graph Neural Networks</a></li>
+<li><a href="/virtual/2021/poster/2989">Boost then Convolve: Gradient Boosting Meets Graph Neural Networks</a></li>
+<li><a href="/virtual/2021/poster/2988">Learning Associative Inference Using Fast Weight Memory</a></li>
+<li><a href="/virtual/2021/poster/2986">SaliencyMix: A Saliency Guided Data Augmentation Strategy for Better Regularization</a></li>
+<li><a href="/virtual/2021/poster/2963">Towards Robust Neural Networks via Close-loop Control</a></li>
+<li><a href="/virtual/2021/poster/2985">Differentiable Trust Region Layers for Deep Reinforcement Learning</a></li>
+<li><a href="/virtual/2021/poster/2984">Discovering Non-monotonic Autoregressive Orderings with Variational Inference</a></li>
+<li><a href="/virtual/2021/poster/2982">Rethinking Positional Encoding in Language Pre-training</a></li>
+<li><a href="/virtual/2021/poster/2981">PlasticineLab: A Soft-Body Manipulation Benchmark with Differentiable Physics</a></li>
+<li><a href="/virtual/2021/poster/2980">Improving Relational Regularized Autoencoders with Spherical Sliced Fused Gromov Wasserstein</a></li>
+<li><a href="/virtual/2021/poster/2979">DiffWave: A Versatile Diffusion Model for Audio Synthesis</a></li>
+<li><a href="/virtual/2021/poster/2978">Calibration of Neural Networks using Splines</a></li>
+<li><a href="/virtual/2021/poster/2977">Exploring Balanced Feature Spaces for Representation Learning</a></li>
+<li><a href="/virtual/2021/poster/2962">Measuring Massive Multitask Language Understanding</a></li>
+<li><a href="/virtual/2021/poster/2961">Kanerva++: Extending the Kanerva Machine With Differentiable, Locally Block Allocated Latent Memory</a></li>
+<li><a href="/virtual/2021/poster/2960">Aligning AI With Shared Human Values</a></li>
+<li><a href="/virtual/2021/poster/2959">Learning Manifold Patch-Based Representations of Man-Made Shapes</a></li>
+<li><a href="/virtual/2021/poster/2958">Filtered Inner Product Projection for Crosslingual Embedding Alignment</a></li>
+<li><a href="/virtual/2021/poster/2956">Correcting experience replay for multi-agent communication</a></li>
+<li><a href="/virtual/2021/poster/2955">How Benign is Benign Overfitting ?</a></li>
+<li><a href="/virtual/2021/poster/2953">High-Capacity Expert Binary Networks</a></li>
+<li><a href="/virtual/2021/poster/2952">Structured Prediction as Translation between Augmented Natural Languages</a></li>
+<li><a href="/virtual/2021/poster/2951">Fuzzy Tiling Activations: A Simple Approach to Learning Sparse Representations Online</a></li>
+<li><a href="/virtual/2021/poster/2950">Remembering for the Right Reasons: Explanations Reduce Catastrophic Forgetting</a></li>
+<li><a href="/virtual/2021/poster/2948">Incremental few-shot learning via vector quantization in deep embedded space</a></li>
+<li><a href="/virtual/2021/poster/2947">In-N-Out: Pre-Training and Self-Training using Auxiliary Information for Out-of-Distribution Robustness</a></li>
+<li><a href="/virtual/2021/poster/2946">Reducing the Computational Cost of Deep Generative Models with Binary Neural Networks</a></li>
+<li><a href="/virtual/2021/poster/2945">MALI: A memory efficient and reverse accurate integrator for Neural ODEs</a></li>
+<li><a href="/virtual/2021/poster/2944">FedBE: Making Bayesian Model Ensemble Applicable to Federated Learning</a></li>
+<li><a href="/virtual/2021/poster/2943">Rethinking the Role of Gradient-based Attribution Methods for Model Interpretability</a></li>
+<li><a href="/virtual/2021/poster/2942">My Body is a Cage: the Role of Morphology in Graph-Based Incompatible Control</a></li>
+<li><a href="/virtual/2021/poster/2941">Neural Learning of One-of-Many Solutions for Combinatorial Problems in Structured Output Spaces</a></li>
+<li><a href="/virtual/2021/poster/2940">Adaptive Universal Generalized PageRank Graph Neural Network</a></li>
+<li><a href="/virtual/2021/poster/2939">Latent Convergent Cross Mapping</a></li>
+<li><a href="/virtual/2021/poster/2937">Semantic Re-tuning with Contrastive Tension</a></li>
+<li><a href="/virtual/2021/poster/2935">On the Theory of Implicit Deep Learning: Global Convergence with Implicit Layers</a></li>
+<li><a href="/virtual/2021/poster/2934">GANs Can Play Lottery Tickets Too</a></li>
+<li><a href="/virtual/2021/poster/2933">Efficient Conformal Prediction via Cascaded Inference with Expanded Admission</a></li>
+<li><a href="/virtual/2021/poster/2931">Disambiguating Symbolic Expressions in Informal Documents</a></li>
+<li><a href="/virtual/2021/poster/2929">Lossless Compression of Structured Convolutional Models via Lifting</a></li>
+<li><a href="/virtual/2021/poster/2928">Uncertainty in Gradient Boosting via Ensembles</a></li>
+<li><a href="/virtual/2021/poster/2927">An Unsupervised Deep Learning Approach for Real-World Image Denoising</a></li>
+<li><a href="/virtual/2021/poster/2926">Conformation-Guided Molecular Representation with Hamiltonian Neural Networks</a></li>
+<li><a href="/virtual/2021/poster/2925">Neural ODE Processes</a></li>
+<li><a href="/virtual/2021/poster/2924">Towards Robustness Against Natural Language Word Substitutions</a></li>
+<li><a href="/virtual/2021/poster/2923">Multi-Class Uncertainty Calibration via Mutual Information Maximization-based Binning</a></li>
+<li><a href="/virtual/2021/poster/2922">Effective Distributed Learning with Random Features: Improved Bounds and Algorithms</a></li>
+<li><a href="/virtual/2021/poster/2921">On Learning Universal Representations Across Languages</a></li>
+<li><a href="/virtual/2021/poster/2920">Minimum Width for Universal Approximation</a></li>
+<li><a href="/virtual/2021/poster/2917">Factorizing Declarative and Procedural Knowledge in Structured, Dynamical Environments</a></li>
+<li><a href="/virtual/2021/poster/2916">Regularization Matters in Policy Optimization - An Empirical Study on Continuous Control</a></li>
+<li><a href="/virtual/2021/poster/2915">Self-Supervised Learning of Compressed Video Representations</a></li>
+<li><a href="/virtual/2021/poster/2913">Initialization and Regularization of Factorized Neural Layers</a></li>
+<li><a href="/virtual/2021/poster/2912">Predicting Infectiousness for Proactive Contact Tracing</a></li>
+<li><a href="/virtual/2021/poster/2911">Are Neural Rankers still Outperformed by Gradient Boosted Decision Trees?</a></li>
+<li><a href="/virtual/2021/poster/2908">Trusted Multi-View Classification</a></li>
+<li><a href="/virtual/2021/poster/2907">Anatomy of Catastrophic Forgetting: Hidden Representations and Task Semantics</a></li>
+<li><a href="/virtual/2021/poster/2906">On Fast Adversarial Robustness Adaptation in Model-Agnostic Meta-Learning</a></li>
+<li><a href="/virtual/2021/poster/2903">Efficient Wasserstein Natural Gradients for Reinforcement Learning</a></li>
+<li><a href="/virtual/2021/poster/2902">Robust Pruning at Initialization</a></li>
+<li><a href="/virtual/2021/poster/2901">Parameter Efficient Multimodal Transformers for Video Representation Learning</a></li>
+<li><a href="/virtual/2021/poster/2900">Active Contrastive Learning of Audio-Visual Video Representations</a></li>
+<li><a href="/virtual/2021/poster/2899">Enforcing robust control guarantees within neural network policies</a></li>
+<li><a href="/virtual/2021/poster/2898">Contrastive Divergence Learning is a Time Reversal Adversarial Game</a></li>
+<li><a href="/virtual/2021/poster/2897">Unsupervised Representation Learning for Time Series with Temporal Neighborhood Coding</a></li>
+<li><a href="/virtual/2021/poster/2896">Domain-Robust Visual Imitation Learning with Mutual Information Constraints</a></li>
+<li><a href="/virtual/2021/poster/2895">Theoretical bounds on estimation error for meta-learning</a></li>
+<li><a href="/virtual/2021/poster/2894">Towards Impartial Multi-task Learning</a></li>
+<li><a href="/virtual/2021/poster/2893">Conditionally Adaptive Multi-Task Learning: Improving Transfer Learning in NLP Using Fewer Parameters & Less Data</a></li>
+<li><a href="/virtual/2021/poster/2892">Counterfactual Generative Networks</a></li>
+<li><a href="/virtual/2021/poster/2891">IOT: Instance-wise Layer Reordering for Transformer Structures</a></li>
+<li><a href="/virtual/2021/poster/2890">A statistical theory of cold posteriors in deep neural networks</a></li>
+<li><a href="/virtual/2021/poster/2889">The inductive bias of ReLU networks on orthogonally separable data</a></li>
+<li><a href="/virtual/2021/poster/2888">A Unified Approach to Interpreting and Boosting Adversarial Transferability</a></li>
+<li><a href="/virtual/2021/poster/2887">Contextual Transformation Networks for Online Continual Learning</a></li>
+<li><a href="/virtual/2021/poster/2886">Private Image Reconstruction from System Side Channels Using Generative Models</a></li>
+<li><a href="/virtual/2021/poster/2885">GAN "Steerability" without optimization </a></li>
+<li><a href="/virtual/2021/poster/2884">Model-based micro-data reinforcement learning: what are the crucial model properties and which model to choose?</a></li>
+<li><a href="/virtual/2021/poster/2883">HalentNet: Multimodal Trajectory Forecasting with Hallucinative Intents</a></li>
+<li><a href="/virtual/2021/poster/2881">Do 2D GANs Know 3D Shape? Unsupervised 3D Shape Reconstruction from 2D Image GANs</a></li>
+<li><a href="/virtual/2021/poster/2880">AdamP: Slowing Down the Slowdown for Momentum Optimizers on Scale-invariant Weights</a></li>
+<li><a href="/virtual/2021/poster/2878">Intrinsic-Extrinsic Convolution and Pooling for Learning on 3D Protein Structures</a></li>
+<li><a href="/virtual/2021/poster/2875">Non-asymptotic Confidence Intervals of Off-policy Evaluation:  Primal and Dual Bounds </a></li>
+<li><a href="/virtual/2021/poster/2872">Blending MPC & Value Function Approximation for Efficient Reinforcement Learning</a></li>
+<li><a href="/virtual/2021/poster/2871">Using latent space regression to analyze and leverage compositionality in GANs</a></li>
+<li><a href="/virtual/2021/poster/2870">Shape-Texture Debiased Neural Network Training</a></li>
+<li><a href="/virtual/2021/poster/2869">Is Label Smoothing Truly Incompatible with Knowledge Distillation: An Empirical Study</a></li>
+<li><a href="/virtual/2021/poster/2868">DC3: A learning method for optimization with hard constraints</a></li>
+<li><a href="/virtual/2021/poster/2866">On the geometry of generalization and memorization in deep neural networks</a></li>
+<li><a href="/virtual/2021/poster/2865">Exploring the Uncertainty Properties of Neural Networks’ Implicit Priors in the Infinite-Width Limit</a></li>
+<li><a href="/virtual/2021/poster/2864">Usable Information and Evolution of Optimal Representations During Training</a></li>
+<li><a href="/virtual/2021/poster/2863">Learning Invariant Representations for Reinforcement Learning without Reconstruction</a></li>
+<li><a href="/virtual/2021/poster/2862">Parrot: Data-Driven Behavioral Priors for Reinforcement Learning</a></li>
+<li><a href="/virtual/2021/poster/2861">Zero-Cost Proxies for Lightweight NAS</a></li>
+<li><a href="/virtual/2021/poster/2860">Perceptual Adversarial Robustness: Defense Against Unseen Threat Models</a></li>
+<li><a href="/virtual/2021/poster/2859">Deep Neural Network Fingerprinting by Conferrable Adversarial Examples</a></li>
+<li><a href="/virtual/2021/poster/2858">Enjoy Your Editing: Controllable GANs for Image Editing via Latent Space Navigation</a></li>
+<li><a href="/virtual/2021/poster/2857">Noise or Signal: The Role of Image Backgrounds in Object Recognition</a></li>
+<li><a href="/virtual/2021/poster/2856">Shapley explainability on the data manifold</a></li>
+<li><a href="/virtual/2021/poster/2855">Improving Transformation Invariance in Contrastive Representation Learning</a></li>
+<li><a href="/virtual/2021/poster/2854">Learning "What-if" Explanations for Sequential Decision-Making</a></li>
+<li><a href="/virtual/2021/poster/2853">A Trainable Optimal Transport Embedding for Feature Aggregation and its Relationship to Attention</a></li>
+<li><a href="/virtual/2021/poster/2852">Interpreting Graph Neural Networks for NLP With Differentiable Edge Masking</a></li>
+<li><a href="/virtual/2021/poster/2849">Graph Convolution with Low-rank Learnable Local Filters</a></li>
+<li><a href="/virtual/2021/poster/2848">Meta-Learning with Neural Tangent Kernels</a></li>
+<li><a href="/virtual/2021/poster/2846">FedBN: Federated Learning on Non-IID Features via Local Batch Normalization</a></li>
+<li><a href="/virtual/2021/poster/2845">Autoregressive Dynamics Models for Offline Policy Evaluation and Optimization</a></li>
+<li><a href="/virtual/2021/poster/2844">Colorization Transformer</a></li>
+<li><a href="/virtual/2021/poster/2843">Human-Level Performance in No-Press Diplomacy via Equilibrium Search</a></li>
+<li><a href="/virtual/2021/poster/2842">Separation and Concentration in Deep Networks</a></li>
+<li><a href="/virtual/2021/poster/2840">Training GANs with Stronger Augmentations via Contrastive Discriminator</a></li>
+<li><a href="/virtual/2021/poster/2839">Locally Free Weight Sharing for Network Width Search</a></li>
+<li><a href="/virtual/2021/poster/2838">Language-Agnostic Representation Learning of Source Code from Structure and Context</a></li>
+<li><a href="/virtual/2021/poster/2837">Learning Mesh-Based Simulation with Graph Networks</a></li>
+<li><a href="/virtual/2021/poster/2835">Set Prediction without Imposing Structure as Conditional Density Estimation</a></li>
+<li><a href="/virtual/2021/poster/2834">Do not Let Privacy Overbill Utility:  Gradient Embedding Perturbation for Private Learning</a></li>
+<li><a href="/virtual/2021/poster/2832">Loss Function Discovery for Object Detection via Convergence-Simulation Driven Search</a></li>
+<li><a href="/virtual/2021/poster/2830">What are the Statistical Limits of Offline RL with Linear Function Approximation?</a></li>
+<li><a href="/virtual/2021/poster/2829">Learning Accurate Entropy Model with Global Reference for Image Compression</a></li>
+<li><a href="/virtual/2021/poster/2828">What Makes Instance Discrimination Good for Transfer Learning?</a></li>
+<li><a href="/virtual/2021/poster/2827">Improving Adversarial Robustness via Channel-wise Activation Suppressing</a></li>
+<li><a href="/virtual/2021/poster/2826">A unifying view on implicit bias in training linear neural networks</a></li>
+<li><a href="/virtual/2021/poster/2825">Representation Learning for Sequence Data with Deep Autoencoding Predictive Components</a></li>
+<li><a href="/virtual/2021/poster/2823">Policy-Driven Attack: Learning to Query for Hard-label Black-box Adversarial Examples</a></li>
+<li><a href="/virtual/2021/poster/2821">Direction Matters: On the Implicit Bias of Stochastic Gradient Descent with Moderate Learning Rate</a></li>
+<li><a href="/virtual/2021/poster/2819">Federated Semi-Supervised Learning with Inter-Client Consistency & Disjoint Learning</a></li>
+<li><a href="/virtual/2021/poster/2818">Off-Dynamics Reinforcement Learning: Training for Transfer with Domain Classifiers</a></li>
+<li><a href="/virtual/2021/poster/2817">Learning Cross-Domain Correspondence for Control with Dynamics Cycle-Consistency</a></li>
+<li><a href="/virtual/2021/poster/2816">Neural Architecture Search on ImageNet in Four GPU Hours: A Theoretically Inspired Perspective</a></li>
+<li><a href="/virtual/2021/poster/2813">Do Wide and Deep Networks Learn the Same Things? Uncovering How Neural Network Representations Vary with Width and Depth</a></li>
+<li><a href="/virtual/2021/poster/2812">BUSTLE: Bottom-Up Program Synthesis Through Learning-Guided Exploration</a></li>
+<li><a href="/virtual/2021/poster/2811">UPDeT: Universal Multi-agent RL via Policy Decoupling with Transformers</a></li>
+<li><a href="/virtual/2021/poster/2810">A Good Image Generator Is What You Need for High-Resolution Video Synthesis</a></li>
+<li><a href="/virtual/2021/poster/2809">What Should Not Be Contrastive in Contrastive Learning</a></li>
+<li><a href="/virtual/2021/poster/2808">A Design Space Study for LISTA and Beyond</a></li>
+<li><a href="/virtual/2021/poster/2807">Rethinking Soft Labels for Knowledge Distillation: A Bias–Variance Tradeoff Perspective</a></li>
+<li><a href="/virtual/2021/poster/2806">Answering Complex Open-Domain Questions with Multi-Hop Dense Retrieval</a></li>
+<li><a href="/virtual/2021/poster/2805">Hierarchical Reinforcement Learning by Discovering Intrinsic Options</a></li>
+<li><a href="/virtual/2021/poster/2804">Denoising Diffusion Implicit Models</a></li>
+<li><a href="/virtual/2021/poster/2802">Intraclass clustering: an implicit learning ability that regularizes DNNs</a></li>
+<li><a href="/virtual/2021/poster/2801">Contrastive Learning with Hard Negative Samples</a></li>
+<li><a href="/virtual/2021/poster/2800">Discrete Graph Structure Learning for Forecasting Multiple Time Series</a></li>
+<li><a href="/virtual/2021/poster/2799">Selectivity considered harmful: evaluating the causal impact of class selectivity in DNNs</a></li>
+<li><a href="/virtual/2021/poster/2798">Watch-And-Help: A Challenge for Social Perception and Human-AI Collaboration</a></li>
+<li><a href="/virtual/2021/poster/2797">Data-Efficient Reinforcement Learning with Self-Predictive Representations</a></li>
+<li><a href="/virtual/2021/poster/2796">A Distributional Approach to Controlled Text Generation</a></li>
+<li><a href="/virtual/2021/poster/2795">A Block Minifloat Representation for Training Deep Neural Networks</a></li>
+<li><a href="/virtual/2021/poster/2794">On the Impossibility of Global Convergence in Multi-Loss Optimization</a></li>
+<li><a href="/virtual/2021/poster/2792">Self-supervised Representation Learning with Relative Predictive Coding</a></li>
+<li><a href="/virtual/2021/poster/2790">Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images</a></li>
+<li><a href="/virtual/2021/poster/2788">Heating up decision boundaries: isocapacitory saturation, adversarial scenarios and generalization bounds</a></li>
+<li><a href="/virtual/2021/poster/2787">Rethinking Architecture Selection in Differentiable NAS</a></li>
+<li><a href="/virtual/2021/poster/2786">CaPC Learning: Confidential and Private Collaborative Learning</a></li>
+<li><a href="/virtual/2021/poster/2785">Incorporating Symmetry into Deep Dynamics Models for Improved Generalization</a></li>
+<li><a href="/virtual/2021/poster/2784">Dataset Condensation with Gradient Matching</a></li>
+<li><a href="/virtual/2021/poster/2783">PMI-Masking: Principled masking of correlated spans</a></li>
+<li><a href="/virtual/2021/poster/2782">Sharpness-aware Minimization for Efficiently Improving Generalization</a></li>
+<li><a href="/virtual/2021/poster/2781">Learning with AMIGo: Adversarially Motivated Intrinsic Goals</a></li>
+<li><a href="/virtual/2021/poster/2780">Explaining by Imitating: Understanding Decisions by Interpretable Policy Learning</a></li>
+<li><a href="/virtual/2021/poster/2778">End-to-end Adversarial Text-to-Speech</a></li>
+<li><a href="/virtual/2021/poster/2777">SenSeI: Sensitive Set Invariance for Enforcing Individual Fairness</a></li>
+<li><a href="/virtual/2021/poster/2776">not-MIWAE: Deep Generative Modelling with Missing not at Random Data</a></li>
+<li><a href="/virtual/2021/poster/2774">Distilling Knowledge from Reader to Retriever for Question Answering</a></li>
+<li><a href="/virtual/2021/poster/2773">Adaptive Extra-Gradient Methods for Min-Max Optimization and Games</a></li>
+<li><a href="/virtual/2021/poster/2772">Training with Quantization Noise for Extreme Model Compression</a></li>
+<li><a href="/virtual/2021/poster/2771">The Role of Momentum Parameters in the Optimal Convergence of Adaptive Polyak's Heavy-ball Methods</a></li>
+<li><a href="/virtual/2021/poster/2770">IEPT: Instance-Level and Episode-Level Pretext Tasks for Few-Shot Learning</a></li>
+<li><a href="/virtual/2021/poster/2768">ChipNet: Budget-Aware Pruning with Heaviside Continuous Approximations</a></li>
+<li><a href="/virtual/2021/poster/2767">Learning Long-term Visual Dynamics with Region Proposal Interaction Networks</a></li>
+<li><a href="/virtual/2021/poster/2766">Co-Mixup: Saliency Guided Joint Mixup with Supermodular Diversity</a></li>
+<li><a href="/virtual/2021/poster/2764">Conditional Generative Modeling via Learning the Latent Space</a></li>
+<li><a href="/virtual/2021/poster/2763">When Optimizing  $f$-Divergence is Robust with Label Noise</a></li>
+<li><a href="/virtual/2021/poster/2762">Contrastive  Learning  with Adversarial Perturbations for Conditional Text Generation</a></li>
+<li><a href="/virtual/2021/poster/2761">Self-Supervised Policy Adaptation during Deployment</a></li>
+<li><a href="/virtual/2021/poster/2760">Neural Attention Distillation: Erasing Backdoor Triggers from Deep Neural Networks</a></li>
+<li><a href="/virtual/2021/poster/2759">Large Scale Image Completion via Co-Modulated Generative Adversarial Networks</a></li>
+<li><a href="/virtual/2021/poster/2758">Geometry-aware Instance-reweighted Adversarial Training</a></li>
+<li><a href="/virtual/2021/poster/2756">Efficient Reinforcement Learning in Factored MDPs with Application to Constrained RL</a></li>
+<li><a href="/virtual/2021/poster/2755">Learning with Instance-Dependent Label Noise: A Sample Sieve Approach</a></li>
+<li><a href="/virtual/2021/poster/2754">Bag of Tricks for Adversarial Training</a></li>
+<li><a href="/virtual/2021/poster/2753">DynaTune: Dynamic Tensor Program Optimization in Deep Neural Network Compilation</a></li>
+<li><a href="/virtual/2021/poster/2752">The Risks of Invariant Risk Minimization</a></li>
+<li><a href="/virtual/2021/poster/2751">DOP: Off-Policy Multi-Agent Decomposed Policy Gradients</a></li>
+<li><a href="/virtual/2021/poster/2750">Generative Time-series Modeling with Fourier Flows</a></li>
+<li><a href="/virtual/2021/poster/2749">Individually Fair Gradient Boosting</a></li>
+<li><a href="/virtual/2021/poster/2748">Federated Learning Based on Dynamic Regularization</a></li>
+<li><a href="/virtual/2021/poster/2746">Contemplating Real-World Object Classification</a></li>
+<li><a href="/virtual/2021/poster/2744">When Do Curricula Work?</a></li>
+<li><a href="/virtual/2021/poster/2743">Learning Neural Event Functions for Ordinary Differential Equations</a></li>
+<li><a href="/virtual/2021/poster/2742">Mastering Atari with Discrete World Models</a></li>
+<li><a href="/virtual/2021/poster/2741">Getting a CLUE: A  Method for Explaining Uncertainty Estimates</a></li>
+<li><a href="/virtual/2021/poster/2740">Single-Timescale Actor-Critic Provably Finds Globally Optimal Policy</a></li>
+<li><a href="/virtual/2021/poster/2739">DeLighT: Deep and Light-weight Transformer</a></li>
+<li><a href="/virtual/2021/poster/2738">Domain Generalization with MixStyle</a></li>
+<li><a href="/virtual/2021/poster/2737">Concept Learners for Few-Shot Learning</a></li>
+<li><a href="/virtual/2021/poster/2736">Creative Sketch Generation</a></li>
+<li><a href="/virtual/2021/poster/2735">Rethinking Embedding Coupling in Pre-trained Language Models</a></li>
+<li><a href="/virtual/2021/poster/2734">How Does Mixup Help With Robustness and Generalization?</a></li>
+<li><a href="/virtual/2021/poster/2733">Lifelong Learning of Compositional Structures</a></li>
+<li><a href="/virtual/2021/poster/2732">Debiasing Concept-based Explanations with Causal Analysis</a></li>
+<li><a href="/virtual/2021/poster/2731">Learning to Represent Action Values as a Hypergraph on the Action Vertices</a></li>
+<li><a href="/virtual/2021/poster/2727">Collective Robustness Certificates: Exploiting Interdependence in Graph Neural Networks</a></li>
+<li><a href="/virtual/2021/poster/2726">Rethinking Attention with Performers</a></li>
+<li><a href="/virtual/2021/poster/2725">Benefit of deep learning with non-convex noisy gradient descent: Provable excess risk bound and superiority to kernel methods</a></li>
+<li><a href="/virtual/2021/poster/2724">Rao-Blackwellizing the Straight-Through Gumbel-Softmax Gradient Estimator</a></li>
+<li><a href="/virtual/2021/poster/2723">Mutual Information State Intrinsic Control</a></li>
+<li><a href="/virtual/2021/poster/2721">Learning explanations that are hard to vary</a></li>
+<li><a href="/virtual/2021/poster/2720">Modelling Hierarchical Structure between Dialogue Policy and Natural Language Generator with Option Framework for Task-oriented Dialogue System</a></li>
+<li><a href="/virtual/2021/poster/2719">Physics-aware, probabilistic model order reduction with guaranteed stability</a></li>
+<li><a href="/virtual/2021/poster/2717">RODE: Learning Roles to Decompose Multi-Agent Tasks</a></li>
+<li><a href="/virtual/2021/poster/2716">Neural gradients are near-lognormal: improved quantized  and sparse training</a></li>
+<li><a href="/virtual/2021/poster/2715">Neural Mechanics: Symmetry and Broken Conservation Laws in Deep Learning Dynamics</a></li>
+<li><a href="/virtual/2021/poster/2938">Property Controllable Variational Autoencoder via Invertible Mutual Dependence</a></li>
+<li><a href="/virtual/2021/poster/2714">Neural Thompson Sampling</a></li>
+<li><a href="/virtual/2021/poster/2713">Continuous Wasserstein-2 Barycenter Estimation without Minimax Optimization</a></li>
+<li><a href="/virtual/2021/poster/2712">Heteroskedastic and Imbalanced Deep Learning with Adaptive Regularization</a></li>
+<li><a href="/virtual/2021/poster/2711">Effective and Efficient Vote Attack on Capsule Networks</a></li>
+<li><a href="/virtual/2021/poster/2710">Information Laundering for Model Privacy</a></li>
+<li><a href="/virtual/2021/poster/2709">Isometric Propagation Network for Generalized Zero-shot Learning</a></li>
+<li><a href="/virtual/2021/poster/2708">Learning with Feature-Dependent Label Noise: A Progressive Approach</a></li>
+<li><a href="/virtual/2021/poster/2707">SEED: Self-supervised Distillation For Visual Representation</a></li>
+<li><a href="/virtual/2021/poster/2705">Unsupervised Audiovisual Synthesis via Exemplar Autoencoders</a></li>
+<li><a href="/virtual/2021/poster/2704">Learning Energy-Based Generative Models via Coarse-to-Fine Expanding and Sampling</a></li>
+<li><a href="/virtual/2021/poster/2702">DDPNOpt: Differential Dynamic Programming Neural Optimizer</a></li>
+<li><a href="/virtual/2021/poster/2700">Mirostat: A Neural Text Decoding Algorithm That Directly Controls Perplexity</a></li>
+<li><a href="/virtual/2021/poster/2698">Contextual Dropout: An Efficient Sample-Dependent Dropout Module</a></li>
+<li><a href="/virtual/2021/poster/2697">Proximal Gradient Descent-Ascent: Variable Convergence under KŁ Geometry</a></li>
+<li><a href="/virtual/2021/poster/3068">Beyond Fully-Connected Layers with Quaternions: Parameterization of Hypercomplex Multiplications with $1/n$ Parameters</a></li>
+<li><a href="/virtual/2021/poster/2695">Large Associative Memory Problem in Neurobiology and Machine Learning</a></li>
+<li><a href="/virtual/2021/poster/2694">Efficient Transformers in Reinforcement Learning using Actor-Learner Distillation</a></li>
+<li><a href="/virtual/2021/poster/2692">On the Dynamics of Training Attention Models</a></li>
+<li><a href="/virtual/2021/poster/2689">INT: An Inequality Benchmark for Evaluating Generalization in Theorem Proving</a></li>
+<li><a href="/virtual/2021/poster/2688">A Critique of Self-Expressive Deep Subspace Clustering</a></li>
+<li><a href="/virtual/2021/poster/2687">Learning to Recombine and Resample Data For Compositional Generalization</a></li>
+<li><a href="/virtual/2021/poster/2685">Learning Generalizable Visual Representations via Interactive Gameplay</a></li>
+<li><a href="/virtual/2021/poster/2683">Overparameterisation and worst-case generalisation: friend or foe?</a></li>
+<li><a href="/virtual/2021/poster/2682">Calibration tests beyond classification</a></li>
+<li><a href="/virtual/2021/poster/2681">On the Transfer of Disentangled Representations in Realistic Settings</a></li>
+<li><a href="/virtual/2021/poster/2680">Deep Neural Tangent Kernel and Laplace Kernel Have the Same RKHS</a></li>
+<li><a href="/virtual/2021/poster/2678">Revisiting Few-sample BERT Fine-tuning</a></li>
+<li><a href="/virtual/2021/poster/2677">Ask Your Humans: Using Human Instructions to Improve Generalization in Reinforcement Learning</a></li>
+<li><a href="/virtual/2021/poster/2676">SSD: A Unified Framework for Self-Supervised Outlier Detection</a></li>
+<li><a href="/virtual/2021/poster/2675">Long-tail learning via logit adjustment</a></li>
+<li><a href="/virtual/2021/poster/2673">Approximate Nearest Neighbor Negative Contrastive Learning for Dense Text Retrieval</a></li>
+<li><a href="/virtual/2021/poster/2671">Rank the Episodes: A Simple Approach for Exploration in Procedurally-Generated Environments</a></li>
+<li><a href="/virtual/2021/poster/2670">Federated Learning via Posterior Averaging: A New Perspective and Practical Algorithms</a></li>
+<li><a href="/virtual/2021/poster/2669">Understanding the role of importance weighting for deep learning</a></li>
+<li><a href="/virtual/2021/poster/2668">LEAF: A Learnable Frontend for Audio Classification</a></li>
+<li><a href="/virtual/2021/poster/2667">Monotonic Kronecker-Factored Lattice</a></li>
+<li><a href="/virtual/2021/poster/2666">Tomographic Auto-Encoder: Unsupervised Bayesian Recovery of Corrupted Data</a></li>
+<li><a href="/virtual/2021/poster/2665">Vulnerability-Aware Poisoning Mechanism for Online RL with Unknown Dynamics</a></li>
+<li><a href="/virtual/2021/poster/2664">Wasserstein-2 Generative Networks</a></li>
+<li><a href="/virtual/2021/poster/2663">Emergent Road Rules In Multi-Agent Driving Environments</a></li>
+<li><a href="/virtual/2021/poster/2662">Iterative Empirical Game Solving via Single Policy Best Response</a></li>
+<li><a href="/virtual/2021/poster/2661">Scalable Learning and MAP Inference for Nonsymmetric Determinantal Point Processes</a></li>
+<li><a href="/virtual/2021/poster/2660">Generative Language-Grounded Policy in Vision-and-Language Navigation with Bayes' Rule</a></li>
+<li><a href="/virtual/2021/poster/2659">Understanding the failure modes of out-of-distribution generalization</a></li>
+<li><a href="/virtual/2021/poster/2658">Uncertainty Estimation and Calibration with Finite-State Probabilistic RNNs</a></li>
+<li><a href="/virtual/2021/poster/2657">Hopfield Networks is All You Need</a></li>
+<li><a href="/virtual/2021/poster/2655">The Importance of Pessimism in Fixed-Dataset Policy Optimization</a></li>
+<li><a href="/virtual/2021/poster/2653">Representation Balancing Offline Model-based Reinforcement Learning</a></li>
+<li><a href="/virtual/2021/poster/2652">FairBatch: Batch Selection for Model Fairness</a></li>
+<li><a href="/virtual/2021/poster/2651">Inductive Representation Learning in Temporal Networks via Causal Anonymous Walks</a></li>
+<li><a href="/virtual/2021/poster/2649">Systematic generalisation with group invariant predictions</a></li>
+<li><a href="/virtual/2021/poster/2648">Efficient Inference of Flexible Interaction in Spiking-neuron Networks</a></li>
+<li><a href="/virtual/2021/poster/2646">Graph Coarsening with Neural Networks</a></li>
+<li><a href="/virtual/2021/poster/2644">Optimal Conversion of Conventional Artificial Neural Networks to Spiking Neural Networks</a></li>
+<li><a href="/virtual/2021/poster/2643">Are wider nets better given the same number of parameters?</a></li>
+<li><a href="/virtual/2021/poster/2642">Autoregressive Entity Retrieval</a></li>
+<li><a href="/virtual/2021/poster/2641">DARTS-: Robustly Stepping out of Performance Collapse Without Indicators</a></li>
+<li><a href="/virtual/2021/poster/2640">Adversarially Guided Actor-Critic</a></li>
+<li><a href="/virtual/2021/poster/2639">Balancing Constraints and Rewards with Meta-Gradient D4PG</a></li>
+<li><a href="/virtual/2021/poster/2638">Auxiliary Learning by Implicit Differentiation</a></li>
+<li><a href="/virtual/2021/poster/2636">Distributed Momentum for Byzantine-resilient Stochastic Gradient Descent</a></li>
+<li><a href="/virtual/2021/poster/2635">Large-width functional asymptotics for deep Gaussian neural networks</a></li>
+<li><a href="/virtual/2021/poster/2634">Deciphering and Optimizing Multi-Task Learning: a Random Matrix Approach</a></li>
+<li><a href="/virtual/2021/poster/2633">Free Lunch for Few-shot Learning:  Distribution Calibration</a></li>
+<li><a href="/virtual/2021/poster/2632">Generalized Multimodal ELBO</a></li>
+<li><a href="/virtual/2021/poster/2631">Targeted Attack against Deep Neural Networks via Flipping Limited Weight Bits</a></li>
+<li><a href="/virtual/2021/poster/2630">Convex Regularization behind Neural Reconstruction</a></li>
+<li><a href="/virtual/2021/poster/2629">Efficient Certified Defenses Against Patch Attacks on Image Classifiers</a></li>
+<li><a href="/virtual/2021/poster/2628">Learning Neural Generative Dynamics for Molecular Conformation Generation</a></li>
+<li><a href="/virtual/2021/poster/2627">Individually Fair Rankings</a></li>
+<li><a href="/virtual/2021/poster/2626">Hierarchical Autoregressive Modeling for Neural Video Compression</a></li>
+<li><a href="/virtual/2021/poster/2624">Robust Reinforcement Learning on State Observations with Learned Optimal Adversary</a></li>
+<li><a href="/virtual/2021/poster/2621">How Much Over-parameterization Is Sufficient to Learn Deep ReLU Networks?</a></li>
+<li><a href="/virtual/2021/poster/2620">A Diffusion Theory For Deep Learning Dynamics: Stochastic Gradient Descent Exponentially Favors Flat Minima</a></li>
+<li><a href="/virtual/2021/poster/2619">Evaluation of Similarity-based Explanations</a></li>
+<li><a href="/virtual/2021/poster/2618">Geometry-Aware Gradient Algorithms for Neural Architecture Search</a></li>
+<li><a href="/virtual/2021/poster/2617">Open Question Answering over Tables and Text</a></li>
+<li><a href="/virtual/2021/poster/2616">The Unreasonable Effectiveness of Patches in Deep Convolutional Kernels Methods</a></li>
+<li><a href="/virtual/2021/poster/2615">VAEBM: A Symbiosis between Variational Autoencoders and Energy-based Models</a></li>
+<li><a href="/virtual/2021/poster/2613">Self-supervised Learning from a Multi-view Perspective</a></li>
+<li><a href="/virtual/2021/poster/2612">Fair Mixup: Fairness via Interpolation</a></li>
+<li><a href="/virtual/2021/poster/2610">Mind the Gap when Conditioning Amortised Inference in Sequential Latent-Variable Models</a></li>
+<li><a href="/virtual/2021/poster/2609">Contrastive Behavioral Similarity Embeddings for Generalization in Reinforcement Learning</a></li>
+<li><a href="/virtual/2021/poster/2608">Removing Undesirable Feature Contributions Using Out-of-Distribution Data</a></li>
+<li><a href="/virtual/2021/poster/2607">Meta-learning Symmetries by Reparameterization</a></li>
+<li><a href="/virtual/2021/poster/2604">How to Find Your Friendly Neighborhood: Graph Attention Design with Self-Supervision</a></li>
+<li><a href="/virtual/2021/poster/2603">For self-supervised learning, Rationality implies generalization, provably</a></li>
+<li><a href="/virtual/2021/poster/2602">A Temporal Kernel Approach for Deep Learning with Continuous-time Information</a></li>
+<li><a href="/virtual/2021/poster/2601">Improve Object Detection with Feature-based Knowledge Distillation: Towards Accurate and Efficient Detectors</a></li>
+<li><a href="/virtual/2021/poster/2600">Conservative Safety Critics for Exploration</a></li>
+<li><a href="/virtual/2021/poster/2599">Model-Based Visual Planning with Self-Supervised Functional Distances</a></li>
+<li><a href="/virtual/2021/poster/2598">GraphCodeBERT: Pre-training Code Representations with Data Flow</a></li>
+<li><a href="/virtual/2021/poster/2597">No MCMC for me: Amortized sampling for fast and stable training of energy-based models</a></li>
+<li><a href="/virtual/2021/poster/2596">BRECQ: Pushing the Limit of Post-Training Quantization by Block Reconstruction</a></li>
+<li><a href="/virtual/2021/poster/2595">Predicting Classification Accuracy When Adding New Unobserved Classes</a></li>
+<li><a href="/virtual/2021/poster/2594">Estimating and Evaluating Regression Predictive Uncertainty in Deep Object Detectors</a></li>
+<li><a href="/virtual/2021/poster/2593">Learning the Pareto Front with Hypernetworks</a></li>
+<li><a href="/virtual/2021/poster/2592">Optimal Rates for Averaged Stochastic Gradient Descent under Neural Tangent Kernel Regime</a></li>
+<li><a href="/virtual/2021/poster/2591">Projected Latent Markov Chain Monte Carlo: Conditional Sampling of Normalizing Flows</a></li>
+<li><a href="/virtual/2021/poster/2589">MODALS: Modality-agnostic Automated Data Augmentation in the Latent Space</a></li>
+<li><a href="/virtual/2021/poster/2588">Impact of Representation Learning in Linear Bandits</a></li>
+<li><a href="/virtual/2021/poster/2587">EEC: Learning to Encode and Regenerate Images for Continual Learning</a></li>
+<li><a href="/virtual/2021/poster/2586">What Can You Learn From Your Muscles? Learning Visual Representation from Human Interactions</a></li>
+<li><a href="/virtual/2021/poster/2585">Improving VAEs' Robustness to Adversarial Attack</a></li>
+<li><a href="/virtual/2021/poster/2584">The Deep Bootstrap Framework: Good Online Learners are Good Offline Generalizers</a></li>
+<li><a href="/virtual/2021/poster/2582">Control-Aware Representations for Model-based Reinforcement Learning</a></li>
+<li><a href="/virtual/2021/poster/2581">Scaling Symbolic Methods using Gradients for Neural Model Explanation</a></li>
+<li><a href="/virtual/2021/poster/2580">Empirical or Invariant Risk Minimization? A Sample Complexity Perspective</a></li>
+<li><a href="/virtual/2021/poster/2579">CausalWorld: A Robotic Manipulation Benchmark for Causal Structure and Transfer Learning</a></li>
+<li><a href="/virtual/2021/poster/2578">Deep symbolic regression: Recovering mathematical expressions from data via risk-seeking policy gradients</a></li>
+<li><a href="/virtual/2021/poster/2577">Gradient Descent on Neural Networks Typically Occurs at the Edge of Stability</a></li>
+<li><a href="/virtual/2021/poster/2576">The geometry of integration in text classification RNNs</a></li>
+<li><a href="/virtual/2021/poster/2575">On the Bottleneck of Graph Neural Networks and its Practical Implications</a></li>
+<li><a href="/virtual/2021/poster/2574">Learning to Reach Goals via Iterated Supervised Learning</a></li>
+<li><a href="/virtual/2021/poster/2573">On the Critical Role of Conventions in Adaptive Human-AI Collaboration</a></li>
+<li><a href="/virtual/2021/poster/2572">CopulaGNN: Towards Integrating Representational and Correlational Roles of Graphs in Graph Neural Networks</a></li>
+<li><a href="/virtual/2021/poster/2571">Discovering a set of policies for the worst case reward</a></li>
+<li><a href="/virtual/2021/poster/2570">Learning perturbation sets for robust machine learning</a></li>
+<li><a href="/virtual/2021/poster/2569">Primal Wasserstein Imitation Learning</a></li>
+<li><a href="/virtual/2021/poster/2568">A Universal Representation Transformer Layer for Few-Shot Image Classification</a></li>
+<li><a href="/virtual/2021/poster/2567">MoPro: Webly Supervised Learning with Momentum Prototypes</a></li>
+<li><a href="/virtual/2021/poster/2566">Signatory: differentiable computations of the signature and logsignature transforms, on both CPU and GPU</a></li>
+<li><a href="/virtual/2021/poster/2563">Optimism in Reinforcement Learning with Generalized Linear Function Approximation</a></li>
+<li><a href="/virtual/2021/poster/2562">Deberta: Decoding-Enhanced Bert With Disentangled Attention</a></li>
+<li><a href="/virtual/2021/poster/2560">Variational Information Bottleneck for Effective Low-Resource Fine-Tuning</a></li>
+<li><a href="/virtual/2021/poster/2559">Expressive Power of Invariant and Equivariant Graph Neural Networks</a></li>
+<li><a href="/virtual/2021/poster/2558">On the Stability of Fine-tuning BERT: Misconceptions, Explanations, and Strong Baselines</a></li>
+<li><a href="/virtual/2021/poster/2557">Computational Separation Between Convolutional and Fully-Connected Networks</a></li>
+<li><a href="/virtual/2021/poster/2556">Probabilistic Numeric Convolutional Neural Networks</a></li>
+<li><a href="/virtual/2021/poster/2555">FairFil: Contrastive Neural Debiasing Method for Pretrained Text Encoders</a></li>
+<li><a href="/virtual/2021/poster/3242">Coping with Label Shift via Distributionally Robust Optimisation</a></li>
+<li><a href="/virtual/2021/poster/2554">MixKD: Towards Efficient Distillation of Large-scale Language Models</a></li>
+<li><a href="/virtual/2021/poster/2553">Learning a Latent Simplex in Input Sparsity Time</a></li>
+<li><a href="/virtual/2021/poster/2551">Teaching with Commentaries</a></li>
+<li><a href="/virtual/2021/poster/2549">CoDA: Contrast-enhanced and Diversity-promoting Data Augmentation for Natural Language Understanding</a></li>
+<li><a href="/virtual/2021/poster/2548">Fantastic Four: Differentiable and Efficient Bounds on Singular Values of Convolution Layers</a></li>
+<li><a href="/virtual/2021/poster/2547">Theoretical Analysis of Self-Training with Deep Networks on Unlabeled Data</a></li>
+<li><a href="/virtual/2021/poster/2546">Negative Data Augmentation </a></li>
+<li><a href="/virtual/2021/poster/2545">Scalable Transfer Learning with Expert Models</a></li>
+<li><a href="/virtual/2021/poster/2543">A Wigner-Eckart Theorem for Group Equivariant Convolution Kernels</a></li>
+<li><a href="/virtual/2021/poster/2542">Learning A Minimax Optimizer: A Pilot Study</a></li>
+<li><a href="/virtual/2021/poster/2541">Meta Back-Translation</a></li>
+<li><a href="/virtual/2021/poster/2540">Optimal Regularization can Mitigate Double Descent</a></li>
+<li><a href="/virtual/2021/poster/2539">Net-DNF: Effective Deep Modeling of Tabular Data</a></li>
+<li><a href="/virtual/2021/poster/2538">MultiModalQA: complex question answering over text, tables and images</a></li>
+<li><a href="/virtual/2021/poster/2537">Dynamic Tensor Rematerialization</a></li>
+<li><a href="/virtual/2021/poster/2536">AdaGCN: Adaboosting Graph Convolutional Networks into Deep Models</a></li>
+<li><a href="/virtual/2021/poster/2535">Few-Shot Learning via Learning the Representation, Provably</a></li>
+<li><a href="/virtual/2021/poster/2534">Wandering within a world: Online contextualized few-shot learning</a></li>
+<li><a href="/virtual/2021/poster/2533">WrapNet:  Neural Net Inference with Ultra-Low-Precision Arithmetic</a></li>
+<li><a href="/virtual/2021/poster/2532">Nearest Neighbor Machine Translation</a></li>
+<li><a href="/virtual/2021/poster/2531">Knowledge distillation via softmax regression representation learning</a></li>
+<li><a href="/virtual/2021/poster/2529">Empirical Analysis of Unlabeled Entity Problem in Named Entity Recognition</a></li>
+<li><a href="/virtual/2021/poster/2528">Practical Massively Parallel Monte-Carlo Tree Search Applied to Molecular Design</a></li>
+<li><a href="/virtual/2021/poster/2526">Neural Pruning via Growing Regularization</a></li>
+<li><a href="/virtual/2021/poster/2525">Mixed-Features Vectors and Subspace Splitting</a></li>
+<li><a href="/virtual/2021/poster/2524">Graph-Based Continual Learning</a></li>
+<li><a href="/virtual/2021/poster/2523">Sparse Quantized Spectral Clustering</a></li>
+<li><a href="/virtual/2021/poster/2522">Taking Notes on the Fly Helps Language Pre-Training</a></li>
+<li><a href="/virtual/2021/poster/2521">Explainable Deep One-Class Classification</a></li>
+<li><a href="/virtual/2021/poster/2520">Revisiting Dynamic Convolution via Matrix Decomposition</a></li>
+<li><a href="/virtual/2021/poster/3065">BiPointNet: Binary Neural Network for Point Clouds</a></li>
+<li><a href="/virtual/2021/poster/3259">Prediction and generalisation over directed actions by grid cells</a></li>
+<li><a href="/virtual/2021/poster/2851">Continual learning in recurrent neural networks</a></li>
+<li><a href="/virtual/2021/poster/2930">Neural networks with late-phase weights</a></li>
+<li><a href="/virtual/2021/poster/3262">Sparse encoding for more-interpretable feature-selecting representations in probabilistic matrix factorization</a></li>
+<li><a href="/virtual/2021/poster/2967">HyperGrid Transformers: Towards A Single Model for Multiple Tasks</a></li>
+<li><a href="/virtual/2021/poster/2847">Learning Robust State Abstractions for Hidden-Parameter Block MDPs</a></li>
+<li><a href="/virtual/2021/poster/3317">Meta-GMVAE: Mixture of Gaussian VAE for Unsupervised Meta-Learning</a></li>
+<li><a href="/virtual/2021/poster/2544">Viewmaker Networks: Learning Views for Unsupervised Representation Learning</a></li>
+<li><a href="/virtual/2021/poster/2625">Optimizing Memory Placement using Evolutionary Graph Reinforcement Learning</a></li>
+<li><a href="/virtual/2021/poster/3364">Is Attention Better Than Matrix Decomposition?</a></li>
+<li><a href="/virtual/2021/poster/3004">Learning Incompressible Fluid Dynamics from Scratch - Towards Fast, Differentiable Fluid Models that Generalize</a></li>
+<li><a href="/virtual/2021/poster/3109">Refining Deep Generative Models via Discriminator Gradient Flow</a></li>
+<li><a href="/virtual/2021/poster/2728">Entropic gradient descent algorithms and wide flat minima</a></li>
+<li><a href="/virtual/2021/poster/3360">New Bounds For Distributed Mean Estimation and Variance Reduction</a></li>
+<li><a href="/virtual/2021/poster/3319">Learning Value Functions in Deep Policy Gradients using Residual Variance</a></li>
+<li><a href="/virtual/2021/poster/3003">Winning the L2RPN Challenge: Power Grid Management via Semi-Markov Afterstate Actor-Critic</a></li>
+<li><a href="/virtual/2021/poster/3041">No Cost Likelihood Manipulation at Test Time for Making Better Mistakes in Deep Networks</a></li>
+<li><a href="/virtual/2021/poster/3336">Parameter-Based Value Functions</a></li>
+<li><a href="/virtual/2021/poster/3002">CoCon: A Self-Supervised Approach for Controlled Text Generation</a></li>
+<li><a href="/virtual/2021/poster/3256">MELR: Meta-Learning via Modeling Episode-Level Relationships for Few-Shot Learning</a></li>
+<li><a href="/virtual/2021/poster/3226">Beyond Categorical Label Representations for Image Classification</a></li>
+<li><a href="/virtual/2021/poster/3183">Meta-learning with negative learning rates</a></li>
+<li><a href="/virtual/2021/poster/3139">Provable Rich Observation Reinforcement Learning with Combinatorial Latent States</a></li>
+<li><a href="/virtual/2021/poster/3208">Global optimality of softmax policy gradient with single hidden layer neural networks in the mean-field regime</a></li>
+<li><a href="/virtual/2021/poster/2879">Variational State-Space Models for Localisation and Dense 3D Mapping in 6 DoF</a></li>
+<li><a href="/virtual/2021/poster/2949">Contrastive Syn-to-Real Generalization</a></li>
+<li><a href="/virtual/2021/poster/3056">Evolving Reinforcement Learning Algorithms</a></li>
+<li><a href="/virtual/2021/poster/3340">Neural Topic Model via Optimal Transport</a></li>
+<li><a href="/virtual/2021/poster/3288">Class Normalization for (Continual)? Generalized Zero-Shot Learning</a></li>
+<li><a href="/virtual/2021/poster/2718">Revisiting Hierarchical Approach for Persistent Long-Term Video Prediction</a></li>
+<li><a href="/virtual/2021/poster/3215">A Gradient Flow Framework For Analyzing Network Pruning</a></li>
+<li><a href="/virtual/2021/poster/2824">A Mathematical Exploration of Why Language Models Help Solve Downstream Tasks</a></li>
+<li><a href="/virtual/2021/poster/3334">Bayesian Few-Shot Classification with One-vs-Each Pólya-Gamma Augmented Gaussian Processes</a></li>
+<li><a href="/virtual/2021/poster/3318">Knowledge Distillation as Semiparametric Inference</a></li>
+<li><a href="/virtual/2021/poster/3310">NBDT: Neural-Backed Decision Tree</a></li>
+<li><a href="/virtual/2021/poster/2645">Deep Equals Shallow for ReLU Networks in Kernel Regimes</a></li>
+<li><a href="/virtual/2021/poster/3093">Interactive Weak Supervision: Learning Useful Heuristics for Data Labeling</a></li>
+<li><a href="/virtual/2021/poster/2882">MiCE: Mixture of Contrastive Experts for Unsupervised Image Clustering</a></li>
+<li><a href="/virtual/2021/poster/3295">Mind the Pad -- CNNs Can Develop Blind Spots</a></li>
+<li><a href="/virtual/2021/poster/2789">A PAC-Bayesian Approach to Generalization Bounds for Graph Neural Networks</a></li>
+<li><a href="/virtual/2021/poster/3367">Gauge Equivariant Mesh CNNs: Anisotropic convolutions on geometric graphs</a></li>
+<li><a href="/virtual/2021/poster/2605">Interpretable Models for Granger Causality Using Self-explaining Neural Networks</a></li>
+<li><a href="/virtual/2021/poster/3308">Estimating Lipschitz constants of monotone deep equilibrium models</a></li>
+<li><a href="/virtual/2021/poster/2905">Probing BERT in Hyperbolic Spaces</a></li>
+<li><a href="/virtual/2021/poster/3290">Batch Reinforcement Learning Through Continuation Method</a></li>
+<li><a href="/virtual/2021/poster/3291">Towards Resolving the Implicit Bias of Gradient Descent for Matrix Factorization: Greedy Low-Rank Learning</a></li>
+<li><a href="/virtual/2021/poster/2565">Diverse Video Generation using a Gaussian Process Trigger</a></li>
+<li><a href="/virtual/2021/poster/3244">Learning and Evaluating Representations for Deep One-Class Classification</a></li>
+<li><a href="/virtual/2021/poster/3365">Fast and Complete: Enabling Complete Neural Network Verification with Rapid and Massively Parallel Incomplete Verifiers</a></li>
+<li><a href="/virtual/2021/poster/3330">Retrieval-Augmented Generation for Code Summarization via Hybrid GNN</a></li>
+<li><a href="/virtual/2021/poster/2684">Randomized Automatic Differentiation</a></li>
+<li><a href="/virtual/2021/poster/3223">Generalized Energy Based Models</a></li>
+<li><a href="/virtual/2021/poster/3210">Temporally-Extended ε-Greedy Exploration</a></li>
+<li><a href="/virtual/2021/poster/3198">Multiplicative Filter Networks</a></li>
+<li><a href="/virtual/2021/poster/2836">Clustering-friendly Representation Learning via Instance Discrimination and Feature Decorrelation</a></li>
+<li><a href="/virtual/2021/poster/3145">FedMix: Approximation of Mixup under Mean Augmented Federated Learning</a></li>
+<li><a href="/virtual/2021/poster/3168">Self-training For Few-shot Transfer Across Extreme Task Differences</a></li>
+<li><a href="/virtual/2021/poster/2904">VCNet and Functional Targeted Regularization For Learning Causal Effects of Continuous Treatments</a></li>
+<li><a href="/virtual/2021/poster/3200">Are Neural Nets Modular? Inspecting Functional Modularity Through Differentiable Weight Masks</a></li>
+<li><a href="/virtual/2021/poster/3261">Generalization bounds via distillation</a></li>
+<li><a href="/virtual/2021/poster/2873">Model Patching: Closing the Subgroup Performance Gap with Data Augmentation</a></li>
+<li><a href="/virtual/2021/poster/2706">A Learning Theoretic Perspective on Local Explainability</a></li>
+<li><a href="/virtual/2021/poster/3141">Sharper Generalization Bounds for Learning with Gradient-dominated Objective Functions</a></li>
+<li><a href="/virtual/2021/poster/2814">Learning to Set Waypoints for Audio-Visual Navigation</a></li>
+<li><a href="/virtual/2021/poster/2672">Partitioned Learned Bloom Filters</a></li>
+<li><a href="/virtual/2021/poster/3175">Unsupervised Meta-Learning through Latent-Space Interpolation in Generative Models</a></li>
+<li><a href="/virtual/2021/poster/3146">Generalized Variational Continual Learning</a></li>
+<li><a href="/virtual/2021/poster/2877">Robust and Generalizable Visual Representation Learning via Random Convolutions</a></li>
+<li><a href="/virtual/2021/poster/3253">One Network Fits All? Modular versus Monolithic Task Formulations in Neural Networks</a></li>
+<li><a href="/virtual/2021/poster/3231">X2T: Training an X-to-Text Typing Interface with Online Learning from User Feedback</a></li>
+<li><a href="/virtual/2021/poster/3322">Attentional Constellation Nets for Few-Shot Learning</a></li>
+<li><a href="/virtual/2021/poster/3123">InfoBERT: Improving Robustness of Language Models from An Information Theoretic Perspective</a></li>
+<li><a href="/virtual/2021/poster/3115">Bidirectional Variational Inference for Non-Autoregressive Text-to-Speech</a></li>
+<li><a href="/virtual/2021/poster/3116">Risk-Averse Offline Reinforcement Learning</a></li>
+<li><a href="/virtual/2021/poster/3080">Spatio-Temporal Graph Scattering Transform</a></li>
+<li><a href="/virtual/2021/poster/3229">How Neural Networks Extrapolate: From Feedforward to Graph Neural Networks</a></li>
+<li><a href="/virtual/2021/poster/3077">Async-RED: A Provably Convergent Asynchronous Block Parallel Stochastic Method using Deep Denoising Priors</a></li>
+<li><a href="/virtual/2021/poster/3363">Communication in Multi-Agent Reinforcement Learning: Intention Sharing</a></li>
+<li><a href="/virtual/2021/poster/3163">Few-Shot Bayesian Optimization with Deep Kernel Surrogates</a></li>
+<li><a href="/virtual/2021/poster/3257">Disentangled Recurrent Wasserstein Autoencoder </a></li>
+<li><a href="/virtual/2021/poster/2998">In Search of Lost Domain Generalization</a></li>
+<li><a href="/virtual/2021/poster/3001">Cross-Attentional Audio-Visual Fusion for Weakly-Supervised Action Localization</a></li>
+<li><a href="/virtual/2021/poster/2983">Implicit Normalizing Flows</a></li>
+<li><a href="/virtual/2021/poster/3287">VTNet: Visual Transformer Network for Object Goal Navigation</a></li>
+<li><a href="/virtual/2021/poster/2974">Learning Task Decomposition with Ordered Memory Policy Network</a></li>
+<li><a href="/virtual/2021/poster/2530">Deep Networks and the Multiple Manifold Problem</a></li>
+<li><a href="/virtual/2021/poster/2954">Learning What To Do by Simulating the Past</a></li>
+<li><a href="/virtual/2021/poster/2957">Progressive Skeletonization: Trimming more fat from a network at initialization</a></li>
+<li><a href="/virtual/2021/poster/2909">$i$-Mix: A Domain-Agnostic Strategy for Contrastive Representation Learning</a></li>
+<li><a href="/virtual/2021/poster/2910">Topology-Aware Segmentation Using Discrete Morse Theory</a></li>
+<li><a href="/virtual/2021/poster/3241">On Dyadic Fairness: Exploring and Mitigating Bias in Graph Connections</a></li>
+<li><a href="/virtual/2021/poster/2874">Tent: Fully Test-Time Adaptation by Entropy Minimization</a></li>
+<li><a href="/virtual/2021/poster/3144">Towards Nonlinear Disentanglement in Natural Data with Temporal Sparse Coding</a></li>
+<li><a href="/virtual/2021/poster/2745">Dataset Inference: Ownership Resolution in Machine Learning</a></li>
+<li><a href="/virtual/2021/poster/2850">Regularized Inverse Reinforcement Learning</a></li>
+<li><a href="/virtual/2021/poster/2822">Fast And Slow Learning Of Recurrent Independent Mechanisms</a></li>
+<li><a href="/virtual/2021/poster/2820">Learning Safe Multi-agent Control with Decentralized Neural Barrier Certificates</a></li>
+<li><a href="/virtual/2021/poster/2815">Semi-supervised Keypoint Localization</a></li>
+<li><a href="/virtual/2021/poster/3184">Representing Partial Programs with Blended Abstract Semantics</a></li>
+<li><a href="/virtual/2021/poster/2919">FastSpeech 2: Fast and High-Quality End-to-End Text to Speech</a></li>
+<li><a href="/virtual/2021/poster/2831">Unlearnable Examples: Making Personal Data Unexploitable</a></li>
+<li><a href="/virtual/2021/poster/2779">IDF++: Analyzing and Improving Integer Discrete Flows for Lossless Compression</a></li>
+<li><a href="/virtual/2021/poster/2775">Discovering Diverse Multi-Agent Strategic Behavior via Reward Randomization</a></li>
+<li><a href="/virtual/2021/poster/3130">Identifying Physical Law of Hamiltonian Systems via Meta-Learning</a></li>
+<li><a href="/virtual/2021/poster/2765">Text Generation by Learning from Demonstrations</a></li>
+<li><a href="/virtual/2021/poster/2757">Unbiased Teacher for Semi-Supervised Object Detection</a></li>
+<li><a href="/virtual/2021/poster/3309">Estimating informativeness of samples with Smooth Unique Information</a></li>
+<li><a href="/virtual/2021/poster/2722">Efficient Generalized Spherical CNNs</a></li>
+<li><a href="/virtual/2021/poster/2701">DialoGraph: Incorporating Interpretable Strategy-Graph Networks into Negotiation Dialogues</a></li>
+<li><a href="/virtual/2021/poster/2699">Global Convergence of Three-layer Neural Networks in the Mean Field Regime</a></li>
+<li><a href="/virtual/2021/poster/2703">Multi-Time Attention Networks for Irregularly Sampled Time Series</a></li>
+<li><a href="/virtual/2021/poster/2693">Linear Convergent Decentralized Optimization with Compression</a></li>
+<li><a href="/virtual/2021/poster/2691">Adaptive Federated Optimization</a></li>
+<li><a href="/virtual/2021/poster/2623">Auction Learning as a Two-Player Game</a></li>
+<li><a href="/virtual/2021/poster/3158">Analyzing the Expressive Power of Graph Neural Networks in a Spectral Perspective</a></li>
+<li><a href="/virtual/2021/poster/3153">Exemplary Natural Images Explain CNN Activations Better than State-of-the-Art Feature Visualization</a></li>
+<li><a href="/virtual/2021/poster/2656">Interpreting Knowledge Graph Relation Representation from Word Embeddings</a></li>
+<li><a href="/virtual/2021/poster/2654">Accelerating Convergence of Replica Exchange Stochastic Gradient MCMC via Variance Reduction</a></li>
+<li><a href="/virtual/2021/poster/2650">DICE: Diversity in Deep Ensembles via Conditional Redundancy Adversarial Estimation</a></li>
+<li><a href="/virtual/2021/poster/2622">Learning-based Support Estimation in Sublinear Time</a></li>
+<li><a href="/virtual/2021/poster/2614">Integrating Categorical Semantics into Unsupervised Domain Translation</a></li>
+<li><a href="/virtual/2021/poster/2590">The Recurrent Neural Tangent Kernel</a></li>
+<li><a href="/virtual/2021/poster/2583">C-Learning: Learning to Achieve Goals via Recursive Classification</a></li>
+<li><a href="/virtual/2021/poster/2564">Graph Traversal with Tensor Functionals: A Meta-Algorithm for Scalable Learning</a></li>
+<li><a href="/virtual/2021/poster/2527">What Matters for On-Policy Deep Actor-Critic Methods? A Large-Scale Study</a></li>
+<li><a href="/virtual/2021/poster/2970">Influence Estimation for Generative Adversarial Networks</a></li>
+<li><a href="/virtual/2021/poster/2791">Clairvoyance: A Pipeline Toolkit for Medical Time Series</a></li>
+<li><a href="/virtual/2021/poster/3320">Randomized Ensembled Double Q-Learning: Learning Fast Without a Model</a></li>
+<li><a href="/virtual/2021/poster/3219">Learning advanced mathematical computations from examples</a></li>
+<li><a href="/virtual/2021/poster/2606">Noise against noise: stochastic label noise helps combat inherent label noise</a></li>
+<li><a href="/virtual/2021/poster/2729">Achieving Linear Speedup with Partial Worker Participation in Non-IID Federated Learning</a></li>
+<li><a href="/virtual/2021/poster/2696">Protecting DNNs from Theft using an Ensemble of Diverse Models</a></li>
+<li><a href="/virtual/2021/poster/2686">You Only Need Adversarial Supervision for Semantic Image Synthesis</a></li>
+<li><a href="/virtual/2021/poster/2747">Neural Spatio-Temporal Point Processes</a></li>
+<li><a href="/virtual/2021/poster/2876">Linear Mode Connectivity in Multitask and Continual Learning</a></li>
+<li><a href="/virtual/2021/poster/2637">Fully Unsupervised Diversity Denoising with Convolutional Variational Autoencoders</a></li>
+<li><a href="/virtual/2021/poster/2674">Auxiliary Task Update Decomposition: The Good, the Bad and the Neutral</a></li>
+<li><a href="/virtual/2021/poster/2841">Influence Functions in Deep Learning Are Fragile</a></li>
+<li><a href="/virtual/2021/poster/2730">Categorical Normalizing Flows via Continuous Transformations</a></li>
+<li><a href="/virtual/2021/poster/2793">Offline Model-Based Optimization via Normalized Maximum Likelihood Estimation</a></li>
+<li><a href="/virtual/2021/poster/3236">Directed Acyclic Graph Neural Networks</a></li>
+<li><a href="/virtual/2021/poster/2550">Gradient Vaccine: Investigating and Improving Multi-task Optimization in Massively Multilingual Models</a></li>
+<li><a href="/virtual/2021/poster/3284">SOLAR: Sparse Orthogonal Learned and Random Embeddings</a></li>
+<li><a href="/virtual/2021/poster/3148">Bayesian Context Aggregation for Neural Processes</a></li>
+<li><a href="/virtual/2021/poster/2918">Cut out the annotator, keep the cutout: better segmentation with weak supervision</a></li>
+<li><a href="/virtual/2021/poster/2833">Effective Abstract Reasoning with Dual-Contrast Network</a></li>
+<li><a href="/virtual/2021/poster/3315">Personalized Federated Learning with First Order Model Optimization</a></li>
+<li><a href="/virtual/2021/poster/2987">Task-Agnostic Morphology Evolution</a></li>
+<li><a href="/virtual/2021/poster/2932">Learning Parametrised Graph Shift Operators</a></li>
+<li><a href="/virtual/2021/poster/2996">Online Adversarial Purification based on Self-supervised Learning</a></li>
+</ul>
+                </noscript>
+
+                <script nonce="6czFTkBZkhE/tuvBfc0sDQ==">
+                    $(document).ready(function () {
+                      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+                      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                        return new bootstrap.Tooltip(tooltipTriggerEl);
+                      });
+
+                      tippy("[data-tippy-content]", {trigger: "mouseenter focus"});
+                      start("/static/virtual/data/iclr-2021-orals-posters.json", true,
+                          "/static/virtual/data/iclr-2021-abstracts.json", true)
+                    });
+                </script>
+
+            
+            
+
+                <div class="gdpr bg-dark text-light"
+                     style="padding: 10pt; position: fixed; bottom: 50px; display: none;">
+                    We use cookies to store which papers have been visited.
+                    <div class="gdpr-btn btn btn-sm btn-info" style="margin-left: 15pt;">
+                        I agree
+                    </div>
+                </div>
+
+            
+
+        </div>
+
+    
+
+
+
+    
+        </div>
+    
+
+</main>
+<!--END BLOCK CONTENT-->
+
+
+<!--Footer for the edit button-->
+
+
+<script nonce="6czFTkBZkhE/tuvBfc0sDQ==">
+
+    $(function () {
+        if ($(".editable").length == 0) {
+            $("#editFooter").hide();
+        }
+
+        // Event bindings for edit buttons
+        $('.startEditBtn').on('click', function() {
+            start_edit();
+        });
+        
+        $('.stopEditBtn').on('click', function() {
+            stop_edit();
+        });
+        $('#id_accepted_terms_and_conditions').on('change', function() {
+            this.form.submit();
+        });
+        $('.accepted_terms_and_conditions').on('change', function() {
+            this.form.submit();
+        });
+        $('.workshopstatus').on('change', function() {
+            changeStatus(this);
+        });
+        $('.action-select').on('change', function() {
+            actionChanged(this);
+        });
+        $('.extra').on('change', function() {
+            extraChanged(this);
+        });
+        $('.filter_workshop').on('change', function() {
+            this.form.submit();
+        });
+        $('.volunteer-status, .recommendation-letter-status').on('change', function() {
+            setStatus(this);
+        });
+        $('.status-form-show').on('change', function() {
+            this.form.submit();
+        });
+        $('.download-form-download').on('change', function() {
+            this.form.submit();
+        });
+        $('.presentation-type-form-presentation-type').on('change', function() {
+            this.form.submit();
+        });
+        $('.export-form-resource').on('change', function() {
+            showFieldsForResource(this.value);
+        });
+        $('.import-form-resource').on('change', function() {
+            showFieldsForResource(this.value);
+        });
+        $('.vol-email-form-to, .vol-email-form-template').on('change', function() {
+            this.form.submit();
+        });
+        $('.organizer-alert').on('click', function() {
+            getUserCreateForm(this.href);
+        });
+    })
+</script>
+
+<script src="/static/core/js/fastclick.min.js" ></script>
+
+<!--We don't know if there are editable tags on the page until after the django template engine has rendered the page. So,
+test in javascript for "editable" tags and if present, load the ckeditor engine dynamically. -->
+
+<script nonce="6czFTkBZkhE/tuvBfc0sDQ==">
+    if (document.getElementsByClassName('editable').length > 0) {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = "/static/core/ckeditor/4.18/ckeditor.js";    // use this for linked script
+      script.onload = function () {
+        console.log("ckeditor loaded");
+        // Initial setup when each editor is ready
+        CKEDITOR.on("instanceReady", function (e) {
+          updateToggleDocName(e.editor);
+        });
+
+        // React to any editor entering/leaving read-only
+        CKEDITOR.on("readOnly", function (e) {
+          updateToggleDocName(e.editor);
+        });
+      };
+        document.body.appendChild(script);
+    }
+
+    function updateToggleDocName(editor) {
+      var id = editor && editor.name;
+      if (!id || id.indexOf("id_") !== 0) return;
+
+      var doc_name_element = document.getElementById("document_name_" + id.slice(3));
+      console.log(doc_name_element);
+      if (!doc_name_element) return;
+
+      doc_name_element.style.display = editor.readOnly ? "none" : "block";
+    }
+
+</script>
+
+
+<script nonce="6czFTkBZkhE/tuvBfc0sDQ==">
+    function fetchContent() {
+        $(".editable").each(function (index) {
+            var myself = this;
+            var docvID = this.getAttribute('id').replace("id_", "");
+            var blurbtext = this.getAttribute("blurbtext");
+            $.ajax({
+                url: "/Admin/RetrieveDocumentVersion",
+                type: "POST",
+                data: {
+                    docvID: docvID,
+                    blurbtext: blurbtext,
+                    csrfmiddlewaretoken: csrftoken,
+                },
+                success: function (data, textStatus, jqXHR) {
+                    myself.setAttribute("contenteditable", "true");
+                    myself.innerHTML = data;
+                    CKEDITOR.inline(myself.id);
+                },
+            });
+        })
+    }
+
+    $("#nopageedit").hide();
+
+    function start_edit() {
+
+        $(".editable").addClass("warning-ring");
+
+        //At the beginning of an edit, we need to replace the content of the
+        //editable div with it's databased content in order to preserve the
+        //template tags. We want the tag, not the rendered tag.
+
+        /* You must remove any countdown.js timers on the page before replacing the page with it's
+        document version otherwise, Javascript will throw an exception.  */
+
+
+        $("[class$='-countdown']").parent().remove();
+        fetchContent();
+        $(".editable").attr("onblur", "ckeditorsave(this)");
+        window.status.bold();
+        window.status = "Click outside the editable area to save. Changes are LIVE!! Refresh page to discard changes.";
+        $("#editpage").hide();
+        $("#noeditpage").show();
+    }
+
+
+    function stop_edit() {
+        ckeditorsave();
+        $("#noeditpage").hide();
+        $("#editpage").show();
+        window.location.reload();
+    }
+
+    function ckeditorsave(event) {
+        for (var name in CKEDITOR.instances) {
+            if (CKEDITOR.instances[name].checkDirty()) {
+                editor = CKEDITOR.instances[name];
+                saveEditable(editor);
+            }
+        }
+    }
+
+    function saveEditable(editor) {
+        var content = editor.getData();
+        var contentId = editor.name;
+        var pageId = window.location.pathname;
+        var originalContent = "N/A";
+        var documentversion = editor.container.getAttribute("id").replace("id_", "");
+        var blurbtext = editor.container.getAttribute("blurbtext");
+        if (contentId.match(/-aloha$/gi)) {
+            contentId = contentId.replace(/-aloha/gi, '');
+        }  /*I'm not sure what this does but it seems like it would matter*/
+        var request = jQuery.ajax({
+            url: "/Admin/SaveDocument",
+            type: "POST",
+            async: false,
+            data: {
+                content: content,
+                originalContent: originalContent,
+                contentId: contentId,
+                pageId: pageId,
+                documentversion: documentversion,
+                blurbtext: blurbtext,
+                csrfmiddlewaretoken: csrftoken
+            },
+            success: function (data) {
+                if (data['message']) {
+                    alert(data['message']);
+                }
+            },
+            error: function (xqXHR, textStatus) {
+                window.status = textStatus;
+                debugger;
+            }
+
+        });
+
+    };
+
+
+</script>
+
+<script nonce="6czFTkBZkhE/tuvBfc0sDQ==">
+    jQuery(document).ajaxSend(function (event, xhr, settings) {
+        function getCookie(name) {
+            var cookieValue = null;
+            if (document.cookie && document.cookie != '') {
+                var cookies = document.cookie.split(';');
+                for (var i = 0; i < cookies.length; i++) {
+                    var cookie = jQuery.trim(cookies[i]);
+                    // Does this cookie string begin with the name we want?
+                    if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+
+        function sameOrigin(url) {
+            // url could be relative or scheme relative or absolute
+            var host = document.location.host; // host + port
+            var protocol = document.location.protocol;
+            var sr_origin = '//' + host;
+            var origin = protocol + sr_origin;
+            // Allow absolute or scheme relative URLs to same origin
+            return (url == origin || url.slice(0, origin.length + 1) == origin + '/') ||
+                (url == sr_origin || url.slice(0, sr_origin.length + 1) == sr_origin + '/') ||
+                // or any other URL that isn't scheme relative or absolute i.e relative.
+                !(/^(\/\/|http:|https:).*/.test(url));
+        }
+
+        function safeMethod(method) {
+            return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+        }
+
+        if (!safeMethod(settings.type) && sameOrigin(settings.url)) {
+            xhr.setRequestHeader("X-CSRFToken", getCookie('csrftoken'));
+        }
+    });
+</script>
+
+
+
+
+
+<div id="successful-page-load" class='hidden'>Successful Page Load</div>
+
+
+
+
+
+    
+        <link href="/static/conf_gdpr/css/conf_gdpr.css" rel="stylesheet">
+        <div id="cookie-bar" style="z-index: 8">
+            <table class="gdpr-statement">
+                <col>
+                <col style="width:120px">
+                <tr>
+                    <td style="padding:5px">
+                        ICLR uses cookies for essential functions only. We do not sell your personal
+                        information.
+                        <a href="/public/PrivacyPolicy">Our Privacy Policy &raquo;&nbsp;</a>
+                    </td>
+                    <td>
+                        <button float-end class="btn btn-light btn-sm btn btn-outline-dark" id="accept_cookies_button" >Accept</button>
+                           
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <script nonce="6czFTkBZkhE/tuvBfc0sDQ==">
+            function accept_cookies() {
+
+                $.ajax({
+                    method: "POST",
+                    url: "/conf_gdpr/accept",
+                    data: {
+                        csrfmiddlewaretoken: csrftoken,
+                    },
+                }).done(function (data) {
+                    console.log(data);
+                    $("#cookie-bar").fadeOut();
+                }).fail(function (jqXHR, textStatus) {
+                    alert(textStatus);
+                });
+            }
+            $("#accept_cookies_button").on("click", () => {
+                accept_cookies();
+            });
+        </script>
+
+    
+
+
+
+
+
+
+
+                <div class="gdpr bg-dark text-light"
+                     style="padding: 10pt; position: fixed; bottom: 50px; display: none;">
+                    We use cookies to store which papers have been visited.
+                    <div class="gdpr-btn btn btn-sm btn-info" style="margin-left: 15pt;">
+                        I agree
+                    </div>
+                </div>
+
+            
+
+<!-- Footer -->
+
+</body>
+</html>

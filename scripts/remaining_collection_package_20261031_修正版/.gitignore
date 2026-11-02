@@ -1,0 +1,11 @@
+.venv/
+cache/
+logs/*.log
+results/papers/oa/
+results/papers/catalogs/
+results/papers/match_index.sqlite*
+results/patents/raw_export.csv
+results/patents/family_audit.csv
+results/patents/query_job.json
+config/new_assignees.csv
+config/paper_track_overrides.csv

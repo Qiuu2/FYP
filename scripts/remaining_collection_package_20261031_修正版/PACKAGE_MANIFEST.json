@@ -1,0 +1,155 @@
+{
+  "package": "HK-SG AI and biomed remaining collection",
+  "created": "2026-10-31",
+  "source_repository": "https://github.com/Qiuu2/FYP",
+  "source_main_revision": "71eeae7920df8c1b0dd8779493a2ff63b5f8b826",
+  "source_unmerged_ai_2025_revision": "3df29b0551704a4a005f28240511c9214f30b735",
+  "scope": [
+    "AI papers and patents",
+    "biomed patents",
+    "HK and Singapore",
+    "2015-2025"
+  ],
+  "excluded": [
+    "finance and fintech patents"
+  ],
+  "billing": "BigQuery query is dry-run by default; execute only with -ExecutePatents; default billed-byte ceiling 50 GB.",
+  "credentials": "No credentials or API keys included.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "c3ba7c5b67cbc3d9c6b127ced366a901590be79a455023e026f6bfbdd1744059",
+      "bytes": 257
+    },
+    {
+      "path": "README_采集包.md",
+      "sha256": "fee702442a657b24e2a64112fc1b0c1c6f5032d66dc6b2e0b37c724b5f5645d2",
+      "bytes": 4782
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "bcd050c35e27aecffadec7d0036c156e7816a01c22076499d005114b3d201c08",
+      "bytes": 46
+    },
+    {
+      "path": "run_all.ps1",
+      "sha256": "61258cf417d0a7c3b449dc76365643e22253c13e99fd1c3791c6a1fa1ad68a62",
+      "bytes": 3934
+    },
+    {
+      "path": "collection_summary.py",
+      "sha256": "1ad18cb8a76b1f47bc5efaa7f610c37c4516371ba805300d21c4451a3a1bbafc",
+      "bytes": 3811
+    },
+    {
+      "path": "common.py",
+      "sha256": "7d343bad94947a26ee705bc455ec4c71e1e9c2a5c1e8fe5d0538b8e4a4b6dff2",
+      "bytes": 1015
+    },
+    {
+      "path": "config.json",
+      "sha256": "6cc75b753e2cc131e05c93c2f99f307a6775543dfc92520a1dc21ac6bc6e109b",
+      "bytes": 1367
+    },
+    {
+      "path": "paper_base.py",
+      "sha256": "a7b5bcb77413f677c6a8c57c9100a96fb0586c523e142d1037f23df070022dc5",
+      "bytes": 27149
+    },
+    {
+      "path": "papers.py",
+      "sha256": "23802ca0c0baaab9f31d8b3354327c155219315e95da00cf8a7b8d96c9501948",
+      "bytes": 20535
+    },
+    {
+      "path": "patent_base.py",
+      "sha256": "5b2036a81cb25ccd0a085c34aa15d6929e37dc1f24eeb236a2908ea216735a39",
+      "bytes": 7557
+    },
+    {
+      "path": "patents.py",
+      "sha256": "4e59e6563bf7df892276b326b198a907215c3627e97bfdbba01f7ca48b6d16b9",
+      "bytes": 8643
+    },
+    {
+      "path": "待补采清单.csv",
+      "sha256": "b7071f14880a85eff10c6cdc352038351f12d6440925efb0baf73f80fdef49a1",
+      "bytes": 2113
+    },
+    {
+      "path": "config/assignee_sectors.csv",
+      "sha256": "17de8c667e3281ac12b1f7bf7736836b1e646de6fd0aff547d03f38beceaa31d",
+      "bytes": 107649
+    },
+    {
+      "path": "config/exclusions.csv",
+      "sha256": "17f427ba2ef7241a480b3305a1de21253e9fbc03b811e5dadb3fc621e6e34dfc",
+      "bytes": 405
+    },
+    {
+      "path": "config/new_assignees.csv",
+      "sha256": "489560c3598b4cc377f8d21656ed4866b80e7b43ac832c6809a4f46a171eab7f",
+      "bytes": 16
+    },
+    {
+      "path": "config/paper_track_overrides.csv",
+      "sha256": "afd0eb9287bb2143006978320a4069c9284753700865a308cdcf7992f3b465f3",
+      "bytes": 36
+    },
+    {
+      "path": "sql/ai_biomed_2015_2025.sql",
+      "sha256": "a62ce7abae218698713d8a14d75cb195ba991b0809ae40d48b2bc6d8067d5ba5",
+      "bytes": 1871
+    },
+    {
+      "path": "baseline/github_snapshot.json",
+      "sha256": "b21a54db33421e677d447284df407409e873a2d5a93f6305c189124528f303e0",
+      "bytes": 21674
+    },
+    {
+      "path": "baseline/papers/annual_summary.csv",
+      "sha256": "00df41bfa8949a6d9487a9db0d3f85396fe22fd0ffb9be3a6809731be1a72fc7",
+      "bytes": 13424
+    },
+    {
+      "path": "baseline/papers/catalog_status.csv",
+      "sha256": "b53907e2badb1b13a3dd7573bb9400253c518e73ec8de800d21c7d184dcf9e39",
+      "bytes": 5494
+    },
+    {
+      "path": "baseline/papers/conference_coverage.csv",
+      "sha256": "93d0bc4a8c82276257df1531e4f9ea0c6d630411485e273b6a847af85dabe69a",
+      "bytes": 9763
+    },
+    {
+      "path": "baseline/papers/journal_sources.json",
+      "sha256": "f0d98d73b5eed3288656134458cb3444de8ab7d6369eb3608177ee7f61fddc1b",
+      "bytes": 1162
+    },
+    {
+      "path": "baseline/papers/papers_HK_SG.csv",
+      "sha256": "810ca191040fb691318b84dd68c26a7334be025a67e4cc7daa717c044f88e25f",
+      "bytes": 3297579
+    },
+    {
+      "path": "baseline/papers/review_queue.csv",
+      "sha256": "5542a4bd31fa5be252dba0d414d91a6a29bcccc746d10cebefde5fd8dcd773f7",
+      "bytes": 19634880
+    },
+    {
+      "path": "baseline/patents/ai_2025_audit.csv",
+      "sha256": "4b9ff225d8630fc7575e983e405a7db7f036181177ad1a6a4ccc91b6c93e1b19",
+      "bytes": 22559
+    },
+    {
+      "path": "baseline/patents/ai_2025.csv",
+      "sha256": "24774743b6c596926c5d8470c0a018b6098cff2520f5b5854784e9132e06db5a",
+      "bytes": 29194
+    },
+    {
+      "path": "baseline/patents/families_2015_2024.csv",
+      "sha256": "07fd24dc6c714da0689e897acbb3026e689309518ea0c96ddf938ea33e7ec086",
+      "bytes": 852715
+    }
+  ]
+}

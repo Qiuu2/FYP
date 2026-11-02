@@ -1,0 +1,17 @@
+C:\Users\albus\AppData\Local\Python\bin\python.exe "C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP_数据仓库\data_repo\scripts\oa_intl_cn_probe.py" 
+========================================================================
+冒烟测试：biomed/hk/2015Q1 取四个数，检查大小关系与现有 m7 是否对得上
+========================================================================
+filter = primary_topic.field.id:27|13,authorships.institutions.country_code:hk,from_publication_date:2015-01-01,to_publication_date:2015-03-31
+
+works          = 1,440
+intl_works     = 1,005   （69.8%）
+cn_any_works   = 786   （占国际合著 78.2%）
+cn_only_works  = 559   （占国际合著 55.6%）
+
+现有 m7（9/11 采集）= 76.9%　本次 = 69.8%　差 -7.1 个百分点
+! 差超过 5 个百分点：OpenAlex 的 countries_distinct_count 与我们按机构国家计的口径可能不一致
+
+SMOKE TEST FAILED —— 不要跑全量。把上面整段发回给组长。
+
+进程已结束，退出代码为 1
