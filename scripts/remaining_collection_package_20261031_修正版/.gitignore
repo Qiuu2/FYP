@@ -1,8 +1,5 @@
 .venv/
-cache/
-logs/*.log
 results/papers/oa/
-results/papers/catalogs/
 results/papers/match_index.sqlite*
 results/patents/raw_export.csv
 results/patents/family_audit.csv
