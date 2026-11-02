@@ -1,0 +1,5203 @@
+{
+  "venue": "IJCAI",
+  "year": 2015,
+  "rows": [
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Optimal Incremental Preference Elicitation during Negotiation",
+      "url": "https://www.ijcai.org/proceedings/2015/8",
+      "track": "Agent and Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Composing and Verifying Commitment-Based Multiagent Protocols",
+      "url": "https://www.ijcai.org/proceedings/2015/9",
+      "track": "Agent and Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Strategic Abstention Based on Preference Extensions: Positive Results and Computer-Generated Impossibilities",
+      "url": "https://www.ijcai.org/proceedings/2015/10",
+      "track": "Agent and Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Efficiency and Complexity of Price Competition Among Single-Product Vendors",
+      "url": "https://www.ijcai.org/proceedings/2015/11",
+      "track": "Agent and Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Generalizing the Single-Crossing Property on Lines and Trees to Intermediate Preferences on Median Graphs",
+      "url": "https://www.ijcai.org/proceedings/2015/12",
+      "track": "Agent and Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Learning Behaviors in Agents Systems with Interactive Dynamic Influence Diagrams",
+      "url": "https://www.ijcai.org/proceedings/2015/13",
+      "track": "Agent and Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Structural Results for Cooperative Decentralized Control Models",
+      "url": "https://www.ijcai.org/proceedings/2015/14",
+      "track": "Agent and Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Tractable Inquiry in Information-Rich Environments",
+      "url": "https://www.ijcai.org/proceedings/2015/15",
+      "track": "Agent and Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "An Adaptive Computational Model for Personalized Persuasion",
+      "url": "https://www.ijcai.org/proceedings/2015/16",
+      "track": "Agent and Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Tradeoffs between Incentive Mechanisms in Boolean Games",
+      "url": "https://www.ijcai.org/proceedings/2015/17",
+      "track": "Agent and Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Environment-Driven Social Force Model: Lévy Walk Pattern in Collective Behavior",
+      "url": "https://www.ijcai.org/proceedings/2015/18",
+      "track": "Agent and Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "The Power of Local Manipulation Strategies in Assignment Mechanisms",
+      "url": "https://www.ijcai.org/proceedings/2015/19",
+      "track": "Agent and Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Revenue Maximization Envy-Free Pricing for Homogeneous Resources",
+      "url": "https://www.ijcai.org/proceedings/2015/20",
+      "track": "Agent and Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Exchange of Indivisible Objects with Asymmetry",
+      "url": "https://www.ijcai.org/proceedings/2015/21",
+      "track": "Agent and Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Characterization of Scoring Rules with Distances: Application to the Clustering of Rankings",
+      "url": "https://www.ijcai.org/proceedings/2015/22",
+      "track": "Agent and Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Quantifying Robustness of Trust Systems against Collusive Unfair Rating Attacks Using Information Theory",
+      "url": "https://www.ijcai.org/proceedings/2015/23",
+      "track": "Agent and Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Optimal Auctions for Partially Rational Bidders",
+      "url": "https://www.ijcai.org/proceedings/2015/24",
+      "track": "Agent and Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "An Expert-Level Card Playing Agent Based on a Variant of Perfect Information Monte Carlo Sampling",
+      "url": "https://www.ijcai.org/proceedings/2015/25",
+      "track": "Agent and Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Agile Planning for Real-World Disaster Response",
+      "url": "https://www.ijcai.org/proceedings/2015/26",
+      "track": "Agent and Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Optimal Pricing for the Competitive and Evolutionary Cloud Market",
+      "url": "https://www.ijcai.org/proceedings/2015/27",
+      "track": "Agent and Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Uncovering Hidden Structure through Parallel Problem Decomposition for the Set Basis Problem: Application to Materials Discovery",
+      "url": "https://www.ijcai.org/proceedings/2015/28",
+      "track": "Agent and Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Emotions in Argumentation: an Empirical Evaluation",
+      "url": "https://www.ijcai.org/proceedings/2015/29",
+      "track": "Artificial Intelligence and Social Sciences",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Parliamentary Voting Procedures: Agenda Control, Manipulation, and Uncertainty",
+      "url": "https://www.ijcai.org/proceedings/2015/30",
+      "track": "Artificial Intelligence and Social Sciences",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Computer Science on the Move: Inferring Migration Regularities from the Web via Compressed Label Propagation",
+      "url": "https://www.ijcai.org/proceedings/2015/31",
+      "track": "Artificial Intelligence and Social Sciences",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Semi-Universal Portfolios with Transaction Costs",
+      "url": "https://www.ijcai.org/proceedings/2015/32",
+      "track": "Artificial Intelligence and Social Sciences",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Context-Independent Claim Detection for Argument Mining",
+      "url": "https://www.ijcai.org/proceedings/2015/33",
+      "track": "Artificial Intelligence and Social Sciences",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Deterministic Partition Function Approximation for Exponential Random Graph Models",
+      "url": "https://www.ijcai.org/proceedings/2015/34",
+      "track": "Artificial Intelligence and Social Sciences",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Bonus or Not? Learn to Reward in Crowdsourcing",
+      "url": "https://www.ijcai.org/proceedings/2015/35",
+      "track": "Artificial Intelligence and Social Sciences",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Mechanism Design and Implementation for Lung Exchange",
+      "url": "https://www.ijcai.org/proceedings/2015/36",
+      "track": "Auctions and Market-Based Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Maximal Cooperation in Repeated Games on Social Networks",
+      "url": "https://www.ijcai.org/proceedings/2015/37",
+      "track": "Auctions and Market-Based Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Selling Reserved Instances in Cloud Computing",
+      "url": "https://www.ijcai.org/proceedings/2015/38",
+      "track": "Auctions and Market-Based Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Multicore Tool for Constraint Solving",
+      "url": "https://www.ijcai.org/proceedings/2015/39",
+      "track": "Constraint Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Improving the Effectiveness of SAT-Based Preprocessing for MaxSAT",
+      "url": "https://www.ijcai.org/proceedings/2015/40",
+      "track": "Constraint Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Maximum Satisfiability Using Cores and Correction Sets",
+      "url": "https://www.ijcai.org/proceedings/2015/41",
+      "track": "Constraint Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Recursive Decomposition for Nonconvex Optimization - IJCAI-15 Distinguished Paper",
+      "url": "https://www.ijcai.org/proceedings/2015/42",
+      "track": "Constraint Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Finding Diverse Solutions of High Quality to Constraint Optimization Problems",
+      "url": "https://www.ijcai.org/proceedings/2015/43",
+      "track": "Constraint Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "On the Resiliency of Unit Propagation to Max-Resolution",
+      "url": "https://www.ijcai.org/proceedings/2015/44",
+      "track": "Constraints, Satisfiability, and Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Improving the Efficiency of Dynamic Programming on Tree Decompositions via Machine Learning",
+      "url": "https://www.ijcai.org/proceedings/2015/45",
+      "track": "Constraints, Satisfiability, and Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Exploiting the Structure of Unsatisfiable Cores in MaxSAT",
+      "url": "https://www.ijcai.org/proceedings/2015/46",
+      "track": "Constraints, Satisfiability, and Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Multi-Armed Bandits for Adaptive Constraint Propagation",
+      "url": "https://www.ijcai.org/proceedings/2015/47",
+      "track": "Constraints, Satisfiability, and Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Combining Preference Elicitation and Search in Multiobjective State-Space Graphs",
+      "url": "https://www.ijcai.org/proceedings/2015/48",
+      "track": "Constraints, Satisfiability, and Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "ReACTR: Realtime Algorithm Configuration through Tournament Rankings",
+      "url": "https://www.ijcai.org/proceedings/2015/49",
+      "track": "Constraints, Satisfiability, and Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Expressive Logical Combinators for Free",
+      "url": "https://www.ijcai.org/proceedings/2015/50",
+      "track": "Constraints, Satisfiability, and Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Statistical Regimes and Runtime Prediction",
+      "url": "https://www.ijcai.org/proceedings/2015/51",
+      "track": "Constraints, Satisfiability, and Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Solving QBF by Clause Selection",
+      "url": "https://www.ijcai.org/proceedings/2015/52",
+      "track": "Constraints, Satisfiability, and Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Compiling Constraint Networks into Multivalued Decomposable Decision Graphs",
+      "url": "https://www.ijcai.org/proceedings/2015/53",
+      "track": "Constraints, Satisfiability, and Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Filtering Nogoods Lazily in Dynamic Symmetry Breaking During Search",
+      "url": "https://www.ijcai.org/proceedings/2015/54",
+      "track": "Constraints, Satisfiability, and Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Multi-Pass High-Level Presolving",
+      "url": "https://www.ijcai.org/proceedings/2015/55",
+      "track": "Constraints, Satisfiability, and Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Decomposition of the Factor Encoding for CSPs",
+      "url": "https://www.ijcai.org/proceedings/2015/56",
+      "track": "Constraints, Satisfiability, and Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Towards Automatic Dominance Breaking for Constraint Optimization Problems",
+      "url": "https://www.ijcai.org/proceedings/2015/57",
+      "track": "Constraints, Satisfiability, and Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "On the Empirical Time Complexity of Random 3-SAT at the Phase Transition",
+      "url": "https://www.ijcai.org/proceedings/2015/58",
+      "track": "Constraints, Satisfiability, and Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Efficient Operations On MDDs for Building Constraint Programming Models",
+      "url": "https://www.ijcai.org/proceedings/2015/59",
+      "track": "Constraints, Satisfiability, and Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Personalized Mathematical Word Problem Generation",
+      "url": "https://www.ijcai.org/proceedings/2015/60",
+      "track": "Constraints, Satisfiability, and Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "On Constrained Boolean Pareto Optimization",
+      "url": "https://www.ijcai.org/proceedings/2015/61",
+      "track": "Constraints, Satisfiability, and Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Packing Curved Objects",
+      "url": "https://www.ijcai.org/proceedings/2015/62",
+      "track": "Constraints, Satisfiability, and Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Efficient Algorithms with Performance Guarantees for the Stochastic Multiple-Choice Knapsack Problem",
+      "url": "https://www.ijcai.org/proceedings/2015/63",
+      "track": "Constraints, Satisfiability, and Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Probabilistic Inference Based Message-Passing for Resource Constrained DCOPs",
+      "url": "https://www.ijcai.org/proceedings/2015/64",
+      "track": "Distributed Search/CSP/Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Collective Biobjective Optimization Algorithm for Parallel Test Paper Generation",
+      "url": "https://www.ijcai.org/proceedings/2015/65",
+      "track": "Distributed Search/CSP/Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Max-Sum Goes Private",
+      "url": "https://www.ijcai.org/proceedings/2015/66",
+      "track": "Distributed Search/CSP/Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Applying Max-Sum to Asymmetric Distributed Constraint Optimization",
+      "url": "https://www.ijcai.org/proceedings/2015/67",
+      "track": "Distributed Search/CSP/Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Bargaining Mechanism for One-Way Games",
+      "url": "https://www.ijcai.org/proceedings/2015/68",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Strategic Network Formation through an Intermediary",
+      "url": "https://www.ijcai.org/proceedings/2015/69",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "The Adjusted Winner Procedure: Characterizations and Equilibria",
+      "url": "https://www.ijcai.org/proceedings/2015/70",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Welfare Maximization in Fractional Hedonic Games",
+      "url": "https://www.ijcai.org/proceedings/2015/71",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Possible and Necessary Allocations via Sequential Mechanisms",
+      "url": "https://www.ijcai.org/proceedings/2015/72",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Learning Cooperative Games",
+      "url": "https://www.ijcai.org/proceedings/2015/73",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Dictatorship Theorem for Cake Cutting",
+      "url": "https://www.ijcai.org/proceedings/2015/74",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Simultaneous Abstraction and Equilibrium Finding in Games",
+      "url": "https://www.ijcai.org/proceedings/2015/75",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Incentivizing Peer Grading in MOOCS: An Audit Game Approach",
+      "url": "https://www.ijcai.org/proceedings/2015/76",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Approximate Nash Equilibria with Near Optimal Social Welfare",
+      "url": "https://www.ijcai.org/proceedings/2015/77",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Influence in Classification via Cooperative Game Theory",
+      "url": "https://www.ijcai.org/proceedings/2015/78",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "SAT Is an Effective and Complete Method for Solving Stable Matching Problems with Couples",
+      "url": "https://www.ijcai.org/proceedings/2015/79",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Optimal Network Security Hardening Using Attack Graph Games",
+      "url": "https://www.ijcai.org/proceedings/2015/80",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Gibbard-Satterthwaite Games",
+      "url": "https://www.ijcai.org/proceedings/2015/81",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Equilibrium Refinement through Negotiation in Binary Voting",
+      "url": "https://www.ijcai.org/proceedings/2015/82",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Structural Tractability of Shapley and Banzhaf Values in Allocation Games",
+      "url": "https://www.ijcai.org/proceedings/2015/83",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Smooth UCT Search in Computer Poker",
+      "url": "https://www.ijcai.org/proceedings/2015/84",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Fixing Tournaments for Kings, Chokers, and More",
+      "url": "https://www.ijcai.org/proceedings/2015/85",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Characterization of n-Player Strongly Monotone Scheduling Mechanisms",
+      "url": "https://www.ijcai.org/proceedings/2015/86",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Limited Lookahead in Imperfect-Information Games",
+      "url": "https://www.ijcai.org/proceedings/2015/87",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Impartial Peer Review",
+      "url": "https://www.ijcai.org/proceedings/2015/88",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Truthful Cake Cutting Mechanisms with Externalities: Do Not Make Them Care for Others Too Much!",
+      "url": "https://www.ijcai.org/proceedings/2015/89",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Equilibrium Analysis of Multi-Defender Security Games",
+      "url": "https://www.ijcai.org/proceedings/2015/90",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "When Does Schwartz Conjecture Hold?",
+      "url": "https://www.ijcai.org/proceedings/2015/91",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Strategic Candidacy Games with Lazy Candidates",
+      "url": "https://www.ijcai.org/proceedings/2015/92",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Simple Causes of Complexity in Hedonic Games",
+      "url": "https://www.ijcai.org/proceedings/2015/93",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Convergence to Equilibria in Strategic Candidacy",
+      "url": "https://www.ijcai.org/proceedings/2015/94",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Pseudo-Polynomial Algorithm for Computing Power Indices in Graph-Restricted Weighted Voting Games",
+      "url": "https://www.ijcai.org/proceedings/2015/95",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "The Game-Theoretic Interaction Index on Social Networks with Applications to Link Prediction and Community Detection",
+      "url": "https://www.ijcai.org/proceedings/2015/96",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Solving Heads-Up Limit Texas Hold'em",
+      "url": "https://www.ijcai.org/proceedings/2015/97",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Envy-Free Sponsored Search Auctions with Budgets",
+      "url": "https://www.ijcai.org/proceedings/2015/98",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Implementing the Wisdom of Waze",
+      "url": "https://www.ijcai.org/proceedings/2015/99",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Spiteful Bidding in the Dollar Auction",
+      "url": "https://www.ijcai.org/proceedings/2015/100",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Security Games with Information Leakage: Modeling and Computation",
+      "url": "https://www.ijcai.org/proceedings/2015/101",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Computing Optimal Mixed Strategies for Security Games with Dynamic Payoffs",
+      "url": "https://www.ijcai.org/proceedings/2015/102",
+      "track": "Game Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "From Weighted to Unweighted Model Counting",
+      "url": "https://www.ijcai.org/proceedings/2015/103",
+      "track": "Graphical Models",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Pushing Forward Marginal MAP with Best-First Search",
+      "url": "https://www.ijcai.org/proceedings/2015/104",
+      "track": "Graphical Models",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Indirect Causes in Dynamic Bayesian Networks Revisited",
+      "url": "https://www.ijcai.org/proceedings/2015/105",
+      "track": "Graphical Models",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Differential Semantics of Intervention in Bayesian Networks",
+      "url": "https://www.ijcai.org/proceedings/2015/106",
+      "track": "Graphical Models",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Bayesian Modelling of Community-Based Multidimensional Trust in Participatory Sensing under Data Sparsity",
+      "url": "https://www.ijcai.org/proceedings/2015/107",
+      "track": "Graphical Models",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Unified Model for Unsupervised Opinion Spamming Detection Incorporating Text Generality",
+      "url": "https://www.ijcai.org/proceedings/2015/108",
+      "track": "Graphical Models",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Model-Based Genetic Algorithms for Algorithm Configuration",
+      "url": "https://www.ijcai.org/proceedings/2015/109",
+      "track": "Heuristic Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "ICBS: Improved Conflict-Based Search Algorithm for Multi-Agent Pathfinding",
+      "url": "https://www.ijcai.org/proceedings/2015/110",
+      "track": "Heuristic Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Balance between Complexity and Quality: Local Search for Minimum Vertex Cover in Massive Graphs",
+      "url": "https://www.ijcai.org/proceedings/2015/111",
+      "track": "Heuristic Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Generalized Rapid Action Value Estimation",
+      "url": "https://www.ijcai.org/proceedings/2015/112",
+      "track": "Heuristic Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Fast Goal Recognition Technique Based on Interaction Estimates",
+      "url": "https://www.ijcai.org/proceedings/2015/113",
+      "track": "Heuristic Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Interplanetary Trajectory Planning with Monte Carlo Tree Search",
+      "url": "https://www.ijcai.org/proceedings/2015/114",
+      "track": "Heuristic Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "FlashNormalize: Programming by Examples for Text Normalization",
+      "url": "https://www.ijcai.org/proceedings/2015/115",
+      "track": "Heuristic Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Efficient Search with an Ensemble of Heuristics",
+      "url": "https://www.ijcai.org/proceedings/2015/116",
+      "track": "Heuristic Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Compositional Program Synthesis from Natural Language and Examples",
+      "url": "https://www.ijcai.org/proceedings/2015/117",
+      "track": "Heuristic Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Mining Expert Play to Guide Monte Carlo Search in the Opening Moves of Go",
+      "url": "https://www.ijcai.org/proceedings/2015/118",
+      "track": "Heuristic Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "H-Index Manipulation by Merging Articles: Models, Theory, and Experiments",
+      "url": "https://www.ijcai.org/proceedings/2015/119",
+      "track": "Heuristic Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Computing Possibly Optimal Solutions for Multi-Objective Constraint Optimisation with Tradeoffs",
+      "url": "https://www.ijcai.org/proceedings/2015/120",
+      "track": "Heuristic Search",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Mining Definitions from RDF Annotations Using Formal Concept Analysis",
+      "url": "https://www.ijcai.org/proceedings/2015/121",
+      "track": "Knowledge Acquisition",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Personalizing Product Rankings Using Collaborative Filtering on Opinion-Derived Topic Profiles",
+      "url": "https://www.ijcai.org/proceedings/2015/122",
+      "track": "Knowledge Acquisition",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "AskWorld: Budget-Sensitive Query Evaluation for Knowledge-on-Demand",
+      "url": "https://www.ijcai.org/proceedings/2015/123",
+      "track": "Knowledge Acquisition",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Building Hierarchies of Concepts via Crowdsourcing",
+      "url": "https://www.ijcai.org/proceedings/2015/124",
+      "track": "Knowledge Acquisition",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Finite Abstractions for the Verification of Epistemic Properties in Open Multi-Agent Systems",
+      "url": "https://www.ijcai.org/proceedings/2015/125",
+      "track": "Knowledge Representation, Reasoning, and Logic",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Formal Analysis of Dialogues on Infinite Argumentation Frameworks",
+      "url": "https://www.ijcai.org/proceedings/2015/126",
+      "track": "Knowledge Representation, Reasoning, and Logic",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "On the Graded Acceptability of Arguments",
+      "url": "https://www.ijcai.org/proceedings/2015/127",
+      "track": "Knowledge Representation, Reasoning, and Logic",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Common-Sense Conceptual Categorization System Integrating Heterogeneous Proxytypes and the Dual Process of Reasoning",
+      "url": "https://www.ijcai.org/proceedings/2015/128",
+      "track": "Knowledge Representation, Reasoning, and Logic",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Simple Probabilistic Extension of Modal Mu-calculus",
+      "url": "https://www.ijcai.org/proceedings/2015/129",
+      "track": "Knowledge Representation, Reasoning, and Logic",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "The Complexity of MAP Inference in Bayesian Networks Specified Through Logical Languages",
+      "url": "https://www.ijcai.org/proceedings/2015/130",
+      "track": "Knowledge Representation, Reasoning, and Logic",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Dissecting German Grammar and Swiss Passports: Open-Domain Decomposition of Compositional Entries in Large-Scale Knowledge Repositories",
+      "url": "https://www.ijcai.org/proceedings/2015/131",
+      "track": "Knowledge Representation, Reasoning, and Logic",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Automatic Generation of Raven's Progressive Matrices",
+      "url": "https://www.ijcai.org/proceedings/2015/132",
+      "track": "Knowledge Representation, Reasoning, and Logic",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "From Raw Sensor Data to Detailed Spatial Knowledge",
+      "url": "https://www.ijcai.org/proceedings/2015/133",
+      "track": "Knowledge Representation, Reasoning, and Logic",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Information Gathering in Networks via Active Exploration",
+      "url": "https://www.ijcai.org/proceedings/2015/143",
+      "track": "Knowledge Representation, Reasoning, and Logic",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Using a Recursive Neural Network to Learn an Agent's Decision Model for Plan Recognition",
+      "url": "https://www.ijcai.org/proceedings/2015/134",
+      "track": "Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Biclustering Gene Expressions Using Factor Graphs and the Max-Sum Algorithm",
+      "url": "https://www.ijcai.org/proceedings/2015/135",
+      "track": "Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Greedy Structure Search for Sum-Product Networks",
+      "url": "https://www.ijcai.org/proceedings/2015/136",
+      "track": "Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "On the Consistency of AUC Pairwise Optimization",
+      "url": "https://www.ijcai.org/proceedings/2015/137",
+      "track": "Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Multi-Label Active Learning: Query Type Matters",
+      "url": "https://www.ijcai.org/proceedings/2015/138",
+      "track": "Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Joint Learning of Constituency and Dependency Grammars by Decomposed Cross-Lingual Induction",
+      "url": "https://www.ijcai.org/proceedings/2015/139",
+      "track": "Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Mobility Profiling for User Verification with Anonymized Location Data",
+      "url": "https://www.ijcai.org/proceedings/2015/140",
+      "track": "Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Analysis of Sampling Algorithms for Twitter",
+      "url": "https://www.ijcai.org/proceedings/2015/141",
+      "track": "Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Portfolio Choices with Orthogonal Bandit Learning",
+      "url": "https://www.ijcai.org/proceedings/2015/142",
+      "track": "Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Medical Synonym Extraction with Concept Space Models",
+      "url": "https://www.ijcai.org/proceedings/2015/144",
+      "track": "Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Detecting Emotions in Social Media: A Constrained Optimization Approach",
+      "url": "https://www.ijcai.org/proceedings/2015/145",
+      "track": "Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Regression Model Fitting under Differential Privacy and Model Inversion Attack",
+      "url": "https://www.ijcai.org/proceedings/2015/146",
+      "track": "Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Correcting Covariate Shift with the Frank-Wolfe Algorithm",
+      "url": "https://www.ijcai.org/proceedings/2015/147",
+      "track": "Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Cognitive Modelling for Predicting Examinee Performance",
+      "url": "https://www.ijcai.org/proceedings/2015/148",
+      "track": "Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Opportunities or Risks to Reduce Labor in Crowdsourcing Translation? Characterizing Cost versus Quality via a PageRank-HITS Hybrid Model",
+      "url": "https://www.ijcai.org/proceedings/2015/149",
+      "track": "Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Auxiliary Information Regularized Machine for Multiple Modality Feature Learning",
+      "url": "https://www.ijcai.org/proceedings/2015/150",
+      "track": "Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Discriminative Reordering Model Adaptation via Structural Learning",
+      "url": "https://www.ijcai.org/proceedings/2015/151",
+      "track": "Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Revisiting Gaussian Process Dynamical Models",
+      "url": "https://www.ijcai.org/proceedings/2015/152",
+      "track": "Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Character-Based Parsing with Convolutional Neural Network",
+      "url": "https://www.ijcai.org/proceedings/2015/153",
+      "track": "Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Active Learning from Crowds with Unsure Option",
+      "url": "https://www.ijcai.org/proceedings/2015/154",
+      "track": "Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Symbolic Model Checking for One-Resource RB+-ATL",
+      "url": "https://www.ijcai.org/proceedings/2015/155",
+      "track": "Model Verification / Model Checking",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "The Complexity of Model Checking Succinct Multiagent Systems",
+      "url": "https://www.ijcai.org/proceedings/2015/156",
+      "track": "Model Verification / Model Checking",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Verifying Emergent Properties of Swarms",
+      "url": "https://www.ijcai.org/proceedings/2015/157",
+      "track": "Model Verification / Model Checking",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Pushdown Multi-Agent System Verification",
+      "url": "https://www.ijcai.org/proceedings/2015/158",
+      "track": "Model Verification / Model Checking",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Scalable Interdependent Multi-Issue Negotiation Protocol for Energy Exchange",
+      "url": "https://www.ijcai.org/proceedings/2015/159",
+      "track": "Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Equilibria Under the Probabilistic Serial Rule",
+      "url": "https://www.ijcai.org/proceedings/2015/160",
+      "track": "Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Estimating the Margin of Victory of an Election Using Sampling",
+      "url": "https://www.ijcai.org/proceedings/2015/162",
+      "track": "Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Strategy-Proofness of Scoring Allocation Correspondences for Indivisible Goods",
+      "url": "https://www.ijcai.org/proceedings/2015/163",
+      "track": "Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Spectrum-Based Fault Localisation for Multi-Agent Systems",
+      "url": "https://www.ijcai.org/proceedings/2015/164",
+      "track": "Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "What Do We Elect Committees For? A Voting Committee Model for Multi-Winner Rules",
+      "url": "https://www.ijcai.org/proceedings/2015/165",
+      "track": "Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Towards City-Scale Mobile Crowdsourcing: Task Recommendations under Trajectory Uncertainties",
+      "url": "https://www.ijcai.org/proceedings/2015/161",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Exploiting Symmetries by Planning for a Descriptive Quotient",
+      "url": "https://www.ijcai.org/proceedings/2015/212",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Cost-Optimal and Net-Benefit Planning - A Parameterised Complexity View",
+      "url": "https://www.ijcai.org/proceedings/2015/213",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "On the Boundary of (Un)decidability: Decidable Model-Checking for a Fragment of Resource Agent Logic",
+      "url": "https://www.ijcai.org/proceedings/2015/214",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Tight Bounds for HTN Planning with Task Insertion",
+      "url": "https://www.ijcai.org/proceedings/2015/215",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "ASAP-UCT: Abstraction of State-Action Pairs in UCT",
+      "url": "https://www.ijcai.org/proceedings/2015/216",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Further Connections Between Contract-Scheduling and Ray-Searching Problems",
+      "url": "https://www.ijcai.org/proceedings/2015/217",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Temporal Planning with Semantic Attachment of Non-Linear Monotonic Continuous Behaviours",
+      "url": "https://www.ijcai.org/proceedings/2015/218",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Privacy Preserving Algorithm for Multi-Agent Planning and Search",
+      "url": "https://www.ijcai.org/proceedings/2015/219",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Exploiting Block Deordering for Improving Planners Efficiency",
+      "url": "https://www.ijcai.org/proceedings/2015/220",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "On the Online Generation of Effective Macro-Operators",
+      "url": "https://www.ijcai.org/proceedings/2015/221",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Estimating the Probability of Meeting a Deadline in Hierarchical Plans",
+      "url": "https://www.ijcai.org/proceedings/2015/222",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Synthesis for LTL and LDL on Finite Traces",
+      "url": "https://www.ijcai.org/proceedings/2015/223",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Mixed Discrete-Continuous Heuristic Generative Planning Based on Flow Tubes",
+      "url": "https://www.ijcai.org/proceedings/2015/224",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Delete Relaxations for Planning with State-Dependent Action Costs",
+      "url": "https://www.ijcai.org/proceedings/2015/225",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Optimal Planning with Axioms",
+      "url": "https://www.ijcai.org/proceedings/2015/226",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Optimal Policy Generation for Partially Satisfiable Co-Safe LTL Specifications",
+      "url": "https://www.ijcai.org/proceedings/2015/227",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Probabilistic Knowledge-Based Programs",
+      "url": "https://www.ijcai.org/proceedings/2015/228",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Metareasoning for Planning Under Uncertainty",
+      "url": "https://www.ijcai.org/proceedings/2015/229",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Classical Planning with Simulators: Results on the Atari Video Games",
+      "url": "https://www.ijcai.org/proceedings/2015/230",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Action2Activity: Recognizing Complex Activities from Sensor Data",
+      "url": "https://www.ijcai.org/proceedings/2015/231",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Exploratory Digraph Navigation Using A",
+      "url": "https://www.ijcai.org/proceedings/2015/232",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Compiling Away Uncertainty in Strong Temporal Planning with Uncontrollable Durations",
+      "url": "https://www.ijcai.org/proceedings/2015/233",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Sorting Sequential Portfolios in Automated Planning",
+      "url": "https://www.ijcai.org/proceedings/2015/234",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Factored Upper Bounds for Multiagent Planning Problems under Uncertainty with Non-Factored Value Functions",
+      "url": "https://www.ijcai.org/proceedings/2015/235",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Adversarial Hierarchical-Task Network Planning for Complex Real-Time Games",
+      "url": "https://www.ijcai.org/proceedings/2015/236",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Models of Action Concurrency in Temporal Planning",
+      "url": "https://www.ijcai.org/proceedings/2015/237",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Point-Based Planning for Multi-Objective POMDPs",
+      "url": "https://www.ijcai.org/proceedings/2015/238",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Deordering and Numeric Macro Actions for Plan Repair",
+      "url": "https://www.ijcai.org/proceedings/2015/239",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Planning for Stochastic Games with Co-Safe Objectives",
+      "url": "https://www.ijcai.org/proceedings/2015/240",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Simulation-Based Admissible Dominance Pruning",
+      "url": "https://www.ijcai.org/proceedings/2015/241",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Polynomial-Time Reformulations of LTL Temporally Extended Goals into Final-State Goals",
+      "url": "https://www.ijcai.org/proceedings/2015/242",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "On the Effective Configuration of Planning Domain Models",
+      "url": "https://www.ijcai.org/proceedings/2015/243",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Integrating Partial Order Reduction and Symmetry Elimination for Cost-Optimal Classical Planning",
+      "url": "https://www.ijcai.org/proceedings/2015/244",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Multi-Objective POMDPs with Lexicographic Reward Preferences",
+      "url": "https://www.ijcai.org/proceedings/2015/245",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "An Iterative Approach to Synthesize Data Transformation Programs",
+      "url": "https://www.ijcai.org/proceedings/2015/246",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "MORRF*: Sampling-Based Multi-Objective Motion Planning",
+      "url": "https://www.ijcai.org/proceedings/2015/247",
+      "track": "Planning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Algorithmic Exam Generation",
+      "url": "https://www.ijcai.org/proceedings/2015/166",
+      "track": "Multidisciplinary Topics and Applications",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "The Right to Obscure: A Mechanism and Initial Evaluation",
+      "url": "https://www.ijcai.org/proceedings/2015/167",
+      "track": "Multidisciplinary Topics and Applications",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A New Input Method for Human Translators: Integrating Machine Translation Effectively and Imperceptibly",
+      "url": "https://www.ijcai.org/proceedings/2015/168",
+      "track": "Multidisciplinary Topics and Applications",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Combining Eye Movements and EEG to Enhance Emotion Recognition",
+      "url": "https://www.ijcai.org/proceedings/2015/169",
+      "track": "Multidisciplinary Topics and Applications",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Handling Complex Commands as Service Robot Task Requests",
+      "url": "https://www.ijcai.org/proceedings/2015/170",
+      "track": "Multidisciplinary Topics and Applications",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Study of Human-Agent Collaboration for Multi-UAV Task Allocation in Dynamic Environments",
+      "url": "https://www.ijcai.org/proceedings/2015/171",
+      "track": "Multidisciplinary Topics and Applications",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Automated Geometry Theorem Proving for Human-Readable Proofs",
+      "url": "https://www.ijcai.org/proceedings/2015/172",
+      "track": "Multidisciplinary Topics and Applications",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Offline Sketch Parsing via Shapeness Estimation",
+      "url": "https://www.ijcai.org/proceedings/2015/173",
+      "track": "Multidisciplinary Topics and Applications",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Multi-Document Abstractive Summarization Using ILP Based Multi-Sentence Compression",
+      "url": "https://www.ijcai.org/proceedings/2015/174",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Do We Criticise (and Laugh) in the Same Way? Automatic Detection of Multi-Lingual Satirical News in Twitter",
+      "url": "https://www.ijcai.org/proceedings/2015/175",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Embedding Semantic Relations into Word Representations",
+      "url": "https://www.ijcai.org/proceedings/2015/176",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Positive, Negative, or Neutral: Learning an Expanded Opinion Lexicon from Emoticon-Annotated Tweets",
+      "url": "https://www.ijcai.org/proceedings/2015/177",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Joint Learning of Character and Word Embeddings",
+      "url": "https://www.ijcai.org/proceedings/2015/178",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Hybrid Neural Model for Type Classification of Entity Mentions",
+      "url": "https://www.ijcai.org/proceedings/2015/179",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Iterative Learning of Parallel Lexicons and Phrases from Non-Parallel Corpora",
+      "url": "https://www.ijcai.org/proceedings/2015/180",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Word-Error Correction of Continuous Speech Recognition Based on Normalized Relevance Distance",
+      "url": "https://www.ijcai.org/proceedings/2015/181",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Joint POS Tagging and Text Normalization for Informal Text",
+      "url": "https://www.ijcai.org/proceedings/2015/182",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Reader-Aware Multi-Document Summarization via Sparse Coding",
+      "url": "https://www.ijcai.org/proceedings/2015/183",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Incorporating Domain and Sentiment Supervision in Representation Learning for Domain Adaptation",
+      "url": "https://www.ijcai.org/proceedings/2015/184",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Learning Context-Sensitive Word Embeddings with Neural Tensor Skip-Gram Model",
+      "url": "https://www.ijcai.org/proceedings/2015/185",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Automated Rule Selection for Aspect Extraction in Opinion Mining",
+      "url": "https://www.ijcai.org/proceedings/2015/186",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Integrating Importance, Non-Redundancy and Coherence in Graph-Based Extractive Summarization",
+      "url": "https://www.ijcai.org/proceedings/2015/187",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Convolutional Neural Tensor Network Architecture for Community-Based Question Answering",
+      "url": "https://www.ijcai.org/proceedings/2015/188",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "An Active Learning Approach to Coreference Resolution",
+      "url": "https://www.ijcai.org/proceedings/2015/189",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Towards Addressing the Winograd Schema Challenge - Building and Using a Semantic Parser and a Knowledge Hunting Module",
+      "url": "https://www.ijcai.org/proceedings/2015/190",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "On Conceptual Labeling of a Bag of Words",
+      "url": "https://www.ijcai.org/proceedings/2015/191",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Modeling Mention, Context and Entity with Neural Networks for Entity Disambiguation",
+      "url": "https://www.ijcai.org/proceedings/2015/192",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "User Modeling with Neural Network for Review Rating Prediction",
+      "url": "https://www.ijcai.org/proceedings/2015/193",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Target-Dependent Twitter Sentiment Classification with Rich Automatic Features",
+      "url": "https://www.ijcai.org/proceedings/2015/194",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Syntax-Based Deep Matching of Short Texts",
+      "url": "https://www.ijcai.org/proceedings/2015/195",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Modeling Quantum Entanglements in Quantum Language Models",
+      "url": "https://www.ijcai.org/proceedings/2015/196",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Convolutional Neural Networks for Text Hashing",
+      "url": "https://www.ijcai.org/proceedings/2015/197",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Compressive Document Summarization via Sparse Optimization",
+      "url": "https://www.ijcai.org/proceedings/2015/198",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Optimizing Sentence Modeling and Selection for Document Summarization",
+      "url": "https://www.ijcai.org/proceedings/2015/199",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Learning Term Embeddings for Hypernymy Identification",
+      "url": "https://www.ijcai.org/proceedings/2015/200",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Local Translation Prediction with Global Sentence Representation",
+      "url": "https://www.ijcai.org/proceedings/2015/201",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Prior-Based Dual Additive Latent Dirichlet Allocation for User-Item Connected Documents",
+      "url": "https://www.ijcai.org/proceedings/2015/202",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Representation Learning for Measuring Entity Relatedness with Rich Information",
+      "url": "https://www.ijcai.org/proceedings/2015/203",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Linking Heterogeneous Input Features with Pivots for Domain Adaptation",
+      "url": "https://www.ijcai.org/proceedings/2015/204",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Subspace Learning Framework for Cross-Lingual Sentiment Classification with Partial Parallel Data",
+      "url": "https://www.ijcai.org/proceedings/2015/205",
+      "track": "Natural Language Processing",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Unsupervised Learning of an IS-A Taxonomy from a Limited Domain-Specific Corpus",
+      "url": "https://www.ijcai.org/proceedings/2015/206",
+      "track": "Ontologies",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Coherence Across Components in Cognitive Systems - One Ontology to Rule Them All",
+      "url": "https://www.ijcai.org/proceedings/2015/207",
+      "track": "Ontologies",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "How to Select One Preferred Assertional-Based Repair from Inconsistent and Prioritized DL-Lite Knowledge Bases?",
+      "url": "https://www.ijcai.org/proceedings/2015/208",
+      "track": "Ontologies",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Scalable Maintenance of Knowledge Discovery in an Ontology Stream",
+      "url": "https://www.ijcai.org/proceedings/2015/209",
+      "track": "Ontologies",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Bootstrapping Domain Ontologies from Wikipedia: A Uniform Approach",
+      "url": "https://www.ijcai.org/proceedings/2015/210",
+      "track": "Ontologies",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "An Ontology Matching Approach Based on Affinity-Preserving Random Walks",
+      "url": "https://www.ijcai.org/proceedings/2015/211",
+      "track": "Ontologies",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Optimal Greedy Diversity for Recommendation",
+      "url": "https://www.ijcai.org/proceedings/2015/248",
+      "track": "Recommender Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Music Recommenders: User Evaluation Without Real Users?",
+      "url": "https://www.ijcai.org/proceedings/2015/249",
+      "track": "Recommender Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Synthetic Approach for Recommendation: Combining Ratings, Social Relations, and Reviews",
+      "url": "https://www.ijcai.org/proceedings/2015/250",
+      "track": "Recommender Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Differentially Private Matrix Factorization",
+      "url": "https://www.ijcai.org/proceedings/2015/251",
+      "track": "Recommender Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Sparse Probabilistic Matrix Factorization by Laplace Distribution for Collaborative Filtering",
+      "url": "https://www.ijcai.org/proceedings/2015/252",
+      "track": "Recommender Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Personalized Tour Recommendation Based on User Interests and Points of Interest Visit Durations",
+      "url": "https://www.ijcai.org/proceedings/2015/253",
+      "track": "Recommender Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Modeling Users' Dynamic Preference for Personalized Recommendation",
+      "url": "https://www.ijcai.org/proceedings/2015/254",
+      "track": "Recommender Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Boosting Algorithm for Item Recommendation with Implicit Feedback",
+      "url": "https://www.ijcai.org/proceedings/2015/255",
+      "track": "Recommender Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Simple Atom Selection Strategy for Greedy Matrix Completion",
+      "url": "https://www.ijcai.org/proceedings/2015/256",
+      "track": "Recommender Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Personalized Ad Recommendation Systems for Life-Time Value Optimization with Guarantees",
+      "url": "https://www.ijcai.org/proceedings/2015/257",
+      "track": "Recommender Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Exploring Implicit Hierarchical Structures for Recommender Systems",
+      "url": "https://www.ijcai.org/proceedings/2015/258",
+      "track": "Recommender Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Recommendation Algorithms for Optimizing Hit Rate, User Satisfaction and Website Revenue",
+      "url": "https://www.ijcai.org/proceedings/2015/259",
+      "track": "Recommender Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Cross-Domain Collaborative Filtering with Review Text",
+      "url": "https://www.ijcai.org/proceedings/2015/260",
+      "track": "Recommender Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Inducing Probabilistic Relational Rules from Probabilistic Examples",
+      "url": "https://www.ijcai.org/proceedings/2015/261",
+      "track": "Relational Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Saul: Towards Declarative Learning Based Programming",
+      "url": "https://www.ijcai.org/proceedings/2015/262",
+      "track": "Relational Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Anytime Inference in Probabilistic Logic Programs with Tp-Compilation",
+      "url": "https://www.ijcai.org/proceedings/2015/263",
+      "track": "Relational Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Knowledge Base Completion Using Embeddings and Rules",
+      "url": "https://www.ijcai.org/proceedings/2015/264",
+      "track": "Relational Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Toward Estimating Others' Transition Models Under Occlusion for Multi-Robot IRL",
+      "url": "https://www.ijcai.org/proceedings/2015/265",
+      "track": "Robotics and Vision",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Graph-Based Inverse Optimal Control for Robot Manipulation",
+      "url": "https://www.ijcai.org/proceedings/2015/266",
+      "track": "Robotics and Vision",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Reactive Integrated Motion Planning and Execution",
+      "url": "https://www.ijcai.org/proceedings/2015/267",
+      "track": "Robotics and Vision",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Weakly Supervised RBM for Semantic Segmentation",
+      "url": "https://www.ijcai.org/proceedings/2015/268",
+      "track": "Robotics and Vision",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Grounding the Meaning of Words through Vision and Interactive Gameplay",
+      "url": "https://www.ijcai.org/proceedings/2015/269",
+      "track": "Robotics and Vision",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Intelligent Agent Supporting Human-Multi-Robot Team Collaboration",
+      "url": "https://www.ijcai.org/proceedings/2015/270",
+      "track": "Robotics and Vision",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Co-Acquisition of Syntax and Semantics - An Investigation in Spatial Language",
+      "url": "https://www.ijcai.org/proceedings/2015/271",
+      "track": "Robotics and Vision",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Reduced Time-Expansion Graphs and Goal Decomposition for Solving Cooperative Path Finding Sub-Optimally",
+      "url": "https://www.ijcai.org/proceedings/2015/272",
+      "track": "Robotics and Vision",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Learning to Interpret Natural Language Commands through Human-Robot Dialog",
+      "url": "https://www.ijcai.org/proceedings/2015/273",
+      "track": "Robotics and Vision",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Logic-Geometric Programming: An Optimization-Based Approach to Combined Task and Motion Planning",
+      "url": "https://www.ijcai.org/proceedings/2015/274",
+      "track": "Robotics and Vision",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Multi-Modality Tracker Aggregation: From Generative to Discriminative",
+      "url": "https://www.ijcai.org/proceedings/2015/275",
+      "track": "Robotics and Vision",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Tractable Classes of Binary CSPs Defined by Excluded Topological Minors",
+      "url": "https://www.ijcai.org/proceedings/2015/276",
+      "track": "Satisfiability",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Modularity-Based Random SAT Instances Generator",
+      "url": "https://www.ijcai.org/proceedings/2015/277",
+      "track": "Satisfiability",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "An Exact Inference Scheme for MinSAT",
+      "url": "https://www.ijcai.org/proceedings/2015/278",
+      "track": "Satisfiability",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Efficient Model Based Diagnosis with Maximum Satisfiability",
+      "url": "https://www.ijcai.org/proceedings/2015/279",
+      "track": "Satisfiability",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Literal-Based MCS Extraction",
+      "url": "https://www.ijcai.org/proceedings/2015/280",
+      "track": "Satisfiability",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Prime Compilation of Non-Clausal Formulae",
+      "url": "https://www.ijcai.org/proceedings/2015/281",
+      "track": "Satisfiability",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Solving MDPs with Skew Symmetric Bilinear Utility Functions",
+      "url": "https://www.ijcai.org/proceedings/2015/282",
+      "track": "Sequential Decision Making",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Non-Monotone Adaptive Submodular Maximization",
+      "url": "https://www.ijcai.org/proceedings/2015/283",
+      "track": "Sequential Decision Making",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Optimization of Probabilistic Argumentation with Markov Decision Models",
+      "url": "https://www.ijcai.org/proceedings/2015/284",
+      "track": "Sequential Decision Making",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Stick-Breaking Policy Learning in Dec-POMDPs",
+      "url": "https://www.ijcai.org/proceedings/2015/285",
+      "track": "Sequential Decision Making",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Structure in Dichotomous Preferences",
+      "url": "https://www.ijcai.org/proceedings/2015/286",
+      "track": "Social Choice Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Efficient, Private, and eps-Strategyproof Elicitation of Tournament Voting Rules",
+      "url": "https://www.ijcai.org/proceedings/2015/287",
+      "track": "Social Choice Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Lie on the Fly: Iterative Voting Center with Manipulative Voters",
+      "url": "https://www.ijcai.org/proceedings/2015/288",
+      "track": "Social Choice Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Ranked Voting on Social Networks",
+      "url": "https://www.ijcai.org/proceedings/2015/289",
+      "track": "Social Choice Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Non-Myopic Negotiators See What's Best",
+      "url": "https://www.ijcai.org/proceedings/2015/290",
+      "track": "Social Choice Theory",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "How Robust Is the Wisdom of the Crowds?",
+      "url": "https://www.ijcai.org/proceedings/2015/291",
+      "track": "Social Networks",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Uncovering the Formation of Triadic Closure in Social Networks",
+      "url": "https://www.ijcai.org/proceedings/2015/292",
+      "track": "Social Networks",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Personalized Ranking Metric Embedding for Next New POI Recommendation",
+      "url": "https://www.ijcai.org/proceedings/2015/293",
+      "track": "Social Networks",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Influence Maximization in Big Networks: An Incremental Algorithm for Streaming Subgraph Influence Spread Estimation",
+      "url": "https://www.ijcai.org/proceedings/2015/294",
+      "track": "Social Networks",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Nonnegative Matrix Tri-Factorization with Graph Regularization for Community Detection in Social Networks",
+      "url": "https://www.ijcai.org/proceedings/2015/295",
+      "track": "Social Networks",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Scalable Community Detection Algorithm for Large Graphs Using Stochastic Block Models",
+      "url": "https://www.ijcai.org/proceedings/2015/296",
+      "track": "Social Networks",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "CEIL: A Scalable, Resolution Limit Free Approach for Detecting Communities in Large Networks",
+      "url": "https://www.ijcai.org/proceedings/2015/297",
+      "track": "Social Networks",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Maximizing the Coverage of Information Propagation in Social Networks",
+      "url": "https://www.ijcai.org/proceedings/2015/298",
+      "track": "Social Networks",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Network Representation Learning with Rich Text Information",
+      "url": "https://www.ijcai.org/proceedings/2015/299",
+      "track": "Social Networks",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Optimal Route Search with the Coverage of Users' Preferences",
+      "url": "https://www.ijcai.org/proceedings/2015/300",
+      "track": "Social Networks",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Integrated Anchor and Social Link Predictions across Social Networks",
+      "url": "https://www.ijcai.org/proceedings/2015/301",
+      "track": "Social Networks",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Groupwise Registration of Aerial Images",
+      "url": "https://www.ijcai.org/proceedings/2015/302",
+      "track": "Vision and Perception",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Video Covariance Matrix Logarithm for Human Action Recognition in Videos",
+      "url": "https://www.ijcai.org/proceedings/2015/303",
+      "track": "Vision and Perception",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Modeling Inter- and Intra-Part Deformations for Object Structure Parsing",
+      "url": "https://www.ijcai.org/proceedings/2015/304",
+      "track": "Vision and Perception",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Cross-View Projective Dictionary Learning for Person Re-Identification",
+      "url": "https://www.ijcai.org/proceedings/2015/305",
+      "track": "Vision and Perception",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Inferring Painting Style with Multi-Task Dictionary Learning",
+      "url": "https://www.ijcai.org/proceedings/2015/306",
+      "track": "Vision and Perception",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Social Image Parsing by Cross-Modal Data Refinement",
+      "url": "https://www.ijcai.org/proceedings/2015/307",
+      "track": "Vision and Perception",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Salient Object Detection via Augmented Hypotheses",
+      "url": "https://www.ijcai.org/proceedings/2015/308",
+      "track": "Vision and Perception",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Adaptive Sharing for Image Classification",
+      "url": "https://www.ijcai.org/proceedings/2015/309",
+      "track": "Vision and Perception",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Face Clustering in Videos with Proportion Prior",
+      "url": "https://www.ijcai.org/proceedings/2015/310",
+      "track": "Vision and Perception",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Trailer Generation via a Point Process-Based Visual Attractiveness Model",
+      "url": "https://www.ijcai.org/proceedings/2015/311",
+      "track": "Vision and Perception",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Generalized Transitive Distance with Minimum Spanning Random Forest",
+      "url": "https://www.ijcai.org/proceedings/2015/312",
+      "track": "Vision and Perception",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Saliency Detection with a Deeper Investigation of Light Field",
+      "url": "https://www.ijcai.org/proceedings/2015/313",
+      "track": "Vision and Perception",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Semantic Single Video Segmentation with Robust Graph Representation",
+      "url": "https://www.ijcai.org/proceedings/2015/314",
+      "track": "Vision and Perception",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Heroic versus Collaborative AI for the Arts",
+      "url": "https://www.ijcai.org/proceedings/2015/345",
+      "track": "Vision and Perception",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Reasoning with Style",
+      "url": "https://www.ijcai.org/proceedings/2015/315",
+      "track": "Web and Knowledge-Based Information Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Semantic Concept Discovery for Large-Scale Zero-Shot Event Detection",
+      "url": "https://www.ijcai.org/proceedings/2015/316",
+      "track": "Web and Knowledge-Based Information Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Raising Expectations in GDA Agents Acting in Dynamic Environments",
+      "url": "https://www.ijcai.org/proceedings/2015/317",
+      "track": "Web and Knowledge-Based Information Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Scalable Graph Hashing with Feature Transformation",
+      "url": "https://www.ijcai.org/proceedings/2015/318",
+      "track": "Web and Knowledge-Based Information Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Web Page Classification Based on Uncorrelated Semi-Supervised Intra-View and Inter-View Manifold Discriminant Feature Extraction",
+      "url": "https://www.ijcai.org/proceedings/2015/319",
+      "track": "Web and Knowledge-Based Information Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Distance-Bounded Consistent Query Answering",
+      "url": "https://www.ijcai.org/proceedings/2015/320",
+      "track": "Web and Knowledge-Based Information Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Short and Sparse Text Topic Modeling via Self-Aggregation",
+      "url": "https://www.ijcai.org/proceedings/2015/321",
+      "track": "Web and Knowledge-Based Information Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Personalized Sentiment Classification Based on Latent Individuality of Microblog Users",
+      "url": "https://www.ijcai.org/proceedings/2015/322",
+      "track": "Web and Knowledge-Based Information Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Online Learning to Rank for Content-Based Image Retrieval",
+      "url": "https://www.ijcai.org/proceedings/2015/323",
+      "track": "Web and Knowledge-Based Information Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Deep Multimodal Hashing with Orthogonal Regularization",
+      "url": "https://www.ijcai.org/proceedings/2015/324",
+      "track": "Web and Knowledge-Based Information Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Hamming Compatible Quantization for Hashing",
+      "url": "https://www.ijcai.org/proceedings/2015/325",
+      "track": "Web and Knowledge-Based Information Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Determining Expert Research Areas with Multi-Instance Learning of Hierarchical Multi-Label Classification Model",
+      "url": "https://www.ijcai.org/proceedings/2015/326",
+      "track": "Web and Knowledge-Based Information Systems",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Sampling with Minimum Sum of Squared Similarities for Nystrom-Based Large Scale Spectral Clustering",
+      "url": "https://www.ijcai.org/proceedings/2015/327",
+      "track": "Web Mining",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Tracking Political Elections on Social Media: Applications and Experience",
+      "url": "https://www.ijcai.org/proceedings/2015/328",
+      "track": "Web Mining",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Deep Learning for Event-Driven Stock Prediction",
+      "url": "https://www.ijcai.org/proceedings/2015/329",
+      "track": "Web Mining",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Large Scale Homophily Analysis in Twitter Using a Twixonomy",
+      "url": "https://www.ijcai.org/proceedings/2015/330",
+      "track": "Web Mining",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Interactive Gender Inference with Integer Linear Programming",
+      "url": "https://www.ijcai.org/proceedings/2015/331",
+      "track": "Web Mining",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Detecting Promotion Campaigns in Community Question Answering",
+      "url": "https://www.ijcai.org/proceedings/2015/332",
+      "track": "Web Mining",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "VRCA: A Clustering Algorithm for Massive Amount of Texts",
+      "url": "https://www.ijcai.org/proceedings/2015/333",
+      "track": "Web Mining",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Towards Domain-Specific Semantic Relatedness: A Case Study from Geography",
+      "url": "https://www.ijcai.org/proceedings/2015/334",
+      "track": "Web Mining",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Interest Inference via Structure-Constrained Multi-Source Multi-Task Learning",
+      "url": "https://www.ijcai.org/proceedings/2015/335",
+      "track": "Web Mining",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Unsupervised Sentiment Analysis for Social Media Images",
+      "url": "https://www.ijcai.org/proceedings/2015/336",
+      "track": "Web Mining",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Re-Ranking Voting-Based Answers by Discarding User Behavior Biases",
+      "url": "https://www.ijcai.org/proceedings/2015/337",
+      "track": "Web Mining",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Unified Probabilistic Model of User Activities and Relations on Social Networking Sites",
+      "url": "https://www.ijcai.org/proceedings/2015/338",
+      "track": "Web Mining",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Exploiting k-Degree Locality to Improve Overlapping Community Detection",
+      "url": "https://www.ijcai.org/proceedings/2015/339",
+      "track": "Web Mining",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Learning Geographical Hierarchy Features for Social Image Location Prediction",
+      "url": "https://www.ijcai.org/proceedings/2015/340",
+      "track": "Web Mining",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Catch the Black Sheep: Unified Framework for Shilling Attack Detection Based on Fraudulent Action Propagation",
+      "url": "https://www.ijcai.org/proceedings/2015/341",
+      "track": "Web Mining",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Tackling Data Sparseness in Recommendation using Social Media based Topic Hierarchy Modeling",
+      "url": "https://www.ijcai.org/proceedings/2015/342",
+      "track": "Web Mining",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Artificial Intelligence in the Concertgebouw",
+      "url": "https://www.ijcai.org/proceedings/2015/343",
+      "track": "Special Track on Artificial Intelligence and the Arts",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Kinetic Imaginations: Exploring the Possibilities of Combining AI and Dance",
+      "url": "https://www.ijcai.org/proceedings/2015/344",
+      "track": "Special Track on Artificial Intelligence and the Arts",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Computational Invention of Cadences and Chord Progressions by Conceptual Chord-Blending",
+      "url": "https://www.ijcai.org/proceedings/2015/346",
+      "track": "Special Track on Artificial Intelligence and the Arts",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Slogans Are Not Forever: Adapting Linguistic Expressions to the News",
+      "url": "https://www.ijcai.org/proceedings/2015/347",
+      "track": "Special Track on Artificial Intelligence and the Arts",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Pseudo-Supervised Training Improves Unsupervised Melody Segmentation",
+      "url": "https://www.ijcai.org/proceedings/2015/348",
+      "track": "Special Track on Artificial Intelligence and the Arts",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Swarm Systems in the Visualization of Consumption Patterns",
+      "url": "https://www.ijcai.org/proceedings/2015/349",
+      "track": "Special Track on Artificial Intelligence and the Arts",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Evolving Ambiguous Images",
+      "url": "https://www.ijcai.org/proceedings/2015/350",
+      "track": "Special Track on Artificial Intelligence and the Arts",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "The Scaffolded Sound Beehive",
+      "url": "https://www.ijcai.org/proceedings/2015/351",
+      "track": "Special Track on Artificial Intelligence and the Arts",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Generating 1/f Noise Sequences as Constraint Satisfaction: The Voss Constraint",
+      "url": "https://www.ijcai.org/proceedings/2015/352",
+      "track": "Special Track on Artificial Intelligence and the Arts",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Generating all Possible Palindromes from Ngram Corpora",
+      "url": "https://www.ijcai.org/proceedings/2015/353",
+      "track": "Special Track on Artificial Intelligence and the Arts",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Haiku Generator that Reads Blogs and Illustrates Them with Sounds and Images",
+      "url": "https://www.ijcai.org/proceedings/2015/354",
+      "track": "Special Track on Artificial Intelligence and the Arts",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Looking at Mondrian's Victory Boogie-Woogie: What Do I Feel?",
+      "url": "https://www.ijcai.org/proceedings/2015/355",
+      "track": "Special Track on Artificial Intelligence and the Arts",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Aesthetic Visual Quality Evaluation of Chinese Handwritings",
+      "url": "https://www.ijcai.org/proceedings/2015/356",
+      "track": "Special Track on Artificial Intelligence and the Arts",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Narrative Hermeneutic Circle: Improving Character Role Identification from Natural Language Text via Feedback Loops",
+      "url": "https://www.ijcai.org/proceedings/2015/357",
+      "track": "Special Track on Artificial Intelligence and the Arts",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Learning to Rap Battle with Bilingual Recursive Neural Networks",
+      "url": "https://www.ijcai.org/proceedings/2015/358",
+      "track": "Special Track on Artificial Intelligence and the Arts",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Stroke-Based Stylization Learning and Rendering with Inverse Reinforcement Learning",
+      "url": "https://www.ijcai.org/proceedings/2015/359",
+      "track": "Special Track on Artificial Intelligence and the Arts",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Online Fair Division: Analysing a Food Bank Problem",
+      "url": "https://www.ijcai.org/proceedings/2015/360",
+      "track": "Special Track on Computational Sustainability",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Personalised Thermal Comfort Model Using a Bayesian Network",
+      "url": "https://www.ijcai.org/proceedings/2015/361",
+      "track": "Special Track on Computational Sustainability",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Aggregate Demand-Based Real-Time Pricing Mechanism for the Smart Grid: A Game-Theoretic Analysis",
+      "url": "https://www.ijcai.org/proceedings/2015/362",
+      "track": "Special Track on Computational Sustainability",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Batch Reinforcement Learning for Smart Home Energy Management",
+      "url": "https://www.ijcai.org/proceedings/2015/363",
+      "track": "Special Track on Computational Sustainability",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Reasoning about Connectivity Constraints",
+      "url": "https://www.ijcai.org/proceedings/2015/364",
+      "track": "Special Track on Computational Sustainability",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Clustering Dynamic Spatio-Temporal Patterns in The Presence of Noise and Missing Data",
+      "url": "https://www.ijcai.org/proceedings/2015/365",
+      "track": "Special Track on Computational Sustainability",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "α-min: A Compact Approximate Solver For Finite-Horizon POMDPs",
+      "url": "https://www.ijcai.org/proceedings/2015/366",
+      "track": "Special Track on Computational Sustainability",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "When Security Games Go Green: Designing Defender Strategies to Prevent Poaching and Illegal Fishing",
+      "url": "https://www.ijcai.org/proceedings/2015/367",
+      "track": "Special Track on Computational Sustainability",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Modeling Multi-Attribute Demand for Sustainable Cloud Computing with Copulae",
+      "url": "https://www.ijcai.org/proceedings/2015/368",
+      "track": "Special Track on Computational Sustainability",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "On the Balance of Meter Deployment Cost and NILM Accuracy",
+      "url": "https://www.ijcai.org/proceedings/2015/369",
+      "track": "Special Track on Computational Sustainability",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Online Mechanisms for Charging Electric Vehicles in Settings with Varying Marginal Electricity Costs",
+      "url": "https://www.ijcai.org/proceedings/2015/370",
+      "track": "Special Track on Computational Sustainability",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Secure Routing in Wireless Sensor Networks via POMDPs",
+      "url": "https://www.ijcai.org/proceedings/2015/371",
+      "track": "Special Track on Computational Sustainability",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Approximately Stable Pricing for Coordinated Purchasing of Electricity",
+      "url": "https://www.ijcai.org/proceedings/2015/372",
+      "track": "Special Track on Computational Sustainability",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Multiple Instance Learning-Based Birdsong Classification Using Unsupervised Recording Segmentation",
+      "url": "https://www.ijcai.org/proceedings/2015/373",
+      "track": "Special Track on Computational Sustainability",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Abstract Routing Models and Abstractions in the Context of Vehicle Routing",
+      "url": "https://www.ijcai.org/proceedings/2015/374",
+      "track": "Special Track on Computational Sustainability",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Copula Graphical Models for Wind Resource Estimation",
+      "url": "https://www.ijcai.org/proceedings/2015/375",
+      "track": "Special Track on Computational Sustainability",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Fast Combinatorial Algorithm for Optimizing the Spread of Cascades",
+      "url": "https://www.ijcai.org/proceedings/2015/376",
+      "track": "Special Track on Computational Sustainability",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Optimal Electric Vehicle Charging Station Placement",
+      "url": "https://www.ijcai.org/proceedings/2015/377",
+      "track": "Special Track on Computational Sustainability",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Crowdfunding Model for Green Energy Investment",
+      "url": "https://www.ijcai.org/proceedings/2015/378",
+      "track": "Special Track on Computational Sustainability",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A MaxSAT Algorithm Using Cardinality Constraints of Bounded Size",
+      "url": "https://www.ijcai.org/proceedings/2015/379",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Stable Model Semantics of Abstract Dialectical Frameworks Revisited: A Logic Programming Perspective",
+      "url": "https://www.ijcai.org/proceedings/2015/380",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Combining Existential Rules and Description Logics",
+      "url": "https://www.ijcai.org/proceedings/2015/381",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Bidirectional Constraints for Exchanging Data: Beyond Monotone Queries",
+      "url": "https://www.ijcai.org/proceedings/2015/382",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "First-Order Rewritability of Temporal Ontology-Mediated Queries",
+      "url": "https://www.ijcai.org/proceedings/2015/383",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Multi-Agent Only Knowing on Planet Kripke",
+      "url": "https://www.ijcai.org/proceedings/2015/384",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Combining Existential Rules and Transitivity: Next Steps",
+      "url": "https://www.ijcai.org/proceedings/2015/385",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Dealing with Generic Contrariness in Structured Argumentation",
+      "url": "https://www.ijcai.org/proceedings/2015/386",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "AGM Meets Abstract Argumentation: Expansion and Revision for Dung Frameworks",
+      "url": "https://www.ijcai.org/proceedings/2015/387",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Answer Update for Rule-Based Stream Reasoning",
+      "url": "https://www.ijcai.org/proceedings/2015/388",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Epistemic Quantified Boolean Logic: Expressiveness and Completeness Results",
+      "url": "https://www.ijcai.org/proceedings/2015/389",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Only Knowing Meets Common Knowledge",
+      "url": "https://www.ijcai.org/proceedings/2015/390",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "ALLEGRO: Belief-Based Programming in Stochastic Dynamical Domains",
+      "url": "https://www.ijcai.org/proceedings/2015/391",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Probabilistic Inference in Hybrid Domains by Weighted Model Integration",
+      "url": "https://www.ijcai.org/proceedings/2015/392",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Compatible-Based Conditioning in Interval-Based Possibilistic Logic",
+      "url": "https://www.ijcai.org/proceedings/2015/393",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Partial Grounded Fixpoints",
+      "url": "https://www.ijcai.org/proceedings/2015/394",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Complexity Results in Epistemic Planning",
+      "url": "https://www.ijcai.org/proceedings/2015/395",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Policies that Generalize: Solving Many Planning Problems with the Same Policy",
+      "url": "https://www.ijcai.org/proceedings/2015/396",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "On the Entailment Problem for a Logic of Typicality",
+      "url": "https://www.ijcai.org/proceedings/2015/397",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "The Complexity of Subsumption in Fuzzy EL",
+      "url": "https://www.ijcai.org/proceedings/2015/398",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Temporal Query Answering in the Description Logic EL",
+      "url": "https://www.ijcai.org/proceedings/2015/399",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Reasonable Highly Expressive Query Languages - IJCAI-15 Distinguished Paper (Honorary Mention)",
+      "url": "https://www.ijcai.org/proceedings/2015/400",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Logic Program Termination Analysis Using Atom Sizes",
+      "url": "https://www.ijcai.org/proceedings/2015/401",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "On the Undecidability of the Situation Calculus Extended with Description Logic Ontologies",
+      "url": "https://www.ijcai.org/proceedings/2015/402",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Verification of Generalized Inconsistency-Aware Knowledge and Action Bases",
+      "url": "https://www.ijcai.org/proceedings/2015/403",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Probabilistic Belief Contraction Using Argumentation",
+      "url": "https://www.ijcai.org/proceedings/2015/404",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Tractable Learning for Structured Probability Spaces: A Case Study in Learning Preference Distributions",
+      "url": "https://www.ijcai.org/proceedings/2015/405",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "An Algebra of Granular Temporal Relations for Qualitative Reasoning",
+      "url": "https://www.ijcai.org/proceedings/2015/406",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Extension Enforcement in Abstract Argumentation as an Optimization Problem",
+      "url": "https://www.ijcai.org/proceedings/2015/407",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Controlled Query Evaluation for Datalog and OWL 2 Profile Ontologies",
+      "url": "https://www.ijcai.org/proceedings/2015/408",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Multilateral Negotiation in Boolean Games with Incomplete Information Using Generalized Possibilistic Logic",
+      "url": "https://www.ijcai.org/proceedings/2015/409",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Fixed-Parameter Tractable Reductions to SAT for Planning",
+      "url": "https://www.ijcai.org/proceedings/2015/410",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "The Logic of Qualitative Probability",
+      "url": "https://www.ijcai.org/proceedings/2015/411",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "On the Aggregation of Argumentation Frameworks",
+      "url": "https://www.ijcai.org/proceedings/2015/412",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Combining Existential Rules with the Power of CP-Theories",
+      "url": "https://www.ijcai.org/proceedings/2015/413",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "An Extension-Based Approach to Belief Revision in Abstract Argumentation",
+      "url": "https://www.ijcai.org/proceedings/2015/414",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "The Cube of Opposition: A Structure Underlying Many Knowledge Representation Formalisms",
+      "url": "https://www.ijcai.org/proceedings/2015/415",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Modular Systems with Preferences",
+      "url": "https://www.ijcai.org/proceedings/2015/416",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Logic for Reasoning about Justified Uncertain Beliefs",
+      "url": "https://www.ijcai.org/proceedings/2015/417",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "On the Progression of Knowledge and Belief for Nondeterministic Actions in the Situation Calculus",
+      "url": "https://www.ijcai.org/proceedings/2015/418",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Epistemic Equilibrium Logic",
+      "url": "https://www.ijcai.org/proceedings/2015/419",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "The Combined Approach to Query Answering Beyond the OWL 2 Profiles",
+      "url": "https://www.ijcai.org/proceedings/2015/420",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Computing Social Behaviours Using Agent Models",
+      "url": "https://www.ijcai.org/proceedings/2015/421",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "On the Computational Complexity of Naive-Based Semantics for Abstract Dialectical Frameworks",
+      "url": "https://www.ijcai.org/proceedings/2015/422",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Polynomial Rewritings for Linear Existential Rules",
+      "url": "https://www.ijcai.org/proceedings/2015/423",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Beyond SPARQL under OWL 2 QL Entailment Regime: Rules to the Rescue",
+      "url": "https://www.ijcai.org/proceedings/2015/424",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Group Decision Making via Weighted Propositional Logic: Complexity and Islands of Tractability",
+      "url": "https://www.ijcai.org/proceedings/2015/425",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Lightweight Temporal Description Logics with Rigid Roles and Restricted TBoxes",
+      "url": "https://www.ijcai.org/proceedings/2015/426",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Modification of the Halpern-Pearl Definition of Causality",
+      "url": "https://www.ijcai.org/proceedings/2015/427",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Efficient Query Rewriting in the Description Logic EL and Beyond",
+      "url": "https://www.ijcai.org/proceedings/2015/428",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Merging in the Horn Fragment",
+      "url": "https://www.ijcai.org/proceedings/2015/429",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Schema.org as a Description Logic",
+      "url": "https://www.ijcai.org/proceedings/2015/430",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Modelling the Persuadee in Asymmetric Argumentation Dialogues for Persuasion",
+      "url": "https://www.ijcai.org/proceedings/2015/431",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Trust-Sensitive Belief Revision",
+      "url": "https://www.ijcai.org/proceedings/2015/432",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Simplifying A Logic Program Using Its Consequences",
+      "url": "https://www.ijcai.org/proceedings/2015/433",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "On Forgetting Postulates in Answer Set Programming",
+      "url": "https://www.ijcai.org/proceedings/2015/434",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Efficient Semantic Features for Automated Reasoning over Large Theories",
+      "url": "https://www.ijcai.org/proceedings/2015/435",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Computing Horn Rewritings of Description Logics Ontologies",
+      "url": "https://www.ijcai.org/proceedings/2015/436",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Efficient Paraconsistent Reasoning with Ontologies and Rules",
+      "url": "https://www.ijcai.org/proceedings/2015/437",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Query Rewriting for Existential Rules with Compiled Preorder",
+      "url": "https://www.ijcai.org/proceedings/2015/438",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Automatic Verification of Partial Correctness of Golog Programs",
+      "url": "https://www.ijcai.org/proceedings/2015/439",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Ontology-Mediated Queries with Closed Predicates",
+      "url": "https://www.ijcai.org/proceedings/2015/440",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Combining Rewriting and Incremental Materialisation Maintenance for Datalog Programs with Equality",
+      "url": "https://www.ijcai.org/proceedings/2015/441",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Kernel Contraction and Base Dependence: Redundancy in the Base Resulting in Different Types of Dependence",
+      "url": "https://www.ijcai.org/proceedings/2015/442",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Top-Down Compiler for Sentential Decision Diagrams",
+      "url": "https://www.ijcai.org/proceedings/2015/443",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "On the Parameterized Complexity of Belief Revision",
+      "url": "https://www.ijcai.org/proceedings/2015/444",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Probabilistic Reasoning with Inconsistent Beliefs Using Inconsistency Measures",
+      "url": "https://www.ijcai.org/proceedings/2015/445",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Did You Know? - Mining Interesting Trivia for Entities from Wikipedia",
+      "url": "https://www.ijcai.org/proceedings/2015/446",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Realizability of Three-Valued Semantics for Abstract Dialectical Frameworks",
+      "url": "https://www.ijcai.org/proceedings/2015/447",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Execution Monitoring as Meta-Games for General Game-Playing Robots",
+      "url": "https://www.ijcai.org/proceedings/2015/448",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Membership Constraints in Formal Concept Analysis",
+      "url": "https://www.ijcai.org/proceedings/2015/449",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Characterization of the Expressivity of Existential Rule Queries",
+      "url": "https://www.ijcai.org/proceedings/2015/450",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Towards Fully Observable Non-Deterministic Planning as Assumption-based Automatic Synthesis",
+      "url": "https://www.ijcai.org/proceedings/2015/451",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Qualitative Reasoning about Directions in Semantic Spaces",
+      "url": "https://www.ijcai.org/proceedings/2015/452",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Belief Revision and Progression of Knowledge Bases in the Epistemic Situation Calculus",
+      "url": "https://www.ijcai.org/proceedings/2015/453",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "MergeXplain: Fast Computation of Multiple Conflicts for Diagnosis",
+      "url": "https://www.ijcai.org/proceedings/2015/454",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Efficiently Characterizing Non-Redundant Constraints in Large Real World Qualitative Spatial Networks",
+      "url": "https://www.ijcai.org/proceedings/2015/455",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Characterizability in Belief Revision",
+      "url": "https://www.ijcai.org/proceedings/2015/456",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Efficiently Finding Conditional Instruments for Causal Inference",
+      "url": "https://www.ijcai.org/proceedings/2015/457",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "AGM Revision of Beliefs about Action and Time",
+      "url": "https://www.ijcai.org/proceedings/2015/458",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Complete Epistemic Planner without the Epistemic Closed World Assumption",
+      "url": "https://www.ijcai.org/proceedings/2015/459",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Query Understanding through Knowledge-Based Conceptualization",
+      "url": "https://www.ijcai.org/proceedings/2015/460",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Computation and Complexity of Preference Inference Based on Hierarchical Models",
+      "url": "https://www.ijcai.org/proceedings/2015/461",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Verification of Knowledge-Based Programs over Description Logic Actions",
+      "url": "https://www.ijcai.org/proceedings/2015/462",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Characterizing Causal Action Theories and Their Implementations in Answer Set Programming: Action Languages B, C, and Beyond",
+      "url": "https://www.ijcai.org/proceedings/2015/463",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "First-Order Disjunctive Logic Programming vs Normal Logic Programming",
+      "url": "https://www.ijcai.org/proceedings/2015/464",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Extending AGM Contraction to Arbitrary Logics",
+      "url": "https://www.ijcai.org/proceedings/2015/465",
+      "track": "Special Track on Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Learning Regular Languages via Alternating Automata",
+      "url": "https://www.ijcai.org/proceedings/2015/466",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Maximum Entropy Semi-Supervised Inverse Reinforcement Learning",
+      "url": "https://www.ijcai.org/proceedings/2015/467",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Graph Kernel Based on the Jensen-Shannon Representation Alignment",
+      "url": "https://www.ijcai.org/proceedings/2015/468",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "An Expectation-Maximization Algorithm to Compute a Stochastic Factorization From Data",
+      "url": "https://www.ijcai.org/proceedings/2015/469",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Count-Based Frequency Estimation with Bounded Memory",
+      "url": "https://www.ijcai.org/proceedings/2015/470",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Autonomous Cross-Domain Knowledge Transfer in Lifelong Policy Gradient Reinforcement Learning",
+      "url": "https://www.ijcai.org/proceedings/2015/471",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Reinforcement Learning from Demonstration through Shaping",
+      "url": "https://www.ijcai.org/proceedings/2015/472",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Compressed Spectral Regression for Efficient Nonlinear Dimensionality Reduction",
+      "url": "https://www.ijcai.org/proceedings/2015/473",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Policy Shaping with Human Teachers",
+      "url": "https://www.ijcai.org/proceedings/2015/474",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Space Alignment Method for Cold-Start TV Show Recommendations",
+      "url": "https://www.ijcai.org/proceedings/2015/475",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Direct Policy Iteration with Demonstrations",
+      "url": "https://www.ijcai.org/proceedings/2015/476",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Model Metric Co-Learning for Time Series Classification",
+      "url": "https://www.ijcai.org/proceedings/2015/477",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Training-Efficient Feature Map for Shift-Invariant Kernels",
+      "url": "https://www.ijcai.org/proceedings/2015/478",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Mirror Representation for Modeling View-Specific Transform in Person Re-Identification",
+      "url": "https://www.ijcai.org/proceedings/2015/479",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Efficient Generalized Conditional Gradient with Gradient Sliding for Composite Optimization",
+      "url": "https://www.ijcai.org/proceedings/2015/480",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Robust Learning for Repeated Stochastic Games via Meta-Gaming",
+      "url": "https://www.ijcai.org/proceedings/2015/481",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Learning Efficient Logical Robot Strategies Involving Composable Objects",
+      "url": "https://www.ijcai.org/proceedings/2015/482",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Optimal Bayesian Hashing for Efficient Face Recognition",
+      "url": "https://www.ijcai.org/proceedings/2015/483",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Multi-View Matrix Decomposition: A New Scheme for Exploring Discriminative Information",
+      "url": "https://www.ijcai.org/proceedings/2015/484",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Intersecting Manifolds: Detection, Segmentation, and Labeling",
+      "url": "https://www.ijcai.org/proceedings/2015/485",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Deep Low-Rank Coding for Transfer Learning",
+      "url": "https://www.ijcai.org/proceedings/2015/486",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Speeding Up Automatic Hyperparameter Optimization of Deep Neural Networks by Extrapolation of Learning Curves",
+      "url": "https://www.ijcai.org/proceedings/2015/487",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Topic Modeling with Document Relative Similarities",
+      "url": "https://www.ijcai.org/proceedings/2015/488",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Robust Multiple Kernel K-means Using L21-Norm",
+      "url": "https://www.ijcai.org/proceedings/2015/489",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Crowdsourced Semantic Matching of Multi-Label Annotations",
+      "url": "https://www.ijcai.org/proceedings/2015/490",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Random Feature Mapping with Signed Circulant Matrix Projection",
+      "url": "https://www.ijcai.org/proceedings/2015/491",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Quiet: Faster Belief Propagation for Images and Related Applications",
+      "url": "https://www.ijcai.org/proceedings/2015/492",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Potential Based Reward Shaping for Hierarchical Reinforcement Learning",
+      "url": "https://www.ijcai.org/proceedings/2015/493",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Pre-release Prediction of Crowd Opinion on Movies by Label Distribution Learning",
+      "url": "https://www.ijcai.org/proceedings/2015/494",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Multitask Coactive Learning",
+      "url": "https://www.ijcai.org/proceedings/2015/495",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Multi-Label Structure Learning with Ising Model Selection",
+      "url": "https://www.ijcai.org/proceedings/2015/496",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Bi-Parameter Space Partition for Cost-Sensitive SVM",
+      "url": "https://www.ijcai.org/proceedings/2015/497",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Online Robust Low Rank Matrix Recovery",
+      "url": "https://www.ijcai.org/proceedings/2015/498",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Robust Subspace Segmentation by Simultaneously Learning Data Representations and Their Affinity Matrix",
+      "url": "https://www.ijcai.org/proceedings/2015/499",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Active Imitation Learning of Hierarchical Policies",
+      "url": "https://www.ijcai.org/proceedings/2015/500",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Identification of Time-Dependent Causal Model: A Gaussian Process Treatment",
+      "url": "https://www.ijcai.org/proceedings/2015/501",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A New Simplex Sparse Learning Model to Measure Data Similarity for Clustering",
+      "url": "https://www.ijcai.org/proceedings/2015/502",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Scalable Gaussian Process Regression Using Deep Neural Networks",
+      "url": "https://www.ijcai.org/proceedings/2015/503",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Training-Time Optimization of a Budgeted Booster",
+      "url": "https://www.ijcai.org/proceedings/2015/504",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Robust Dictionary Learning with Capped l1-Norm",
+      "url": "https://www.ijcai.org/proceedings/2015/505",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Fast Cross-Validation for Incremental Learning",
+      "url": "https://www.ijcai.org/proceedings/2015/506",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Bayesian Active Learning for Posterior Estimation - IJCAI-15 Distinguished Paper",
+      "url": "https://www.ijcai.org/proceedings/2015/507",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Collaborative Place Models",
+      "url": "https://www.ijcai.org/proceedings/2015/508",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Symbol Acquisition for Probabilistic High-Level Planning",
+      "url": "https://www.ijcai.org/proceedings/2015/509",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Data Sparseness in Linear SVM",
+      "url": "https://www.ijcai.org/proceedings/2015/510",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Multi-Label Classification with Feature-Aware Non-Linear Label Space Transformation",
+      "url": "https://www.ijcai.org/proceedings/2015/511",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Multi-Task Model and Feature Joint Learning",
+      "url": "https://www.ijcai.org/proceedings/2015/512",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Word Embedding Revisited: A New Representation Learning and Explicit Matrix Factorization Perspective",
+      "url": "https://www.ijcai.org/proceedings/2015/513",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Mixed Error Coding for Face Recognition with Mixed Occlusions",
+      "url": "https://www.ijcai.org/proceedings/2015/514",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Density Corrected Sparse Recovery when R.I.P. Condition Is Broken",
+      "url": "https://www.ijcai.org/proceedings/2015/515",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Regularizing Flat Latent Variables with Hierarchical Structures",
+      "url": "https://www.ijcai.org/proceedings/2015/516",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Robust Kernel Dictionary Learning Using a Whole Sequence Convergent Algorithm",
+      "url": "https://www.ijcai.org/proceedings/2015/517",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Multi-Task Multi-Dimensional Hawkes Processes for Modeling Event Sequences",
+      "url": "https://www.ijcai.org/proceedings/2015/518",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Between Imitation and Intention Learning",
+      "url": "https://www.ijcai.org/proceedings/2015/519",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Optimizing Locally Linear Classifiers with Supervised Anchor Point Learning",
+      "url": "https://www.ijcai.org/proceedings/2015/520",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Using A* for Inference in Probabilistic Classifier Chains",
+      "url": "https://www.ijcai.org/proceedings/2015/521",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Introspective Forecasting",
+      "url": "https://www.ijcai.org/proceedings/2015/522",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "EntScene: Nonparametric Bayesian Temporal Segmentation of Videos Aimed at Entity-Driven Scene Detection",
+      "url": "https://www.ijcai.org/proceedings/2015/523",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Image Feature Learning for Cold Start Problem in Display Advertising",
+      "url": "https://www.ijcai.org/proceedings/2015/524",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Inverse Reinforcement Learning in Relational Domains",
+      "url": "https://www.ijcai.org/proceedings/2015/525",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "On the Runtime of Randomized Local Search and Simple Evolutionary Algorithms for Dynamic Makespan Scheduling",
+      "url": "https://www.ijcai.org/proceedings/2015/526",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Weakly Supervised Matrix Factorization for Noisily Tagged Image Parsing",
+      "url": "https://www.ijcai.org/proceedings/2015/527",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Graph Invariant Kernels",
+      "url": "https://www.ijcai.org/proceedings/2015/528",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "EigenGP: Gaussian Process Models with Adaptive Eigenfunctions",
+      "url": "https://www.ijcai.org/proceedings/2015/529",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Scalable Probabilistic Tensor Factorization for Binary and Count Data",
+      "url": "https://www.ijcai.org/proceedings/2015/530",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Nonparametric Independence Testing for Small Sample Sizes",
+      "url": "https://www.ijcai.org/proceedings/2015/531",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Data Compression for Learning MRF Parameters",
+      "url": "https://www.ijcai.org/proceedings/2015/532",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Extended Discriminative Random Walk: A Hypergraph Approach to Multi-View Multi-Relational Transductive Learning",
+      "url": "https://www.ijcai.org/proceedings/2015/533",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Deep Linear Coding for Fast Graph Clustering",
+      "url": "https://www.ijcai.org/proceedings/2015/534",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Semi-Orthogonal Multilinear PCA with Relaxed Start",
+      "url": "https://www.ijcai.org/proceedings/2015/535",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Geometric Theory of Feature Selection and Distance-Based Measures",
+      "url": "https://www.ijcai.org/proceedings/2015/536",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Open Domain Short Text Conceptualization: A Generative + Descriptive Modeling Approach",
+      "url": "https://www.ijcai.org/proceedings/2015/537",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Equivalence Results between Feedforward and Recurrent Neural Networks for Sequences",
+      "url": "https://www.ijcai.org/proceedings/2015/538",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Polytree-Augmented Classifier Chains for Multi-Label Classification",
+      "url": "https://www.ijcai.org/proceedings/2015/539",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Sketch the Storyline with CHARCOAL: A Non-Parametric Approach",
+      "url": "https://www.ijcai.org/proceedings/2015/540",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Convergence of Common Proximal Methods for L1-Regularized Least Squares",
+      "url": "https://www.ijcai.org/proceedings/2015/541",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Portable Option Discovery for Automated Learning Transfer in Object-Oriented Markov Decision Processes",
+      "url": "https://www.ijcai.org/proceedings/2015/542",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Online Learning of k-CNF Boolean Functions",
+      "url": "https://www.ijcai.org/proceedings/2015/543",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Feature Selection from Microarray Data via an Ordered Search with Projected Margin",
+      "url": "https://www.ijcai.org/proceedings/2015/544",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Constrained Information-Theoretic Tripartite Graph Clustering to Identify Semantically Similar Relations",
+      "url": "https://www.ijcai.org/proceedings/2015/545",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Semantic Topic Multimodal Hashing for Cross-Media Retrieval",
+      "url": "https://www.ijcai.org/proceedings/2015/546",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "An Efficient Classifier Based on Hierarchical Mixing Linear Support Vector Machines",
+      "url": "https://www.ijcai.org/proceedings/2015/547",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Learning to Hash on Partial Multi-Modal Data",
+      "url": "https://www.ijcai.org/proceedings/2015/548",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Ranking Preserving Hashing for Fast Similarity Search",
+      "url": "https://www.ijcai.org/proceedings/2015/549",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Soft Version of Predicate Invention Based on Structured Sparsity",
+      "url": "https://www.ijcai.org/proceedings/2015/550",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Discriminative Unsupervised Dimensionality Reduction",
+      "url": "https://www.ijcai.org/proceedings/2015/551",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Joint Optimization Framework of Sparse Coding and Discriminative Clustering",
+      "url": "https://www.ijcai.org/proceedings/2015/552",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Imaging Time-Series to Improve Classification and Imputation",
+      "url": "https://www.ijcai.org/proceedings/2015/553",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Quantized Correlation Hashing for Fast Cross-Modal Search",
+      "url": "https://www.ijcai.org/proceedings/2015/554",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Multi-Graph-View Learning for Complicated Object Classification",
+      "url": "https://www.ijcai.org/proceedings/2015/555",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Thompson Sampling for Budgeted Multi-Armed Bandits",
+      "url": "https://www.ijcai.org/proceedings/2015/556",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Perception Evolution Network Adapting to the Emergence of New Sensory Receptor",
+      "url": "https://www.ijcai.org/proceedings/2015/557",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Multi-view Self-Paced Learning for Clustering",
+      "url": "https://www.ijcai.org/proceedings/2015/558",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Ice-Breaking: Mitigating Cold-Start Recommendation Problem by Rating Comparison",
+      "url": "https://www.ijcai.org/proceedings/2015/559",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Scalable Maximum Margin Matrix Factorization by Active Riemannian Subspace Search",
+      "url": "https://www.ijcai.org/proceedings/2015/560",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Deep Convolutional Neural Networks on Multichannel Time Series for Human Activity Recognition",
+      "url": "https://www.ijcai.org/proceedings/2015/561",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Accelerated Inexact Soft-Impute for Fast Large-Scale Matrix Completion",
+      "url": "https://www.ijcai.org/proceedings/2015/562",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Unsupervised Machine Condition Monitoring Using Segmental Hidden Markov Models",
+      "url": "https://www.ijcai.org/proceedings/2015/563",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Matrix Factorization with Scale-Invariant Parameters",
+      "url": "https://www.ijcai.org/proceedings/2015/564",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Direct Boosting Approach for Semi-supervised Classification",
+      "url": "https://www.ijcai.org/proceedings/2015/565",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Increasingly Cautious Optimism for Practical PAC-MDP Exploration",
+      "url": "https://www.ijcai.org/proceedings/2015/566",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Towards Class-Imbalance Aware Multi-Label Learning",
+      "url": "https://www.ijcai.org/proceedings/2015/567",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Solving the Partial Label Learning Problem: An Instance-Based Approach",
+      "url": "https://www.ijcai.org/proceedings/2015/568",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Multi-Task Multi-View Clustering for Non-Negative Data",
+      "url": "https://www.ijcai.org/proceedings/2015/569",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Semi-Supervised Multi-Label Learning with Incomplete Labels",
+      "url": "https://www.ijcai.org/proceedings/2015/570",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Self-Adaptive Hierarchical Sentence Model",
+      "url": "https://www.ijcai.org/proceedings/2015/571",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Dual-Regularized Multi-View Outlier Detection",
+      "url": "https://www.ijcai.org/proceedings/2015/572",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Mobile Query Recommendation via Tensor Function Learning",
+      "url": "https://www.ijcai.org/proceedings/2015/573",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Instance-Wise Weighted Nonnegative Matrix Factorization for Aggregating Partitions with Locally Reliable Clusters",
+      "url": "https://www.ijcai.org/proceedings/2015/574",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "MUVIR: Multi-View Rare Category Detection",
+      "url": "https://www.ijcai.org/proceedings/2015/575",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Recovery of Corrupted Multiple Kernels for Clustering",
+      "url": "https://www.ijcai.org/proceedings/2015/576",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Learning a Robust Consensus Matrix for Clustering Ensemble via Kullback-Leibler Divergence Minimization",
+      "url": "https://www.ijcai.org/proceedings/2015/577",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Supervised Representation Learning: Transfer Learning with Deep Autoencoders",
+      "url": "https://www.ijcai.org/proceedings/2015/578",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Adaptive Dropout Rates for Learning with Corrupted Features",
+      "url": "https://www.ijcai.org/proceedings/2015/579",
+      "track": "Special Track on Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Evolving Families of Shapes",
+      "url": "https://www.ijcai.org/proceedings/2015/580",
+      "track": "Demos Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Max Order: A Tale of Creativity",
+      "url": "https://www.ijcai.org/proceedings/2015/581",
+      "track": "Demos Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Modelling High-Dimensional Sequences with LSTM-RTRBM: Application to Polyphonic Music Generation",
+      "url": "https://www.ijcai.org/proceedings/2015/582",
+      "track": "Demos Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Capturing a Musician's Groove: Generation of Realistic Accompaniments from Single Song Recordings",
+      "url": "https://www.ijcai.org/proceedings/2015/583",
+      "track": "Demos Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Constitutive and Regulative Specifications of Commitment Protocols: A Decoupled Approach (Extended Abstract)",
+      "url": "https://www.ijcai.org/proceedings/2015/584",
+      "track": "Journal Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "The Arcade Learning Environment: An Evaluation Platform for General Agents (Extended Abstract)",
+      "url": "https://www.ijcai.org/proceedings/2015/585",
+      "track": "Journal Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Influencing Individually: Fusing Personalization and Persuasion (Extended Abstract)",
+      "url": "https://www.ijcai.org/proceedings/2015/586",
+      "track": "Journal Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Developing Corpora for Sentiment Analysis: The Case of Irony and Senti-TUT (Extended Abstract)",
+      "url": "https://www.ijcai.org/proceedings/2015/587",
+      "track": "Journal Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Data Complexity of Query Answering in Description Logics (Extended Abstract)",
+      "url": "https://www.ijcai.org/proceedings/2015/588",
+      "track": "Journal Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Common Sense Reasoning for Detection, Prevention, and Mitigation of Cyberbullying (Extended Abstract)",
+      "url": "https://www.ijcai.org/proceedings/2015/589",
+      "track": "Journal Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Complexity-Sensitive Decision Procedures for Abstract Argumentation (Extended Abstract)",
+      "url": "https://www.ijcai.org/proceedings/2015/590",
+      "track": "Journal Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "The Complexity of Manipulative Attacks in Nearly Single-Peaked Electorates (Extended Abstract)",
+      "url": "https://www.ijcai.org/proceedings/2015/591",
+      "track": "Journal Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "kLog: A Language for Logical and Relational Learning with Kernels (Extended Abstract)",
+      "url": "https://www.ijcai.org/proceedings/2015/592",
+      "track": "Journal Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Framing Image Description as a Ranking Task: Data, Models and Evaluation Metrics (Extended Abstract)",
+      "url": "https://www.ijcai.org/proceedings/2015/593",
+      "track": "Journal Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Measuring and Recommending Time-Sensitive Routes from Location-based Data",
+      "url": "https://www.ijcai.org/proceedings/2015/594",
+      "track": "Journal Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Algorithm Runtime Prediction: Methods and Evaluation (Extended Abstract)",
+      "url": "https://www.ijcai.org/proceedings/2015/595",
+      "track": "Journal Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Phrase Detectives: Utilizing Collective Intelligence for Internet-Scale Language Resource Creation (Extended Abstract)",
+      "url": "https://www.ijcai.org/proceedings/2015/596",
+      "track": "Journal Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Norms as a Basis for Governing Sociotechnical Systems: Extended Abstract",
+      "url": "https://www.ijcai.org/proceedings/2015/597",
+      "track": "Journal Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Continuous Body and Hand Gesture Recognition for Natural Human-Computer Interaction: Extended Abstract",
+      "url": "https://www.ijcai.org/proceedings/2015/598",
+      "track": "Journal Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "On the Testability of BDI Agent Systems (Extended Abstract)",
+      "url": "https://www.ijcai.org/proceedings/2015/599",
+      "track": "Journal Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Inapproximability of Treewidth and Related Problems (Extended Abstract)",
+      "url": "https://www.ijcai.org/proceedings/2015/600",
+      "track": "Journal Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Feature Ensemble Plus Sample Selection: Domain Adaptation for Sentiment Classification (Extended Abstract)",
+      "url": "https://www.ijcai.org/proceedings/2015/601",
+      "track": "Journal Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Using Social Media to Enhance Emergency Situation Awareness: Extended Abstract",
+      "url": "https://www.ijcai.org/proceedings/2015/602",
+      "track": "Journal Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "When Are Description Logic Knowledge Bases Indistinguishable?",
+      "url": "https://www.ijcai.org/proceedings/2015/603",
+      "track": "Best Papers from Sister Conferences Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Description Logic Based Dynamic Systems: Modeling, Verification, and Synthesis",
+      "url": "https://www.ijcai.org/proceedings/2015/604",
+      "track": "Best Papers from Sister Conferences Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Exploiting Separability in Multiagent Planning with Continuous-State MDPs (Extended Abstract)",
+      "url": "https://www.ijcai.org/proceedings/2015/605",
+      "track": "Best Papers from Sister Conferences Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Trust-Guided Behavior Adaptation Using Case-Based Reasoning",
+      "url": "https://www.ijcai.org/proceedings/2015/606",
+      "track": "Best Papers from Sister Conferences Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Adapting to User Preference Changes in Interactive Recommendation",
+      "url": "https://www.ijcai.org/proceedings/2015/607",
+      "track": "Best Papers from Sister Conferences Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Near-Optimal Approximation Mechanisms for Multi-Unit Combinatorial Auctions",
+      "url": "https://www.ijcai.org/proceedings/2015/608",
+      "track": "Best Papers from Sister Conferences Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "How to Define Certain Answers",
+      "url": "https://www.ijcai.org/proceedings/2015/609",
+      "track": "Best Papers from Sister Conferences Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Firefly Monte Carlo: Exact MCMC with Subsets of Data",
+      "url": "https://www.ijcai.org/proceedings/2015/610",
+      "track": "Best Papers from Sister Conferences Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Matching and Grokking: Approaches to Personalized Crowdsourcing",
+      "url": "https://www.ijcai.org/proceedings/2015/611",
+      "track": "Best Papers from Sister Conferences Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Heuristics for Cost-Optimal Classical Planning Based on Linear Programming",
+      "url": "https://www.ijcai.org/proceedings/2015/612",
+      "track": "Best Papers from Sister Conferences Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Reasoning with Probabilistic Ontologies",
+      "url": "https://www.ijcai.org/proceedings/2015/613",
+      "track": "Best Papers from Sister Conferences Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Examples and Tutored Problems: Adaptive Support Using Assistance Scores",
+      "url": "https://www.ijcai.org/proceedings/2015/614",
+      "track": "Best Papers from Sister Conferences Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Max Is More than Min: Solving Maximization Problems with Heuristic Search",
+      "url": "https://www.ijcai.org/proceedings/2015/615",
+      "track": "Best Papers from Sister Conferences Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Speedy versus Greedy Search",
+      "url": "https://www.ijcai.org/proceedings/2015/616",
+      "track": "Best Papers from Sister Conferences Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Online Fair Division",
+      "url": "https://www.ijcai.org/proceedings/2015/617",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Expressive Rule-Based Stream Reasoning",
+      "url": "https://www.ijcai.org/proceedings/2015/618",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Graph Construction for Semi-Supervised Learning",
+      "url": "https://www.ijcai.org/proceedings/2015/619",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Stochastic Density Ratio Estimation and Its Application to Feature Selection",
+      "url": "https://www.ijcai.org/proceedings/2015/620",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Encoding and Combining Knowledge to Speed up Reinforcement Learning",
+      "url": "https://www.ijcai.org/proceedings/2015/621",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Cognitively Inspired Approach for Knowledge Representation and Reasoning in Knowledge-Based Systems",
+      "url": "https://www.ijcai.org/proceedings/2015/622",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Distribution of UCT and Its Ramifications",
+      "url": "https://www.ijcai.org/proceedings/2015/623",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "A Distributed Platform to Ease the Development of Recommendation Algorithms on Large-Scale Graphs",
+      "url": "https://www.ijcai.org/proceedings/2015/624",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Models for Conditional Preferences as extensions of CP-nets",
+      "url": "https://www.ijcai.org/proceedings/2015/625",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Information Extraction of Texts in the Biomedical Domain",
+      "url": "https://www.ijcai.org/proceedings/2015/626",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Learning Efficient Logic Programs",
+      "url": "https://www.ijcai.org/proceedings/2015/627",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "RoTuEl: A Semi-Automated Method for Labeling Political Tweets",
+      "url": "https://www.ijcai.org/proceedings/2015/628",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Bipartite Graph for Topic Extraction",
+      "url": "https://www.ijcai.org/proceedings/2015/629",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Statistical Relational Learning Towards Modelling Social Media Users",
+      "url": "https://www.ijcai.org/proceedings/2015/630",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "On the Static Analysis for SPARQL Queries Using Modal Logic",
+      "url": "https://www.ijcai.org/proceedings/2015/631",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Exploiting Trust Information to Cope with Malicious Entities in Multi-Agent Systems",
+      "url": "https://www.ijcai.org/proceedings/2015/632",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Artificial Prediction Markets for Online Prediction",
+      "url": "https://www.ijcai.org/proceedings/2015/633",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Multi-Robot Exploration with Communication Restrictions",
+      "url": "https://www.ijcai.org/proceedings/2015/634",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Diagnosis of Technical Systems",
+      "url": "https://www.ijcai.org/proceedings/2015/635",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Abstract Argumentation Frameworks - From Theoretical Insights to Practical Implications",
+      "url": "https://www.ijcai.org/proceedings/2015/636",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Flexible Scheduling for an Agile Earth-Observing Satelllite",
+      "url": "https://www.ijcai.org/proceedings/2015/637",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Towards More Practical Reinforcement Learning",
+      "url": "https://www.ijcai.org/proceedings/2015/638",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Using Small Humanoid Robots to Detect Autism in Toddlers",
+      "url": "https://www.ijcai.org/proceedings/2015/639",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Automatic Extraction of References to Future Events from News Articles Using Semantic and Morphological Information",
+      "url": "https://www.ijcai.org/proceedings/2015/640",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Advances in Nonparametric Hypothesis Testing",
+      "url": "https://www.ijcai.org/proceedings/2015/641",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Efficient Methods for Multi-Objective Decision-Theoretic Planning",
+      "url": "https://www.ijcai.org/proceedings/2015/642",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Automated Agents for Advice Provision",
+      "url": "https://www.ijcai.org/proceedings/2015/643",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Dynamic Execution of Temporal Plans with Sensing Actions and Bounded Risk",
+      "url": "https://www.ijcai.org/proceedings/2015/644",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "An Intelligent and Unified Framework for Multiple Robot and Human Coalition Formation",
+      "url": "https://www.ijcai.org/proceedings/2015/645",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Normative Practical Reasoning: An Argumentation-Based Approach",
+      "url": "https://www.ijcai.org/proceedings/2015/646",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Unleashing the Power of Multi-Agent Voting Teams",
+      "url": "https://www.ijcai.org/proceedings/2015/647",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Feature Selection for Multi-Label Learning",
+      "url": "https://www.ijcai.org/proceedings/2015/648",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Rational Architecture = Architecture from a Recommender Perspective",
+      "url": "https://www.ijcai.org/proceedings/2015/649",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Quantifying and Improving the Robustness of Trust Systems",
+      "url": "https://www.ijcai.org/proceedings/2015/650",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "The Spatio-Temporal Representation of Natural Reading",
+      "url": "https://www.ijcai.org/proceedings/2015/651",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Approximate Algorithms for Stochastic Network Design",
+      "url": "https://www.ijcai.org/proceedings/2015/652",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Inference and Learning for Probabilistic Description Logics",
+      "url": "https://www.ijcai.org/proceedings/2015/653",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Improvements of Symmetry Breaking During Search",
+      "url": "https://www.ijcai.org/proceedings/2015/654",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "Activity-Based Scheduling of Science Campaigns for the Rosetta Orbiter",
+      "url": "https://www.ijcai.org/proceedings/2015/655",
+      "track": "Invited",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "title": "CoBots: Robust Symbiotic Autonomous Mobile Service Robots",
+      "url": "https://www.ijcai.org/proceedings/2015/656",
+      "track": "Invited",
+      "authors": ""
+    }
+  ],
+  "source_url": "https://www.ijcai.org/Proceedings/2015/",
+  "verification": "parsed_count_unverified",
+  "retrieved_utc": "2026-11-01T11:29:14.842587+00:00",
+  "collector_version": 2,
+  "status": "count_review_required"
+}

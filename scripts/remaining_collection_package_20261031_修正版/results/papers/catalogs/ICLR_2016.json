@@ -1,0 +1,651 @@
+{
+  "venue": "ICLR",
+  "year": 2016,
+  "rows": [
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Multi-Scale Context Aggregation by Dilated Convolutions",
+      "url": "https://arxiv.org/abs/1511.07122",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "The Variational Fair Autoencoder",
+      "url": "https://arxiv.org/abs/1511.00830",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "A note on the evaluation of generative models",
+      "url": "https://arxiv.org/abs/1511.01844",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Learning to Diagnose with LSTM Recurrent Neural Networks",
+      "url": "https://arxiv.org/abs/1511.03677",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Prioritized Experience Replay",
+      "url": "https://arxiv.org/abs/1511.05952",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Importance Weighted Autoencoders",
+      "url": "https://arxiv.org/abs/1509.00519",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding",
+      "url": "https://arxiv.org/abs/1510.00149",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Variationally Auto-Encoded Deep Gaussian Processes",
+      "url": "https://arxiv.org/abs/1511.06455",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Training Convolutional Neural Networks with Low-rank Filters for Efficient Image Classification",
+      "url": "https://arxiv.org/abs/1511.06744",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Neural Networks with Few Multiplications",
+      "url": "https://arxiv.org/abs/1510.03009",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Reducing Overfitting in Deep Networks by Decorrelating Representations",
+      "url": "https://arxiv.org/abs/1511.06068",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Pushing the Boundaries of Boundary Detection using Deep Learning",
+      "url": "https://arxiv.org/abs/1511.07386",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Generating Images from Captions with Attention",
+      "url": "https://arxiv.org/abs/1511.02793",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Reasoning about Entailment with Neural Attention",
+      "url": "https://arxiv.org/abs/1509.06664",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Convolutional Neural Networks With Low-rank Regularization",
+      "url": "https://arxiv.org/abs/1511.06067",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Unifying distillation and privileged information",
+      "url": "https://arxiv.org/abs/1511.03643",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Particular object retrieval with integral max-pooling of CNN activations",
+      "url": "https://arxiv.org/abs/1511.05879",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "All you need is a good init",
+      "url": "https://arxiv.org/abs/1511.06422",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Bayesian Representation Learning with Oracle Constraints",
+      "url": "https://arxiv.org/abs/1506.05011",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Neural Programmer: Inducing Latent Programs with Gradient Descent",
+      "url": "https://arxiv.org/abs/1511.04834",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Towards Universal Paraphrastic Sentence Embeddings",
+      "url": "https://arxiv.org/abs/1511.08198",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Regularizing RNNs by Stabilizing Activations",
+      "url": "https://arxiv.org/abs/1511.08400",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "SparkNet: Training Deep Networks in Spark",
+      "url": "https://arxiv.org/abs/1511.06051",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Unsupervised and Semi-supervised Learning with Categorical Generative Adversarial Networks",
+      "url": "https://arxiv.org/abs/1511.06390",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "The Goldilocks Principle: Reading Children's Books with Explicit Memory Representations",
+      "url": "https://arxiv.org/abs/1511.02301",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "MuProp: Unbiased Backpropagation For Stochastic Neural Networks",
+      "url": "https://arxiv.org/abs/1511.05176",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Data Representation and Compression Using Linear-Programming Approximations",
+      "url": "https://arxiv.org/abs/1511.06606",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Diversity Networks",
+      "url": "https://arxiv.org/abs/1511.05077",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Deep Reinforcement Learning in Parameterized Action Space",
+      "url": "https://arxiv.org/abs/1511.04143",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Learning VIsual Predictive  Models of Physics for Playing Billiards",
+      "url": "https://arxiv.org/abs/1511.07404",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks",
+      "url": "https://arxiv.org/abs/1502.05698",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Evaluating Prerequisite Qualities for Learning End-to-end Dialog Systems",
+      "url": "https://arxiv.org/abs/1511.06931",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Better Computer Go Player with Neural Network and Long-term Prediction",
+      "url": "https://arxiv.org/abs/1511.06410",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Distributional Smoothing with Virtual Adversarial Training",
+      "url": "https://arxiv.org/abs/1507.00677",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Multi-task Sequence to Sequence Learning",
+      "url": "https://arxiv.org/abs/1511.06114",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "A Test of Relative Similarity for Model Selection in Generative Models",
+      "url": "https://arxiv.org/abs/1511.04581",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Compression of Deep Convolutional Neural Networks for Fast and Low Power Mobile Applications",
+      "url": "https://arxiv.org/abs/1511.06530",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Neural Programmer-Interpreters",
+      "url": "https://arxiv.org/abs/1511.06279",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Session-based recommendations with recurrent neural networks",
+      "url": "https://arxiv.org/abs/1511.06939",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Continuous control with deep reinforcement learning",
+      "url": "https://arxiv.org/abs/1509.02971",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Recurrent Gaussian Processes",
+      "url": "https://arxiv.org/abs/1511.06644",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Modeling Visual Representations:Defining Properties and Deep Approximations",
+      "url": "https://arxiv.org/abs/1411.7676",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Auxiliary Image Regularization for Deep CNNs with Noisy Labels",
+      "url": "https://arxiv.org/abs/1511.07069",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Convergent Learning: Do different neural networks learn the same representations?",
+      "url": "https://arxiv.org/abs/1511.07543",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Policy Distillation",
+      "url": "https://arxiv.org/abs/1511.06295",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Neural Random-Access Machines",
+      "url": "https://arxiv.org/abs/1511.06392",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Gated Graph Sequence Neural Networks",
+      "url": "https://arxiv.org/abs/1511.05493",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Metric Learning with Adaptive Density Discrimination",
+      "url": "https://arxiv.org/abs/1511.05939",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Censoring Representations with an Adversary",
+      "url": "https://arxiv.org/abs/1511.05897",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Order-Embeddings of Images and Language",
+      "url": "https://arxiv.org/abs/1511.06361",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Variable Rate Image Compression with Recurrent Neural Networks",
+      "url": "https://arxiv.org/abs/1511.06085",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Delving Deeper into Convolutional Networks for Learning Video Representations",
+      "url": "https://arxiv.org/abs/1511.06432",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "8-Bit Approximations for Parallelism in Deep Learning",
+      "url": "https://arxiv.org/abs/1511.04561",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Data-dependent initializations of Convolutional Neural Networks",
+      "url": "https://arxiv.org/abs/1511.06856",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Order Matters: Sequence to sequence for sets",
+      "url": "https://arxiv.org/abs/1511.06391",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "High-Dimensional Continuous Control Using Generalized Advantage Estimation",
+      "url": "https://arxiv.org/abs/1506.02438",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "BlackOut: Speeding up Recurrent Neural Network Language Models With Very Large Vocabularies",
+      "url": "https://arxiv.org/abs/1511.06909",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Deep Multi Scale Video Prediction Beyond Mean Square Error",
+      "url": "https://arxiv.org/abs/1511.05440",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Grid Long Short-Term Memory",
+      "url": "https://arxiv.org/abs/1507.01526",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Net2Net: Accelerating Learning via Knowledge Transfer",
+      "url": "https://arxiv.org/abs/1511.05641",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Predicting distributions with Linearizing Belief Networks",
+      "url": "https://arxiv.org/abs/1511.05622",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)",
+      "url": "https://arxiv.org/abs/1511.07289",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Actor-Mimic: Deep Multitask and Transfer Reinforcement Learning",
+      "url": "https://arxiv.org/abs/1511.06342",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Segmental Recurrent Neural Networks",
+      "url": "https://arxiv.org/abs/1511.06018",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Deep Linear Discriminant Analysis",
+      "url": "https://arxiv.org/abs/1511.04707",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Large-Scale Approximate Kernel Canonical Correlation Analysis",
+      "url": "https://arxiv.org/abs/1511.04773",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks",
+      "url": "https://arxiv.org/abs/1511.06434",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Learning Representations from EEG with Deep Recurrent-Convolutional Neural Networks",
+      "url": "https://arxiv.org/abs/1511.06448",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Digging Deep into the layers of CNNs: In Search of How CNNs Achieve View Invariance",
+      "url": "https://arxiv.org/abs/1508.01983",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "An Exploration of Softmax Alternatives Belonging to the Spherical Loss Family",
+      "url": "https://arxiv.org/abs/1511.05042",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Data-Dependent Path Normalization in Neural Networks",
+      "url": "https://arxiv.org/abs/1511.06747",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Reasoning in Vector Space: An Exploratory Study of Question Answering",
+      "url": "https://arxiv.org/abs/1511.06426",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Neural GPUs Learn Algorithms",
+      "url": "https://arxiv.org/abs/1511.08228",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "ACDC: A Structured Efficient Linear Layer",
+      "url": "https://arxiv.org/abs/1511.05946",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Density Modeling of Images using a Generalized Normalization Transformation",
+      "url": "https://arxiv.org/abs/1511.06281",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Adversarial Manipulation of Deep Representations",
+      "url": "https://arxiv.org/abs/1511.05122",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Geodesics of learned representations",
+      "url": "https://arxiv.org/abs/1511.06394",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Sequence Level Training with Recurrent Neural Networks",
+      "url": "https://arxiv.org/abs/1511.06732",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Super-resolution with deep convolutional sufficient statistics",
+      "url": "https://arxiv.org/abs/1511.05666",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "title": "Variational Gaussian Process",
+      "url": "https://arxiv.org/abs/1511.06499",
+      "track": "main",
+      "authors": ""
+    }
+  ],
+  "source_url": "https://iclr.cc/archive/www/2016.html",
+  "verification": "official_accepted_directory",
+  "retrieved_utc": "2026-11-01T11:22:19.070521+00:00",
+  "collector_version": 2,
+  "status": "parsed_needs_coverage_review"
+}

@@ -1,0 +1,4075 @@
+{
+  "venue": "IJCAI",
+  "year": 2016,
+  "rows": [
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Latent Contextual Bandits and their Application to Personalized Recommendations for New Users",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-1",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Fast Laplace Approximation for Sparse Bayesian Spike and Slab Models",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-2",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Modeling contagious M&A via point processes with a profile regression prior",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-3",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "On modeling and predicting individual paper citation count over time",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-4",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Generating Recommendation Evidence using Translation Model",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-5",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Markov Chain Analysis of Noise and Restart in Stochastic Local Search",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-6",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Avoiding Optimal Mean Robust PCA/2DPCA with Non-greedy L1-norm Maximization",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-7",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Cost-aware Pre-training for Multiclass Cost-sensitive Deep Learning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-8",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Linear-time Outlier Detection via Sensitivity",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-9",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Employing External Rich Knowledge for Machine Comprehension",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-10",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Online Bayesian Max-margin Subspace Multi-view Learning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-11",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Bernoulli Random Forests: Closing the Gap between Theoretical Consistency and Empirical Soundness",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-12",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Improving Model Counting by Leveraging Definability",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-13",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Multi-view Exclusive Unsupervised Dimension Reduction for Video-based Facial Expression Recognition",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-14",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Urban Water Quality Prediction based on Multi-task Multi-view Learning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-15",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Coordinate Discrete Optimization for Efficient Cross-View Image Retrieval",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-16",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Multiple Kernel Clustering with Local Kernel Alignment Maximization",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-17",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Multi-Modal Bayesian Embeddings for Learning Social Knowledge Graphs",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-18",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Learning using Unselected Features (LUFe)",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-19",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Iterative Views Agreement: An Iterative Low-Rank based Structured Optimization Method to Multi-View Spectral Clustering",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-20",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "WikiWrite: Generating Wikipedia Articles Automatically",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-21",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Diversely Image Captioning via GroupTalk",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-22",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Computing Pareto Optimal Committees",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-23",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Expert Finding for Question Answering via Ranking Metric Network Learning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-24",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "From One Point to A Manifold: Knowledge Graph Embedding For Precise Link Prediction",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-25",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Robust Iterative Quantization for Efficient $\\ell_{p}$-norm Similarity Search",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-26",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Semi-supervised Active Learning with Cross-class Sample Transfer",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-27",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Deep Subspace Clustering with Sparsity Prior",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-28",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "DeepTransport: Prediction and Simulation of Human Mobility and Transportation Mode at a Citywide Level",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-29",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "FastLCD: Fast Label Coordinate Descent for the Optimization of MRFs with Two-Dimensional Labels",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-30",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "A Relaxed Ranking-based Factor Model for Recommender System  from Implicit Feedback",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-31",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "The Role of Typicality in Object Classification: Improving The Generalization Capacity of Convolutional Neural Networks",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-32",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Adaptive budget allocation for maximizing influence of advertisements",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-33",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Fast Solving Maximum Weight Clique Problem in Massive Graphs",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-34",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Constraint Detection in Natural Language Problem Descriptions",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-35",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Unsupervised Human Action Categorization with Consensus Information Bottleneck Method",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-36",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Unsupervised Learning on Neural Network Outputs",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-37",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "To Give or Not to Give: Fair Division for Strict Preferences",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-38",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Multi-Label Informed  Feature Selection",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-39",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Elliptical Summary Randomisation for Sensor-based Human Activity Recognition",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-40",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Bayesian Optimization of Partition Layouts for Mondrian Processes",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-41",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "A Unified Framework for Discrete Spectral Clustering",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-42",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Silk: A Simulation Study of Regulating Open Normative Multiagent Systems",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-43",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Action Recognition with Joints-Pooled 3D Deep Convolutional Descriptors",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-44",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Constraint Answer Set Programming versus Satisfiability Modulo Theories Or Constraints versus Theories",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-45",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Theoretically-Grounded Policy Advice from Multiple Teachers in Reinforcement Learning Settings with Applications to Negative Transfer",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-46",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Sampling-Based Belief Revision",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-47",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Taking up the Gaokao Challenge: An Information Retrieval Approach",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-48",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Match-SRNN: Modeling the Recursive Matching Structure with Spatial RNN",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-49",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Query answering with transitive and linear-ordered data",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-50",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Truncating Shortest Path Search for Efficient Map-matching",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-51",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Balancing Appearance and Context in Sketch Interpretation",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-52",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Probabilistic Matrix Inspection and Group Scheduling",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-53",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Resolving Over-constrained Conditional Temporal Problems using Semantically Similar Alternatives",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-54",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Knowledge Representation Learning with Entities, Attributes and Relations",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-55",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Sparse Word Embeddings Using L1 Regularized Online Learning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-56",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Makeup like a superstar: Deep Localized Makeup Transfer Network",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-57",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "An ASP Semantics for Default Reasoning with Constraints",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-58",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Extending the Harper Identity to Iterated Belief Change",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-59",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Supervised Matrix Factorization for Cross-Modality Hashing",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-60",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Collaborative Filtering with Generalized Laplacian Constraint via Overlapping Decomposition",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-61",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Hidden Parameter Markov Decision Processes: A Semiparametric Regression Approach for Discovering Latent Task Parametrizations",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-62",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Subset Selection Via Implicit Utilitarian Voting",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-63",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Greedy Learning of Generalized Low-Rank Models",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-64",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Fast Learning from Distributed Datasets without Entity Matching",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-65",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Bag-of-Embeddings for Text Classification",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-66",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Exploring the Context of Locations for Personalized Location Recommendations",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-67",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Unsupervised Word and Dependency Path Embeddings for Aspect Term Extraction",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-68",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Dependency Clustering of Mixed Data with Gaussian Mixture Copulas",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-69",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Highly Accurate Gaze Estimation using a Consumer RGB+Depth Sensor",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-70",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Group-Invariant Cross-Modal Subspace Learning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-71",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Semi-Supervised Multimodal Deep Learning for RGB-D Object Recognition",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-72",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Context-Specific and Multi-Prototype Character Representations",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-73",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Neural Enquirer: Learning to Query Tables in Natural Language",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-74",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Sparse Bayesian Content-Aware Collaborative Filtering for Implicit Feedback",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-75",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Decision-Making Policies for Heterogeneous Autonomous Multi-Agent Systems with Safety Constraints",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-76",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Efficient k-Support-Norm Regularized Minimization via Fully Corrective Frank-Wolfe Method",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-77",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Ordinal Regression for Learning Planning Heuristics",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-78",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Text-enhanced Representation Learning for Knowledge Graph",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-79",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Maximum Sustainable Yield Problem for Robot Foraging and Construction System",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-80",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "MPMA: Mixture Probabilistic Matrix Approximation for Collaborative Filtering",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-81",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Clustering-based Joint Feature Selection for Semantic Attribute Prediction",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-82",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Diagnosability of Discrete-Event Systems with Uncertain Observations",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-83",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Building Joint Spaces for Relation Extraction",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-84",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Interactive Martingale Boosting",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-85",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Forgetting Concept and Role Symbols in ALCOIHmu+(top, and, or)-Ontologies",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-86",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Non-negative Matrix Factorization with Sinkhorn Distance",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-87",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "A Generative Model for Recognizing Mixed Group Activities in Still Images",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-88",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "ST-MVL: Filling Missing Values in Geo-sensory Time Series Data",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-89",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Self-Paced Boost Learning for Classification",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-90",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Saliency Transfer: An Example-Based Method for Salient Object Detection",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-91",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Interdependent Scheduling Games",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-92",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Digital Good Exchange",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-93",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Word Clouds with Latent Variable Analysis for Visual Comparison of Documents",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-94",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "POISketch: Semantic Place Labeling over User Activity Streams",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-95",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Large Scale Sparse Clustering",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-96",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Feature Learning based Deep Supervised Hashing with Pairwise Labels",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-97",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Semantic Analysis for Crowded Scenes Based on Non-Parametric Tracklet Clustering",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-98",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Towards Convolutional Neural Networks Compressing via Global Error Reconstruction",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-99",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "A Self-representation induced Classifier",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-100",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "What are Where: Inferring Containment Relations from Videos",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-101",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Agreement-based Joint Training for Bidirectional Attention-based Neural Machine Translation",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-102",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Norm Monitoring with Incomplete Observations",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-103",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Parameter-free Auto-weighted Multiple Graph Learning: A Framework for Clustering and Semi-supervised Classification",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-104",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Semantics-aware Deep Correspondence Structure Learning for Robust Person Re-identification",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-105",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Maintaining Evolving Domain Models",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-106",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "A network-based rating system and its resistance to bribery",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-107",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Distance-Preserving Probabilistic Embeddings with Side Information: Variational Bayesian Multidimensional Scaling Gaussian Process",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-108",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Clustering Financial Time Series: How Long is Enough?",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-109",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Visual Tracking with Reliable Memories",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-110",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "On Structural Properties of MDPs that Bound Loss due to Shallow Planning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-111",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Robust Joint Discriminative Feature Learning for Visual Tracking",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-112",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Pairwise Diffusion of Preference Rankings",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-113",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "First Order-Rewritability of Conjunctive Queries in Horn Description Logics",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-114",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "An Online Mechanism for Ridesharing in   Autonomous Mobility-on-Demand Systems",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-115",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Proving the Incompatibility of Efficiency and Strategyproofness via SMT Solving",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-116",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Catcher-Evader Games",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-117",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Incomplete Multimodal Visual Data Grouping",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-118",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Mutual Influence Potential Networks: Enabling Information Sharing in Loosely-Coupled Extended-Duration Teamwork",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-119",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Baseline Regularization for Computational Drug Repositioning with Longitudinal Observational Data",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-120",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Assigning a Small Agreeable Set of Indivisible Items to Multiple Players",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-121",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Generalized Discrete Preference Games",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-122",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Factored Probabilistic Belief Tracking",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-123",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Online Agent Supervision in the Situation Calculus",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-124",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Online Multi-object Tracking by Quadratic Pseudo-Boolean Optimization",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-125",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Incorporating User Preferences in Predictive Models Via Structured Regularizers",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-126",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Object Recognition with Hidden Attributes",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-127",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Inference Machines for Nonparametric Filter Learning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-128",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Cross-lingual Dataless Classification for Many Languages",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-129",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Generalized Dictionary for Multitask Learning with Boosting",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-130",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Constrained Preference Embedding for Item Recommendation",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-131",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Action Selection of Hammer Shots in Curling",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-132",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Multi-grained Role Labeling Based on Multi-modality Information for Real Customer Service Telephone Conversation",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-133",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Joint Feature Selection and Structure Preservation for Domain Adaptation",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-134",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Deep Nonlinear Feature Coding for Unsupervised Domain Adaptation",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-135",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Portfolio Blending via Thompson Sampling",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-136",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Asymptotic Optimality of Myopic Optimization in Trial-Offer Markets with Social Influence",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-137",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Learning Interactive Affordance for Human-Robot Interaction",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-138",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Nonparametric Risk and Stability Analysis for ï¿¼Multi-Task Learning Problems",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-139",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Representation Learning of Knowledge Graphs with Hierarchical Types",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-140",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Markovian State and Action Abstractions in Monte-Carlo Tree Search",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-141",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Fast Robust Non-negative Matrix Factorization for Large Scale Data Clustering",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-142",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Understanding Crowd Scene based on Coherent Recurrent Neural Networks",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-143",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Learning by Actively Querying Strong Modal Features",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-144",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "A Neural Network for Document Summarization",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-145",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Improving DCNN Performance with Sparse Category-Selective Objective Function",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-146",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Verifying Pushdown Multi-Agent Systems against Strategy Logics",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-147",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "External Memory Bidirectional Search",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-148",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Efficient Resource Allocation for Protecting Coral Reef Ecosystems",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-149",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Sequential Plan Recognition",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-150",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Dynamic Auctions with Bank Accounts",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-151",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Distributed Breakout: Beyond Satisfaction",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-152",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Beyond object recognition: Deep visual sentiment analysis via affective concept supervision and transfer",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-153",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Modularity based Community Detection with Deep Learning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-154",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Neural Segmentation Models Leveraging Segment Representations",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-155",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Gated Probabilistic Matrix Factorization: Learning Users' Attention from Missing Values",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-156",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Geometric Scene Parsing with Hierarchical LSTM",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-157",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "A Stochastic Grammar for Fine-grained 3D Scene Reconstruction",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-158",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Preserving Privacy in Region Optimal DCOP Algorithms",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-159",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "A Framework for Integrating Symbolic and Sub-symbolic Representations",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-160",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "LTLf and LDLf Synthesis Under Partial Observability",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-161",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Partially Supervised Graph Embedding for Positive Unlabelled Feature Selection",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-162",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "DrMAD: Distilling Reverse-Mode Automatic Differentiation for Optimizing Hyperparameters of Deep Neural Networks",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-163",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Better Strategyproof Mechanisms without Payments or Prior -- An Analytic Approach",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-164",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Voting-Based Team Formation",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-165",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Diversifying Convex Transductive Experimental Design for Active Learning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-166",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Imperfect information games and generalized planning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-167",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "The Inconsistency in GÃ¶delâs Ontological Argument: A Success Story for AI in Metaphysics",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-168",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Fast Structural Binary Coding",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-169",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Heuristic Subset Selection in Classical Planning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-170",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Fast-and-Light Stochastic ADMM",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-171",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Self-Adapted Multi-task Clustering",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-172",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Stochastic And-Or Grammars: A Unified Framework and Logic Perspective",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-173",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "A Novel Feature Matching Strategy for Large Scale Image Retrieval",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-174",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "ASP for Anytime Dynamic Programming on Tree Decompositions",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-175",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Natural Supervised Hashing",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-176",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Elicitation for Preferences Single Peaked on Trees",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-177",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Preference Elicitation For Single Crossing Domain",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-178",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Complexity of Manipulation with Partial Information",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-179",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Frequent Direction Algorithms for Approximate Matrix Multiplication with Applications in CCA",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-180",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Budgeted Multi-armed Bandits with Multiple Plays",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-181",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "SLIM: Semi-Lazy Inference Mechanism for Plan Recognition",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-182",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Correlation Complexity of Classical Planning Domains",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-183",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Improving CNN Performance with Min-Max Objective",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-184",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Bridging LSTM Architecture with the Neural Dynamics of Reading",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-185",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Knowledge-based Sequence Mining with ASP",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-186",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Verbalization: Narratives of Autonomous Robot Experience",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-187",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Distributing Knowledge into Simple Bases",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-188",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Privacy Preserving Plans in Partially Observable Environments",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-189",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Conservative Rewritability of Description Logic TBoxes",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-190",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Recurrent Neural Network for Text Classification with Multi-Task Learning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-191",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Query Entailment and Inseparability for ALC Ontologies",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-192",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Querying Data Graphs with Arithmetical Regular Expressions",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-193",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "HC-search for Incremental Parsing",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-194",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Packing graphs with ASP for landscape simulation",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-195",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Model-based Deep Hand Pose Estimation",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-196",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "ADLâ¢: A Topic Model for Recognition of Activities of Daily Living in a Smart Home",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-197",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Eliminating Disjunctions in Answer Set Programming by Restricted Unfolding",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-198",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Heuristics and Really Hard Instances for Subgraph Isomorphism Problems",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-199",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Denoising and Completion of 3D Data via Multidimensional Dictionary Learning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-200",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Generalizing the Edge-Finder Rule for the Cumulative Constraint",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-201",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Efficient Sequential Model-Based Fault-Localization with Partial Diagnoses",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-202",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Rule-Based Programming of Molecular Robot Swarms for Biomedical Applications",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-203",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Controllable Procedural Content Generation via Constrained Multi-Dimensional Markov Chain Sampling",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-204",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Planning with Task-oriented Knowledge Acquisition for A Service Robot",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-205",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Protein Secondary Structure Prediction Using Cascaded Convolutional and Recurrent Neural Networks",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-206",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Rating-Boosted Latent Topics: Understanding Users and Items with Ratings and Reviews",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-207",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Optimally Protecting Elections",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-208",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Preference Inference Through Rescaling Preference Learning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-209",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "A Collaborative Filtering Approach to Citywide Human Mobility Completion from Sparse Call Records",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-210",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "On Truthful Mechanisms for Maximin Share Allocations",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-211",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "3D Action Recognition Using Multi-temporal Depth Motion Maps and Fisher Vector",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-212",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Direct Sparsity Optimization Based Feature Selection for Multi-Class Classification",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-213",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Adversarial Sequence Classification",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-214",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Improving Approximate Counting for Probabilistic Inference: From Linear to Logarithmic SAT Solver Calls",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-215",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Improved Heuristic and Tie-Breaking for Optimally Solving Sokoban",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-216",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Query-driven Repairing of Inconsistent DL-Lite Knowledge Bases",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-217",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "The Complexity of Learning Acyclic CP-nets",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-218",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Predicting Personal Traits from Facial Images using Convolutional Neural Networks Augmented with Facial Landmark Information",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-219",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Enforcing Template Representability and Temporal Consistency for Adaptive Sparse Tracking",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-220",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Interactive Scheduling of Appliance Usage in the Home",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-221",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Bayesian Dictionary Learning with Gaussian Processes and Sigmoid Belief Networks",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-222",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Crowdsourcing via Tensor Augmentation and Completion",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-223",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Heuristic Planning for PDDL+ Domains",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-224",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Group Decision Making via Probabilistic Belief Merging",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-225",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Evaluation of arguments from support relations: Axioms and Semantics",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-226",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Efficient Bayesian Clustering for Reinforcement Learning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-227",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Combining the k-CNF and XOR Phase-Transitions",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-228",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Social Choice for Agents with General Utilities",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-229",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Stochastic Multiresolution Persistent Homology Kernel",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-230",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Hierarchical Approach to Transfer of Control in Semi-Autonomous Systems",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-231",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Robust Draws in Balanced Knockout Tournaments",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-232",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Efficient Query Answering Over Expressive Inconsistent Description Logics",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-233",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Commitment Semantics for Sequential Decision Making under Reward Uncertainty",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-234",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Learning First-Order Logic Embeddings via Graph Rewriting",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-235",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Polynomial Datalog Rewritings for Expressive Description Logics with Closed Predicates",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-236",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Using Task Features for Zero-Shot Knowledge Transfer in Lifelong Learning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-237",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Strategic Voting with Incomplete Information",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-238",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Contextual Symmetries in Probabilistic Graphical Models",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-239",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Optimizing  Molecular Cloning Of Multiple Plasmids",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-240",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Reconfigurability in Reactive Multiagent Systems",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-241",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Complexity of Efficient and Envy-Free Resource Allocation: Few Agents, Resources, or Utility Levels",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-242",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Learning A Deep $\\ell_\\infty$ Encoder for Hashing",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-243",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Online Symbolic Gradient-Based Optimization for Factored Action MDPs",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-244",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Tri-Party Deep Network Representation",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-245",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "An Approximation Approach for Solving Subpath Planning Problem",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-246",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Coupled Marginalized Auto-encoders for Cross-domain Multi-view Learning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-247",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Randomized Social Choice Functions Under Metric Preferences",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-248",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Change Detection in Multivariate Datastreams: Likelihood and  Detectability Loss",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-249",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Identifying Outliers in Complex Categorical Data by Modeling the Feature Value Couplings",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-250",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "The Complexity of Playing Durak",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-251",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Predicting Confusion in Information Visualization from Eye Tracking and Interaction Data",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-252",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Parse Tree Fragmentation of Ungrammatical Sentences",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-253",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Learning Cross-view Binary Identities for Fast Person Re-identification",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-254",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Relevance for SAT(ID)",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-255",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "To Project More or to Quantize More: Minimize Reconstruction Bias for Learning Compact Binary Codes",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-256",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Incremental Truncated LSTD",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-257",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "On Combining Side Information and Unlabeled Data for Heterogeneous Multi-task Metric Learning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-258",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Coordinating Human-UAV Teams in Disaster Response",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-259",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Facility Location with Minimax Envy",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-260",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Hashtag Recommendation using Attention-based Convolutional Neural Network",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-261",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Joint Models for Extracting Adverse Drug Events from Biomedical Text",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-262",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Belief Update for Proper Epistemic Knowledge Bases",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-263",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Class-wise Supervised Hashing with Taxonomy and Active Bits",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-264",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Adaptive Variance Reducing for Stochastic Gradient Descent",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-265",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Robust Out-of-Sample Data Representation",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-266",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Video-based Person Re-identification by Simultaneously Learning Intra-video and Inter-video Distance Metrics",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-267",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Unsupervised Alignment of Actions in Video with Text Descriptions",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-268",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Parallel Pareto Optimization for Subset Selection",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-269",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "A Characterization of Voting Power for Discrete Weight Distributions",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-270",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Browsing Regularities in Hedonic Content Systems: the More the Merrier?",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-271",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Predict Anchor Links across Social Networks via an Embedding Approach",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-272",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Forgetting in Multi-Agent Modal Logics",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-273",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "On the relationship between P-log and LP^MLN",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-274",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Scale-adaptive Low-resolution Person Re-identification via Learning A Discriminating Surface",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-275",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Epistemic GDL: A logic for representing and reasoning about imperfect information games",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-276",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "EBEK: Exemplar-based Kernel Preserving Embedding",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-277",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Anticipatory Troubleshooting",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-278",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Staleness-aware Async-SGD for Distributed Deep Learning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-279",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Weight features for predicting future model performance of deep neural networks",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-280",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Dual-Memory Deep Learning Architectures for Lifelong Learning of Everyday Human Behaviors",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-281",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Aligning Users Across Social Networks Using Network Embedding",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-282",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Supervised Heterogeneous Domain Adaptation via Random Forests",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-283",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Neural Generative Question Answering",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-284",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Unsupervised Feature Learning from Time Series",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-285",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Learning Stable Linear Dynamical Systems with the Weighted Least Square Method",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-286",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Robust and Sparse Fuzzy K-Means Clustering",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-287",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Identification of Causal Effects by Auxiliary Instruments in Linear Systems",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-288",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Heuristics for Numeric Planning via Subgoaling",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-289",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "A Bilingual Graph-based Semantic Model for Statistical Machine Translation",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-290",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Bridging Saliency Detection to Weakly Supervised Object Detection Based on Self-paced Curriculum Learning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-291",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "A Unifying Framework for Learning Bag Labels from Generalized Multiple-Instance Data",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-292",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Subspace Clustering via New Discrete Group Structure Constrained Low-Rank Model",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-293",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Swift: Compiled Inference for Probabilistic Programming Languages",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-294",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Improving Top-N Recommendation with Heterogeneous Losses",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-295",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Transductive Optimization of Top k Precision",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-296",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Intersubjectivity and Sentiment: from Language to Knowledge",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-297",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "How Hard Is It for a Party to Nominate an Election Winner?",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-298",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Committee Scoring Rules: Axiomatic Classification and Hierarchy",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-299",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "A Joint Model of Intent Determination and Slot Filling for Spoken Language Understanding",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-300",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Learning by Crowdsourcing",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-301",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Enhancing Energy Disaggregation through Household Structure Analysis via Hawkes Processes",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-302",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Robust Natural Language Processing - Combining Reasoning, Cognitive Semantics and Construction Grammar for Spatial Language",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-303",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Dealing with Multiple Classes in Online Class Imbalance Learning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-304",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Probabilistic Rank-One Matrix Analysis with Concurrent Regularization",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-305",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Reinforcement Learning applied to Incremental Spoken Dialogue Systems",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-306",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Distributed Autoepistemic Logic and its Application to Access Control",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-307",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Modifying MCTS for Human-like General Video Game Playing",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-308",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "A branch-and-price algorithm for scheduling observations on a  telescope",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-309",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Policy Search in Reproducing Kernel Hilbert Space",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-310",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Semi-Data-Driven Network Coarsening",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-311",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Optimal Status Enforcement in Abstract Argumentation",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-312",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Learning Text Semantic Similarity with Structural Alignment",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-313",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "i, Poet: Automatic Poetry Composition through Recurrent Neural Networks with Iterative Polishing Schema",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-314",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Static Symmetry Breaking with the Reflex Ordering",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-315",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Efficiently Finding Conceptual Clustering Models with Integer Linear Programming",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-316",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Copula Mixed-Membership Stochastic Blockmodel",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-317",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "On the Topology of Genetic Algorithms",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-318",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Deep Learning for Reward Design to Improve Monte Carlo Tree Search in ATARI Games",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-319",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Deep, Convolutional, and Recurrent Models for Human Activity Recognition using Wearables",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-320",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Automatic Construction and Evaluation of a Large Semantically Enriched Wikipedia",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-321",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Discriminatively trained recurrent neural networks for continuous dimensional emotion recognition from audio",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-322",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "On Consensus Extraction",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-323",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Optimizing Simple Table Reduction with Bitwise Representation",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-324",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Unsupervised Storyline Extraction on News Articles",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-325",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Efficient Representations for the Modal Logic S5",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-326",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Decoupled Strong Stubborn Sets",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-327",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Control of Fair Division",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-328",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Chinese Song Iambics Generation with Neural Attention-based Model",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-329",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Towards a White Box Approach to Automated Algorithm Design",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-330",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Graph Quality Judgement: A Large Margin Expedition",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-331",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Towards Fast Algorithms for the Preference Consistency Problem Based on Hierarchical Models",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-332",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Multi-view Learning with Limited and Noisy Tagging",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-333",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Optimal Interdiction of Illegal Network Flow",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-334",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Equivalent Stream Reasoning Programs",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-335",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "A Discriminative Approach to Grounded Natural Language Learning in Interactive Robotics",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-336",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Personalizing EEG-based Affective Models with Transfer Learning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-337",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Simulating Human Inferences in the Light of New Information: A Formal Analysis",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-338",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Strategy Representation and Reasoning for Incomplete Information Concurrent Games in the Situation Calculus",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-339",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Connecting Qualitative Spatial and Temporal Representations by Propositional Closure",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-340",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Ontology-Mediated Queries Distributing Over Components",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-341",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Collaborative Multi-Level Embedding Learning from Reviews for Rating Prediction",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-342",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Derivative-Free Optimization of High-Dimensional Non-Convex Functions by Sequential Random Embeddings",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-343",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Sparsity Conditional Energy Label Distribution Learning for Age Estimation",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-344",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Scene Text Detection in Video by Learning Locally and Globally",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-345",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Structural Symmetries for Fully Observable Nondeterministic Planning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-346",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "A Clause Tableaux Calculus for MaxSAT",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-347",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Bounds for Learning from Evolutionary-Related Data in the Realizable Case",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-348",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Core-Selecting Payment Rules for Combinatorial Auctions with Uncertain Availability of Goods",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-349",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "On State-Dominance Criteria in Fork-Decoupled Search",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-350",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Abstraction Heuristics for Symbolic Bidirectional Search",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-351",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Counting Linear Extensions of Sparse Posets",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-352",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "On the impact of modal depth in epistemic planning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-353",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Transfer Hashing with Privileged Information",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-354",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Dynamic Early Stopping for Naive Bayes",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-355",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "PAC Greedy Maximisation with Efficient Bounds on Information Gain for Sensor Selection.",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-356",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "In Search of Tractability for Partial Satisfaction Planning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-357",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Learning Possibilistic Logic Theories from Default Rules",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-358",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Graph-Based Factorization of Classical Planning Problems",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-359",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Asynchronous Accelerated Stochastic Gradient Descent",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-360",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Verifying existence of resource-bounded coalition uniform strategies",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-361",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Incomplete Causal Laws in the Situation Calculus using Free Fluents",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-362",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Multiple Constraint Acquisition",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-363",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Incorporating External Knowledge into Crowd Intelligence for More Specific Knowledge Acquisition",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-364",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Incentivizing Reliability in Demand-Side Response",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-365",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "A Polynomial Time Optimal Algorithm for Robot-Human Search under Uncertainty",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-366",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Learning Higher-Order Logic Programs through Abstraction and Invention",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-367",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Online Mechanism Design for Vehicle-to-Grid Car Parks",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-368",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Efficient Collaborative Filtering with  Side Information",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-369",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Change Detection using Directional Statistics",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-370",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Learning Unified Features from Natural and Progrmming Languages for Locating Buggy Source Codes",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-371",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Batch-Switching Policy Iteration",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-372",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Leviathan: a new LTL satisfiability checking tool based on a one-pass tree-shaped tableau",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-373",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Automated Mechanism Design without Money via Machine Learning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-374",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Fear and Hope Emerge from Anticipation in Model-Based Reinforcement Learning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-375",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "$\\exists$-STRIPS: Existential Quantification in Planning and Constraint Satisfaction",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-376",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Constraint Acquisition using Recommendation Queries",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-377",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Nash equilibria and their elimination in resource games",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-378",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Three strategies to success: Learning adversary models in security games",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-379",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Approximate Probabilistic Inference with Bounded Error for Hybrid Probabilistic Logic Programming",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-380",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Exploiting Partial Assignments for Efficient Evaluation of Answer Set Programs with External Source Access",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-381",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Efficient Local Search in Coordination Games on Graphs",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-382",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Learning Multi-Step Predictive State Representations",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-383",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Tight Policy Regret Bounds for Improving and Decaying Bandits",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-384",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Plan Recognition as Planning Revisited",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-385",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Sum-Product-Max Networks for Tractable Decision Making",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-386",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Distributed Decoupling Of Multiagent Simple Temporal Problems",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-387",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "On Logics of Strategic Ability based on Propositional Control",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-388",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "The Complexity of Norm Synthesis and Recognition in Normative Multiagent Systems",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-389",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Using Message-passing DCOP Algorithms to Solve Energy-efficient Smart Environment Configuration Problems",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-390",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Role Assignment for Game-Theoretic Cooperation",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-391",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Exploiting Problem Structure in Combinatorial Landscapes: A Case Study on Pure Mathematics Application",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-392",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Completion of Disjunctive Logic Programs",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-393",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Normative Practical Reasoning via Argumentation and Dialogue",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-394",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Constructive Preference Elicitation by Setwise Max-margin Learning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-395",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Comparing Search Algorithms using Sorting and Hashing on Disk and in Memory",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-396",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Version space reduction based on ensembles of dissimilar balanced Perceptrons",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-397",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Making Robots Proactive through Equilibrium Maintenance",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-398",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Goal Recognition Design with Stochastic Agent Action Outcomes",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-399",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Opinion Dynamics with Local Interactions",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-400",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Investigating the Relationship between Argumentation Semantics via Signatures",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-401",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Synthesizing Robotic Handwriting Motion by Learning from Human Demonstrations",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-402",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Situation Testing-Based Discrimination Discovery: An Causal Inference Approach",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-403",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "StalemateBreaker: A Proactive Content Introducing Approach for Automatic Human-Computer Conversation",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-404",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Linear Arithmetic Satisfiability via Strategy Improvement",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-405",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Incentivizing Intelligent Customer Behavior in Smart-Grids: A Risk-Sharing Tariff & Optimal Strategies",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-406",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "A Characterization of the Semantics of Logic Programs with Aggregates",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-407",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Planning for a Single Agent in a Multi-Agent Environment Using FOND",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-408",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Object-Relational Queries over CFDI_nc Knowledge Bases: OBDA for the SQL-Literate",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-409",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Temporal and Spatial OBDA with Many-Dimensional Halpern-Shoham Logic",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-410",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Limited Discrepancy AND/OR Search",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-411",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Constrained Local Latent Variable Discovery",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-412",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Which Contingent Events to Observe for the Dynamic Controllability of a Plan",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-413",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Solving M-Modes Using Heuristic Search",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-414",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Misrepresentation in District Voting",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-415",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Cold-start recommendations for audio news stories using matrix factorization",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-416",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Trembling Hand Equilibria of Plurality Voting",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-417",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Conditional and Sequential Approval Voting on Combinatorial Domains",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-418",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Modeling and Reasoning about NTU Games via Answer Set Programming",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-419",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Entity Embedding-based Anomaly Detection for Heterogeneous Categorical Events",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-420",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Informed Expectations to Guide GDA Agents in Partially Observable Environments",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-421",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Coco: Runtime Reasoning about Conflicting Commitments",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-422",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Answering metaqueries over Hi(OWL 2 QL) ontologies",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-423",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Expressivity of Datalog Variants -- Completing the Picture",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-424",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Achieving proportional representation in conference programs",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-425",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Co-Optimization Multi-Agent Placement with Task Assignment and Scheduling",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-426",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Nonlinear Hierarchical Part-based Regression for Unconstrained Face Alignment",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-427",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Trading On A Rigged Game: Outcome Manipulation In Prediction Markets",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-428",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "A SAT-based Approach for Mining Association Rules",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-429",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "An Empirical Game-Theoretic Analysis of Price Discovery in Prediction Markets",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-430",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Asymptotically tight bounds for inefficiency in risk-averse selfish routing",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-431",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Learning to Detect Concepts from Webly-Labeled Video Data",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-432",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "A Generalized Matching Pursuit Approach for Graph-Structured Sparsity",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-433",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Ranking Constraints",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-434",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Preferential Query Answering over the Semantic Web with Possibilistic Networks",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-435",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Tree-state based Rule Selection Models for Hierarchical Phrase-based Machine Translation",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-436",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Allocating Indivisible Items in Categorized Domains",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-437",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "A POMDP Approach to Influence Diagram Evaluation",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-438",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Epistemic boolean games based on a logic of visibility and control",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-439",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Canonical Orderings on Grids",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-440",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Player Goal Recognition in Open-World Digital Games with Long Short-Term Memory Networks",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-441",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Driver Frustration Detection From Audio and Video in the Wild",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-442",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Probabilistic Inference Modulo Theories",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-443",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Monte Carlo Tree Search in Continuous Action Spaces with Execution Uncertainty",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-444",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Approximating Value Equivalence in Interactive Dynamic Influence Diagrams Using Behavioral Coverage",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-445",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Object-based World Modeling in Semi-Static Environments with Dependent Dirichlet Process Mixtures",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-446",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Plan Synthesis for Knowledge and Action Bases",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-447",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Distance Based Modeling of Interactions in Structured Regression",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-448",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Congestion Games with Polytopal Strategy Spaces",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-449",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Learning Predictive State Representations via Monte-Carlo Tree Search",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-450",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Temporalized EL Ontologies for Accessing Temporal  Data: Complexity of Atomic Queries",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-451",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Correlated Voting",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-452",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Constructing Abstraction Hierarchies Using a Skill-Symbol Loop",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-453",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Scalable Segment Abstraction Method for Advertising Campaign Admission and Inventory Allocation Optimization",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-454",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Hierarchical Model Predictive Control for Navigation of Multi-Robot Systems",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-455",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Hierarchical Planning: Relating Task and Goal Decomposition with Task Sharing",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-456",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Empirical Risk Minimization for Metric Learning Using Privileged Information",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-457",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Apprenticeship Scheduling: Learning to Schedule from Human Experts",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-458",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Precision Instrument Targeting via Image Registration for the Mars 2020 Rover",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-459",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Interactive Teaching Strategies for Agent Training",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-460",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Measuring performance of peer prediction mechanisms using replicator dynamics",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-461",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Mission Oriented Robust Multi-Team Formation and its Application to Robot Rescue Simulation",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-462",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Trend-Based Prediction of Spatial Change",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-463",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Sequential planning for steering immune system adaptation",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-464",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Learning Multi-Modal Grounded Linguistic Semantics by Playing I, Spy",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-465",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Grounding Topic Models with Knowledge Bases",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-466",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "A Distributed Large Scale Machine Learning Mechanism for Least Square Problems",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-467",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Learning to Order Objects using Haptic and Proprioceptive Exploratory Behaviors",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-468",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Expressive Completeness of Existential Rule Languages for Ontology-based Query Answering",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-469",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Improved Bounded-Suboptimal Multi-Agent Path Finding Solvers",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-470",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Question Answering via Integer Programming over Semi-Structured Knowledge",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-471",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Recognizing Opinion Sources Based on A New Categorization of Opinion Types",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-472",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Controlling growing tasks with heterogeneous agents",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-473",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Probably Approximately Correct Learning in Stochastic Games with Temporal Logic Specifications",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-474",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Transfer Learning with Active Queries from Source Domain",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-475",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Dimensionally Guided Synthesis of Mathematical Word Problems",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-476",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Moving in a Crowd: Safe and Efficient Navigation among Heterogeneous Agents",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-477",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Bayesian Nonparametric Collaborative Topic Poisson Factorization for Electronic Health Records-Based Phenotyping",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-478",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Truthfulness of a Proportional Sharing Mechanism in Resource Exchange",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-479",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Scalable Greedy Algorithms for Task/Resource Constrained Multi-Agent Stochastic Planning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-480",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "AI for Cognitive Film Studies - Semantic Q/A with Video and Eye-Tracking Data for Analysing Human Visual Perception",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-481",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Predictive models of malicious behavior in human negotiations",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-482",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "DeepSchema: Automatic Schema Acquisition from Wearable Sensor Data in Restaurant Situations",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-483",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Discriminative Log-Euclidean Feature Learning for Sparse Representation-Based Recognition of Faces from Videos",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-484",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Robust Repositioning to Counter Unpredictable Demand in Bike Sharing Systems",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-485",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Bayesian Reinforcement Learning with Behavioral Feedback",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-486",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "A Robust Convex Formulations for Ensemble Clustering",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-487",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Towards Zero Unknown Word in Neural Machine Translation",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-488",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "On the Representation and Embedding of Knowledge Bases Beyond Binary Relations",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-489",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Is Promoting Beliefs Useful to Make Them Accepted in Networks of Agents?",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-490",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Neural Network Translation Models for Grammatical Error Correction",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-491",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "How to Build Your Network? A Structural Analysis",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-492",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Efficient Path Consistency Algorithm for Large Qualitative Constraint Networks",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-493",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "A Symbolic Closed-form Solution to Sequential Market Making with Inventory",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-494",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Soft Margin Consistency Based Scalable Multi-View Maximum Entropy Discrimination",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-495",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Managing Overstaying Electric Vehicles in Park-and-Charge Facilities",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-496",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Exploiting N-Best Hypotheses to Improve an SMT Approach to Grammatical Error Correction",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-497",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Bias in Algorithm Portfolio Performance Evaluation",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-498",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Demand Prediction and Placement Optimization for Electric Vehicle Charging Stations",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-499",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Learning Compact Neural Word Embeddings by Parameter Space Sharing",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-500",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "State-dependent Cost Partitionings for Cartesian Abstractions in Classical Planning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-501",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Automated Synthesis of Timed Failure Propagation Graphs",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-502",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Automatic Generation of High-Level State Features for Generalized Planning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-503",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Decision Procedure for a Fragment of Linear Time Mu-Calculus",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-504",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Knowledge Compilation Meets Communication Complexity",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-505",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Hierarchical Finite State Controllers for Generalized Planning",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-506",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Blind Search for Atari-like Online Planning Revisited",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-507",
+      "track": "Main Track",
+      "authors": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "title": "Parallel Behavior Composition for Manufacturing",
+      "url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/#main-508",
+      "track": "Main Track",
+      "authors": ""
+    }
+  ],
+  "source_url": "https://ijcai-16.org/index.php/welcome/view/accepted_papers/",
+  "verification": "official_main_track_acceptance_list",
+  "retrieved_utc": "2026-11-01T11:23:04.371354+00:00",
+  "collector_version": 2,
+  "status": "parsed_needs_coverage_review"
+}
