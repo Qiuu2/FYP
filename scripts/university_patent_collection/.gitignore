@@ -1,0 +1,6 @@
+results/
+university_raw.csv
+*.pyc
+__pycache__/
+*.part
+config/private_sectors.csv

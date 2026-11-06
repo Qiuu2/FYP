@@ -1,0 +1,13 @@
+{
+  "source_hashes": {
+    "C:\\FYP\\outputs\\remaining_collection_package_20261031\\baseline\\patents\\families_2015_2024.csv": "07fd24dc6c714da0689e897acbb3026e689309518ea0c96ddf938ea33e7ec086",
+    "C:\\FYP\\outputs\\github_research_20261022\\sources\\patents_2025\\patents_raw_2025.csv": "b0cc613f0cc2ca00a7f984da9eb25e64ddb3ba590eafc5899db284841fb715ad",
+    "C:\\FYP\\github-checkouts\\Qiuu2-FYP\\raw\\patents_invisible_univ_families.csv": "fe6fa5b74dedaa0465cd9af59e9840eadceb4144d397cf4c78c097652945839f",
+    "C:\\FYP\\data_repo\\config\\patents_assignee_sector.csv": "d42afaabe4bd0bae0cc49d137102c382fa468491e73028d57b83a285cd6bd804",
+    "C:\\FYP\\data_repo\\config\\patents_assignee_sector_s3add.csv": "7e76129af57cdb412a2bd5ea797b6f8526ad36a771fbf16378d1418f8c055fdc",
+    "C:\\FYP\\data_repo\\config\\patents_invisible_univ_names.csv": "c842829ad26cffc9ad8009d72eb35e553f2fc156fa0d395cd52e0db3db464ad2"
+  },
+  "count_conflicts": 77,
+  "count_suspected_university": 3,
+  "treatment": "different date definitions; original local filing remains the displayed year; manual review still required"
+}
