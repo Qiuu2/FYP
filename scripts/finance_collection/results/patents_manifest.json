@@ -1,0 +1,6 @@
+{
+  "collected_utc": "2026-11-07T02:21:33.914872+00:00",
+  "input": ".\\patents.csv",
+  "rows": 644,
+  "notes": "All families are observed published records. Year is earliest HK/SG qualifying filing inside query window."
+}

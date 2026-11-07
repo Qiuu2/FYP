@@ -1,0 +1,9 @@
+{
+  "collected_utc": "2026-11-06T17:36:13.787566+00:00",
+  "start": 2015,
+  "end": 2025,
+  "countries": "HK,SG",
+  "scope": "any",
+  "failures": [],
+  "note": "current OpenAlex snapshot; not a real-time historical vintage"
+}
