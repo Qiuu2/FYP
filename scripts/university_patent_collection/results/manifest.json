@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-11-06T17:20:06.530383+00:00",
+  "source_sha256": "f989311966be5b57139bf1dcdc4ce39081e616ce1ae697cbfdc9ed951abeac3a",
+  "sql_sha256": "55e95853c955d6500034e9fa31a03b8678fcab2b08fe77e8d851eaf417288901",
+  "input_publications": 66481,
+  "query_utc": "2026-11-06 17:10:13.930542+00",
+  "max_publication_date": "20260917",
+  "config_sha256": {
+    "institution_sectors.csv": "6a5d7748358507c0a85445c7ccf607df380c2c3eae6e6797432ec50f8cee0c62",
+    "reviewed_aliases.csv": "45826dd5f65f0e31d2b6dfb8741a15afedb2bdd37753acdde500216fa9e84bcf",
+    "university_aliases.csv": "c842829ad26cffc9ad8009d72eb35e553f2fc156fa0d395cd52e0db3db464ad2"
+  },
+  "family_count": 14347,
+  "year_conflicts": 83,
+  "pending_rows": 346,
+  "completed": false,
+  "note": "Observed records only, incomplete classification and publication; no forecast; original publication dates retained."
+}

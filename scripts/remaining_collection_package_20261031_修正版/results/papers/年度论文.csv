@@ -1,0 +1,246 @@
+﻿year,country,category,venue,identified_papers,identified_local_authors,status
+2015,HK,conference,AAAI,22,35,identified_observations_not_exhaustive
+2015,HK,conference,ACL,10,20,identified_observations_not_exhaustive
+2015,HK,conference,CVPR,30,57,identified_observations_not_exhaustive
+2015,HK,conference,EMNLP,4,7,identified_observations_not_exhaustive
+2015,HK,conference,ICCV,33,62,identified_observations_not_exhaustive
+2015,HK,conference,ICML,2,5,identified_observations_not_exhaustive
+2015,HK,conference,NeurIPS,6,12,identified_observations_not_exhaustive
+2015,HK,journal_article,JMLR,1,2,identified_observations_not_exhaustive
+2015,HK,journal_article,TPAMI,8,15,identified_observations_not_exhaustive
+2015,SG,conference,AAAI,24,51,identified_observations_not_exhaustive
+2015,SG,conference,ACL,9,17,identified_observations_not_exhaustive
+2015,SG,conference,CVPR,29,68,identified_observations_not_exhaustive
+2015,SG,conference,EMNLP,13,24,identified_observations_not_exhaustive
+2015,SG,conference,ICCV,29,50,identified_observations_not_exhaustive
+2015,SG,conference,ICML,9,11,identified_observations_not_exhaustive
+2015,SG,conference,NeurIPS,4,7,identified_observations_not_exhaustive
+2015,SG,journal_article,JMLR,1,0,identified_observations_not_exhaustive
+2015,SG,journal_article,TPAMI,18,35,identified_observations_not_exhaustive
+2016,HK,conference,ACL,3,7,identified_observations_not_exhaustive
+2016,HK,conference,CVPR,32,43,identified_observations_not_exhaustive
+2016,HK,conference,EMNLP,4,10,identified_observations_not_exhaustive
+2016,HK,conference,ICML,3,5,identified_observations_not_exhaustive
+2016,HK,conference,IJCAI,11,16,identified_observations_not_exhaustive
+2016,HK,conference,NeurIPS,9,19,identified_observations_not_exhaustive
+2016,HK,journal_article,JMLR,2,2,identified_observations_not_exhaustive
+2016,HK,journal_article,TPAMI,14,30,identified_observations_not_exhaustive
+2016,SG,conference,ACL,3,11,identified_observations_not_exhaustive
+2016,SG,conference,CVPR,33,70,identified_observations_not_exhaustive
+2016,SG,conference,EMNLP,13,21,identified_observations_not_exhaustive
+2016,SG,conference,ICLR,1,1,identified_observations_not_exhaustive
+2016,SG,conference,ICML,4,8,identified_observations_not_exhaustive
+2016,SG,conference,IJCAI,16,33,identified_observations_not_exhaustive
+2016,SG,conference,NeurIPS,1,5,identified_observations_not_exhaustive
+2016,SG,journal_article,JMLR,2,2,identified_observations_not_exhaustive
+2016,SG,journal_article,TPAMI,11,17,identified_observations_not_exhaustive
+2017,HK,conference,AAAI,14,22,identified_observations_not_exhaustive
+2017,HK,conference,ACL,6,15,identified_observations_not_exhaustive
+2017,HK,conference,CVPR,29,47,identified_observations_not_exhaustive
+2017,HK,conference,EMNLP,10,21,identified_observations_not_exhaustive
+2017,HK,conference,ICCV,48,88,identified_observations_not_exhaustive
+2017,HK,conference,ICML,7,15,identified_observations_not_exhaustive
+2017,HK,conference,IJCAI,20,29,identified_observations_not_exhaustive
+2017,HK,conference,NeurIPS,5,11,identified_observations_not_exhaustive
+2017,HK,journal_article,JMLR,1,1,identified_observations_not_exhaustive
+2017,HK,journal_article,TPAMI,10,24,identified_observations_not_exhaustive
+2017,SG,conference,AAAI,31,56,identified_observations_not_exhaustive
+2017,SG,conference,ACL,11,29,identified_observations_not_exhaustive
+2017,SG,conference,CVPR,34,60,identified_observations_not_exhaustive
+2017,SG,conference,EMNLP,11,20,identified_observations_not_exhaustive
+2017,SG,conference,ICCV,19,44,identified_observations_not_exhaustive
+2017,SG,conference,ICML,3,4,identified_observations_not_exhaustive
+2017,SG,conference,IJCAI,38,68,identified_observations_not_exhaustive
+2017,SG,conference,NeurIPS,7,17,identified_observations_not_exhaustive
+2017,SG,journal_article,JMLR,2,2,identified_observations_not_exhaustive
+2017,SG,journal_article,Nature Methods,1,1,identified_observations_not_exhaustive
+2017,SG,journal_article,Science,1,1,identified_observations_not_exhaustive
+2017,SG,journal_article,TPAMI,18,41,identified_observations_not_exhaustive
+2018,HK,conference,AAAI,47,87,identified_observations_not_exhaustive
+2018,HK,conference,ACL,9,18,identified_observations_not_exhaustive
+2018,HK,conference,CVPR,56,77,identified_observations_not_exhaustive
+2018,HK,conference,ECCV,52,85,identified_observations_not_exhaustive
+2018,HK,conference,EMNLP,13,25,identified_observations_not_exhaustive
+2018,HK,conference,ICLR,3,2,identified_observations_not_exhaustive
+2018,HK,conference,ICML,8,9,identified_observations_not_exhaustive
+2018,HK,conference,IJCAI,26,48,identified_observations_not_exhaustive
+2018,HK,conference,NeurIPS,21,38,identified_observations_not_exhaustive
+2018,HK,journal_article,JMLR,1,1,identified_observations_not_exhaustive
+2018,HK,journal_article,TPAMI,13,26,identified_observations_not_exhaustive
+2018,SG,conference,AAAI,53,93,identified_observations_not_exhaustive
+2018,SG,conference,ACL,16,35,identified_observations_not_exhaustive
+2018,SG,conference,CVPR,48,85,identified_observations_not_exhaustive
+2018,SG,conference,ECCV,39,53,identified_observations_not_exhaustive
+2018,SG,conference,EMNLP,20,34,identified_observations_not_exhaustive
+2018,SG,conference,ICLR,1,2,identified_observations_not_exhaustive
+2018,SG,conference,ICML,10,14,identified_observations_not_exhaustive
+2018,SG,conference,IJCAI,45,79,identified_observations_not_exhaustive
+2018,SG,conference,NeurIPS,16,24,identified_observations_not_exhaustive
+2018,SG,journal_article,TPAMI,16,33,identified_observations_not_exhaustive
+2019,HK,conference,ACL,17,35,identified_observations_not_exhaustive
+2019,HK,conference,CVPR,100,148,identified_observations_not_exhaustive
+2019,HK,conference,EMNLP,21,47,identified_observations_not_exhaustive
+2019,HK,conference,ICCV,72,119,identified_observations_not_exhaustive
+2019,HK,conference,ICLR,11,24,identified_observations_not_exhaustive
+2019,HK,conference,ICML,8,15,identified_observations_not_exhaustive
+2019,HK,conference,IJCAI,20,48,identified_observations_not_exhaustive
+2019,HK,conference,NeurIPS,19,40,identified_observations_not_exhaustive
+2019,HK,journal_article,JMLR,1,1,identified_observations_not_exhaustive
+2019,HK,journal_article,Nature Machine Intelligence,1,6,identified_observations_not_exhaustive
+2019,HK,journal_article,TPAMI,19,37,identified_observations_not_exhaustive
+2019,SG,conference,ACL,23,47,identified_observations_not_exhaustive
+2019,SG,conference,CVPR,61,92,identified_observations_not_exhaustive
+2019,SG,conference,EMNLP,20,30,identified_observations_not_exhaustive
+2019,SG,conference,ICCV,48,71,identified_observations_not_exhaustive
+2019,SG,conference,ICLR,4,8,identified_observations_not_exhaustive
+2019,SG,conference,ICML,10,17,identified_observations_not_exhaustive
+2019,SG,conference,IJCAI,24,49,identified_observations_not_exhaustive
+2019,SG,conference,NeurIPS,23,44,identified_observations_not_exhaustive
+2019,SG,journal_article,Nature Machine Intelligence,1,1,identified_observations_not_exhaustive
+2019,SG,journal_article,Science Robotics,1,10,identified_observations_not_exhaustive
+2019,SG,journal_article,TPAMI,26,39,identified_observations_not_exhaustive
+2020,HK,conference,ACL,22,44,identified_observations_not_exhaustive
+2020,HK,conference,CVPR,104,149,identified_observations_not_exhaustive
+2020,HK,conference,ECCV,102,165,identified_observations_not_exhaustive
+2020,HK,conference,EMNLP,27,58,identified_observations_not_exhaustive
+2020,HK,conference,ICML,10,17,identified_observations_not_exhaustive
+2020,HK,conference,IJCAI,34,57,identified_observations_not_exhaustive
+2020,HK,conference,NeurIPS,38,66,identified_observations_not_exhaustive
+2020,HK,journal_article,Nature Machine Intelligence,3,10,identified_observations_not_exhaustive
+2020,HK,journal_article,TPAMI,36,56,identified_observations_not_exhaustive
+2020,SG,conference,ACL,23,47,identified_observations_not_exhaustive
+2020,SG,conference,CVPR,66,94,identified_observations_not_exhaustive
+2020,SG,conference,ECCV,57,95,identified_observations_not_exhaustive
+2020,SG,conference,EMNLP,30,59,identified_observations_not_exhaustive
+2020,SG,conference,ICML,25,47,identified_observations_not_exhaustive
+2020,SG,conference,IJCAI,29,55,identified_observations_not_exhaustive
+2020,SG,conference,NeurIPS,41,63,identified_observations_not_exhaustive
+2020,SG,journal_article,Nature,1,2,identified_observations_not_exhaustive
+2020,SG,journal_article,Nature Machine Intelligence,1,4,identified_observations_not_exhaustive
+2020,SG,journal_article,TPAMI,12,18,identified_observations_not_exhaustive
+2021,HK,conference,ACL,22,65,identified_observations_not_exhaustive
+2021,HK,conference,CVPR,130,203,identified_observations_not_exhaustive
+2021,HK,conference,EMNLP,32,51,identified_observations_not_exhaustive
+2021,HK,conference,ICCV,122,195,identified_observations_not_exhaustive
+2021,HK,conference,ICLR,19,35,identified_observations_not_exhaustive
+2021,HK,conference,ICML,30,35,identified_observations_not_exhaustive
+2021,HK,conference,IJCAI,21,36,identified_observations_not_exhaustive
+2021,HK,conference,NeurIPS,65,107,identified_observations_not_exhaustive
+2021,HK,journal_article,Nature,1,1,identified_observations_not_exhaustive
+2021,HK,journal_article,Science Robotics,1,5,identified_observations_not_exhaustive
+2021,HK,journal_article,TPAMI,38,70,identified_observations_not_exhaustive
+2021,SG,conference,ACL,22,54,identified_observations_not_exhaustive
+2021,SG,conference,CVPR,86,130,identified_observations_not_exhaustive
+2021,SG,conference,EMNLP,19,35,identified_observations_not_exhaustive
+2021,SG,conference,ICCV,70,119,identified_observations_not_exhaustive
+2021,SG,conference,ICLR,18,34,identified_observations_not_exhaustive
+2021,SG,conference,ICML,30,51,identified_observations_not_exhaustive
+2021,SG,conference,IJCAI,34,58,identified_observations_not_exhaustive
+2021,SG,conference,NeurIPS,63,135,identified_observations_not_exhaustive
+2021,SG,journal_article,Nature Machine Intelligence,4,8,identified_observations_not_exhaustive
+2021,SG,journal_article,Nature Methods,2,2,identified_observations_not_exhaustive
+2021,SG,journal_article,Science,1,1,identified_observations_not_exhaustive
+2021,SG,journal_article,TPAMI,31,54,identified_observations_not_exhaustive
+2021,SG,journal_review,Nature Computational Science,1,1,identified_observations_not_exhaustive
+2021,SG,journal_review,TPAMI,1,1,identified_observations_not_exhaustive
+2022,HK,conference,ACL,27,66,identified_observations_not_exhaustive
+2022,HK,conference,CVPR,160,270,identified_observations_not_exhaustive
+2022,HK,conference,ECCV,122,191,identified_observations_not_exhaustive
+2022,HK,conference,EMNLP,33,76,identified_observations_not_exhaustive
+2022,HK,conference,ICLR,21,34,identified_observations_not_exhaustive
+2022,HK,conference,ICML,13,20,identified_observations_not_exhaustive
+2022,HK,conference,IJCAI,29,48,identified_observations_not_exhaustive
+2022,HK,conference,NeurIPS,12,19,identified_observations_not_exhaustive
+2022,HK,journal_article,Nature Computational Science,1,6,identified_observations_not_exhaustive
+2022,HK,journal_article,Nature Machine Intelligence,4,16,identified_observations_not_exhaustive
+2022,HK,journal_article,TPAMI,67,106,identified_observations_not_exhaustive
+2022,SG,conference,ACL,28,62,identified_observations_not_exhaustive
+2022,SG,conference,CVPR,93,167,identified_observations_not_exhaustive
+2022,SG,conference,ECCV,105,181,identified_observations_not_exhaustive
+2022,SG,conference,EMNLP,38,72,identified_observations_not_exhaustive
+2022,SG,conference,ICLR,20,41,identified_observations_not_exhaustive
+2022,SG,conference,ICML,12,19,identified_observations_not_exhaustive
+2022,SG,conference,IJCAI,31,55,identified_observations_not_exhaustive
+2022,SG,conference,NeurIPS,5,8,identified_observations_not_exhaustive
+2022,SG,journal_article,Nature Methods,1,5,identified_observations_not_exhaustive
+2022,SG,journal_article,TPAMI,39,62,identified_observations_not_exhaustive
+2022,SG,journal_review,TPAMI,1,2,identified_observations_not_exhaustive
+2023,HK,conference,ACL,37,86,identified_observations_not_exhaustive
+2023,HK,conference,CVPR,210,331,identified_observations_not_exhaustive
+2023,HK,conference,EMNLP,49,103,identified_observations_not_exhaustive
+2023,HK,conference,ICCV,213,336,identified_observations_not_exhaustive
+2023,HK,conference,ICLR,40,90,identified_observations_not_exhaustive
+2023,HK,conference,ICML,31,60,identified_observations_not_exhaustive
+2023,HK,conference,IJCAI,27,55,identified_observations_not_exhaustive
+2023,HK,conference,NeurIPS,28,46,identified_observations_not_exhaustive
+2023,HK,journal_article,Nature Machine Intelligence,4,16,identified_observations_not_exhaustive
+2023,HK,journal_article,TPAMI,68,120,identified_observations_not_exhaustive
+2023,SG,conference,ACL,54,116,identified_observations_not_exhaustive
+2023,SG,conference,CVPR,136,225,identified_observations_not_exhaustive
+2023,SG,conference,EMNLP,45,103,identified_observations_not_exhaustive
+2023,SG,conference,ICCV,161,278,identified_observations_not_exhaustive
+2023,SG,conference,ICLR,23,57,identified_observations_not_exhaustive
+2023,SG,conference,ICML,21,53,identified_observations_not_exhaustive
+2023,SG,conference,IJCAI,35,74,identified_observations_not_exhaustive
+2023,SG,conference,NeurIPS,17,31,identified_observations_not_exhaustive
+2023,SG,journal_article,Nature,1,4,identified_observations_not_exhaustive
+2023,SG,journal_article,Nature Computational Science,1,7,identified_observations_not_exhaustive
+2023,SG,journal_article,Nature Machine Intelligence,2,6,identified_observations_not_exhaustive
+2023,SG,journal_article,Science,1,3,identified_observations_not_exhaustive
+2023,SG,journal_article,TPAMI,64,123,identified_observations_not_exhaustive
+2023,SG,journal_review,TPAMI,1,3,identified_observations_not_exhaustive
+2024,HK,conference,ACL,66,165,identified_observations_not_exhaustive
+2024,HK,conference,CVPR,214,325,identified_observations_not_exhaustive
+2024,HK,conference,ECCV,234,357,identified_observations_not_exhaustive
+2024,HK,conference,EMNLP,68,141,identified_observations_not_exhaustive
+2024,HK,conference,ICLR,73,158,identified_observations_not_exhaustive
+2024,HK,conference,ICML,58,102,identified_observations_not_exhaustive
+2024,HK,conference,IJCAI,49,47,identified_observations_not_exhaustive
+2024,HK,conference,NeurIPS,19,46,identified_observations_not_exhaustive
+2024,HK,journal_article,Nature,1,1,identified_observations_not_exhaustive
+2024,HK,journal_article,Nature Computational Science,1,1,identified_observations_not_exhaustive
+2024,HK,journal_article,Nature Machine Intelligence,3,7,identified_observations_not_exhaustive
+2024,HK,journal_article,Nature Methods,1,9,identified_observations_not_exhaustive
+2024,HK,journal_article,Science,2,9,identified_observations_not_exhaustive
+2024,HK,journal_article,TPAMI,77,114,identified_observations_not_exhaustive
+2024,SG,conference,ACL,49,86,identified_observations_not_exhaustive
+2024,SG,conference,CVPR,191,318,identified_observations_not_exhaustive
+2024,SG,conference,ECCV,148,275,identified_observations_not_exhaustive
+2024,SG,conference,EMNLP,65,128,identified_observations_not_exhaustive
+2024,SG,conference,ICLR,76,164,identified_observations_not_exhaustive
+2024,SG,conference,ICML,42,88,identified_observations_not_exhaustive
+2024,SG,conference,IJCAI,60,66,identified_observations_not_exhaustive
+2024,SG,conference,NeurIPS,16,39,identified_observations_not_exhaustive
+2024,SG,journal_article,Nature,1,1,identified_observations_not_exhaustive
+2024,SG,journal_article,Nature Machine Intelligence,2,6,identified_observations_not_exhaustive
+2024,SG,journal_article,Nature Methods,2,11,identified_observations_not_exhaustive
+2024,SG,journal_article,TPAMI,70,118,identified_observations_not_exhaustive
+2025,HK,conference,ACL,133,290,identified_observations_not_exhaustive
+2025,HK,conference,CVPR,260,455,identified_observations_not_exhaustive
+2025,HK,conference,EMNLP,55,58,identified_observations_not_exhaustive
+2025,HK,conference,ICCV,277,513,identified_observations_not_exhaustive
+2025,HK,conference,ICLR,133,263,identified_observations_not_exhaustive
+2025,HK,conference,ICML,63,115,identified_observations_not_exhaustive
+2025,HK,conference,IJCAI,75,111,identified_observations_not_exhaustive
+2025,HK,conference,NeurIPS,584,803,identified_observations_not_exhaustive
+2025,HK,journal_article,Nature,1,1,identified_observations_not_exhaustive
+2025,HK,journal_article,Nature Computational Science,4,19,identified_observations_not_exhaustive
+2025,HK,journal_article,Nature Machine Intelligence,4,11,identified_observations_not_exhaustive
+2025,HK,journal_article,Nature Methods,1,5,identified_observations_not_exhaustive
+2025,HK,journal_article,Science Robotics,1,13,identified_observations_not_exhaustive
+2025,HK,journal_article,TPAMI,128,209,identified_observations_not_exhaustive
+2025,HK,journal_review,TPAMI,2,6,identified_observations_not_exhaustive
+2025,SG,conference,ACL,108,199,identified_observations_not_exhaustive
+2025,SG,conference,CVPR,201,303,identified_observations_not_exhaustive
+2025,SG,conference,EMNLP,35,40,identified_observations_not_exhaustive
+2025,SG,conference,ICCV,205,317,identified_observations_not_exhaustive
+2025,SG,conference,ICLR,84,169,identified_observations_not_exhaustive
+2025,SG,conference,ICML,47,95,identified_observations_not_exhaustive
+2025,SG,conference,IJCAI,51,67,identified_observations_not_exhaustive
+2025,SG,conference,NeurIPS,459,561,identified_observations_not_exhaustive
+2025,SG,journal_article,Nature,3,10,identified_observations_not_exhaustive
+2025,SG,journal_article,Nature Computational Science,1,3,identified_observations_not_exhaustive
+2025,SG,journal_article,Nature Machine Intelligence,3,4,identified_observations_not_exhaustive
+2025,SG,journal_article,Nature Methods,1,9,identified_observations_not_exhaustive
+2025,SG,journal_article,TPAMI,117,139,identified_observations_not_exhaustive
+2025,SG,journal_review,Nature Computational Science,1,3,identified_observations_not_exhaustive

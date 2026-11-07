@@ -1,0 +1,30 @@
+Collecting requests<3,>=2.32 (from -r requirements.txt (line 1))
+  Using cached requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+Collecting beautifulsoup4<5,>=4.12 (from -r requirements.txt (line 2))
+  Downloading beautifulsoup4-4.15.0-py3-none-any.whl.metadata (3.8 kB)
+Collecting charset_normalizer<4,>=2 (from requests<3,>=2.32->-r requirements.txt (line 1))
+  Downloading charset_normalizer-3.5.2-cp314-cp314-win_amd64.whl.metadata (47 kB)
+Collecting idna<4,>=2.5 (from requests<3,>=2.32->-r requirements.txt (line 1))
+  Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+Collecting urllib3<3,>=1.26 (from requests<3,>=2.32->-r requirements.txt (line 1))
+  Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+Collecting certifi>=2023.5.7 (from requests<3,>=2.32->-r requirements.txt (line 1))
+  Downloading certifi-2026.10.19-py3-none-any.whl.metadata (2.5 kB)
+Collecting soupsieve>=1.6.1 (from beautifulsoup4<5,>=4.12->-r requirements.txt (line 2))
+  Downloading soupsieve-3.0.3-py3-none-any.whl.metadata (4.4 kB)
+Collecting typing-extensions>=4.0.0 (from beautifulsoup4<5,>=4.12->-r requirements.txt (line 2))
+  Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Using cached requests-2.34.2-py3-none-any.whl (73 kB)
+Downloading beautifulsoup4-4.15.0-py3-none-any.whl (109 kB)
+Downloading charset_normalizer-3.5.2-cp314-cp314-win_amd64.whl (210 kB)
+Downloading idna-3.20-py3-none-any.whl (69 kB)
+Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+Downloading certifi-2026.10.19-py3-none-any.whl (136 kB)
+Downloading soupsieve-3.0.3-py3-none-any.whl (41 kB)
+Using cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Installing collected packages: urllib3, typing-extensions, soupsieve, idna, charset_normalizer, certifi, requests, beautifulsoup4
+
+Successfully installed beautifulsoup4-4.15.0 certifi-2026.10.19 charset_normalizer-3.5.2 idna-3.20 requests-2.34.2 soupsieve-3.0.3 typing-extensions-4.16.0 urllib3-2.8.0
+
+[notice] A new release of pip is available: 26.2.1 -> 26.2.2
+[notice] To update, run: C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP\scripts\ai_research_collector\.venv\Scripts\python.exe -m pip install --upgrade pip

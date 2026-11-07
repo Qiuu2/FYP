@@ -1,0 +1,187 @@
+/* eslint-disable no-underscore-dangle */
+class API {
+  /**
+   * get and cache config object
+   * @return object
+   */
+  static getConfig() {
+    if (API.configCache == null) {
+      API.configCache = $.get("serve_config.json");
+    }
+    return API.configCache;
+  }
+
+  static getCalendar() {
+    return $.get("serve_main_calendar.json");
+  }
+
+  static getPapers(url) {
+    if (API.paperCache == null) {
+      API.paperCache = $.get(url).then(d_raw => {
+        const non_posters = {};
+        d_raw.results.filter(d => d.eventtype !== "Poster")
+            .forEach(d => non_posters[d.id] = d)
+
+        return d_raw.results.filter(d => d.eventtype === "Poster").map(d => {
+          const emed = d.eventmedia
+              .filter(em => em.detailed_kind == "thumb" && em.resourcetype === 'EventmediaImageFile')[0]
+          const thumbnail = emed ? emed.file : '';
+          const sessions = [{
+            name: d.session,
+            starttime: d.starttime,
+            room: d.room_name
+          }];
+          const reIDs = d.related_events_ids;
+          const extra_session_count = reIDs.length;
+          if (reIDs && extra_session_count > 0) {
+            reIDs.forEach(id => {
+              const special_event = non_posters[id];
+              if (special_event) {
+                sessions.push({
+                  name: special_event.session,
+                  starttime: special_event.starttime,
+                  room: special_event.room_name
+                });
+              }
+            });
+          }
+
+          return {
+            id: d.id,
+            UID: d.uid,
+            url: d.virtualsite_url,
+            title: d.name,
+            authors: d.authors.map(a => a.fullname),
+            keywords: d.keywords,
+            topic: d.topic,
+            eventtype: d.eventtype,
+            starttime: d.starttime,
+            endtime: d.endtime,
+            poster_position: d.poster_position,
+            sessions,
+            paper_pdf_url: d.paper_pdf_url,
+            paper_thumbnail: thumbnail,
+            has_thumbnail: !!emed,
+            extra_session_count,
+            abstract: d.abstract
+          };
+        });
+      });
+    }
+    return API.paperCache;
+  }
+
+  /**
+   * Lazily load and cache the abstracts map ({event_id: "abstract", ...}).
+   * Abstracts are split out of the main orals-posters JSON to keep it small;
+   * they are only fetched on demand (detail layout / visualization page).
+   * @param url
+   * @return {Promise<object>}
+   */
+  static loadAbstracts(url) {
+    if (API.abstractCache == null) {
+      API.abstractCache = Promise.resolve($.get(url))
+          .then(d => {
+            API.abstractMap = d || {};
+            return API.abstractMap;
+          })
+          .catch(() => {
+            // No separate abstracts file (older conferences still embed
+            // abstracts in the main orals-posters JSON). Resolve to an empty
+            // map so callers fall back to abstracts already on the paper objects.
+            API.abstractMap = {};
+            return API.abstractMap;
+          });
+    }
+    return API.abstractCache;
+  }
+
+  static getPapersAndProjection(url_papers, url_positions) {
+    return Promise.all([
+      API.getPapers(url_papers),
+      $.get(url_positions),
+    ]);
+  }
+
+  /**
+   * lazy store creation/loading - not needed if own store backend
+   * @see API.storeIDs
+   * @return object
+   */
+  static getStore(storeID) {
+    if (storeID === API.storeIDs.bookmarked) {
+      return API.bmPersistor;
+    }
+    if (!(storeID in API._storeCaches)) {
+      API._storeCaches[storeID] = new Persistor(
+        `miniconf-${API.getConfig().name}-${storeID}`
+      );
+    }
+    return API._storeCaches[storeID];
+  }
+
+  /**
+   * get marks for all papers of a specific type
+   * @see API.storeIDs
+   * @param storeID
+   * @return {Promise<object>}
+   */
+  static async markGetAll(storeID) {
+    return API.getStore(storeID).getAll();
+  }
+
+  static async markSet(storeID, paperID, read = true) {
+    return API.getStore(storeID).set(paperID, read);
+  }
+
+  static async markGet(storeID, paperID) {
+    return API.getStore(storeID).get(paperID);
+  }
+
+  /*
+   * Resource paths
+   */
+
+  /**
+   * Link to thumbnails derived from paper object
+   * @param paper
+   * @return {string}
+   */
+  static thumbnailPath(paper) {
+    return paper.paper_thumbnail
+    // return `https://media.neurips.cc/Conferences/NeurIPS2020/poster_thumbnails/${paper.UID}.png`;
+  }
+
+  /**
+   * Link to poster detail derived from paper object
+   * @param paper
+   * @return {string}
+   */
+  static posterLink(paper) {
+    if (paper.eventtype === "Demonstration") {
+      return `e_demos.html#${paper.id}`;
+    }
+    return paper.url;
+  }
+
+  /**
+   * link to the poster ICAL file for poster and repetition i
+   * @param paper
+   * @param i
+   * @return {string}
+   */
+  static posterICS(paper, i) {
+    return `webcal://iclr.github.io/iclr-images/calendars/poster_${paper.UID}.${i}.ics`;
+  }
+}
+
+API.bmPersistor = new BookmarkPersistor();
+API.configCache = null;
+API.paperCache = null;
+API.abstractCache = null;
+API.abstractMap = {};
+API._storeCaches = {};
+API.storeIDs = {
+  visited: "visited",
+  bookmarked: "bookmark",
+};

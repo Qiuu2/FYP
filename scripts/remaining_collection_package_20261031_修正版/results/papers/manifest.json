@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-11-01T19:51:31.028912+00:00",
+  "papers": 10063,
+  "unresolved_review_rows": 96926,
+  "track_review_rows": 0,
+  "complete": false,
+  "baseline_sha256": "810ca191040fb691318b84dd68c26a7334be025a67e4cc7daa717c044f88e25f",
+  "note": "Identified HK/SG affiliation observations; no missing-data imputation. Successful parsing is not universal affiliation coverage."
+}

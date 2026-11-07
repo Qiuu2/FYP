@@ -1,0 +1,45 @@
+PS C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP_数据仓库\data_repo\scripts> python bis_payments_fetch.py --full                                                                                                                            
+[19:22:07] 请求日志 → bis_cpmi_ct1_hk_sg.csv.requests.tsv（1 条可点 URL，供 R4 复核）
+[19:22:07] manifest → bis_cpmi_ct1_hk_sg.csv.manifest.json
+[19:22:07] raw/bis_cpmi_ct1_hk_sg.csv 写入 2,884 行
+[19:22:07] 请求日志 → worldbank_population_hk_sg.csv.requests.tsv（1 条可点 URL，供 R4 复核）
+[19:22:07] manifest → worldbank_population_hk_sg.csv.manifest.json
+[19:22:07] raw/worldbank_population_hk_sg.csv 写入 26 行
+
+BIS：2,884 行，60 条有值的序列
+
+与支付数字化相关的序列（城市 · 标题 · 有值年份）：
+   HK  Hong Kong SAR - Number of Cards, Cards, with an e-money function,all   2016–2024（26 年）
+   HK  Hong Kong SAR - Number of Cashless payments, Card and e-money payments 2012–2024（52 年）
+   HK  Hong Kong SAR - Number of Cashless payments, Card and e-money payments 2012–2024（52 年）
+   HK  Hong Kong SAR - Number of Cashless payments, Card and e-money payments 2017–2024（31 年）
+   HK  Hong Kong SAR - Number of Fast payments, All                           2018–2024（27 年）
+   HK  Hong Kong SAR - Number of Fast payments, Credit transfers              2018–2024（7 年）
+   HK  Hong Kong SAR - Number of Fast payments, Direct debits                 2018–2024（7 年）
+   HK  Hong Kong SAR - Number of Fast payments, Other payment instruments     2018–2024（7 年）
+   HK  Hong Kong SAR - Population                                             2012–2024（13 年）
+   HK  Hong Kong SAR - Value of Cashless payments, Card and e-money payments, 2012–2024（78 年）
+   HK  Hong Kong SAR - Value of Cashless payments, Card and e-money payments, 2012–2024（78 年）
+   HK  Hong Kong SAR - Value of Cashless payments, Card and e-money payments, 2017–2024（47 年）
+   HK  Hong Kong SAR - Value of Fast payments, All                            2018–2024（34 年）
+   HK  Hong Kong SAR - Value of Fast payments, Credit transfers               2018–2024（7 年）
+   HK  Hong Kong SAR - Value of Fast payments, Direct debits                  2018–2024（7 年）
+   HK  Hong Kong SAR - Value of Fast payments, Other payment instruments      2018–2024（7 年）
+   SG  Singapore - Number of Cards, Cards, with an e-money function,all       2012–2019（23 年）
+   SG  Singapore - Number of Cashless payments, All Card and e-money payments 2012–2024（64 年）
+   SG  Singapore - Number of Cashless payments, Card and e-money payments, by 2013–2024（59 年）
+   SG  Singapore - Number of Cashless payments, Card and e-money payments, by 2012–2024（65 年）
+   SG  Singapore - Number of Cashless payments, Card and e-money payments, e- 2012–2024（65 年）
+   SG  Singapore - Number of Cashless payments, Credit transfers              2012–2024（65 年）
+   SG  Singapore - Number of Fast payments, All                               2015–2024（49 年）
+   SG  Singapore - Population                                                 2012–2024（13 年）
+   SG  Singapore - Value of Cashless payments, All Card and e-money payments  2012–2024（90 年）
+   SG  Singapore - Value of Cashless payments, Card and e-money payments, by  2012–2024（90 年）
+   SG  Singapore - Value of Cashless payments, Card and e-money payments, by  2012–2024（91 年）
+   SG  Singapore - Value of Cashless payments, Card and e-money payments, e-m 2012–2024（91 年）
+   SG  Singapore - Value of Cashless payments, Credit transfers               2012–2024（91 年）
+   SG  Singapore - Value of Fast payments, All                                2015–2024（59 年）
+
+世界银行人口：26 行 hk 2012–2024；sg 2012–2024
+
+完成。把 raw/bis_cpmi_ct1_hk_sg.csv、raw/worldbank_population_hk_sg.csv、manifests/ 下对应的 manifest 与 requests.tsv、以及这段运行输出一起发给组长。

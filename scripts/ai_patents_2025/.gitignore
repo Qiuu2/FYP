@@ -1,7 +1,4 @@
-results/
-*.part
-patents_raw_2025.csv
-config/new_assignees.csv
+
 __pycache__/
 .venv/
 .env

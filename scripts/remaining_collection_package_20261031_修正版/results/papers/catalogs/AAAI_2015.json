@@ -1,0 +1,5399 @@
+{
+  "venue": "AAAI",
+  "year": 2015,
+  "rows": [
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Kernel Density Estimation for Text-Based Geolocation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9149",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Are Features Equally Representative? A Feature-Centric Recommendation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9150",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Collaborative Topic Ranking: Leveraging Item Meta-Data for Sparsity Reduction",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9151",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Retweet Behavior Prediction Using Hierarchical Dirichlet Process",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9152",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "TrustSVD: Collaborative Filtering with Both the Explicit and Implicit Influence of User Trust and of Item Ratings",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9153",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Efficient Top-k Shortest-Path Distance Queries on Large Networks by Pruned Landmark Labeling",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9154",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Incorporating Implicit Link Preference Into Overlapping Community Detection",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9155",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Causal Inference via Sparse Additive Models with Application to Online Advertising",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9156",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Burst Time Prediction in Cascades",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9157",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "COT: Contextual Operating Tensor for Context-Aware Recommender Systems",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9158",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Stochastic Model for Detecting Heterogeneous Link Communities in Complex Networks",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9159",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "On the Scalable Learning of Stochastic Blockmodel",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9160",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Multi-Document Summarization Based on Two-Level Sparse Representation Model",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9161",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Clustering-Based Collaborative Filtering for Link Prediction",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9162",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A New Granger Causal Model for Influence Evolution in Dynamic Social Networks: The Case of DBLP",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9163",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "RAIN: Social Role-Aware Information Diffusion",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9164",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Personalized Interest-Forgetting Markov Model for Recommendations",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9165",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Mining Query Subtopics from Questions in Community Question Answering",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9166",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Recommending Positive Links in Signed Social Networks by Optimizing a Generalized AUC",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9167",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "VELDA: Relating an Image Tweet’s Text and Images",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9168",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Trust Models for RDF Data: Semantics and Complexity",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9169",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Leveraging Social Foci for Information Seeking in Social Media",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9170",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Perceiving Group Themes from Collective Social and Behavioral Information",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9171",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Will You \"Reconsume\" the Near Past? Fast Prediction on Short-Term Reconsumption Behaviors",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9172",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Relating Romanized Comments to News Articles by Inferring Multi-Glyphic Topical Correspondence",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9173",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Inferring Same-As Facts from Linked Data: An Iterative Import-by-Query Approach",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9174",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Consistent Knowledge Discovery from Evolving Ontologies",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9175",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Extracting Bounded-Level Modules from Deductive RDF Triplestores",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9176",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Using Description Logics for RDF Constraint Checking and Closed-World Recognition",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9177",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Question/Answer Matching for CQA System via Combining Lexical and Sequential Information",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9178",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Robust Image Sentiment Analysis Using Progressively Trained and Domain Transferred Deep Networks",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9179",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "FACES: Diversity-Aware Entity Summarization Using Incremental Hierarchical Conceptual Clustering",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9180",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Cross-Modal Image Clustering via Canonical Correlation Analysis",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9181",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Tri-Role Topic Model for Domain-Specific Question Answering",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9182",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Content-Based Collaborative Filtering for News Topic Recommendation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9183",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Visually Interpreting Names as Demographic Attributes by Exploiting Click-Through Data",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9184",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Hybrid Approach of Classifier and Clustering for Solving the Missing Node Problem",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9185",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Prajna: Towards Recognizing Whatever You Want from Images without Image Labeling",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9186",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Handling Owl:sameAs via Rewriting",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9187",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Extended Property Paths: Writing More SPARQL Queries in a Succinct Way",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9188",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "An Axiomatic Approach to Link Prediction",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9189",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Estimating Temporal Dynamics of Human Emotions",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9190",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "On Information Coverage for Location Category Based Point-of-Interest Recommendation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9191",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Lower and Upper Bounds for SPARQL Queries over OWL Ontologies",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9192",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Exploring Key Concept Paraphrasing Based on Pivot Language Translation for Question Retrieval",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9193",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Representation Learning for Aspect Category Detection in Online Reviews",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9194",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "High-Performance Distributed ML at Scale through Parameter Server Consistency Models",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9195",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Mining User Intents in Twitter: A Semi-Supervised Approach to Inferring Intent Categories for Tweets",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9196",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Effectively Predicting Whether and When a Topic Will Become Prevalent in a Social Network",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9197",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "An EBMC-Based Approach to Selecting Types for Entity Filtering",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9198",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Probabilistic Model for Bursty Topic Discovery in Microblogs",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9199",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Approximating Model-Based ABox Revision in DL-Lite: Theory and Practice",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9200",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Modeling with Node Degree Preservation Can Accurately Find Communities",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9201",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Sampling Representative Users from Large Social Networks",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9202",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "DynaDiffuse: A Dynamic Diffusion Model for Continuous Time Constrained Influence Maximization",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9203",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Predicting the Demographics of Twitter Users from Website Traffic Data",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9204",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Using Matched Samples to Estimate the Effects of Exercise on Mental Health via Twitter",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9205",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Uniform Interpolation and Forgetting for ALC Ontologies with ABoxes",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9206",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Incorporating Assortativity and Degree Dependence into Scalable Network Models",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9207",
+      "track": "AAAI Technical Track: AI and the Web",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "R1SVM: A Randomised Nonlinear Approach to Large-Scale Anomaly Detection",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9208",
+      "track": "AAAI Technical Track: Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Multivariate Timeseries Modeling Approach to Severity of Illness Assessment and Forecasting in ICU with Sparse, Heterogeneous Clinical Data",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9209",
+      "track": "AAAI Technical Track: Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Probabilistic Graphical Models for Boosting Cardinal and Ordinal Peer Grading in MOOCs",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9210",
+      "track": "AAAI Technical Track: Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Embedded Unsupervised Feature Selection",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9211",
+      "track": "AAAI Technical Track: Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Person Identification Using Anthropometric and Gait Data from Kinect Sensor",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9212",
+      "track": "AAAI Technical Track: Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Learning User-Specific Latent Influence and Susceptibility from Information Cascades",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9213",
+      "track": "AAAI Technical Track: Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Personalized Tag Recommendation through Nonlinear Tensor Factorization Using Gaussian Kernel",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9214",
+      "track": "AAAI Technical Track: Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Efficient Computation of Semivalues for Game-Theoretic Network Centrality",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9215",
+      "track": "AAAI Technical Track: Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "An Agent-Based Model of the Emergence and Transmission of a Language System for the Expression of Logical Combinations",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9216",
+      "track": "AAAI Technical Track: Cognitive Modeling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Kickback Cuts Backprop's Red-Tape: Biologically Plausible Credit Assignment in Neural Networks",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9217",
+      "track": "AAAI Technical Track: Cognitive Modeling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Learning Plausible Inferences from Semantic Web Knowledge by Combining Analogical Generalization with Structured Logistic Regression",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9218",
+      "track": "AAAI Technical Track: Cognitive Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Heuristic Induction of Rate-Based Process Models",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9219",
+      "track": "AAAI Technical Track: Cognitive Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "An Association Network for Computing Semantic Relatedness",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9220",
+      "track": "AAAI Technical Track: Cognitive Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "An Entorhinal-Hippocampal Model for Simultaneous Cognitive Map Building",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9221",
+      "track": "AAAI Technical Track: Cognitive Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Bayesian Affect Control Theory of Self",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9222",
+      "track": "AAAI Technical Track: Cognitive Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Automatic Ellipsis Resolution:  Recovering Covert Information from Text",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9223",
+      "track": "AAAI Technical Track: Cognitive Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Spontaneous Retrieval from Long-Term Memory for a Cognitive Architecture",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9224",
+      "track": "AAAI Technical Track: Cognitive Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Automated Construction of Visual-Linguistic Knowledge via Concept Learning from Cartoon Videos",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9225",
+      "track": "AAAI Technical Track: Cognitive Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Moral Decision-Making by Analogy: Generalizations versus Exemplars",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9226",
+      "track": "AAAI Technical Track: Cognitive Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Ontology-Based Information Extraction with a Cognitive Agent",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9227",
+      "track": "AAAI Technical Track: Cognitive Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Extending Analogical Generalization with Near-Misses",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9228",
+      "track": "AAAI Technical Track: Cognitive Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Inference Graphs: Combining Natural Deduction and Subsumption Inference in a Concurrent Reasoner",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9229",
+      "track": "AAAI Technical Track: Cognitive Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "AffectiveSpace 2: Enabling Affective Intuition for Concept-Level Sentiment Analysis",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9230",
+      "track": "AAAI Technical Track: Cognitive Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Dialogue Understanding in a Logic of Action and Belief",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9231",
+      "track": "AAAI Technical Track: Cognitive Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Automatic Generation of Alternative Starting Positions for Simple Traditional Board Games",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9287",
+      "track": "AAAI Technical Track: Game Playing and Interactive Entertainment",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Continuity Editing for 3D Animation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9288",
+      "track": "AAAI Technical Track: Game Playing and Interactive Entertainment",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Faster Core Constraint Generation Algorithm for Combinatorial Auctions",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9289",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Exploring Information Asymmetry in Two-Stage Security Games",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9290",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Congestion Games with Distance-Based Strict Uncertainty",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9291",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Voting Rules As Error-Correcting Codes",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9292",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Assessing the Robustness of Cremer-McLean with Automated Mechanism Design",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9293",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Conventional Machine Learning for Social Choice",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9294",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Optimal Machine Strategies to Commit to in Two-Person Repeated Games",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9295",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Stable Invitations",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9296",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Facility Location with Double-Peaked Preferences",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9297",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Mechanism Design Approach to Measure Awareness",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9298",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Stackelberg Game Approach for Incentivizing Participation in Online Educational Forums with Heterogeneous Student Population",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9299",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Cooperative Game Solution Concepts that Maximize Stability under Noise",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9300",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Learning Valuation Distributions from Partial Observation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9301",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Computing Nash Equilibrium in Interdependent Defense Games",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9302",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "The Pricing War Continues: On Competitive Multi-Item Pricing",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9303",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Sequence-Form Algorithm for Computing Stackelberg Equilibria in Extensive-Form Games",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9304",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Hedonic Coalition Formation in Networks",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9305",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Graphical Representation for Games in Partition Function Form",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9306",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Truthful Mechanisms without Money for Non-Utilitarian Heterogeneous Facility Location",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9307",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Approximating Optimal Social Choice under Metric Preferences",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9308",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Envy-Free Cake-Cutting in Two Dimensions",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9309",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Do Capacity Constraints Constrain Coalitions?",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9310",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Incentives for Subjective Evaluations with Private Beliefs",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9311",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "On a Competitive Secretary Problem",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9312",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Price Evolution in a Continuous Double Auction Prediction Market With a Scoring-Rule Based Market Maker",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9313",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Unifying Hierarchy of Valuations with Complements and Substitutes",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9314",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Elicitation for Aggregation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9315",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Fair Information Sharing for Treasure Hunting",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9316",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Audit Games with Multiple Defender Resources",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9317",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Complexity Approach for Core-Selecting Exchange with Multiple Indivisible Goods under Lexicographic Preferences",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9318",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Combining Compact Representation and Incremental Generation in Large Games with Sequential Strategies",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9319",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Controlled School Choice with Soft Bounds and Overlapping Types",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9320",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "The Complexity of Recognizing Incomplete Single-Crossing Preferences",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9321",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Strategy-Proof and Efficient Kidney Exchange Using a Credit Mechanism",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9322",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Security Games with Protection Externalities",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9323",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Justified Representation in Approval-Based Committee Voting",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9324",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Balanced Trade Reduction for Dual-Role Exchange Markets",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9325",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Mechanism Design for Team Formation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9326",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Optimal Personalized Filtering Against Spear-Phishing Attacks",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9327",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Analysis of Equilibria in Iterative Voting Schemes",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9328",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Matching with Dynamic Ordinal Preferences",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9329",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Strategic Voting and Strategic Candidacy",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9330",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "On the Convergence of Iterative Voting: How Restrictive Should Restricted Dynamics Be?",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9331",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Online Learning and Profit Maximization from Revealed Preferences",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9332",
+      "track": "AAAI Technical Track: Game Theory and Economic Paradigms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Recursive Best-First Search with Bounded Overhead",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9352",
+      "track": "AAAI Technical Track: Heuristic Search and Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Optimal Column Subset Selection by A-Star Search",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9353",
+      "track": "AAAI Technical Track: Heuristic Search and Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Initializing Bayesian Hyperparameter Optimization via Meta-Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9354",
+      "track": "AAAI Technical Track: Heuristic Search and Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Reusing Previously Found A* Paths for Fast Goal-Directed Navigation in Dynamic Terrain",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9355",
+      "track": "AAAI Technical Track: Heuristic Search and Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Theoretical Analysis of Optimization by Gaussian Continuation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9356",
+      "track": "AAAI Technical Track: Heuristic Search and Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Two Weighting Local Search for Minimum Vertex Cover",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9357",
+      "track": "AAAI Technical Track: Heuristic Search and Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Lagrangian Decomposition Algorithm for Allocating Marketing Channels",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9358",
+      "track": "AAAI Technical Track: Heuristic Search and Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "On Unconstrained Quasi-Submodular Function Optimization",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9359",
+      "track": "AAAI Technical Track: Heuristic Search and Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Solving Hard Stable Matching Problems via Local Search and Cooperative Parallelization",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9360",
+      "track": "AAAI Technical Track: Heuristic Search and Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Improved Local Search for Binary Matrix Factorization",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9361",
+      "track": "AAAI Technical Track: Heuristic Search and Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Incremental Weight Elicitation for Multiobjective State Space Search",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9362",
+      "track": "AAAI Technical Track: Heuristic Search and Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "TDS+: Improving Temperature Discovery Search",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9363",
+      "track": "AAAI Technical Track: Heuristic Search and Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Value-Directed Compression of Large-Scale Assignment Problems",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9364",
+      "track": "AAAI Technical Track: Heuristic Search and Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Solving Distributed Constraint Optimization Problems Using Logic Programming",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9365",
+      "track": "AAAI Technical Track: Heuristic Search and Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Exploiting Variable Associations to Configure Efficient Local Search in Large-Scale Set Partitioning Problems",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9366",
+      "track": "AAAI Technical Track: Heuristic Search and Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Massively Parallel A* Search on a GPU",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9367",
+      "track": "AAAI Technical Track: Heuristic Search and Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Complexity Results for Compressing Optimal Paths",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9368",
+      "track": "AAAI Technical Track: Heuristic Search and Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Resilient Upgrade of Electrical Distribution Grids",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9369",
+      "track": "AAAI Technical Track: Heuristic Search and Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Convergent Plans for Large-Scale Evacuations",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9370",
+      "track": "AAAI Technical Track: Heuristic Search and Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Pruning Game Tree by Rollouts",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9371",
+      "track": "AAAI Technical Track: Heuristic Search and Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Stochastic Local Search for Satisfiability Modulo Theories",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9372",
+      "track": "AAAI Technical Track: Heuristic Search and Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "BDD-Constrained Search: A Unified Approach to Constrained Shortest Path Problems",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9373",
+      "track": "AAAI Technical Track: Heuristic Search and Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Limitations of Front-To-End Bidirectional Heuristic Search",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9374",
+      "track": "AAAI Technical Track: Heuristic Search and Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Efficient Benchmarking of Hyperparameter Optimizers via Surrogates",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9375",
+      "track": "AAAI Technical Track: Heuristic Search and Optimization",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Providing Arguments in Discussions Based on the Prediction of Human Argumentative Behavior",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9333",
+      "track": "AAAI Technical Track: Humans and AI",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Predicting Emotion Perception Across Domains: A Study of Singing and Speaking",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9334",
+      "track": "AAAI Technical Track: Humans and AI",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "When Suboptimal Rules",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9335",
+      "track": "AAAI Technical Track: Humans and AI",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "On the Impossibility of Convex Inference in Human Computation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9336",
+      "track": "AAAI Technical Track: Human-Computation and Crowd Sourcing",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Efficient Task Sub-Delegation for Crowdsourcing",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9337",
+      "track": "AAAI Technical Track: Human-Computation and Crowd Sourcing",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Crowdsourcing Complex Workflows under Budget Constraints",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9338",
+      "track": "AAAI Technical Track: Human-Computation and Crowd Sourcing",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "CrowdWON: A Modelling Language for Crowd Processes based on Workflow Nets",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9339",
+      "track": "AAAI Technical Track: Human-Computation and Crowd Sourcing",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Novel Mechanisms for Online Crowdsourcing with Unreliable, Strategic Agents",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9340",
+      "track": "AAAI Technical Track: Human-Computation and Crowd Sourcing",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Incentive Networks",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9341",
+      "track": "AAAI Technical Track: Human-Computation and Crowd Sourcing",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Collaboration in Social Problem-Solving: When Diversity Trumps Network Efficiency",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9342",
+      "track": "AAAI Technical Track: Human-Computation and Crowd Sourcing",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Acquiring Speech Transcriptions Using Mismatched Crowdsourcing",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9343",
+      "track": "AAAI Technical Track: Human-Computation and Crowd Sourcing",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Answering Conjunctive Queries over EL Knowledge Bases with Transitive and Reflexive Roles",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9386",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Belief Revision with General Epistemic States",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9387",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Grounded Fixpoints",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9388",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Parallelized Hitting Set Computation for Model-Based Diagnosis",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9389",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "An Abstract View on Modularity in Knowledge Representation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9390",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Structured Embedding via Pairwise Relations and Long-Range Interactions in Knowledge Base",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9391",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "The Relative Expressiveness of Abstract Argumentation and Logic Programming",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9392",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Towards Tractable and Practical ABox Abduction over Inconsistent Description Logic Ontologies",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9393",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Interactive Query-Based Debugging of ASP Programs",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9394",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Exploiting Parallelism for Hard Problems in Abstract Argumentation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9395",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "XPath for DL Ontologies",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9396",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "On Elementary Loops and Proper Loops for Disjunctive Logic Programs",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9397",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "asprin: Customizing Answer Set Preferences without a Headache",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9398",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Splitting a Logic Program Revisited",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9399",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Solving and Explaining Analogy Questions Using Semantic Networks",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9400",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Exploring the KD45 Property of a Kripke Model After the Execution of an Action Sequence",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9401",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Syntax-Independent Approach to Forgetting in Disjunctive Logic Programs",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9402",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Learning Partial Lexicographic Preference Trees over Combinatorial Domains",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9403",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Existential Rule Languages with Finite Chase: Complexity and Expressiveness",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9404",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Action Language BC+: Preliminary Report",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9405",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Tractable Interval Temporal Propositional and Description Logics",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9406",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Projection in the Epistemic Situation Calculus with Belief Conditionals",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9407",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "LARS: A Logic-Based Framework for Analyzing Reasoning over Streams",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9408",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Incremental Update of Datalog Materialisation: the Backward/Forward Algorithm",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9409",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Minimizing User Involvement for Accurate Ontology Matching Problems",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9410",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Pearl's Causality in a Logical Setting",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9411",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Partial Meet Revision and Contraction in Logic Programs",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9412",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Instance-Driven Ontology Evolution in DL-Lite",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9413",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "From Classical to Consistent Query Answering under Existential Rules",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9414",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Belief Revision Games",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9415",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Logic for Reasoning About Game Strategies",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9416",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Logic Programming in Assumption-Based Argumentation Revisited - Semantics and Graphical Representation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9417",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Ontology Module Extraction via Datalog Reasoning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9418",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Knowledge Forgetting in Circumscription: A Preliminary Report",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9419",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "On Computing Explanations in Argumentation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9420",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Comparison of Qualitative and Metric Spatial Relation Models for Scene Understanding",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9421",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "How Many Diagnoses Do We Need?",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9422",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "On the Role of Canonicity in Knowledge Compilation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9423",
+      "track": "AAAI Technical Track: Knowledge Representation and Reasoning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "SCRAM: Scalable Collision-avoiding Role Assignment with Minimal-Makespan for Formational Positioning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9424",
+      "track": "AAAI Technical Track: Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Distributed Multiplicative Weights Methods for DCOP",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9425",
+      "track": "AAAI Technical Track: Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "An Empirical Study on the Practical Impact of Prior Beliefs over Policy Types",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9426",
+      "track": "AAAI Technical Track: Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Multi-Agent Pathfinding as a Combinatorial Auction",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9427",
+      "track": "AAAI Technical Track: Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Cooperating with Unknown Teammates in Complex Domains: A Robot Soccer Case Study of Ad Hoc Teamwork",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9428",
+      "track": "AAAI Technical Track: Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Elections with Few Voters: Candidate Control Can Be Easy",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9429",
+      "track": "AAAI Technical Track: Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Multi-Agent Path Finding on Strongly Biconnected Digraphs",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9430",
+      "track": "AAAI Technical Track: Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Finding a Collective Set of Items: From Proportional Multirepresentation to Group Recommendation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9431",
+      "track": "AAAI Technical Track: Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Fully Proportional Representation with Approval Ballots: Approximating the MaxCover Problem with Bounded Frequencies in FPT Time",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9432",
+      "track": "AAAI Technical Track: Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Distributing Coalition Value Calculations to Coalition Members",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9433",
+      "track": "AAAI Technical Track: Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Fast Convention Formation in Dynamic Networks Using Topological Knowledge",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9434",
+      "track": "AAAI Technical Track: Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Plurality Voting Under Uncertainty",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9435",
+      "track": "AAAI Technical Track: Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Generalization Analysis for Game-Theoretic Machine Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9436",
+      "track": "AAAI Technical Track: Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Automated Analysis of Commitment Protocols Using Probabilistic Model Checking",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9437",
+      "track": "AAAI Technical Track: Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Verification of Relational Multiagent Systems with Data Types",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9438",
+      "track": "AAAI Technical Track: Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Scalable Planning and Learning for Multiagent POMDPs",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9439",
+      "track": "AAAI Technical Track: Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Multi-Robot Auctions for Allocation of Tasks with Temporal Constraints",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9440",
+      "track": "AAAI Technical Track: Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Cognitive Social Learners: An Architecture for Modeling Normative Behavior",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9441",
+      "track": "AAAI Technical Track: Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Counter Abstraction Technique for the Verification of Robot Swarms",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9442",
+      "track": "AAAI Technical Track: Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Cupid: Commitments in Relational Algebra",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9443",
+      "track": "AAAI Technical Track: Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Verifying and Synthesising Multi-Agent Systems against One-Goal Strategy Logic Specifications",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9444",
+      "track": "AAAI Technical Track: Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Solving Games with Functional Regret Estimation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9445",
+      "track": "AAAI Technical Track: Multiagent Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Lifting Model Sampling for General Game Playing to Incomplete-Information Models",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9675",
+      "track": "AAAI Technical Track: Reasoning under Uncertainty",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Just Count the Satisfied Groundings: Scalable Local-Search and Sampling Based Inference in MLNs",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9676",
+      "track": "AAAI Technical Track: Reasoning under Uncertainty",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Representing Aggregators in Relational Probabilistic Models",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9677",
+      "track": "AAAI Technical Track: Reasoning under Uncertainty",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Lifted Probabilistic Inference for Asymmetric Graphical Models",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9678",
+      "track": "AAAI Technical Track: Reasoning under Uncertainty",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Recovering Causal Effects from Selection Bias",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9679",
+      "track": "AAAI Technical Track: Reasoning under Uncertainty",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Bayesian Networks Specified Using Propositional and Relational Constructs: Combined, Data, and Domain Complexity",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9680",
+      "track": "AAAI Technical Track: Reasoning under Uncertainty",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Learning to Reject Sequential Importance Steps for Continuous-Time Bayesian Networks",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9681",
+      "track": "AAAI Technical Track: Reasoning under Uncertainty",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Linear-Time Gibbs Sampling in Piecewise Graphical Models",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9682",
+      "track": "AAAI Technical Track: Reasoning under Uncertainty",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Optimal Cost Almost-Sure Reachability in POMDPs",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9683",
+      "track": "AAAI Technical Track: Reasoning under Uncertainty",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Value of Information Based on Decision Robustness",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9684",
+      "track": "AAAI Technical Track: Reasoning under Uncertainty",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Loss-Calibrated Monte Carlo Action Selection",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9685",
+      "track": "AAAI Technical Track: Reasoning under Uncertainty",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "An Exact Algorithm for Solving Most Relevant Explanation in Bayesian Networks",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9686",
+      "track": "AAAI Technical Track: Reasoning under Uncertainty",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Hierarchical Monte-Carlo Planning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9687",
+      "track": "AAAI Technical Track: Reasoning under Uncertainty",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "On Interruptible Pure Exploration in Multi-Armed Bandits",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9688",
+      "track": "AAAI Technical Track: Reasoning under Uncertainty",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "An Improved Lower Bound for Bayesian Network Structure Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9689",
+      "track": "AAAI Technical Track: Reasoning under Uncertainty",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Knowledge-Based Probabilistic Logic Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9690",
+      "track": "AAAI Technical Track: Reasoning under Uncertainty",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Stable Model Counting and Its Application in Probabilistic Logic Programming",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9691",
+      "track": "AAAI Technical Track: Reasoning under Uncertainty",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "On the Decreasing Power of Kernel and Distance Based Nonparametric Hypothesis Tests in High Dimensions",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9692",
+      "track": "AAAI Technical Track: Reasoning under Uncertainty",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Chance-Constrained Scheduling via Conflict-Directed Risk Allocation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9693",
+      "track": "AAAI Technical Track: Reasoning under Uncertainty",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Submodular Surrogates for Value of Information",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9694",
+      "track": "AAAI Technical Track: Reasoning under Uncertainty",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Solving Uncertain MDPs with Objectives that Are Separable over Instantiations of Model Uncertainty",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9695",
+      "track": "AAAI Technical Track: Reasoning under Uncertainty",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Nonparametric Scoring Rules",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9696",
+      "track": "AAAI Technical Track: Reasoning under Uncertainty",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Egalitarian Collective Decision Making under Qualitative Possibilistic Uncertainty: Principles and Characterization",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9697",
+      "track": "AAAI Technical Track: Reasoning under Uncertainty",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Better Be Lucky than Good: Exceeding Expectations in MDP Evaluation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9698",
+      "track": "AAAI Technical Track: Reasoning under Uncertainty",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "On Fairness in Decision-Making under Uncertainty: Definitions, Computation, and Comparison",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9699",
+      "track": "AAAI Technical Track: Reasoning under Uncertainty",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Tighter Value Function Bounds for Bayesian Reinforcement Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9700",
+      "track": "AAAI Technical Track: Reasoning under Uncertainty",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Representation Discovery for MDPs Using Bisimulation Metrics",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9747",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Reward Shaping for Model-Based Bayesian Reinforcement Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9702",
+      "track": "AAAI Technical Track: Reasoning under Uncertainty",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Approximately Optimal Risk-Averse Routing Policies via Adaptive Discretization",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9703",
+      "track": "AAAI Technical Track: Reasoning under Uncertainty",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "This Time the Robot Settles for a Cost: A Quantitative Approach to Temporal Logic Planning with Partial Satisfaction",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9670",
+      "track": "AAAI Technical Track: Robotics",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Robot Learning Manipulation Action Plans by \"Watching\" Unconstrained Videos from the World Wide Web",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9671",
+      "track": "AAAI Technical Track: Robotics",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Proximal Operators for Multi-Agent Path Planning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9672",
+      "track": "AAAI Technical Track: Robotics",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Spatio-Spectral Exploration Combining In Situ and Remote Measurements",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9673",
+      "track": "AAAI Technical Track: Robotics",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Intent Prediction and Trajectory Forecasting via Predictive Inverse Linear-Quadratic Regulation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9674",
+      "track": "AAAI Technical Track: Robotics",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Metric Learning Driven Multi-Task Structured Output Optimization for Robust Keypoint Tracking",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9783",
+      "track": "AAAI Technical Track: Vision",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Compute Less to Get More: Using ORC to Improve Sparse Filtering",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9784",
+      "track": "AAAI Technical Track: Vision",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Local Sparse Model for Matching Problem",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9785",
+      "track": "AAAI Technical Track: Vision",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Sparse Deep Stacking Network for Image Classification",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9786",
+      "track": "AAAI Technical Track: Vision",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Complex Event Detection via Event Oriented Dictionary Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9787",
+      "track": "AAAI Technical Track: Vision",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Robust Subspace Clustering via Thresholding Ridge Regression",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9788",
+      "track": "AAAI Technical Track: Vision",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Automatic Topic Discovery for Multi-Object Tracking",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9789",
+      "track": "AAAI Technical Track: Vision",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Learning to Describe Video with Weak Supervision by Exploiting Negative Sentential Information",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9790",
+      "track": "AAAI Technical Track: Vision",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Multi-View Point Registration via Alternating Optimization",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9791",
+      "track": "AAAI Technical Track: Vision",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Learning Predictable and Discriminative Attributes for Visual Recognition",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9792",
+      "track": "AAAI Technical Track: Vision",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Bayesian Approach to Perceptual 3D Object-Part Decomposition Using Skeleton-Based Representations",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9793",
+      "track": "AAAI Technical Track: Vision",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Building Effective Representations for Sketch Recognition",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9794",
+      "track": "AAAI Technical Track: Vision",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Learning Face Hallucination in the Wild",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9795",
+      "track": "AAAI Technical Track: Vision",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Deep Representation Learning with Target Coding",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9796",
+      "track": "AAAI Technical Track: Vision",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Surpassing Human-Level Face Verification Performance on LFW with GaussianFace",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9797",
+      "track": "AAAI Technical Track: Vision",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Boosted Multi-Task Model for Pedestrian Detection with Occlusion Handling",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9798",
+      "track": "AAAI Technical Track: Vision",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Online Detection of Abnormal Events Using Incremental Coding Length",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9799",
+      "track": "AAAI Technical Track: Vision",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Exploring Semantic Inter-Class Relationships (SIR) for Zero-Shot Action Recognition",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9800",
+      "track": "AAAI Technical Track: Vision",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A New Computational Intelligence Model for Long-Term Prediction of Solar and Geomagnetic Activity",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9704",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Coupled Collaborative Filtering for Context-aware Recommendation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9705",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Improving Cross-Domain Recommendation through Probabilistic Cluster-Level Latent Factor Model",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9706",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Sorted Neighborhood for the Semantic Web",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9707",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Actionable Combined High Utility Itemset Mining",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9708",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Modelling Individual Negative Emotion Spreading Process with Mobile Phones",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9709",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Designing Vaccines that Are Robust to Virus Escape",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9710",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Learning Word Vectors Efficiently Using Shared Representations and Document Representations",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9711",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Spatio-Temporal Signatures of User-Centric Data: How Similar Are We?",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9712",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Acronym Disambiguation Using Word Embedding",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9713",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Stochastic Blockmodeling for Online Advertising",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9714",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Time-Sensitive Opinion Mining for Prediction",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9715",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Improving Microblog Retrieval from Exterior Corpus by Automatically Constructing Microblogging Corpus",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9716",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Query Abduction for ELH Ontologies",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9717",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Combining Ontology Class Expression Generation with Mathematical Modeling for Ontology Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9718",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Language Independent Feature Extractor",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9719",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Self-Organized Collective Decision-Making in a 100-Robot Swarm",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9720",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "GEF:  A Self-Programming Robot Using Grammatical Evolution",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9721",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Active Advice Seeking for Inverse Reinforcement Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9722",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "\"Is It Rectangular?\" Using I Spy as an Interactive, Game-Based Approach to Multimodal Robot Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9723",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Dealing with Trouble: A Data-Driven Model of a Repair Type for a Conversational Agent",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9724",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Combining Machine Learning and Crowdsourcing for Better Understanding Commodity Reviews",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9725",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Handling Uncertainty in Answer Set Programming",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9726",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Multimedia Data for the Visually Impaired",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9727",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Characterizing Performance of Consistency Algorithms  by Algorithm Configuration of Random CSP Generators",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9728",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Multi-Pass Sieve for Name Normalization",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9729",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Succinct Conceptualization of the Foundations for a Network Organization Paradigm",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9730",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Goal-Based Model of Personality for Planning-Based Narrative Generation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9731",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Accelerating SAT Solving by Common Subclause Elimination",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9732",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Just-in-Time Hierarchical Constraint Decomposition",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9733",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Effect of Spatial Pooler Initialization on Column Activity in Hierarchical Temporal Memory",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9734",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "What Is the Longest River in the USA? Semantic Parsing for Aggregation Questions",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9735",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Global Policy Construction in Modular Reinforcement Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9736",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Every Team Deserves a Second Chance: Identifying When Things Go Wrong (Student Abstract Version)",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9737",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Graphical Representation of Assumption-Based Argumentation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9738",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Planning with Numeric Timed Initial Fluents",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9739",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Predicting the Quality of User Experiences to Improve Productivity and Wellness",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9740",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Touchless Telerobotic Surgery — Is  It Possible at All?",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9741",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Active Learning for Informative Projection Retrieval",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9742",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Placing Influencing Agents in a Flock",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9743",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "On Manipulablity of Random Serial Dictatorship in Sequential Matching with Dynamic Preferences",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9744",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Sequence Labeling Approach to Deriving Word Variants",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9745",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Leveraging Common Structure to Improve Prediction across Related Datasets",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9746",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Finding Meaningful Gaps to Guide Data Acquisition for a Radiation Adjudication System",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9748",
+      "track": "Student Abstract Track",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Bayesian Active Learning-Based Robot Tutor for Children's Word-Reading Skills",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9376",
+      "track": "Integrated Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Going Beyond Literal Command-Based Instructions: Extending Robotic Natural Language Interaction Capabilities",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9377",
+      "track": "Integrated Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Learning to Manipulate Unknown Objects in Clutter by Reinforcement",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9378",
+      "track": "Integrated Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "RANSAC versus CS-RANSAC",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9379",
+      "track": "Integrated Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Integration and Evaluation of a Matrix Factorization Sequencer in Large Commercial ITS",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9380",
+      "track": "Integrated Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Tackling Mental Health by Integrating Unobtrusive Multimodal Sensing",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9381",
+      "track": "Integrated Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Pattern-Based Variant-Best-Neighbors Respiratory Motion Prediction Using Orthogonal Polynomials Approximation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9382",
+      "track": "Integrated Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Toward Mobile Robots Reasoning Like Humans",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9383",
+      "track": "Integrated Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Game-Theoretic Approach for Non-Cooperative Planning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9384",
+      "track": "Integrated Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "CORPP: Commonsense Reasoning and Probabilistic Planning, as Applied to Dialog with a Mobile Robot",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9385",
+      "track": "Integrated Systems",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Abstraction for Solving Large Incomplete-Information Games",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9757",
+      "track": "Senior Member Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Steering Evolution Strategically: Computational Game Theory and Opponent Exploitation for Treatment Planning, Drug Design, and Synthetic Biology",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9758",
+      "track": "Senior Member Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Semantic Representation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9759",
+      "track": "Senior Member Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Impact of Modeling Languages on the Theory and Practice in Planning Research",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9760",
+      "track": "Senior Member Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Machine Teaching: An Inverse Problem to Machine Learning and an Approach Toward Optimal Education",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9761",
+      "track": "Senior Member Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "On the Diagnosis of Cyber-Physical Production Systems",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9762",
+      "track": "Senior Member Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Compile!",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9763",
+      "track": "Senior Member Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Mechanism Learning with Mechanism Induced Data",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9764",
+      "track": "Senior Member Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Towards a Programmer’s Apprentice (Again)",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9765",
+      "track": "Senior Member Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Speech Adaptation in Extended Ambient Intelligence Environments",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9766",
+      "track": "Senior Member Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Conducting Neuroscience to Guide the Development of AI",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9767",
+      "track": "Senior Member Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Blended Planning and Acting: Preliminary Approach, Research Challenges",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9768",
+      "track": "Senior Member Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Achieving Intelligence Using Prototypes, Composition, and Analogy",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9769",
+      "track": "Senior Member Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Intelligent Agents for Rehabilitation and Care of Disabled and Chronic Patients",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9770",
+      "track": "Senior Member Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Emerging Architectures for Global System Science",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9771",
+      "track": "Senior Member Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Explaining Watson: Polymath Style",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9772",
+      "track": "Senior Member Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Building Strong Semi-Autonomous Systems",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9773",
+      "track": "Senior Member Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Challenges in Resource and Cost Allocation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9774",
+      "track": "Senior Member Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Towards User-Adaptive Information Visualization",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9775",
+      "track": "Senior Member Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Languages for Learning and Mining",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9776",
+      "track": "Senior Member Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Visualization Techniques for Topic Model Checking",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9268",
+      "track": "Demonstrations",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "DeepTutor: An Effective, Online Intelligent Tutoring System That Promotes Deep Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9269",
+      "track": "Demonstrations",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Crowd Motion Monitoring with Thermodynamics-Inspired Feature",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9270",
+      "track": "Demonstrations",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Inferring Latent User Properties from Texts Published in Social Media",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9271",
+      "track": "Demonstrations",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "CrowdMR: Integrating Crowdsourcing with MapReduce for AI-Hard Problems",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9272",
+      "track": "Demonstrations",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Visualizing Inference",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9273",
+      "track": "Demonstrations",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Planning-Based Assistance System for Setting Up a Home Theater",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9274",
+      "track": "Demonstrations",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Bottom-Up Demand Response by Following Local Energy Generation Voluntarily",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9275",
+      "track": "Demonstrations",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "World WordNet Database Structure: An Efficient Schema for Storing Information of WordNets of the World",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9276",
+      "track": "Demonstrations",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "The Network Data Repository with Interactive Graph Analytics and Visualization",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9277",
+      "track": "Demonstrations",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Cognitive Master Teacher",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9278",
+      "track": "Demonstrations",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Salient Object Detection via Objectness Proposals",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9279",
+      "track": "Demonstrations",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Multi-Agent Dynamic Coupling for Cooperative Vehicles Modeling",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9280",
+      "track": "Demonstrations",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Towards Cognitive Automation of Data Science",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9281",
+      "track": "Demonstrations",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "On Correcting Misspelled Queries in Email Search",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9282",
+      "track": "Demonstrations",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Gene Selection in Microarray Datasets Using Progressively Refined PSO Scheme",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9283",
+      "track": "Demonstrations",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "VecLP: A Realtime Video Recommendation System for Live TV Programs",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9284",
+      "track": "Demonstrations",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Tartanian7: A Champion Two-Player No-Limit Texas Hold'em Poker-Playing Program",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9285",
+      "track": "Demonstrations",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Circumventing Robots' Failures by Embracing Their Faults: A Practical Approach to Planning for Autonomous Construction",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9286",
+      "track": "Demonstrations",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "SimSensei Demonstration: A Perceptive Virtual Human Interviewer for Healthcare Applications",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9777",
+      "track": "Virtual Agent Demonstrations",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Cerebella: Automatic Generation of Nonverbal Behavior for Virtual Humans",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9778",
+      "track": "Virtual Agent Demonstrations",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "LOL — Laugh Out Loud",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9779",
+      "track": "Virtual Agent Demonstrations",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Interactive Narrative Planning in The Best Laid Plans",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9780",
+      "track": "Virtual Agent Demonstrations",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Using Social Relationships to Control Narrative Generation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9781",
+      "track": "Virtual Agent Demonstrations",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Scheherazade: Crowd-Powered Interactive Narrative Generation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9782",
+      "track": "Virtual Agent Demonstrations",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Knowledge Representation and Reasoning: What’s Hot",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9344",
+      "track": "What's Hot Abstracts",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "What Is Hot in CHI",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9345",
+      "track": "What's Hot Abstracts",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "What’s Hot in Crowdsourcing and Human Computation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9346",
+      "track": "What's Hot Abstracts",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "AIBIRDS: The Angry Birds Artificial Intelligence Competition",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9347",
+      "track": "What's Hot Abstracts",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "What's Hot in the SAT and ASP Competitions",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9348",
+      "track": "What's Hot Abstracts",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "BDDs Strike Back (in AI Planning)",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9349",
+      "track": "What's Hot Abstracts",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "RoboCup@Home — Benchmarking Domestic Service Robots",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9350",
+      "track": "What's Hot Abstracts",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Data Science for Social Good — 2014 KDD Highlights",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9351",
+      "track": "What's Hot Abstracts",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Sample-Targeted Clinical Trial Adaptation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9446",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Forecasting Collector Road Speeds Under High Percentage of Missing Data",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9447",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Bayesian Approach to Modeling and Detecting Communities in Signed Network",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9448",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Structured Sparsity with Group-Graph Regularization",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9449",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Large-Margin Multi-Label Causal Feature Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9450",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Propagating Ranking Functions on a Graph: Algorithms and Applications",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9451",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Tensor-Based Learning for Predicting Stock Movements",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9452",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Transaction Costs-Aware Portfolio Optimization via Fast Lowner-John Ellipsoid Approximation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9453",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Swiss-System Based Cascade Ranking for Gait-Based Person Re-Identification",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9454",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "On Machine Learning towards Predictive Sales Pipeline Analytics",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9455",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Nonstationary Gaussian Process Regression for Evaluating Repeated Clinical Laboratory Tests",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9456",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Inertial Hidden Markov Models: Modeling Change in Multivariate Time Series",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9457",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Learning Hybrid Models with Guarded Transitions",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9458",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Sub-Merge: Diving Down to the Attribute-Value Level in Statistical Schema Matching",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9459",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Modeling Status Theory in Trust Prediction",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9460",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Closed Form Solution to Multi-View Low-Rank Regression",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9461",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Content-Aware Point of Interest Recommendation on Location-Based Social Networks",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9462",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Exploring Social Context for Topic Identification in Short and Noisy Texts",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9463",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Generalized Singular Value Thresholding",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9464",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Variational Inference for Nonparametric Bayesian Quantile Regression",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9465",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Algorithm Selection via Ranking",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9466",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Mining User Interests from Personal Photos",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9467",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Marginalized Denoising for Link Prediction and Multi-Label Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9468",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Regularized Linear Dynamical System Framework for Multivariate Time Series Analysis",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9469",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Sparse Combined Regression-Classification Formulation for Learning a Physiological Alternative to Clinical Post-Traumatic Stress Disorder Scores",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9470",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Identifying At-Risk Students in Massive Open Online Courses",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9471",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "An SVD and Derivative Kernel Approach to Learning from Geometric Data",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9472",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Sparse Bayesian Multiview Learning for Simultaneous Association Discovery and Diagnosis of Alzheimer's Disease",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9473",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Scalable and Interpretable Data Representation for High-Dimensional, Complex Data",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9474",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Integrating Image Clustering and Codebook Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9475",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Learning to Uncover Deep Musical Structure",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9476",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Stable Feature Selection from Brain sMRI",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9477",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Exploiting Determinism to Scale Relational Inference",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9478",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Colorization by Patch-Based Local Low-Rank Matrix Completion",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9479",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Coupled Interdependent Attribute Analysis on Mixed Data",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9480",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Temporally Adaptive Restricted Boltzmann Machine for Background Modeling",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9481",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Nonconvex Relaxation Approach for Rank Minimization Problems",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9482",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Exploiting Task-Feature Co-Clusters in Multi-Task Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9483",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "PD Disease State Assessment in Naturalistic Environments Using Deep Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9484",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Constructing Models of User and Task Characteristics from Eye Gaze Data for User-Adaptive Information Highlighting",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9485",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Lazier Than Lazy Greedy",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9486",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Automatic Assessment of OCR Quality in Historical Documents",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9487",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "On Vectorization of Deep Convolutional Neural Networks for Vision Tasks",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9488",
+      "track": "Main Track: Machine Learning Applications",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Refer-to-as Relations as Semantic Knowledge",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9489",
+      "track": "Main Track: NLP and Knowledge Representation",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Ranking with Recursive Neural Networks and Its Application to Multi-Document Summarization",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9490",
+      "track": "Main Track: NLP and Knowledge Representation",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Learning Entity and Relation Embeddings for Knowledge Graph Completion",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9491",
+      "track": "Main Track: NLP and Knowledge Representation",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Phrase Type Sensitive Tensor Indexing Model for Semantic Composition",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9492",
+      "track": "Main Track: NLP and Knowledge Representation",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Automatically Creating a Large Number of New Bilingual Dictionaries",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9493",
+      "track": "Main Track: NLP and Knowledge Representation",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Learning Word Representations from Relational Graphs",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9494",
+      "track": "Main Track: NLP and Knowledge Representation",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Surveyor: A System for Generating Coherent Survey Articles for Scientific Topics",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9495",
+      "track": "Main Track: NLP and Knowledge Representation",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Sense-Aaware Semantic Analysis: A Multi-Prototype Word Representation Model Using Wikipedia",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9496",
+      "track": "Main Track: NLP and Knowledge Representation",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Learning to Mediate Perceptual Differences in Situated Human-Robot Dialogue",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9497",
+      "track": "Main Track: NLP and Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Never-Ending Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9498",
+      "track": "Main Track: NLP and Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Novel Neural Topic Model and Its Supervised Extension",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9499",
+      "track": "Main Track: NLP and Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "The Utility of Text: The Case of Amicus Briefs and the Supreme Court",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9500",
+      "track": "Main Track: NLP and Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Ordering-Sensitive and Semantic-Aware Topic Modeling",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9501",
+      "track": "Main Track: NLP and Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Topic Segmentation with an Ordering-Based Topic Model",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9502",
+      "track": "Main Track: NLP and Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Microblog Sentiment Classification with Contextual Knowledge Regularization",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9503",
+      "track": "Main Track: NLP and Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Unsupervised Phrasal Near-Synonym Generation from Text Corpora",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9504",
+      "track": "Main Track: NLP and Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Stratified Strategy for Efficient Kernel-Based Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9505",
+      "track": "Main Track: NLP and Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Dataless Text Classification with Descriptive LDA",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9506",
+      "track": "Main Track: NLP and Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Online Bayesian Models for Personal Analytics in Social Media",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9507",
+      "track": "Main Track: NLP and Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Contrastive Unsupervised Word Alignment with Non-Local Features",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9508",
+      "track": "Main Track: NLP and Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Learning Greedy Policies for the Easy-First Framework",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9509",
+      "track": "Main Track: NLP and Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Joint Anaphoricity Detection and Coreference Resolution with Constrained Latent Structures",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9510",
+      "track": "Main Track: NLP and Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Unsupervised Word Sense Disambiguation Using Markov Random Field and Dependency Parser",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9511",
+      "track": "Main Track: NLP and Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Jointly Modeling Deep Video and Compositional Text to Bridge Vision and Language in a Unified Framework",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9512",
+      "track": "Main Track: NLP and Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Recurrent Convolutional Neural Networks for Text Classification",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9513",
+      "track": "Main Track: NLP and Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Family of Latent Variable Convex Relaxations for IBM Model 2",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9514",
+      "track": "Main Track: NLP and Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Predicting Peer-to-Peer Loan Rates Using Bayesian Non-Linear Regression",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9515",
+      "track": "Main Track: NLP and Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Weakly-Supervised Grammar-Informed Bayesian CCG Parser Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9516",
+      "track": "Main Track: NLP and Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Fast and Accurate Prediction of Sentence Specificity",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9517",
+      "track": "Main Track: NLP and Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Local Context Sparse Coding",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9518",
+      "track": "Main Track: NLP and Machine Learning",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Semantic Lexicon Induction from Twitter with Pattern Relatedness and Flexible Term Length",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9519",
+      "track": "Main Track: NLP and Text Mining",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Chinese Common Noun Phrase Resolution: An Unsupervised Probabilistic Model Rivaling Supervised Resolvers",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9520",
+      "track": "Main Track: NLP and Text Mining",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Towards Knowledge-Driven Annotation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9521",
+      "track": "Main Track: NLP and Text Mining",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Topical Word Embeddings",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9522",
+      "track": "Main Track: NLP and Text Mining",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Word Segmentation for Chinese Novels",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9523",
+      "track": "Main Track: NLP and Text Mining",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Using Frame Semantics for Knowledge Extraction from Twitter",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9524",
+      "track": "Main Track: NLP and Text Mining",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Extracting Verb Expressions Implying Negative Opinions",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9525",
+      "track": "Main Track: NLP and Text Mining",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "An Unsupervised Framework of Exploring Events on Twitter: Filtering, Extraction and Categorization",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9526",
+      "track": "Main Track: NLP and Text Mining",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Extracting Adverse Drug Reactions from Social Media",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9527",
+      "track": "Main Track: NLP and Text Mining",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Neural Probabilistic Model for Context Based Citation Recommendation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9528",
+      "track": "Main Track: NLP and Text Mining",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Mining User Consumption Intention from Social Media Using Domain Adaptive Convolutional Neural Network",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9529",
+      "track": "Main Track: NLP and Text Mining",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Learning to Recommend Quotes for Writing",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9530",
+      "track": "Main Track: NLP and Text Mining",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Gazetteer-Independent Toponym Resolution Using Geographic Word Profiles",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9531",
+      "track": "Main Track: NLP and Text Mining",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Target-Dependent Churn Classification in Microblogs",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9532",
+      "track": "Main Track: NLP and Text Mining",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Generating Event Causality Hypotheses through Semantic Relations",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9533",
+      "track": "Main Track: NLP and Text Mining",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "English Light Verb Construction Identification Using Lexical Knowledge",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9534",
+      "track": "Main Track: NLP and Text Mining",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Structural Learning with Amortized Inference",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9535",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Gaussian Cardinality Restricted Boltzmann Machines",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9536",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Clustering Longitudinal Clinical Marker Trajectories from Electronic Health Data: Applications to Phenotyping and Endotype Discovery",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9537",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Learning Relational Sum-Product Networks",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9538",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Optimizing Bag Features for Multiple-Instance Retrieval",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9539",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "UT Austin Villa 2014: RoboCup 3D Simulation League Champion via Overlapping Layered Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9540",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "High-Confidence Off-Policy Evaluation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9541",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Multi-Source Domain Adaptation: A Causal View",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9542",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Probabilistic Attributed Hashing",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9543",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "On the Equivalence of Linear Discriminant Analysis and Least Squares",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9544",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Absent Multiple Kernel Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9545",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "The Dynamic Chinese Restaurant Process via Birth and Death Processes",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9546",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Low-Rank Multi-View Learning in Matrix Completion for Multi-Label Image Classification",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9547",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Relational Stacked Denoising Autoencoder for Tag Recommendation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9548",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Integrating Features and Similarities: Flexible Models for Heterogeneous Multiview Data",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9549",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Don't Fall for Tuning Parameters: Tuning-Free Variable Selection in High Dimensions With the TREX",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9550",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Noise-Robust Semi-Supervised Learning by Large-Scale Sparse Coding",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9551",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Constrained NMF-Based Multi-View Clustering on Unmapped Data",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9552",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Tensor-Variate Restricted Boltzmann Machines",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9553",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Eigenvalues Ratio for Kernel Selection of Kernel Methods",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9554",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "OMNI-Prop: Seamless Node Classification on Arbitrary Label Correlation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9555",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Spectral Clustering Using Multilinear SVD: Analysis, Approximations and Applications",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9556",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Learning to Hash on Structured Data",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9557",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Multi-Task Learning and Algorithmic Stability",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9558",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Deep Modeling Complex Couplings within Financial Markets",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9559",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Spectral Label Refinement for Noisy and Missing Text Labels",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9560",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Optimizing the CVaR via Sampling",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9561",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Learning Sparse Representations from Datasets with Uncertain Group Structures: Model, Algorithm and Applications",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9562",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Efficient Active Learning of Halfspaces via Query Synthesis",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9563",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Multi-tensor Completion with Common Structures",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9564",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "10,000+ Times Accelerated Robust Subset Selection",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9565",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Support Consistency of Direct Sparse-Change Learning in Markov Networks",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9566",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Mathematical Programming-Based Approach to Determining Objective Functions from Qualitative and Subjective Comparisons",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9567",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Improving Approximate Value Iteration with Complex Returns by Bounding",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9568",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Using Machine Teaching to Identify Optimal Training-Set Attacks on Machine Learners",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9569",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Dictionary Learning with Mutually Reinforcing Group-Graph Structures",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9570",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Random Gradient Descent Tree: A Combinatorial Approach for SVM with Outliers",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9571",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Probabilistic Covariate Shift Assumption for Domain Adaptation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9572",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Active Manifold Learning via Gershgorin Circle Guided Sample Selection",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9573",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Detecting Change Points in the Large-Scale Structure of Evolving Networks",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9574",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Parallel Gaussian Process Regression for Big Data: Low-Rank Representation Meets Markov Approximation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9575",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Doubly Robust Covariate Shift Correction",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9576",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "An Adaptive Gradient Method for Online AUC Maximization",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9577",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Exact Recoverability of Robust PCA via Outlier Pursuit with Tight Recovery Bounds",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9578",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Pareto Ensemble Pruning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9579",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Discriminative Feature Grouping",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9580",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Learning Multi-Level Task Groups in Multi-Task Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9581",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Leveraging Features and Networks for Probabilistic Tensor Decomposition",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9582",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Bayesian Maximum Margin Principal Component Analysis",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9583",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Self-Paced Learning for Matrix Factorization",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9584",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Concurrent PAC RL",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9585",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Transfer Feature Representation via Multiple Kernel Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9586",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Kernelized Online Imbalanced Learning with Fixed Budgets",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9587",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Detecting and Tracking Concept Class Drift and Emergence in Non-Stationary Fast Data Streams",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9588",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Online Bandit Learning for a Special Class of Non-Convex Losses",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9589",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Improving Multi-Step Prediction of Learned Time Series Models",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9590",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "The Hybrid Nested/Hierarchical Dirichlet Process and its Application to Topic Modeling with Word Differentiation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9591",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Collaborative Filtering with Localised Ranking",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9592",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Unidimensional Clustering of Discrete Data Using Latent Tree Models",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9593",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "SoF: Soft-Cluster Matrix Factorization for Probabilistic Clustering",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9594",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Online Dictionary Learning on Symmetric Positive Definite Manifolds with Vision Applications",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9595",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "V-MIN: Efficient Reinforcement Learning through Demonstrations and Relaxed Reward Demands",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9596",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Active Learning by Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9597",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Large-Scale Multi-View Spectral Clustering via Bipartite Graph",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9598",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Cross-Modal Similarity Learning via Pairs, Preferences, and Active Supervision",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9599",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Compress and Control",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9600",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Unsupervised Feature Learning through Divergent Discriminative Feature Accumulation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9601",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Obtaining Well Calibrated Probabilities Using Bayesian Binning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9602",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Graph-Sparse LDA: A Topic Model with Structured Sparsity",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9603",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "The Queue Method: Handling Delay, Heuristics, Prior Data, and Evaluation in Bandits",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9604",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Approximate MaxEnt Inverse Optimal Control and Its Application for Mental Simulation of Human Interactions",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9605",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Convex Formulation for Spectral Shrunk Clustering",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9606",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Online Boosting Algorithms for Anytime Transfer and Multitask Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9607",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Self-Paced Curriculum Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9608",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Shift-Pessimistic Active Learning Using Robust Bias-Aware Prediction",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9609",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Large Margin Metric Learning for Multi-Label Prediction",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9610",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "SP-SVM: Large Margin Classifier for Data on Multiple Manifolds",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9611",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Modelling Class Noise with Symmetric and Asymmetric Distributions",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9612",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Policy Tree: Adaptive Representation for Policy Gradient",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9613",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Optimal Estimation of Multivariate ARMA Models",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9614",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Non-Linear Regression for Bag-of-Words Data via Gaussian Process Latent Variable Set Model",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9615",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Agnostic System Identification for Monte Carlo Planning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9616",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Multi-Objective Reinforcement Learning with Continuous Pareto Frontier Approximation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9617",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Convex Batch Mode Active Sampling via α-Relative Pearson Divergence",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9618",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Fast Gradient Descent for Drifting Least Squares Regression, with Application to Bandits",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9619",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Generalized Reduced Linear Program for Markov Decision Processes",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9620",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Budgeted Prediction with Expert Advice",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9621",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "The Boundary Forest Algorithm for Online Supervised and Unsupervised Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9622",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Model-Based Reinforcement Learning in Continuous Environments Using Real-Time Constrained Optimization",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9623",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "TODTLER: Two-Order-Deep Transfer Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9624",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Reduction of the Elastic Net to Support Vector Machines with an Application to GPU Computing",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9625",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Nystrom Approximation for Sparse Kernel Methods: Theoretical Analysis and Empirical Evaluation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9626",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Maximin Separation Probability Clustering",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9627",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Expressing Arbitrary Reward Functions as Potential-Based Advice",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9628",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Localized Centering: Reducing Hubness in Large-Sample Data",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9629",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Adaptive Sampling with Optimal Cost for Class-Imbalance Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9630",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Unsupervised Cross-Domain Transfer in Policy Gradient Reinforcement Learning via Manifold Alignment",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9631",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Learning Robust Locality Preserving Projection via p-Order Minimization",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9632",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Learning Relational Kalman Filtering",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9633",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Bayesian Model Averaging Naive Bayes (BMA-NB): Averaging over an Exponential Number of Feature Models in Linear Time",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9634",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Spectral Learning of Predictive State Representations with Insufficient Statistics",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9635",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Pathway Graphical Lasso",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9636",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Outlier-Robust Convex Segmentation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9637",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Aligning Mixed Manifolds",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9638",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Low-Rank Similarity Metric Learning in High Dimensions",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9639",
+      "track": "Main Track: Novel Machine Learning Algorithms",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Automatic Configuration of Sequential Planning Portfolios",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9640",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Generalization of Sleep Sets Based on Operator Sequence Redundancy",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9641",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Factored Symmetries for Merge-and-Shrink Abstractions",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9642",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Efficient Bounds in Heuristic Search Algorithms for Stochastic Shortest Path Problems",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9643",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Discretization of Temporal Models with Application to Planning with SMT",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9644",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Goal Recognition Design for Non-Optimal Agents",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9645",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "SMT-Based Nonlinear PDDL+ Planning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9646",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Multi-Objective MDPs with Conditional Lexicographic Reward Preferences",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9647",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Some Fixed Parameter Tractability Results for Planning with Non-Acyclic Domain-Transition Graphs",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9648",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Heuristics and Symmetries in Classical Planning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9649",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Tractable Cost-Optimal Planning over Restricted Polytree Causal Graphs",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9650",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Real-Time Symbolic Dynamic Programming",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9651",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Resolving Over-Constrained Probabilistic Temporal Problems through Chance Constraint Relaxation",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9652",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Strong Temporal Planning with Uncontrollable Durations: A State-Space Approach",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9653",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Preference Planning for Markov Decision Processes",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9654",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Approximate Linear Programming for Constrained Partially Observable Markov Decision Processes",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9655",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "tBurton: A Divide and Conquer Temporal Planner",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9656",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "An Efficient Forest-Based Tabu Search Algorithm for the Split-delivery Vehicle Routing Problem",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9657",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Tractability of Planning with Loops",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9658",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Information Gathering and Reward Exploitation of Subgoals for POMDPs",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9659",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Improving Exploration in UCT Using Local Manifolds",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9660",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Factored MCTS for Large Scale Stochastic Planning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9661",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Variable-Deletion Backdoors to Planning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9662",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Robustness in Probabilistic Temporal Planning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9663",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Transition Constraints for Parallel Planning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9664",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Planning Over Multi-Agent Epistemic States: A Classical Planning Approach",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9665",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Exploiting Submodular Value Functions for Faster Dynamic Sensor Selection",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9666",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Crowdsourced Action-Model Acquisition for Planning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9667",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "From Non-Negative to General Operator Cost Partitioning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9668",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Measuring Plan Diversity: Pathologies in Existing Approaches and A New Plan Distance Metric",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9669",
+      "track": "Main Track: Planning and Scheduling",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Binarisation via Dualisation for Valued Constraints",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9749",
+      "track": "Main Track: Search and Constraint Satisfaction",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Efficient Extraction of QBF (Counter)models from Long-Distance Resolution Proofs",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9750",
+      "track": "Main Track: Search and Constraint Satisfaction",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "On Computing Maximal Subsets of Clauses that Must Be Satisfiable with Possibly Mutually-Contradictory Assumptive Contexts",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9751",
+      "track": "Main Track: Search and Constraint Satisfaction",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "SAT-Based Strategy Extraction in Reachability Games",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9752",
+      "track": "Main Track: Search and Constraint Satisfaction",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "SMT-Based Validation of Timed Failure Propagation Graphs",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9753",
+      "track": "Main Track: Search and Constraint Satisfaction",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "The Extendable-Triple Property: A  New CSP Tractable Class beyond BTP",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9754",
+      "track": "Main Track: Search and Constraint Satisfaction",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "SAT Modulo Monotonic Theories",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9755",
+      "track": "Main Track: Search and Constraint Satisfaction",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Strong Bounds Consistencies and Their Application to Linear Constraints",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9756",
+      "track": "Main Track: Search and Constraint Satisfaction",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Real-Time Predictive Optimization for Energy Management in a Hybrid Electric Vehicle",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9232",
+      "track": "Computational Sustainability and Artificial Intelligence",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Pattern Decomposition with Complex Combinatorial Constraints: Application to Materials Discovery",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9233",
+      "track": "Computational Sustainability and Artificial Intelligence",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Best-Response Planning of Thermostatically Controlled Loads under Power Constraints",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9234",
+      "track": "Computational Sustainability and Artificial Intelligence",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Influence-Driven Model for Time Series Prediction from Partial Observations",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9235",
+      "track": "Computational Sustainability and Artificial Intelligence",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "HVAC-Aware Occupancy Scheduling",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9236",
+      "track": "Computational Sustainability and Artificial Intelligence",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Simulator of Human Emergency Mobility Following Disasters: Knowledge Transfer from Big Disaster Data",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9237",
+      "track": "Computational Sustainability and Artificial Intelligence",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Risk Based Optimization for Improving Emergency Medical Systems",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9238",
+      "track": "Computational Sustainability and Artificial Intelligence",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "FutureMatch: Combining Human Value Judgments and Machine Learning to Match in Dynamic Environments",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9239",
+      "track": "Computational Sustainability and Artificial Intelligence",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "SmartShift: Expanded Load Shifting Incentive Mechanism for Risk-Averse Consumers",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9240",
+      "track": "Computational Sustainability and Artificial Intelligence",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Power System Restoration With Transient Stability",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9241",
+      "track": "Computational Sustainability and Artificial Intelligence",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Sharing Rides with Friends: A Coalition Formation Algorithm for Ridesharing",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9242",
+      "track": "Computational Sustainability and Artificial Intelligence",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Energy Usage Behavior Modeling in Energy Disaggregation via Marked Hawkes Process",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9243",
+      "track": "Computational Sustainability and Artificial Intelligence",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Towards Optimal Solar Tracking: A Dynamic Programming Approach",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9244",
+      "track": "Computational Sustainability and Artificial Intelligence",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Data Analysis and Optimization for (Citi)Bike Sharing",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9245",
+      "track": "Computational Sustainability and Artificial Intelligence",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Nonparametric Online Model for Air Quality Prediction",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9246",
+      "track": "Computational Sustainability and Artificial Intelligence",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Predisaster Preparation of Transportation Networks",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9247",
+      "track": "Computational Sustainability and Artificial Intelligence",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Learning Large-Scale Dynamic Discrete Choice Models of Spatio-Temporal Preferences with Application to Migratory Pastoralism in East Africa",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9248",
+      "track": "Computational Sustainability and Artificial Intelligence",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Energy Disaggregation via Learning Powerlets and Sparse Coding",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9249",
+      "track": "Computational Sustainability and Artificial Intelligence",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Aggregating Electric Cars to Sustainable Virtual Power Plants: The Value of Flexibility in Future Electricity Markets",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9250",
+      "track": "Computational Sustainability and Artificial Intelligence",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Incentivizing Users for Balancing Bike Sharing Systems",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9251",
+      "track": "Computational Sustainability and Artificial Intelligence",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Probabilistic Planning with Risk-Sensitive Criterion",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9252",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Optimal Multi-Agent Pathfinding Algorithms",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9253",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "HVAC-Aware Occupancy Scheduling (Extended Abstract)",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9254",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Exploiting the Structure of Distributed Constraint Optimization Problems",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9255",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Entity Resolution in a Big Data Framework",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9256",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Multi-Agent Team Formation: Solving Complex Problems by Aggregating Opinions",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9257",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Risk-Aware Scheduling throughout Planning and Execution",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9258",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Modeling Eye Movements when Reading Microblogs",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9259",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Realistic Assumptions for Attacks on Elections",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9260",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Transfer Learning-Based Co-Run Scheduling for Heterogeneous Datacenters",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9261",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Scaling-Up Inference in Markov Logic",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9262",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Multivariate Conditional Anomaly Detection and Its Clinical Application",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9263",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Explaining Answer Set Programming in Argumentative Terms",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9264",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Scalable Agent Modeling for Large Multiagent Systems",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9265",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Social Hierarchical Learning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9266",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Non-Classical Planning for Robotic Applications",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/9267",
+      "track": "Doctoral Consortium",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Activity Planning for a Lunar Orbital Mission",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/19044",
+      "track": "IAAI Deployed Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Robust System for Identifying Procurement Fraud",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/19045",
+      "track": "IAAI Deployed Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Position Assignment on an Enterprise Level Using Combinatorial Optimization",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/19046",
+      "track": "IAAI Deployed Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Graph Analysis for Detecting Fraud, Waste, and Abuse in Healthcare Data",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/19047",
+      "track": "IAAI Deployed Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Planned Protest Modeling in News and Social Media",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/19048",
+      "track": "IAAI Deployed Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Process Diagnosis System (PDS) — A 30 Year History",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/19049",
+      "track": "IAAI Deployed Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Maestoso: An Intelligent Educational Sketching Tool for Learning Music Theory",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/19061",
+      "track": "IAAI Emerging Application Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Named Entity Recognition in Travel-Related Search Queries",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/19050",
+      "track": "IAAI Emerging Application Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Automated Problem List Generation from Electronic Medical Records in IBM Watson",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/19051",
+      "track": "IAAI Emerging Application Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Using Qualitative Spatial Logic for Validating Crowd-Sourced Geospatial Data",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/19052",
+      "track": "IAAI Emerging Application Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Day-Ahead Hail Prediction Integrating Machine Learning with Storm-Scale Numerical Weather Models",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/19053",
+      "track": "IAAI Emerging Application Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Capturing Human Route Preferences from Track Information: New Results",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/19054",
+      "track": "IAAI Emerging Application Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Design and Experiment of a Collaborative Planning Service for NetCentric International Brigade Command",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/19055",
+      "track": "IAAI Emerging Application Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Aggregating User Input in Ecology Citizen Science Projects",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/19057",
+      "track": "IAAI Emerging Application Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Leveraging Ontologies to Improve Model Generalization Automatically with Online Data Sources",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/19058",
+      "track": "IAAI Emerging Application Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "HACKAR: Helpful Advice for Code Knowledge and Attack Resilience",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/19059",
+      "track": "IAAI Emerging Application Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "A Robust and Extensible Tool for Data Integration Using Data Type Models",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/19060",
+      "track": "IAAI Emerging Application Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Preventing HIV Spread in Homeless Populations Using PSINET",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/19063",
+      "track": "IAAI Emerging Application Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "SKILL: A System for Skill Identification and Normalization",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/19064",
+      "track": "IAAI Emerging Application Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Elementary School Science and Math Tests as a Driver for AI: Take the Aristo Challenge!",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/19066",
+      "track": "IAAI Challenge Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "Time-Varying Clusters in Large-Scale Flow Cytometry",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/19067",
+      "track": "IAAI Challenge Papers",
+      "authors": ""
+    },
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "title": "The Winograd Schema Challenge: Evaluating Progress in Commonsense Reasoning",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/19068",
+      "track": "IAAI Challenge Papers",
+      "authors": ""
+    }
+  ],
+  "source_url": "https://ojs.aaai.org/index.php/AAAI/issue/archive",
+  "pages": [
+    "https://ojs.aaai.org/index.php/AAAI/issue/view/304",
+    "https://ojs.aaai.org/index.php/AAAI/issue/view/483"
+  ],
+  "verification": "issue_sections_parsed",
+  "retrieved_utc": "2026-11-01T11:21:22.029658+00:00",
+  "collector_version": 2,
+  "status": "parsed_needs_coverage_review"
+}

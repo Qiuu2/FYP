@@ -1,0 +1,18 @@
+{
+  "start_year": 2015,
+  "end_year": 2025,
+  "countries": ["HK", "SG"],
+  "journals": [
+    {"name": "TPAMI", "issn": "0162-8828", "keyword_filter": false},
+    {"name": "JMLR", "issn": "1532-4435", "keyword_filter": false},
+    {"name": "Nature Machine Intelligence", "issn": "2522-5839", "keyword_filter": true},
+    {"name": "Science Robotics", "issn": "2470-9476", "keyword_filter": true},
+    {"name": "Nature Computational Science", "issn": "2662-8457", "keyword_filter": true},
+    {"name": "Nature Methods", "issn": "1548-7091", "keyword_filter": true},
+    {"name": "Nature", "issn": "0028-0836", "keyword_filter": true},
+    {"name": "Science", "issn": "0036-8075", "keyword_filter": true}
+  ],
+  "keywords": ["artificial intelligence", "machine learning", "deep learning", "neural network", "neural networks", "reinforcement learning", "large language model", "large language models", "computer vision", "natural language processing", "generative adversarial network", "generative adversarial networks", "generative AI", "foundation model", "foundation models", "diffusion model", "diffusion models", "self-supervised learning", "representation learning", "embodied intelligence"],
+  "conferences": ["NeurIPS", "ICML", "ICLR", "CVPR", "ICCV", "ECCV", "ACL", "EMNLP", "AAAI", "IJCAI"],
+  "patent_cpc_prefixes": ["G06N", "G06V", "G10L", "G06F40", "B25J"]
+}

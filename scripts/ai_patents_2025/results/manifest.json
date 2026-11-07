@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-10-22T19:27:31.328742+00:00",
+  "input": "patents_raw_2025.csv",
+  "input_sha256": "b0cc613f0cc2ca00a7f984da9eb25e64ddb3ba590eafc5899db284841fb715ad",
+  "family_rows": 348,
+  "application_window_start": 2015,
+  "target_year": 2025,
+  "historical_variant": "ali_ant_grp",
+  "complete": false,
+  "notes": "Observed published families only. Blank final count means unresolved company/group classification. Not a forecast or complete filing-year total.",
+  "config_sha256": {
+    "config\\assignee_sectors.csv": "17de8c667e3281ac12b1f7bf7736836b1e646de6fd0aff547d03f38beceaa31d",
+    "config\\exclusions.csv": "17f427ba2ef7241a480b3305a1de21253e9fbc03b811e5dadb3fc621e6e34dfc",
+    "config\\new_assignees.csv": "984556c7a401bfaa2dc3625939d528c268a0dd2422786a070ba54a76ce2d4429"
+  },
+  "sql_sha256": "cd8811cff3c5ded1576f1cfba9f93eeda0ff161d93311f21533d6fe2cfe2809b"
+}

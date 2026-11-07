@@ -1,0 +1,2699 @@
+{
+  "venue": "ICLR",
+  "year": 2018,
+  "rows": [
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Deep Complex Networks",
+      "url": "https://openreview.net/forum?id=H1T2hmZAb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Universal Agent for Disentangling Environments and Tasks",
+      "url": "https://openreview.net/forum?id=B1mvVm-C-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Improving the Improved Training of Wasserstein GANs: A Consistency Term and Its Dual Effect",
+      "url": "https://openreview.net/forum?id=SJx9GQb0-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Fraternal Dropout",
+      "url": "https://openreview.net/forum?id=SJyVzQ-C-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Learning an Embedding Space for Transferable Robot Skills",
+      "url": "https://openreview.net/forum?id=rk07ZXZRb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Hierarchical Density Order Embeddings",
+      "url": "https://openreview.net/forum?id=HJCXZQbAZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Model compression via distillation and quantization",
+      "url": "https://openreview.net/forum?id=S1XolQbRW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Maximum a Posteriori Policy Optimisation",
+      "url": "https://openreview.net/forum?id=S1ANxQW0b",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "MaskGAN: Better Text Generation via Filling in the _______",
+      "url": "https://openreview.net/forum?id=ByOExmWAb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Kronecker-factored Curvature Approximations for Recurrent Neural Networks",
+      "url": "https://openreview.net/forum?id=HyMTkQZAb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Scalable Private Learning with PATE",
+      "url": "https://openreview.net/forum?id=rkZB1XbRZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Online Learning Rate Adaptation with Hypergradient Descent",
+      "url": "https://openreview.net/forum?id=BkrsAzWAb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Relational Neural Expectation Maximization: Unsupervised Discovery of Objects and their Interactions",
+      "url": "https://openreview.net/forum?id=ryH20GbRW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Learning Awareness Models",
+      "url": "https://openreview.net/forum?id=r1HhRfWRZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "On the regularization of Wasserstein GANs",
+      "url": "https://openreview.net/forum?id=B1hYRMbCW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Spatially Transformed Adversarial Examples",
+      "url": "https://openreview.net/forum?id=HyydRMZC-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Decision-Based Adversarial Attacks: Reliable Attacks Against Black-Box Machine Learning Models",
+      "url": "https://openreview.net/forum?id=SyZI0GWCZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Communication Algorithms via Deep Learning",
+      "url": "https://openreview.net/forum?id=ryazCMbR-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Towards Image Understanding from Deep Compression Without Decoding",
+      "url": "https://openreview.net/forum?id=HkXWCMbRW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Unsupervised Machine Translation Using Monolingual Corpora Only",
+      "url": "https://openreview.net/forum?id=rkYTTf-AZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Boosting the Actor with Dual Critic",
+      "url": "https://openreview.net/forum?id=BkUp6GZRW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "A DIRT-T Approach to Unsupervised Domain Adaptation",
+      "url": "https://openreview.net/forum?id=H1q-TM-AW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "LEARNING TO SHARE: SIMULTANEOUS PARAMETER TYING AND SPARSIFICATION IN DEEP LEARNING",
+      "url": "https://openreview.net/forum?id=rypT3fb0b",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Parametrized Hierarchical Procedures for Neural Programming",
+      "url": "https://openreview.net/forum?id=rJl63fZRb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Auto-Encoding Sequential Monte Carlo",
+      "url": "https://openreview.net/forum?id=BJ8c3f-0b",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Syntax-Directed Variational Autoencoder for Structured Data",
+      "url": "https://openreview.net/forum?id=SyqShMZRb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Learn to Pay Attention",
+      "url": "https://openreview.net/forum?id=HyzbhfWRW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "The power of deeper networks for expressing natural functions",
+      "url": "https://openreview.net/forum?id=SyProzZAW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Deep Learning for Physical Processes: Incorporating Prior Scientific Knowledge",
+      "url": "https://openreview.net/forum?id=By4HsfWAZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "WHAI: Weibull Hybrid Autoencoding Inference for Deep Topic Modeling",
+      "url": "https://openreview.net/forum?id=S1cZsf-RW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Divide and Conquer Networks",
+      "url": "https://openreview.net/forum?id=B1jscMbAW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Hierarchical Representations for Efficient Architecture Search",
+      "url": "https://openreview.net/forum?id=BJQRKzbA-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "On the insufficiency of existing momentum schemes for Stochastic Optimization",
+      "url": "https://openreview.net/forum?id=rJTutzbA-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Beyond Shared Hierarchies: Deep Multitask Learning through Soft Layer Ordering",
+      "url": "https://openreview.net/forum?id=BkXmYfbAZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Towards Deep Learning Models Resistant to Adversarial Attacks",
+      "url": "https://openreview.net/forum?id=rJzIBfZAb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Breaking the Softmax Bottleneck: A High-Rank RNN Language Model",
+      "url": "https://openreview.net/forum?id=HkwZSG-CZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Neural Speed Reading via Skim-RNN",
+      "url": "https://openreview.net/forum?id=Sy-dQG-Rb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "TreeQN and ATreeC: Differentiable Tree-Structured Models for Deep Reinforcement Learning",
+      "url": "https://openreview.net/forum?id=H1dh6Ax0Z",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Gradient Estimators for Implicit Models",
+      "url": "https://openreview.net/forum?id=SJi9WOeRb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Rethinking the Smaller-Norm-Less-Informative Assumption in Channel Pruning of Convolution Layers",
+      "url": "https://openreview.net/forum?id=HJ94fqApW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "When is a Convolutional Filter Easy to Learn?",
+      "url": "https://openreview.net/forum?id=SkA-IE06W",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "MGAN: Training Generative Adversarial Nets with Multiple Generators",
+      "url": "https://openreview.net/forum?id=rkmu5b0a-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Improving GAN Training via Binarized Representation Entropy (BRE) Regularization",
+      "url": "https://openreview.net/forum?id=BkLhaGZRW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Distributed Distributional Deterministic Policy Gradients",
+      "url": "https://openreview.net/forum?id=SyZipzbCb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Reinforcement Learning on Web Interfaces using Workflow-Guided Exploration",
+      "url": "https://openreview.net/forum?id=ryTp3f-0-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Learning a Generative Model for Validity in Complex Discrete Structures",
+      "url": "https://openreview.net/forum?id=rkrC3GbRW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "TRUNCATED HORIZON POLICY SEARCH: COMBINING REINFORCEMENT LEARNING & IMITATION LEARNING",
+      "url": "https://openreview.net/forum?id=ryUlhzWCZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Flipout: Efficient Pseudo-Independent Weight Perturbations on Mini-Batches",
+      "url": "https://openreview.net/forum?id=rJNpifWAb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Lifelong Learning with Dynamically Expandable Networks",
+      "url": "https://openreview.net/forum?id=Sk7KsfW0-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Simulated+Unsupervised Learning With Adaptive Data Generation and Bidirectional Mappings",
+      "url": "https://openreview.net/forum?id=SkHDoG-Cb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Quantitatively Evaluating GANs With Divergences Proposed for Training",
+      "url": "https://openreview.net/forum?id=SJQHjzZ0-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Attacking Binarized Neural Networks",
+      "url": "https://openreview.net/forum?id=HkTEFfZRb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Go for a Walk and Arrive at the Answer: Reasoning Over Paths in Knowledge Bases using Reinforcement Learning",
+      "url": "https://openreview.net/forum?id=Syg-YfWCW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Zero-Shot Visual Imitation",
+      "url": "https://openreview.net/forum?id=BkisuzWRW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Mixed Precision Training of Convolutional Neural Networks using Integer Operations",
+      "url": "https://openreview.net/forum?id=H135uzZ0-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Imitation Learning from Visual Data with Multiple Intentions",
+      "url": "https://openreview.net/forum?id=Hk3ddfWRW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Demystifying MMD GANs",
+      "url": "https://openreview.net/forum?id=r1lUOzWCW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "A Framework for the Quantitative Evaluation of Disentangled Representations",
+      "url": "https://openreview.net/forum?id=By-7dz-AZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Decision Boundary Analysis of Adversarial Examples",
+      "url": "https://openreview.net/forum?id=BkpiPMbA-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Routing Networks: Adaptive Selection of Non-Linear Functions for Multi-Task Learning",
+      "url": "https://openreview.net/forum?id=ry8dvM-R-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Compositional Attention Networks for Machine Reasoning",
+      "url": "https://openreview.net/forum?id=S1Euwz-Rb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Memory-based Parameter Adaptation",
+      "url": "https://openreview.net/forum?id=rkfOvGbCW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Semi-parametric topological memory for navigation",
+      "url": "https://openreview.net/forum?id=SygwwGbRW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Latent Constraints: Learning to Generate Conditionally from Unconditional Generative Models",
+      "url": "https://openreview.net/forum?id=Sy8XvGb0-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "On the Information Bottleneck Theory of Deep Learning",
+      "url": "https://openreview.net/forum?id=ry_WPG-A-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Sensitivity and Generalization in Neural Networks: an Empirical Study",
+      "url": "https://openreview.net/forum?id=HJC2SzZCW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Deep Gradient Compression: Reducing the Communication Bandwidth for Distributed Training",
+      "url": "https://openreview.net/forum?id=SkhQHMW0W",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Skip Connections Eliminate Singularities",
+      "url": "https://openreview.net/forum?id=HkwBEMWCZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Diffusion Convolutional Recurrent Neural Network: Data-Driven Traffic Forecasting",
+      "url": "https://openreview.net/forum?id=SJiHXGWAZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Simulating Action Dynamics with Neural Process Networks",
+      "url": "https://openreview.net/forum?id=rJYFzMZC-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Twin Networks: Matching the Future for Sequence Generation",
+      "url": "https://openreview.net/forum?id=BydLzGb0Z",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Deep Learning as a Mixed Convex-Combinatorial Optimization Problem",
+      "url": "https://openreview.net/forum?id=B1Lc-Gb0Z",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Fast and Accurate Reading Comprehension by Combining Self-Attention and Convolution",
+      "url": "https://openreview.net/forum?id=B14TlG-RW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Multi-Mention Learning for Reading Comprehension with Neural Cascades",
+      "url": "https://openreview.net/forum?id=HyRnez-RW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "A Compressed Sensing View of Unsupervised Text Embeddings, Bag-of-n-Grams, and LSTMs",
+      "url": "https://openreview.net/forum?id=B1e5ef-C-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Learning General Purpose Distributed Sentence Representations via Large Scale Multi-task Learning",
+      "url": "https://openreview.net/forum?id=B18WgG-CZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Evidence Aggregation for Answer Re-Ranking in Open-Domain Question Answering",
+      "url": "https://openreview.net/forum?id=rJl3yM-Ab",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "The Kanerva Machine: A Generative Distributed Memory",
+      "url": "https://openreview.net/forum?id=S1HlA-ZAZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Predicting Floor-Level for 911 Calls with Neural Networks and Smartphone Sensor Data",
+      "url": "https://openreview.net/forum?id=ryBnUWb0b",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Deep Active Learning for Named Entity Recognition",
+      "url": "https://openreview.net/forum?id=ry018WZAZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Variational Network Quantization",
+      "url": "https://openreview.net/forum?id=ry-TW-WAb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Neural-Guided Deductive Search for Real-Time Program Synthesis from Examples",
+      "url": "https://openreview.net/forum?id=rywDjg-RW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Cascade Adversarial Machine Learning Regularized with a Unified Embedding",
+      "url": "https://openreview.net/forum?id=HyRVBzap-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Training and Inference with Integers in Deep Neural Networks",
+      "url": "https://openreview.net/forum?id=HJGXzmspb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Hierarchical Subtask Discovery with Non-Negative Matrix Factorization",
+      "url": "https://openreview.net/forum?id=ry80wMW0W",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "A Simple Neural Attentive Meta-Learner",
+      "url": "https://openreview.net/forum?id=B1DmUzWAW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Dynamic Neural Program Embeddings for Program Repair",
+      "url": "https://openreview.net/forum?id=BJuWrGW0Z",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Stochastic Activation Pruning for Robust Adversarial Defense",
+      "url": "https://openreview.net/forum?id=H1uR4GZRZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Do GANs learn the distribution? Some Theory and Empirics",
+      "url": "https://openreview.net/forum?id=BJehNfW0-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Learning Parametric Closed-Loop Policies for Markov Potential Games",
+      "url": "https://openreview.net/forum?id=rJm7VfZA-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Learning Approximate Inference Networks for Structured Prediction",
+      "url": "https://openreview.net/forum?id=H1WgVz-AZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Fidelity-Weighted Learning",
+      "url": "https://openreview.net/forum?id=B1X0mzZCW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "HexaConv",
+      "url": "https://openreview.net/forum?id=r1vuQG-CW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "On the Convergence of Adam and Beyond",
+      "url": "https://openreview.net/forum?id=ryQu7f-RZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Generalizing Across Domains via Cross-Gradient Training",
+      "url": "https://openreview.net/forum?id=r1Dx7fbCW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Understanding image motion with group representations",
+      "url": "https://openreview.net/forum?id=SJLlmG-AZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Matrix capsules with EM routing",
+      "url": "https://openreview.net/forum?id=HJWLfGWRb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Global Optimality Conditions for Deep Neural Networks",
+      "url": "https://openreview.net/forum?id=BJk7Gf-CZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "A PAC-Bayesian Approach to Spectrally-Normalized Margin Bounds for Neural Networks",
+      "url": "https://openreview.net/forum?id=Skz_WfbCZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Evaluating the Robustness of Neural Networks: An Extreme Value Theory Approach",
+      "url": "https://openreview.net/forum?id=BkUHlMZ0b",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Sobolev GAN",
+      "url": "https://openreview.net/forum?id=SJA7xfb0b",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Divide-and-Conquer Reinforcement Learning",
+      "url": "https://openreview.net/forum?id=rJwelMbR-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "i-RevNet: Deep Invertible Networks",
+      "url": "https://openreview.net/forum?id=HJsjkMb0Z",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Multi-View Data Generation Without View Supervision",
+      "url": "https://openreview.net/forum?id=ryRh0bb0Z",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Action-dependent Control Variates for Policy Optimization via Stein Identity",
+      "url": "https://openreview.net/forum?id=H1mCp-ZRZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Ask the Right Questions: Active Question Reformulation with Reinforcement Learning",
+      "url": "https://openreview.net/forum?id=S1CChZ-CZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Temporal Difference Models: Model-Free Deep RL for Model-Based Control",
+      "url": "https://openreview.net/forum?id=Skw0n-W0Z",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Model-Ensemble Trust-Region Policy Optimization",
+      "url": "https://openreview.net/forum?id=SJJinbWRZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Generating Wikipedia by Summarizing Long Sequences",
+      "url": "https://openreview.net/forum?id=Hyg0vbWC-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Neural Language Modeling by Jointly Learning Syntax and Lexicon",
+      "url": "https://openreview.net/forum?id=rkgOLb-0W",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Deep Autoencoding Gaussian Mixture Model for Unsupervised Anomaly Detection",
+      "url": "https://openreview.net/forum?id=BJJLHbb0-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "An efficient framework for learning sentence representations",
+      "url": "https://openreview.net/forum?id=rJvJXZb0W",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Latent Space Oddity: on the Curvature of Deep Generative Models",
+      "url": "https://openreview.net/forum?id=SJzRZ-WCZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "N2N learning: Network to Network Compression via Policy Gradient Reinforcement Learning",
+      "url": "https://openreview.net/forum?id=B1hcZZ-AW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Variational Message Passing with Structured Inference Networks",
+      "url": "https://openreview.net/forum?id=HyH9lbZAW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Emergence of Linguistic Communication from  Referential Games with Symbolic and Pixel Input",
+      "url": "https://openreview.net/forum?id=HJGv1Z-AW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "SCAN: Learning Hierarchical Compositional Visual Concepts",
+      "url": "https://openreview.net/forum?id=rkN2Il-RZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "The Role of Minimal Complexity Functions in Unsupervised Learning of Semantic Mappings",
+      "url": "https://openreview.net/forum?id=H1VjBebR-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Learning Sparse Latent Representations with the Deep Copula Information Bottleneck",
+      "url": "https://openreview.net/forum?id=Hk0wHx-RW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Learning From Noisy Singly-labeled Data",
+      "url": "https://openreview.net/forum?id=H1sUHgb0Z",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Gaussian Process Behaviour in Wide Deep Neural Networks",
+      "url": "https://openreview.net/forum?id=H1-nGgWC-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Critical Points of Linear Neural Networks: Analytical Forms and Landscape Properties",
+      "url": "https://openreview.net/forum?id=SysEexbRb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Apprentice: Using Knowledge Distillation Techniques To Improve Low-Precision Network Accuracy",
+      "url": "https://openreview.net/forum?id=B1ae1lZRb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Wavelet Pooling for Convolutional Neural Networks",
+      "url": "https://openreview.net/forum?id=rkhlb8lCZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Characterizing Adversarial Subspaces Using Local Intrinsic Dimensionality",
+      "url": "https://openreview.net/forum?id=B1gJ1L2aW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Learning Intrinsic Sparse Structures within Long Short-Term Memory",
+      "url": "https://openreview.net/forum?id=rk6cfpRjZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "FearNet: Brain-Inspired Model for Incremental Learning",
+      "url": "https://openreview.net/forum?id=SJ1Xmf-Rb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Variational Inference of Disentangled Latent Concepts from Unlabeled Observations",
+      "url": "https://openreview.net/forum?id=H1kG7GZAW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Meta-Learning for Semi-Supervised Few-Shot Classification",
+      "url": "https://openreview.net/forum?id=HJcSzz-CZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Neural Sketch Learning for Conditional Program Generation",
+      "url": "https://openreview.net/forum?id=HkfXMz-Ab",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Deep Neural Networks as Gaussian Processes",
+      "url": "https://openreview.net/forum?id=B1EA-M-0Z",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Initialization matters: Orthogonal Predictive State Recurrent Neural Networks",
+      "url": "https://openreview.net/forum?id=HJJ23bW0b",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Expressive power of recurrent neural networks",
+      "url": "https://openreview.net/forum?id=S1WRibb0Z",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Defense-GAN: Protecting Classifiers Against Adversarial Attacks Using Generative Models",
+      "url": "https://openreview.net/forum?id=BkJ3ibb0-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Variance Reduction for Policy Gradient with Action-Dependent Factorized Baselines",
+      "url": "https://openreview.net/forum?id=H1tSsb-AW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Certified Defenses against Adversarial Examples",
+      "url": "https://openreview.net/forum?id=Bys4ob-Rb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Semantic Interpolation in Implicit Models",
+      "url": "https://openreview.net/forum?id=H15odZ-C-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Leave no Trace: Learning to Reset for Safe and Autonomous Reinforcement Learning",
+      "url": "https://openreview.net/forum?id=S1vuO-bCW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Learning One-hidden-layer Neural Networks with Landscape Design",
+      "url": "https://openreview.net/forum?id=BkwHObbRZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Thermometer Encoding: One Hot Way To Resist Adversarial Examples",
+      "url": "https://openreview.net/forum?id=S18Su--CW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Training GANs with Optimism",
+      "url": "https://openreview.net/forum?id=SJJySbbAZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Hierarchical and Interpretable Skill Acquisition in Multi-task Reinforcement Learning",
+      "url": "https://openreview.net/forum?id=SJJQVZW0b",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "The Reactor: A fast and sample-efficient Actor-Critic agent for  Reinforcement Learning",
+      "url": "https://openreview.net/forum?id=rkHVZWZAZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Distributed Prioritized Experience Replay",
+      "url": "https://openreview.net/forum?id=H1Dy---0Z",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Adversarial Dropout Regularization",
+      "url": "https://openreview.net/forum?id=HJIoJWZCZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Countering Adversarial Images using Input Transformations",
+      "url": "https://openreview.net/forum?id=SyJ7ClWCb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Generating Natural Adversarial Examples",
+      "url": "https://openreview.net/forum?id=H1BLjgZCb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Spherical CNNs",
+      "url": "https://openreview.net/forum?id=Hkbd5xZRb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Intrinsic Motivation and Automatic Curricula via Asymmetric Self-Play",
+      "url": "https://openreview.net/forum?id=SkT5Yg-RZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Beyond Word Importance:  Contextual Decomposition to Extract Interactions from LSTMs",
+      "url": "https://openreview.net/forum?id=rkRwGg-0Z",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Unsupervised Neural Machine Translation",
+      "url": "https://openreview.net/forum?id=Sy2ogebAW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Smooth Loss Functions for Deep Top-k Classification",
+      "url": "https://openreview.net/forum?id=Hk5elxbRW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Synthetic and Natural Noise Both Break Neural Machine Translation",
+      "url": "https://openreview.net/forum?id=BJ8vJebC-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Can Neural Networks Understand Logical Entailment?",
+      "url": "https://openreview.net/forum?id=SkZxCk-0Z",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Mastering the Dungeon: Grounded Language Learning by Mechanical Turker Descent",
+      "url": "https://openreview.net/forum?id=SJ-C6JbRW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Many Paths to Equilibrium: GANs Do Not Need to Decrease a Divergence At Every Step",
+      "url": "https://openreview.net/forum?id=ByQpn1ZA-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Learning Latent Permutations with Gumbel-Sinkhorn Networks",
+      "url": "https://openreview.net/forum?id=Byt3oJ-0W",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Can recurrent neural networks warp time?",
+      "url": "https://openreview.net/forum?id=SJcKhk-Ab",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Learning Differentially Private Recurrent Language Models",
+      "url": "https://openreview.net/forum?id=BJ0hF1Z0b",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Deep Gaussian Embedding of Graphs: Unsupervised Inductive Learning via Ranking",
+      "url": "https://openreview.net/forum?id=r1ZdKJ-0W",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "SEARNN: Training RNNs with global-local losses",
+      "url": "https://openreview.net/forum?id=HkUR_y-RZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Learning to Teach",
+      "url": "https://openreview.net/forum?id=HJewuJWCZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Active Learning for Convolutional Neural Networks: A Core-Set Approach",
+      "url": "https://openreview.net/forum?id=H1aIuk-RW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Sparse Persistent RNNs: Squeezing Large Recurrent Networks On-Chip",
+      "url": "https://openreview.net/forum?id=HkxF5RgC-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "WRPN: Wide Reduced-Precision Networks",
+      "url": "https://openreview.net/forum?id=B1ZvaaeAZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Deep Voice 3: Scaling Text-to-Speech with Convolutional Sequence Learning",
+      "url": "https://openreview.net/forum?id=HJtEm4p6Z",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Spectral Normalization for Generative Adversarial Networks",
+      "url": "https://openreview.net/forum?id=B1QRgziT-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Combining Symbolic Expressions and Black-box Function Evaluations in Neural Programs",
+      "url": "https://openreview.net/forum?id=Hksj2WWAW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Debiasing Evidence Approximations: On Importance-weighted Autoencoders and Jackknife Variational Inference",
+      "url": "https://openreview.net/forum?id=HyZoi-WRb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Measuring the Intrinsic Dimension of Objective Landscapes",
+      "url": "https://openreview.net/forum?id=ryup8-WCW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "A Hierarchical Model for Device Placement",
+      "url": "https://openreview.net/forum?id=Hkc-TeZ0W",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Synthesizing realistic neural population activity patterns using Generative Adversarial Networks",
+      "url": "https://openreview.net/forum?id=r1VVsebAZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "FastGCN: Fast Learning with Graph Convolutional Networks via Importance Sampling",
+      "url": "https://openreview.net/forum?id=rytstxWAW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Certifying Some Distributional Robustness with Principled Adversarial Training",
+      "url": "https://openreview.net/forum?id=Hk6kPgZA-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Learning Robust Rewards with Adverserial Inverse Reinforcement Learning",
+      "url": "https://openreview.net/forum?id=rkHywl-A-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "META LEARNING SHARED HIERARCHIES",
+      "url": "https://openreview.net/forum?id=SyX0IeWAW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Boundary Seeking GANs",
+      "url": "https://openreview.net/forum?id=rkTS8lZAb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "GANITE: Estimation of Individualized Treatment Effects using Generative Adversarial Nets",
+      "url": "https://openreview.net/forum?id=ByKWUeWA-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Ensemble Adversarial Training: Attacks and Defenses",
+      "url": "https://openreview.net/forum?id=rkZvSe-RZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "CausalGAN: Learning Causal Implicit Generative Models with Adversarial Training",
+      "url": "https://openreview.net/forum?id=BJE-4xW0W",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Policy Optimization by Genetic Distillation",
+      "url": "https://openreview.net/forum?id=ByOnmlWC-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Stochastic Variational Video Prediction",
+      "url": "https://openreview.net/forum?id=rk49Mg-CW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "PixelDefend: Leveraging Generative Models to Understand and Defend against Adversarial Examples",
+      "url": "https://openreview.net/forum?id=rJUYGxbCW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Modular Continual Learning in a Unified Visual Environment",
+      "url": "https://openreview.net/forum?id=rkPLzgZAZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Trust-PCL: An Off-Policy Trust Region Method for Continuous Control",
+      "url": "https://openreview.net/forum?id=HyrCWeWCb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Continuous Adaptation via Meta-Learning in Nonstationary and Competitive Environments",
+      "url": "https://openreview.net/forum?id=Sk2u1g-0-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "mixup: Beyond Empirical Risk Minimization",
+      "url": "https://openreview.net/forum?id=r1Ddp1-Rb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Meta-Learning and Universality: Deep Representations and Gradient Descent can Approximate any Learning Algorithm",
+      "url": "https://openreview.net/forum?id=HyjC5yWCW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Few-shot Autoregressive Density Estimation: Towards Learning to Learn Distributions",
+      "url": "https://openreview.net/forum?id=r1wEFyWCW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Interpretable Counting for Visual Question Answering",
+      "url": "https://openreview.net/forum?id=S1J2ZyZ0Z",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Improving the Universality and Learnability of Neural Programmer-Interpreters with Combinator Abstraction",
+      "url": "https://openreview.net/forum?id=rJlMAAeC-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Variational Continual Learning",
+      "url": "https://openreview.net/forum?id=BkQqq0gRb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Loss-aware Weight Quantization of Deep Networks",
+      "url": "https://openreview.net/forum?id=BkrSv0lA-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Memory Architectures in Recurrent Neural Network Language Models",
+      "url": "https://openreview.net/forum?id=SkFqf0lAZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Monotonic Chunkwise Attention",
+      "url": "https://openreview.net/forum?id=Hko85plCW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "On the State of the Art of Evaluation in Neural Language Models",
+      "url": "https://openreview.net/forum?id=ByJHuTgA-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Fix your classifier: the marginal value of training the last weight layer",
+      "url": "https://openreview.net/forum?id=S1Dh8Tg0-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "VoiceLoop: Voice Fitting and Synthesis via a Phonological Loop",
+      "url": "https://openreview.net/forum?id=SkFAWax0-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Learning Sparse Neural Networks through L_0 Regularization",
+      "url": "https://openreview.net/forum?id=H1Y8hhg0b",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "A Scalable Laplace Approximation for Neural Networks",
+      "url": "https://openreview.net/forum?id=Skdvd2xAZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Training Confidence-calibrated Classifiers for Detecting Out-of-Distribution Samples",
+      "url": "https://openreview.net/forum?id=ryiAv2xAZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Identifying Analogies Across Domains",
+      "url": "https://openreview.net/forum?id=BkN_r2lR-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Unsupervised Representation Learning by Predicting Image Rotations",
+      "url": "https://openreview.net/forum?id=S1v4N2l0-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "On the importance of single directions for generalization",
+      "url": "https://openreview.net/forum?id=r1iuQjxCZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Bi-Directional Block Self-Attention for Fast and Memory-Efficient Sequence Modeling",
+      "url": "https://openreview.net/forum?id=H1cWzoxA-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Alternating Multi-bit Quantization for Recurrent Neural Networks",
+      "url": "https://openreview.net/forum?id=S19dR9x0b",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "SGD Learns Over-parameterized Networks that Provably Generalize on Linearly Separable Data",
+      "url": "https://openreview.net/forum?id=rJ33wwxRb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Boosting Dilated Convolutional Networks with Mixed Tensor Decompositions",
+      "url": "https://openreview.net/forum?id=S1JHhv6TW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Word translation without parallel data",
+      "url": "https://openreview.net/forum?id=H196sainb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Few-Shot Learning with Graph Neural Networks",
+      "url": "https://openreview.net/forum?id=BJj6qGbRW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Temporally Efficient Deep Learning with Spikes",
+      "url": "https://openreview.net/forum?id=HkZy-bW0-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Stochastic gradient descent performs variational inference, converges to limit cycles for deep networks",
+      "url": "https://openreview.net/forum?id=HyWrIgW0W",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Understanding Deep Neural Networks with Rectified Linear Units",
+      "url": "https://openreview.net/forum?id=B1J_rgWRW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "On Unifying Deep Generative Models",
+      "url": "https://openreview.net/forum?id=rylSzl-R-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Neumann Optimizer: A Practical Optimization Algorithm for Deep Neural Networks",
+      "url": "https://openreview.net/forum?id=rkLyJl-0-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Wasserstein Auto-Encoders",
+      "url": "https://openreview.net/forum?id=HkL7n1-0b",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Guide Actor-Critic for Continuous Control",
+      "url": "https://openreview.net/forum?id=BJk59JZ0b",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "TD or not TD: Analyzing the Role of Temporal Differencing in Deep Reinforcement Learning",
+      "url": "https://openreview.net/forum?id=HyiAuyb0b",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Neural Map: Structured Memory for Deep Reinforcement Learning",
+      "url": "https://openreview.net/forum?id=Bk9zbyZCZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Eigenoption Discovery through the Deep Successor Representation",
+      "url": "https://openreview.net/forum?id=Bk8ZcAxR-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Progressive Growing of GANs for Improved Quality, Stability, and Variation",
+      "url": "https://openreview.net/forum?id=Hk99zCeAb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Learning a neural response metric for retinal prosthesis",
+      "url": "https://openreview.net/forum?id=HJhIM0xAW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Self-ensembling for visual domain adaptation",
+      "url": "https://openreview.net/forum?id=rkpoTaxA-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "PixelNN: Example-based Image Synthesis",
+      "url": "https://openreview.net/forum?id=Syhr6pxCW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Emergent Communication through Negotiation",
+      "url": "https://openreview.net/forum?id=Hk6WhagRW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Emergent Communication in a Multi-Modal, Multi-Step Referential Game",
+      "url": "https://openreview.net/forum?id=rJGZq6g0-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Stabilizing Adversarial Nets with Prediction Methods",
+      "url": "https://openreview.net/forum?id=Skj8Kag0Z",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Learning to Represent Programs with Graphs",
+      "url": "https://openreview.net/forum?id=BJOFETxR-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "cGANs with Projection Discriminator",
+      "url": "https://openreview.net/forum?id=ByS1VpgRZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Generative Models of Visually Grounded Imagination",
+      "url": "https://openreview.net/forum?id=HkCsm6lRb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Emergent Translation in Multi-Agent Communication",
+      "url": "https://openreview.net/forum?id=H1vEXaxA-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Minimal-Entropy Correlation Alignment for Unsupervised Deep Domain Adaptation",
+      "url": "https://openreview.net/forum?id=rJWechg0Z",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "An image representation based convolutional network for DNA classification",
+      "url": "https://openreview.net/forum?id=HJvvRoe0W",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Overcoming Catastrophic Interference using Conceptor-Aided Backpropagation",
+      "url": "https://openreview.net/forum?id=B1al7jg0b",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Deep Sensing: Active Sensing using Multi-directional Recurrent Neural Networks",
+      "url": "https://openreview.net/forum?id=r1SnX5xCb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Non-Autoregressive Neural Machine Translation",
+      "url": "https://openreview.net/forum?id=B1l8BtlCb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Compressing Word Embeddings via Deep Compositional Code Learning",
+      "url": "https://openreview.net/forum?id=BJRZzFlRb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Emergence of grid-like representations by training recurrent neural networks to perform spatial localization",
+      "url": "https://openreview.net/forum?id=B17JTOe0-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "FusionNet: Fusing via Fully-aware Attention with Application to Machine Comprehension",
+      "url": "https://openreview.net/forum?id=BJIgi_eCZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Depthwise Separable Convolutions for Neural Machine Translation",
+      "url": "https://openreview.net/forum?id=S1jBcueAb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Parallelizing Linear Recurrent Neural Nets Over Sequence Length",
+      "url": "https://openreview.net/forum?id=HyUNwulC-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Large scale distributed neural network training through online distillation",
+      "url": "https://openreview.net/forum?id=rkr1UDeC-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Viterbi-based Pruning for Sparse Matrix with Fixed and High Index Compression Ratio",
+      "url": "https://openreview.net/forum?id=S1D8MPxA-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "DCN+: Mixed Objective And Deep Residual Coattention for Question Answering",
+      "url": "https://openreview.net/forum?id=H1meywxRW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Enhancing The Reliability of Out-of-distribution Image Detection in Neural Networks",
+      "url": "https://openreview.net/forum?id=H1VGkIxRZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Residual Connections Encourage Iterative Inference",
+      "url": "https://openreview.net/forum?id=SJa9iHgAZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Towards Synthesizing Complex Programs From Input-Output Examples",
+      "url": "https://openreview.net/forum?id=Skp1ESxRZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Don't Decay the Learning Rate, Increase the Batch Size",
+      "url": "https://openreview.net/forum?id=B1Yy1BxCZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Minimax Curriculum Learning: Machine Teaching with Desirable   Difficulties and Scheduled Diversity",
+      "url": "https://openreview.net/forum?id=BywyFQlAW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Multi-Scale Dense Networks for Resource Efficient Image Classification",
+      "url": "https://openreview.net/forum?id=Hk2aImxAb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "A Deep Reinforced Model for Abstractive Summarization",
+      "url": "https://openreview.net/forum?id=HkAClQgA-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Unbiased Online Recurrent Optimization",
+      "url": "https://openreview.net/forum?id=rJQDjk-0b",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Kernel Implicit Variational Inference",
+      "url": "https://openreview.net/forum?id=r1l4eQW0Z",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Generative networks as inverse problems with Scattering transforms",
+      "url": "https://openreview.net/forum?id=r1NYjfbR-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Deep Bayesian Bandits Showdown:  An Empirical Comparison of Bayesian Deep Networks for Thompson Sampling",
+      "url": "https://openreview.net/forum?id=SyYe6k-CW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Large Scale Optimal Transport and Mapping Estimation",
+      "url": "https://openreview.net/forum?id=B1zlp1bRW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Backpropagation through the Void: Optimizing control variates for black-box gradient estimation",
+      "url": "https://openreview.net/forum?id=SyzKd1bCW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Activation Maximization Generative Adversarial Nets",
+      "url": "https://openreview.net/forum?id=HyyP33gAZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Parameter Space Noise for Exploration",
+      "url": "https://openreview.net/forum?id=ByBAl2eAZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "AmbientGAN: Generative models from lossy measurements",
+      "url": "https://openreview.net/forum?id=Hy7fDog0b",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "RESIDUAL LOSS PREDICTION: REINFORCEMENT LEARNING WITH NO INCREMENTAL FEEDBACK",
+      "url": "https://openreview.net/forum?id=HJNMYceCW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Mitigating Adversarial Effects Through Randomization",
+      "url": "https://openreview.net/forum?id=Sk9yuql0Z",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Understanding Short-Horizon Bias in Stochastic Meta-Optimization",
+      "url": "https://openreview.net/forum?id=H1MczcgR-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Towards Reverse-Engineering Black-Box Neural Networks",
+      "url": "https://openreview.net/forum?id=BydjJte0-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "The High-Dimensional Geometry of Binary Neural Networks",
+      "url": "https://openreview.net/forum?id=B1IDRdeCW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "On the Discrimination-Generalization Tradeoff in GANs",
+      "url": "https://openreview.net/forum?id=Hk9Xc_lR-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Learning Latent Representations in Neural Networks for Clustering through Pseudo Supervision and Graph-based Activity Regularization",
+      "url": "https://openreview.net/forum?id=HkMvEOlAb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Coulomb GANs: Provably Optimal Nash Equilibria via Potential Fields",
+      "url": "https://openreview.net/forum?id=SkVqXOxCb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Learning to Multi-Task by Active Sampling",
+      "url": "https://openreview.net/forum?id=B1nZ1weCZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Learning from Between-class Examples for Deep Sound Recognition",
+      "url": "https://openreview.net/forum?id=B1Gi6LeRZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Emergent Complexity via Multi-Agent Competition",
+      "url": "https://openreview.net/forum?id=Sy0GnUxCb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "DORA The Explorer: Directed Outreaching Reinforcement Action-Selection",
+      "url": "https://openreview.net/forum?id=ry1arUgCW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Polar Transformer Networks",
+      "url": "https://openreview.net/forum?id=HktRlUlAZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Compositional Obverter Communication Learning from Raw Visual Input",
+      "url": "https://openreview.net/forum?id=rknt2Be0-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Auto-Conditioned Recurrent Networks for Extended Complex Human Motion Synthesis",
+      "url": "https://openreview.net/forum?id=r11Q2SlRW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Multi-Task Learning for Document Ranking and Query Suggestion",
+      "url": "https://openreview.net/forum?id=SJ1nzBeA-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Adaptive Quantization of Neural Networks",
+      "url": "https://openreview.net/forum?id=SyOK1Sg0W",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Interactive Grounded Language Acquisition and Generalization in a 2D World",
+      "url": "https://openreview.net/forum?id=H1UOm4gA-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Hyperparameter optimization: a spectral approach",
+      "url": "https://openreview.net/forum?id=H1zriGeCZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Deep Learning with Logged Bandit Feedback",
+      "url": "https://openreview.net/forum?id=SJaP_-xAb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Generalizing Hamiltonian Monte Carlo with Neural Networks",
+      "url": "https://openreview.net/forum?id=B1n8LexRZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Detecting Statistical Interactions from Neural Network Weights",
+      "url": "https://openreview.net/forum?id=ByOfBggRZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Robustness of Classifiers to Universal Perturbations: A Geometric Perspective",
+      "url": "https://openreview.net/forum?id=ByrZyglCb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Adaptive Dropout with Rademacher Complexity Regularization",
+      "url": "https://openreview.net/forum?id=S1uxsye0Z",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Mixed Precision Training",
+      "url": "https://openreview.net/forum?id=r1gs9JgRZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "SpectralNet: Spectral Clustering using Deep Neural Networks",
+      "url": "https://openreview.net/forum?id=HJ_aoCyRZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Deep Rewiring: Training very sparse deep networks",
+      "url": "https://openreview.net/forum?id=BJ_wN01C-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "A Neural Representation of Sketch Drawings",
+      "url": "https://openreview.net/forum?id=Hy6GHpkCW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Leveraging Grammar and Reinforcement Learning for Neural Program Synthesis",
+      "url": "https://openreview.net/forum?id=H1Xw62kRZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "All-but-the-Top: Simple and Effective Postprocessing for Word Representations",
+      "url": "https://openreview.net/forum?id=HkuGJ3kCb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Graph Attention Networks",
+      "url": "https://openreview.net/forum?id=rJXMpikCZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Towards better understanding of gradient-based attribution methods for Deep Neural Networks",
+      "url": "https://openreview.net/forum?id=Sy21R9JAW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Critical Percolation as a Framework to Analyze the Training of Deep Networks",
+      "url": "https://openreview.net/forum?id=BJGWO9k0Z",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Learning to Count Objects in Natural Images for Visual Question Answering",
+      "url": "https://openreview.net/forum?id=B12Js_yRb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Variational image compression with a scale hyperprior",
+      "url": "https://openreview.net/forum?id=rkcQFMZRb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "NerveNet: Learning Structured Policy with Graph Neural Networks",
+      "url": "https://openreview.net/forum?id=S1sqHMZCb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Proximal Backpropagation",
+      "url": "https://openreview.net/forum?id=ByeqORgAW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "On the Expressive Power of Overlapping Architectures of Deep Learning",
+      "url": "https://openreview.net/forum?id=HkNGsseC-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "The Implicit Bias of Gradient Descent on Separable Data",
+      "url": "https://openreview.net/forum?id=r1q7n9gAb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Multi-level Residual Networks from Dynamical Systems View",
+      "url": "https://openreview.net/forum?id=SyJS-OgR-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Learning Deep Mean Field Games for Modeling Large Population Behavior",
+      "url": "https://openreview.net/forum?id=HktK4BeCZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "TRAINING GENERATIVE ADVERSARIAL NETWORKS VIA PRIMAL-DUAL SUBGRADIENT METHODS: A LAGRANGIAN PERSPECTIVE ON GAN",
+      "url": "https://openreview.net/forum?id=BJNRFNlRW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Implicit Causal Models for Genome-wide Association Studies",
+      "url": "https://openreview.net/forum?id=SyELrEeAb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Unsupervised Cipher Cracking Using Discrete GANs",
+      "url": "https://openreview.net/forum?id=BkeqO7x0-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Semantically Decomposing the Latent Spaces of Generative Adversarial Networks",
+      "url": "https://openreview.net/forum?id=S1nQvfgA-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Not-So-Random Features",
+      "url": "https://openreview.net/forum?id=Hk8XMWgRb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "A Bayesian Perspective on Generalization and Stochastic Gradient Descent",
+      "url": "https://openreview.net/forum?id=BJij4yg0Z",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Memorization Precedes Generation: Learning Unsupervised GANs with Memory Networks",
+      "url": "https://openreview.net/forum?id=rkO3uTkAZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Reinforcement Learning Algorithm Selection",
+      "url": "https://openreview.net/forum?id=SyoDInJ0-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Improving GANs Using Optimal Transport",
+      "url": "https://openreview.net/forum?id=rkQkBnJAb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Efficient Sparse-Winograd Convolutional Neural Networks",
+      "url": "https://openreview.net/forum?id=HJzgZ3JCW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Progressive Reinforcement Learning with Distillation for Multi-Skilled Motion Control",
+      "url": "https://openreview.net/forum?id=B13njo1R-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "An Online Learning Approach to Generative Adversarial Networks",
+      "url": "https://openreview.net/forum?id=H1Yp-j1Cb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Espresso: Efficient Forward Propagation for Binary Deep Neural Networks",
+      "url": "https://openreview.net/forum?id=Sk6fD5yCb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Learning Wasserstein Embeddings",
+      "url": "https://openreview.net/forum?id=SJyEH91A-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Towards Neural Phrase-based Machine Translation",
+      "url": "https://openreview.net/forum?id=HktJec1RZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Noisy Networks For Exploration",
+      "url": "https://openreview.net/forum?id=rywHCPkAW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Unsupervised Learning of Goal Spaces for Intrinsically Motivated Goal Exploration",
+      "url": "https://openreview.net/forum?id=S1DWPP1A-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Deep Learning and Quantum Entanglement: Fundamental Connections with Implications to Network Design",
+      "url": "https://openreview.net/forum?id=SywXXwJAb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Training wide residual networks for deployment using a single bit for each weight",
+      "url": "https://openreview.net/forum?id=rytNfI1AZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Skip RNN: Learning to Skip State Updates in Recurrent Neural Networks",
+      "url": "https://openreview.net/forum?id=HkwVAXyCW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Recasting Gradient-Based Meta-Learning as Hierarchical Bayes",
+      "url": "https://openreview.net/forum?id=BJ_UL-k0b",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Learning Discrete Weights Using the Local Reparameterization Trick",
+      "url": "https://openreview.net/forum?id=BySRH6CpW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Regularizing and Optimizing LSTM Language Models",
+      "url": "https://openreview.net/forum?id=SyyGPP0TZ",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Active Neural Localization",
+      "url": "https://openreview.net/forum?id=ry6-G_66b",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Memory Augmented Control Networks",
+      "url": "https://openreview.net/forum?id=HyfHgI6aW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Learning how to explain neural networks: PatternNet and PatternAttribution",
+      "url": "https://openreview.net/forum?id=Hkn7CBaTW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "A New Method of Region Embedding for Text Classification",
+      "url": "https://openreview.net/forum?id=BkSDMA36Z",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Distributed Fine-tuning of Language Models on Private Data",
+      "url": "https://openreview.net/forum?id=HkgNdt26Z",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Automatically Inferring Data Quality for Spatiotemporal Forecasting",
+      "url": "https://openreview.net/forum?id=ByJIWUnpW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Empirical Risk Landscape Analysis for Understanding Deep Neural Networks",
+      "url": "https://openreview.net/forum?id=B1QgVti6Z",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Decoupling the Layers in Residual Networks",
+      "url": "https://openreview.net/forum?id=SyMvJrdaW",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Learning to cluster in order to transfer across domains and tasks",
+      "url": "https://openreview.net/forum?id=ByRWCqvT-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Natural Language Inference over Interaction Space",
+      "url": "https://openreview.net/forum?id=r1dHXnH6-",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "Consequentialist conditional cooperation in social dilemmas with imperfect information",
+      "url": "https://openreview.net/forum?id=BkabRiQpb",
+      "track": "main",
+      "authors": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "title": "SMASH: One-Shot Model Architecture Search through HyperNetworks",
+      "url": "https://openreview.net/forum?id=rydeCEhs-",
+      "track": "main",
+      "authors": ""
+    }
+  ],
+  "source_url": "https://iclr.cc/Conferences/2018/Schedule?type=Poster",
+  "verification": "official_accepted_directory",
+  "retrieved_utc": "2026-11-01T11:22:20.817644+00:00",
+  "collector_version": 2,
+  "status": "parsed_needs_coverage_review"
+}

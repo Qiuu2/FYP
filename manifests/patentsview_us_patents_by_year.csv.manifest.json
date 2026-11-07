@@ -1,0 +1,10 @@
+{
+  "file": "raw\\patentsview_us_patents_by_year.csv",
+  "sha256": "72b3d9fbcaad1463d49b43f9c925137341d6de9edec2d6a154346b327dd8ca44",
+  "source_url": " https://api.uspto.gov/api/v1/patent/applications/search",
+  "query_or_method": "assignee_country×patent_date 逐年 total_hits",
+  "collected_utc": "2026-08-25T15:19:27+00:00",
+  "collected_by": "UNSET——请 export COLLECTOR_NAME",
+  "notes": "美国专利口径（发明人流动模块的先导）；全球口径走 BigQuery sql/",
+  "manifest_version": 1
+}

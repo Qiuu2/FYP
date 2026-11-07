@@ -1,0 +1,935 @@
+{
+  "checked_date": "2026-10-31",
+  "main": {
+    "repository": "Qiuu2/FYP",
+    "sha": "71eeae7920df8c1b0dd8779493a2ff63b5f8b826"
+  },
+  "data_pull_request": {
+    "number": 3,
+    "state": "open",
+    "merged": null,
+    "title": "數據跑完了，其他文件很大不方便pull上來，這次先放些表格，剩下cache log oa catalog什麼的你看看需不需要，要的話我之後…",
+    "updated": "2026-10-22T19:32:26Z",
+    "body": "…再想辦法給\n\n賈贇 10.22",
+    "head": "3df29b0551704a4a005f28240511c9214f30b735",
+    "repo": "Albus20/FYP"
+  },
+  "patent_manifest": {
+    "created_utc": "2026-10-22T19:27:31.328742+00:00",
+    "input": "patents_raw_2025.csv",
+    "input_sha256": "b0cc613f0cc2ca00a7f984da9eb25e64ddb3ba590eafc5899db284841fb715ad",
+    "family_rows": 348,
+    "application_window_start": 2015,
+    "target_year": 2025,
+    "historical_variant": "ali_ant_grp",
+    "complete": false,
+    "notes": "Observed published families only. Blank final count means unresolved company/group classification. Not a forecast or complete filing-year total.",
+    "config_sha256": {
+      "config\\assignee_sectors.csv": "17de8c667e3281ac12b1f7bf7736836b1e646de6fd0aff547d03f38beceaa31d",
+      "config\\exclusions.csv": "17f427ba2ef7241a480b3305a1de21253e9fbc03b811e5dadb3fc621e6e34dfc",
+      "config\\new_assignees.csv": "984556c7a401bfaa2dc3625939d528c268a0dd2422786a070ba54a76ce2d4429"
+    },
+    "sql_sha256": "cd8811cff3c5ded1576f1cfba9f93eeda0ff161d93311f21533d6fe2cfe2809b"
+  },
+  "catalog_status": [
+    {
+      "venue": "AAAI",
+      "year": 2015,
+      "status": "needs_retry_or_import",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": "HTTP 503 at https://ojs.aaai.org/index.php/AAAI/issue/archive"
+    },
+    {
+      "venue": "AAAI",
+      "year": 2016,
+      "status": "needs_retry_or_import",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": "HTTP 503 at https://ojs.aaai.org/index.php/AAAI/issue/archive"
+    },
+    {
+      "venue": "AAAI",
+      "year": 2017,
+      "status": "needs_retry_or_import",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": "HTTP 503 at https://ojs.aaai.org/index.php/AAAI/issue/archive"
+    },
+    {
+      "venue": "AAAI",
+      "year": 2018,
+      "status": "needs_retry_or_import",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": "HTTP 503 at https://ojs.aaai.org/index.php/AAAI/issue/archive"
+    },
+    {
+      "venue": "AAAI",
+      "year": 2019,
+      "status": "needs_retry_or_import",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": "HTTP 503 at https://ojs.aaai.org/index.php/AAAI/issue/archive"
+    },
+    {
+      "venue": "AAAI",
+      "year": 2020,
+      "status": "needs_retry_or_import",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": "HTTP 503 at https://ojs.aaai.org/index.php/AAAI/issue/archive"
+    },
+    {
+      "venue": "AAAI",
+      "year": 2021,
+      "status": "needs_retry_or_import",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": "HTTP 503 at https://ojs.aaai.org/index.php/AAAI/issue/archive"
+    },
+    {
+      "venue": "AAAI",
+      "year": 2022,
+      "status": "needs_retry_or_import",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": "HTTP 503 at https://ojs.aaai.org/index.php/AAAI/issue/archive"
+    },
+    {
+      "venue": "AAAI",
+      "year": 2023,
+      "status": "needs_retry_or_import",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": "HTTP 503 at https://ojs.aaai.org/index.php/AAAI/issue/archive"
+    },
+    {
+      "venue": "AAAI",
+      "year": 2024,
+      "status": "needs_retry_or_import",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": "HTTP 503 at https://ojs.aaai.org/index.php/AAAI/issue/archive"
+    },
+    {
+      "venue": "AAAI",
+      "year": 2025,
+      "status": "needs_retry_or_import",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": "HTTP 503 at https://ojs.aaai.org/index.php/AAAI/issue/archive"
+    },
+    {
+      "venue": "ACL",
+      "year": 2015,
+      "status": "parsed_unverified",
+      "catalog_rows": 318,
+      "main_rows": 318,
+      "error": ""
+    },
+    {
+      "venue": "ACL",
+      "year": 2016,
+      "status": "parsed_unverified",
+      "catalog_rows": 328,
+      "main_rows": 328,
+      "error": ""
+    },
+    {
+      "venue": "ACL",
+      "year": 2017,
+      "status": "parsed_unverified",
+      "catalog_rows": 302,
+      "main_rows": 302,
+      "error": ""
+    },
+    {
+      "venue": "ACL",
+      "year": 2018,
+      "status": "parsed_unverified",
+      "catalog_rows": 381,
+      "main_rows": 381,
+      "error": ""
+    },
+    {
+      "venue": "ACL",
+      "year": 2019,
+      "status": "parsed_unverified",
+      "catalog_rows": 660,
+      "main_rows": 660,
+      "error": ""
+    },
+    {
+      "venue": "ACL",
+      "year": 2020,
+      "status": "parsed_unverified",
+      "catalog_rows": 778,
+      "main_rows": 778,
+      "error": ""
+    },
+    {
+      "venue": "ACL",
+      "year": 2021,
+      "status": "parsed_unverified",
+      "catalog_rows": 710,
+      "main_rows": 710,
+      "error": ""
+    },
+    {
+      "venue": "ACL",
+      "year": 2022,
+      "status": "parsed_unverified",
+      "catalog_rows": 700,
+      "main_rows": 700,
+      "error": ""
+    },
+    {
+      "venue": "ACL",
+      "year": 2023,
+      "status": "parsed_unverified",
+      "catalog_rows": 1075,
+      "main_rows": 1075,
+      "error": ""
+    },
+    {
+      "venue": "ACL",
+      "year": 2024,
+      "status": "parsed_unverified",
+      "catalog_rows": 940,
+      "main_rows": 940,
+      "error": ""
+    },
+    {
+      "venue": "ACL",
+      "year": 2025,
+      "status": "parsed_unverified",
+      "catalog_rows": 1699,
+      "main_rows": 1699,
+      "error": ""
+    },
+    {
+      "venue": "CVPR",
+      "year": 2015,
+      "status": "parsed_unverified",
+      "catalog_rows": 602,
+      "main_rows": 602,
+      "error": ""
+    },
+    {
+      "venue": "CVPR",
+      "year": 2016,
+      "status": "parsed_unverified",
+      "catalog_rows": 643,
+      "main_rows": 643,
+      "error": ""
+    },
+    {
+      "venue": "CVPR",
+      "year": 2017,
+      "status": "parsed_unverified",
+      "catalog_rows": 783,
+      "main_rows": 783,
+      "error": ""
+    },
+    {
+      "venue": "CVPR",
+      "year": 2018,
+      "status": "needs_retry_or_import",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": "No entries parsed; requires manual directory/import (not zero papers)"
+    },
+    {
+      "venue": "CVPR",
+      "year": 2019,
+      "status": "needs_retry_or_import",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": "No entries parsed; requires manual directory/import (not zero papers)"
+    },
+    {
+      "venue": "CVPR",
+      "year": 2020,
+      "status": "needs_retry_or_import",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": "No entries parsed; requires manual directory/import (not zero papers)"
+    },
+    {
+      "venue": "CVPR",
+      "year": 2021,
+      "status": "parsed_unverified",
+      "catalog_rows": 1660,
+      "main_rows": 1660,
+      "error": ""
+    },
+    {
+      "venue": "CVPR",
+      "year": 2022,
+      "status": "parsed_unverified",
+      "catalog_rows": 2074,
+      "main_rows": 2074,
+      "error": ""
+    },
+    {
+      "venue": "CVPR",
+      "year": 2023,
+      "status": "parsed_unverified",
+      "catalog_rows": 2353,
+      "main_rows": 2353,
+      "error": ""
+    },
+    {
+      "venue": "CVPR",
+      "year": 2024,
+      "status": "parsed_unverified",
+      "catalog_rows": 2716,
+      "main_rows": 2716,
+      "error": ""
+    },
+    {
+      "venue": "CVPR",
+      "year": 2025,
+      "status": "parsed_unverified",
+      "catalog_rows": 2871,
+      "main_rows": 2871,
+      "error": ""
+    },
+    {
+      "venue": "ECCV",
+      "year": 2015,
+      "status": "not_held",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": ""
+    },
+    {
+      "venue": "ECCV",
+      "year": 2016,
+      "status": "needs_retry_or_import",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": "No entries parsed; requires manual directory/import (not zero papers)"
+    },
+    {
+      "venue": "ECCV",
+      "year": 2017,
+      "status": "not_held",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": ""
+    },
+    {
+      "venue": "ECCV",
+      "year": 2018,
+      "status": "parsed_unverified",
+      "catalog_rows": 776,
+      "main_rows": 776,
+      "error": ""
+    },
+    {
+      "venue": "ECCV",
+      "year": 2019,
+      "status": "not_held",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": ""
+    },
+    {
+      "venue": "ECCV",
+      "year": 2020,
+      "status": "parsed_unverified",
+      "catalog_rows": 1358,
+      "main_rows": 1358,
+      "error": ""
+    },
+    {
+      "venue": "ECCV",
+      "year": 2021,
+      "status": "not_held",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": ""
+    },
+    {
+      "venue": "ECCV",
+      "year": 2022,
+      "status": "parsed_unverified",
+      "catalog_rows": 1645,
+      "main_rows": 1645,
+      "error": ""
+    },
+    {
+      "venue": "ECCV",
+      "year": 2023,
+      "status": "not_held",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": ""
+    },
+    {
+      "venue": "ECCV",
+      "year": 2024,
+      "status": "parsed_unverified",
+      "catalog_rows": 2387,
+      "main_rows": 2387,
+      "error": ""
+    },
+    {
+      "venue": "ECCV",
+      "year": 2025,
+      "status": "not_held",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": ""
+    },
+    {
+      "venue": "EMNLP",
+      "year": 2015,
+      "status": "parsed_unverified",
+      "catalog_rows": 312,
+      "main_rows": 312,
+      "error": ""
+    },
+    {
+      "venue": "EMNLP",
+      "year": 2016,
+      "status": "parsed_unverified",
+      "catalog_rows": 264,
+      "main_rows": 264,
+      "error": ""
+    },
+    {
+      "venue": "EMNLP",
+      "year": 2017,
+      "status": "parsed_unverified",
+      "catalog_rows": 323,
+      "main_rows": 323,
+      "error": ""
+    },
+    {
+      "venue": "EMNLP",
+      "year": 2018,
+      "status": "parsed_unverified",
+      "catalog_rows": 549,
+      "main_rows": 549,
+      "error": ""
+    },
+    {
+      "venue": "EMNLP",
+      "year": 2019,
+      "status": "parsed_unverified",
+      "catalog_rows": 681,
+      "main_rows": 681,
+      "error": ""
+    },
+    {
+      "venue": "EMNLP",
+      "year": 2020,
+      "status": "parsed_unverified",
+      "catalog_rows": 751,
+      "main_rows": 751,
+      "error": ""
+    },
+    {
+      "venue": "EMNLP",
+      "year": 2021,
+      "status": "parsed_unverified",
+      "catalog_rows": 847,
+      "main_rows": 847,
+      "error": ""
+    },
+    {
+      "venue": "EMNLP",
+      "year": 2022,
+      "status": "parsed_unverified",
+      "catalog_rows": 828,
+      "main_rows": 828,
+      "error": ""
+    },
+    {
+      "venue": "EMNLP",
+      "year": 2023,
+      "status": "parsed_unverified",
+      "catalog_rows": 1047,
+      "main_rows": 1047,
+      "error": ""
+    },
+    {
+      "venue": "EMNLP",
+      "year": 2024,
+      "status": "parsed_unverified",
+      "catalog_rows": 1268,
+      "main_rows": 1268,
+      "error": ""
+    },
+    {
+      "venue": "EMNLP",
+      "year": 2025,
+      "status": "parsed_unverified",
+      "catalog_rows": 1809,
+      "main_rows": 1809,
+      "error": ""
+    },
+    {
+      "venue": "ICCV",
+      "year": 2015,
+      "status": "parsed_unverified",
+      "catalog_rows": 526,
+      "main_rows": 526,
+      "error": ""
+    },
+    {
+      "venue": "ICCV",
+      "year": 2016,
+      "status": "not_held",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": ""
+    },
+    {
+      "venue": "ICCV",
+      "year": 2017,
+      "status": "parsed_unverified",
+      "catalog_rows": 621,
+      "main_rows": 621,
+      "error": ""
+    },
+    {
+      "venue": "ICCV",
+      "year": 2018,
+      "status": "not_held",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": ""
+    },
+    {
+      "venue": "ICCV",
+      "year": 2019,
+      "status": "needs_retry_or_import",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": "No entries parsed; requires manual directory/import (not zero papers)"
+    },
+    {
+      "venue": "ICCV",
+      "year": 2020,
+      "status": "not_held",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": ""
+    },
+    {
+      "venue": "ICCV",
+      "year": 2021,
+      "status": "parsed_unverified",
+      "catalog_rows": 1612,
+      "main_rows": 1612,
+      "error": ""
+    },
+    {
+      "venue": "ICCV",
+      "year": 2022,
+      "status": "not_held",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": ""
+    },
+    {
+      "venue": "ICCV",
+      "year": 2023,
+      "status": "parsed_unverified",
+      "catalog_rows": 2156,
+      "main_rows": 2156,
+      "error": ""
+    },
+    {
+      "venue": "ICCV",
+      "year": 2024,
+      "status": "not_held",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": ""
+    },
+    {
+      "venue": "ICCV",
+      "year": 2025,
+      "status": "parsed_unverified",
+      "catalog_rows": 2701,
+      "main_rows": 2701,
+      "error": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2015,
+      "status": "needs_retry_or_import",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": "HTTP 403 at https://api.openreview.net/notes"
+    },
+    {
+      "venue": "ICLR",
+      "year": 2016,
+      "status": "needs_retry_or_import",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": "HTTP 403 at https://api.openreview.net/notes"
+    },
+    {
+      "venue": "ICLR",
+      "year": 2017,
+      "status": "needs_retry_or_import",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": "HTTP 403 at https://api.openreview.net/notes"
+    },
+    {
+      "venue": "ICLR",
+      "year": 2018,
+      "status": "needs_retry_or_import",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": "HTTP 403 at https://api.openreview.net/notes"
+    },
+    {
+      "venue": "ICLR",
+      "year": 2019,
+      "status": "needs_retry_or_import",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": "HTTP 403 at https://api.openreview.net/notes"
+    },
+    {
+      "venue": "ICLR",
+      "year": 2020,
+      "status": "needs_retry_or_import",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": "HTTP 403 at https://api.openreview.net/notes"
+    },
+    {
+      "venue": "ICLR",
+      "year": 2021,
+      "status": "needs_retry_or_import",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": "HTTP 403 at https://api.openreview.net/notes"
+    },
+    {
+      "venue": "ICLR",
+      "year": 2022,
+      "status": "needs_retry_or_import",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": "HTTP 403 at https://api.openreview.net/notes"
+    },
+    {
+      "venue": "ICLR",
+      "year": 2023,
+      "status": "needs_retry_or_import",
+      "catalog_rows": 0,
+      "main_rows": 0,
+      "error": "HTTP 403 at https://api.openreview.net/notes"
+    },
+    {
+      "venue": "ICLR",
+      "year": 2024,
+      "status": "parsed_unverified",
+      "catalog_rows": 2260,
+      "main_rows": 2260,
+      "error": ""
+    },
+    {
+      "venue": "ICLR",
+      "year": 2025,
+      "status": "parsed_unverified",
+      "catalog_rows": 3703,
+      "main_rows": 3703,
+      "error": ""
+    },
+    {
+      "venue": "ICML",
+      "year": 2015,
+      "status": "parsed_unverified",
+      "catalog_rows": 270,
+      "main_rows": 270,
+      "error": ""
+    },
+    {
+      "venue": "ICML",
+      "year": 2016,
+      "status": "parsed_unverified",
+      "catalog_rows": 322,
+      "main_rows": 322,
+      "error": ""
+    },
+    {
+      "venue": "ICML",
+      "year": 2017,
+      "status": "parsed_unverified",
+      "catalog_rows": 434,
+      "main_rows": 434,
+      "error": ""
+    },
+    {
+      "venue": "ICML",
+      "year": 2018,
+      "status": "parsed_unverified",
+      "catalog_rows": 621,
+      "main_rows": 621,
+      "error": ""
+    },
+    {
+      "venue": "ICML",
+      "year": 2019,
+      "status": "parsed_unverified",
+      "catalog_rows": 773,
+      "main_rows": 773,
+      "error": ""
+    },
+    {
+      "venue": "ICML",
+      "year": 2020,
+      "status": "parsed_unverified",
+      "catalog_rows": 1084,
+      "main_rows": 1084,
+      "error": ""
+    },
+    {
+      "venue": "ICML",
+      "year": 2021,
+      "status": "parsed_unverified",
+      "catalog_rows": 1183,
+      "main_rows": 1183,
+      "error": ""
+    },
+    {
+      "venue": "ICML",
+      "year": 2022,
+      "status": "parsed_unverified",
+      "catalog_rows": 1247,
+      "main_rows": 1247,
+      "error": ""
+    },
+    {
+      "venue": "ICML",
+      "year": 2023,
+      "status": "parsed_unverified",
+      "catalog_rows": 1828,
+      "main_rows": 1828,
+      "error": ""
+    },
+    {
+      "venue": "ICML",
+      "year": 2024,
+      "status": "parsed_unverified",
+      "catalog_rows": 2640,
+      "main_rows": 2640,
+      "error": ""
+    },
+    {
+      "venue": "ICML",
+      "year": 2025,
+      "status": "parsed_unverified",
+      "catalog_rows": 3341,
+      "main_rows": 3341,
+      "error": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2015,
+      "status": "parsed_unverified",
+      "catalog_rows": 656,
+      "main_rows": 335,
+      "error": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2016,
+      "status": "parsed_unverified",
+      "catalog_rows": 658,
+      "main_rows": 0,
+      "error": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2017,
+      "status": "parsed_unverified",
+      "catalog_rows": 781,
+      "main_rows": 648,
+      "error": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2018,
+      "status": "parsed_unverified",
+      "catalog_rows": 870,
+      "main_rows": 709,
+      "error": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2019,
+      "status": "parsed_unverified",
+      "catalog_rows": 964,
+      "main_rows": 799,
+      "error": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2020,
+      "status": "parsed_unverified",
+      "catalog_rows": 779,
+      "main_rows": 592,
+      "error": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2021,
+      "status": "parsed_unverified",
+      "catalog_rows": 722,
+      "main_rows": 586,
+      "error": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2022,
+      "status": "parsed_unverified",
+      "catalog_rows": 862,
+      "main_rows": 678,
+      "error": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2023,
+      "status": "parsed_unverified",
+      "catalog_rows": 851,
+      "main_rows": 639,
+      "error": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2024,
+      "status": "parsed_unverified",
+      "catalog_rows": 1048,
+      "main_rows": 790,
+      "error": ""
+    },
+    {
+      "venue": "IJCAI",
+      "year": 2025,
+      "status": "parsed_unverified",
+      "catalog_rows": 1280,
+      "main_rows": 1014,
+      "error": ""
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2015,
+      "status": "parsed_unverified",
+      "catalog_rows": 403,
+      "main_rows": 403,
+      "error": ""
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2016,
+      "status": "parsed_unverified",
+      "catalog_rows": 569,
+      "main_rows": 569,
+      "error": ""
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2017,
+      "status": "parsed_unverified",
+      "catalog_rows": 679,
+      "main_rows": 679,
+      "error": ""
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2018,
+      "status": "parsed_unverified",
+      "catalog_rows": 1009,
+      "main_rows": 1009,
+      "error": ""
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2019,
+      "status": "parsed_unverified",
+      "catalog_rows": 1428,
+      "main_rows": 1428,
+      "error": ""
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2020,
+      "status": "parsed_unverified",
+      "catalog_rows": 1898,
+      "main_rows": 1898,
+      "error": ""
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2021,
+      "status": "parsed_unverified",
+      "catalog_rows": 2334,
+      "main_rows": 2334,
+      "error": ""
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2022,
+      "status": "parsed_unverified",
+      "catalog_rows": 2834,
+      "main_rows": 2671,
+      "error": ""
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2023,
+      "status": "parsed_unverified",
+      "catalog_rows": 3540,
+      "main_rows": 3218,
+      "error": ""
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2024,
+      "status": "parsed_unverified",
+      "catalog_rows": 4493,
+      "main_rows": 4034,
+      "error": ""
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2025,
+      "status": "parsed_unverified",
+      "catalog_rows": 64,
+      "main_rows": 64,
+      "error": ""
+    }
+  ],
+  "verified_local_git_blob_matches": [
+    {
+      "local": "outputs/github_research_20261022/sources/patents_2025/patents_raw_2025.csv",
+      "remote": "scripts/ai_patents_2025/patents_raw_2025.csv",
+      "sha": "9a04a24276b9e900b40f279912f8b7b3554103c0"
+    },
+    {
+      "local": "github-checkouts/Qiuu2-FYP/raw/patents_families_raw_s3.csv",
+      "remote": "raw/patents_families_raw_s3.csv",
+      "sha": "d2f3760af58f833db29b0ceeebcccaa74aeeabb1"
+    },
+    {
+      "local": "outputs/github_research_20261022/sources/conference_coverage.csv",
+      "remote": "scripts/ai_research_collector/results/conference_coverage.csv",
+      "sha": "e443a19a30380120823752dc1529f01a71a5fe92"
+    }
+  ],
+  "scope_change": "Do not collect further finance/fintech patents; retain historical source files.",
+  "collection_package_status": "Audit first, per latest user correction; no new collection package executed or remote data collected."
+}

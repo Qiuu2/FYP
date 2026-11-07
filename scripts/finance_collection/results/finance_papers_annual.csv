@@ -1,0 +1,23 @@
+﻿region,year,scope,finance_articles,active_authors_3yr,missing_author_ids,status,source
+HK,2015,any,283,722,56,ok,OpenAlex; article; finance subfield 2003
+HK,2016,any,296,736,60,ok,OpenAlex; article; finance subfield 2003
+HK,2017,any,333,772,48,ok,OpenAlex; article; finance subfield 2003
+HK,2018,any,343,822,62,ok,OpenAlex; article; finance subfield 2003
+HK,2019,any,358,895,76,ok,OpenAlex; article; finance subfield 2003
+HK,2020,any,399,912,87,ok,OpenAlex; article; finance subfield 2003
+HK,2021,any,362,923,82,ok,OpenAlex; article; finance subfield 2003
+HK,2022,any,413,990,69,ok,OpenAlex; article; finance subfield 2003
+HK,2023,any,453,1031,72,ok,OpenAlex; article; finance subfield 2003
+HK,2024,any,435,1107,95,ok,OpenAlex; article; finance subfield 2003
+HK,2025,any,530,1190,180,ok,OpenAlex; article; finance subfield 2003
+SG,2015,any,204,490,33,ok,OpenAlex; article; finance subfield 2003
+SG,2016,any,186,507,32,ok,OpenAlex; article; finance subfield 2003
+SG,2017,any,212,532,36,ok,OpenAlex; article; finance subfield 2003
+SG,2018,any,205,520,37,ok,OpenAlex; article; finance subfield 2003
+SG,2019,any,189,546,35,ok,OpenAlex; article; finance subfield 2003
+SG,2020,any,214,527,27,ok,OpenAlex; article; finance subfield 2003
+SG,2021,any,211,521,23,ok,OpenAlex; article; finance subfield 2003
+SG,2022,any,211,533,21,ok,OpenAlex; article; finance subfield 2003
+SG,2023,any,237,577,34,ok,OpenAlex; article; finance subfield 2003
+SG,2024,any,210,583,43,ok,OpenAlex; article; finance subfield 2003
+SG,2025,any,223,591,66,ok,OpenAlex; article; finance subfield 2003

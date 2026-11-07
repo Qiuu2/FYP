@@ -1,0 +1,157 @@
+{
+  "scope": "HK/SG AI and biomed only; finance patents excluded",
+  "papers": {
+    "expected_catalog_tasks": 110,
+    "catalog_tasks_found": 110,
+    "missing_catalog_tasks": [],
+    "catalog_status_counts": {
+      "parsed_needs_coverage_review": 76,
+      "count_review_required": 5,
+      "failed": 10,
+      "not_held": 11,
+      "publisher_catalog_verified": 8
+    },
+    "catalogs_needing_retry_or_review": [
+      {
+        "venue": "NeurIPS",
+        "year": 2015,
+        "status": "count_review_required"
+      },
+      {
+        "venue": "NeurIPS",
+        "year": 2016,
+        "status": "count_review_required"
+      },
+      {
+        "venue": "NeurIPS",
+        "year": 2017,
+        "status": "count_review_required"
+      },
+      {
+        "venue": "ICLR",
+        "year": 2017,
+        "status": "failed"
+      },
+      {
+        "venue": "ICLR",
+        "year": 2020,
+        "status": "failed"
+      },
+      {
+        "venue": "ECCV",
+        "year": 2016,
+        "status": "failed"
+      },
+      {
+        "venue": "AAAI",
+        "year": 2016,
+        "status": "count_review_required"
+      },
+      {
+        "venue": "AAAI",
+        "year": 2019,
+        "status": "failed"
+      },
+      {
+        "venue": "AAAI",
+        "year": 2020,
+        "status": "failed"
+      },
+      {
+        "venue": "AAAI",
+        "year": 2021,
+        "status": "failed"
+      },
+      {
+        "venue": "AAAI",
+        "year": 2022,
+        "status": "failed"
+      },
+      {
+        "venue": "AAAI",
+        "year": 2023,
+        "status": "failed"
+      },
+      {
+        "venue": "AAAI",
+        "year": 2024,
+        "status": "failed"
+      },
+      {
+        "venue": "AAAI",
+        "year": 2025,
+        "status": "failed"
+      },
+      {
+        "venue": "IJCAI",
+        "year": 2015,
+        "status": "count_review_required"
+      }
+    ],
+    "openalex_journal_years_found": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "openalex_regional_pool_years_found": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "paper_affiliation_review_rows": 96926,
+    "paper_track_review_rows": 0
+  },
+  "patents": {
+    "export_found": true,
+    "export_verified": true,
+    "queried_window": "2015-2025",
+    "invalid_rows": 0,
+    "pending_applicant_occurrences": 192,
+    "unclassified_assignee_names": 117,
+    "biomed_2025_rows": [
+      {
+        "year": "2025",
+        "industry": "biomed",
+        "city": "hk",
+        "confirmed_families": "44",
+        "pending_families": "26",
+        "invalid_rows": "0",
+        "usable_observed_count": "",
+        "published_snapshot_only": "1",
+        "status": "needs_classification"
+      },
+      {
+        "year": "2025",
+        "industry": "biomed",
+        "city": "sg",
+        "confirmed_families": "186",
+        "pending_families": "91",
+        "invalid_rows": "0",
+        "usable_observed_count": "",
+        "published_snapshot_only": "1",
+        "status": "needs_classification"
+      }
+    ],
+    "recent_years_remain_provisional": true
+  },
+  "automatic_complete": false,
+  "note": "Directory retrieval, publisher coverage, author affiliation, and company classification have different review states; inspect the listed CSVs before analysis."
+}

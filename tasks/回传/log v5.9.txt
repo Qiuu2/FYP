@@ -1,0 +1,16 @@
+C:\Users\albus\AppData\Local\Python\bin\python.exe "C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP_采集包_v5.9\data_repo\scripts\collect_all.py" clinicaltrials_q 
+Traceback (most recent call last):
+  File "C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP_采集包_v5.9\data_repo\scripts\collect_all.py", line 575, in <module>
+    MODULES[args.module]()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP_采集包_v5.9\data_repo\scripts\collect_all.py", line 389, in mod_clinicaltrials_q
+    _ct_cross_check(rows)
+    ~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP_采集包_v5.9\data_repo\scripts\collect_all.py", line 426, in _ct_cross_check
+    raise RuntimeError(
+        "季度数据与年度数据对不上，拒绝写盘：\n  " + "\n  ".join(bad) +
+        "\n  （每条登记只有一个 StudyFirstPostDate，季度应是年度的严格划分）")
+RuntimeError: 季度数据与年度数据对不上，拒绝写盘：
+  hk/2024: 四季度合计 434 ≠ 年度 433（差 +1）
+  sg/2018: 四季度合计 243 ≠ 年度 242（差 +1）
+  （每条登记只有一个 StudyFirstPostDate，季度应是年度的严格划分）

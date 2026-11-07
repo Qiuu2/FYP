@@ -1,0 +1,88 @@
+C:\Users\albus\AppData\Local\Python\bin\python.exe "C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP_数据仓库\data_repo\scripts\ct_phase_fetch.py" --full 
+[  1/80] hk/2015Q1  total=42    档位=7
+[  2/80] hk/2015Q2  total=42    档位=8
+[  3/80] hk/2015Q3  total=35    档位=8
+[  4/80] hk/2015Q4  total=43    档位=7
+[  5/80] hk/2016Q1  total=44    档位=6
+[  6/80] hk/2016Q2  total=49    档位=8
+[  7/80] hk/2016Q3  total=42    档位=6
+[  8/80] hk/2016Q4  total=51    档位=7
+[  9/80] hk/2017Q1  total=57    档位=8
+[ 10/80] hk/2017Q2  total=71    档位=6
+[ 11/80] hk/2017Q3  total=70    档位=7
+[ 12/80] hk/2017Q4  total=79    档位=8
+[ 13/80] hk/2018Q1  total=55    档位=8
+[ 14/80] hk/2018Q2  total=56    档位=7
+[ 15/80] hk/2018Q3  total=101   档位=8
+[ 16/80] hk/2018Q4  total=78    档位=7
+[ 17/80] hk/2019Q1  total=84    档位=9
+[ 18/80] hk/2019Q2  total=86    档位=7
+[ 19/80] hk/2019Q3  total=110   档位=8
+[ 20/80] hk/2019Q4  total=84    档位=7
+[ 21/80] hk/2020Q1  total=83    档位=8
+[ 22/80] hk/2020Q2  total=97    档位=7
+[ 23/80] hk/2020Q3  total=96    档位=7
+[ 24/80] hk/2020Q4  total=98    档位=7
+[ 25/80] hk/2021Q1  total=91    档位=7
+[ 26/80] hk/2021Q2  total=108   档位=7
+[ 27/80] hk/2021Q3  total=88    档位=7
+[ 28/80] hk/2021Q4  total=84    档位=8
+[ 29/80] hk/2022Q1  total=95    档位=8
+[ 30/80] hk/2022Q2  total=122   档位=9
+[ 31/80] hk/2022Q3  total=107   档位=8
+[ 32/80] hk/2022Q4  total=88    档位=7
+[ 33/80] hk/2023Q1  total=90    档位=8
+[ 34/80] hk/2023Q2  total=99    档位=6
+[ 35/80] hk/2023Q3  total=78    档位=8
+[ 36/80] hk/2023Q4  total=108   档位=8
+[ 37/80] hk/2024Q1  total=109   档位=7
+[ 38/80] hk/2024Q2  total=120   档位=7
+[ 39/80] hk/2024Q3  total=95    档位=7
+[ 40/80] hk/2024Q4  total=110   档位=8
+[ 41/80] sg/2015Q1  total=44    档位=8
+[ 42/80] sg/2015Q2  total=29    档位=7
+[ 43/80] sg/2015Q3  total=36    档位=7
+[ 44/80] sg/2015Q4  total=45    档位=7
+[ 45/80] sg/2016Q1  total=35    档位=8
+[ 46/80] sg/2016Q2  total=64    档位=7
+[ 47/80] sg/2016Q3  total=42    档位=7
+[ 48/80] sg/2016Q4  total=48    档位=8
+[ 49/80] sg/2017Q1  total=55    档位=8
+[ 50/80] sg/2017Q2  total=63    档位=8
+[ 51/80] sg/2017Q3  total=53    档位=8
+[ 52/80] sg/2017Q4  total=48    档位=6
+[ 53/80] sg/2018Q1  total=62    档位=6
+[ 54/80] sg/2018Q2  total=48    档位=7
+[ 55/80] sg/2018Q3  total=72    档位=8
+[ 56/80] sg/2018Q4  total=61    档位=8
+[ 57/80] sg/2019Q1  total=40    档位=6
+[ 58/80] sg/2019Q2  total=55    档位=7
+[ 59/80] sg/2019Q3  total=62    档位=8
+[ 60/80] sg/2019Q4  total=47    档位=8
+[ 61/80] sg/2020Q1  total=69    档位=9
+[ 62/80] sg/2020Q2  total=67    档位=7
+[ 63/80] sg/2020Q3  total=67    档位=7
+[ 64/80] sg/2020Q4  total=80    档位=8
+[ 65/80] sg/2021Q1  total=63    档位=8
+[ 66/80] sg/2021Q2  total=54    档位=7
+[ 67/80] sg/2021Q3  total=86    档位=8
+[ 68/80] sg/2021Q4  total=61    档位=8
+[ 69/80] sg/2022Q1  total=62    档位=8
+[ 70/80] sg/2022Q2  total=71    档位=8
+[ 71/80] sg/2022Q3  total=69    档位=7
+[ 72/80] sg/2022Q4  total=53    档位=6
+[ 73/80] sg/2023Q1  total=60    档位=7
+[ 74/80] sg/2023Q2  total=54    档位=8
+[ 75/80] sg/2023Q3  total=53    档位=7
+[ 76/80] sg/2023Q4  total=45    档位=6
+[ 77/80] sg/2024Q1  total=54    档位=7
+[ 78/80] sg/2024Q2  total=58    档位=6
+[ 79/80] sg/2024Q3  total=61    档位=6
+[ 80/80] sg/2024Q4  total=60    档位=8
+
+写入 C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP_数据仓库\data_repo\raw\clinicaltrials_phase_by_quarter.csv　589 行
+请求日志 C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP_数据仓库\data_repo\raw\clinicaltrials_phase_by_quarter.csv.requests.tsv　80 条
+manifest C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP_数据仓库\data_repo\manifests\clinicaltrials_phase_by_quarter.csv.manifest.json
+sha256 588609140b69a37a13691e47b25b10629b603cab0db84c6fa3c67af67e6b270b
+
+进程已结束，退出代码为 0

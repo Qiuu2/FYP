@@ -1,0 +1,9 @@
+預計掃描26.08G
+
+完成： C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP\scripts\university_patent_collection\results 已核查族记录 3605 待核行 347 年份差异 84
+
+进程已结束，退出代码为 0
+
+完成： C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP\scripts\university_patent_collection\results 已核查族记录 3605 待核行 346 年份差异 83
+
+进程已结束，退出代码为 0

@@ -1,0 +1,12 @@
+C:\Users\albus\AppData\Local\Python\bin\python.exe "C:\Users\albus\OneDrive - The Chinese University of Hong Kong\學業\Year3 Term2\GECC4130\FYP_数据仓库\data_repo\scripts\collect_all.py" clinicaltrials_q 
+[13:37:02] ⚠ 交叉核对：20 格中 4 格存在小幅漂移（已记入 manifest）
+[13:37:02]     hk/2023: 季度合计 375 vs 年度 374（+1）
+[13:37:02]     hk/2024: 季度合计 434 vs 年度 433（+1）
+[13:37:02]     sg/2018: 季度合计 243 vs 年度 242（+1）
+[13:37:02]     sg/2024: 季度合计 233 vs 年度 232（+1）
+[13:37:02]     原因：两份数据采集时点不同，ClinicalTrials.gov 的地点字段可被事后追加，历史年份计数会缓慢上涨。属正常，不是采集错误。
+[13:37:03] 请求日志 → clinicaltrials_by_quarter.csv.requests.tsv（80 条可点 URL，供 R4 复核）
+[13:37:03] manifest → clinicaltrials_by_quarter.csv.manifest.json
+[13:37:03] raw/clinicaltrials_by_quarter.csv 写入 80 行
+
+进程已结束，退出代码为 0
